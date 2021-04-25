@@ -144,6 +144,11 @@ async function getOfficer({ officer }) {
   ])
 
   officer.reports.summary = parseSummary(allReports[0])
+
+  if (!officer.reports.summary) {
+    console.log(`${officer.full_name} missing summary`)
+  }
+
   officer.reports.ranks = parseRanks(allReports[1])
   officer.reports.documents = parseDocuments(allReports[2])
 
@@ -180,7 +185,7 @@ async function getCharges({ url, options, taxid, discipline }) {
 
 function parseSummary(data) {
   return findValues({
-    items: data[0].Items,
+    items: data[0]?.Items,
     map: {
       command: '1692f3bf-ed70-4b4a-96a1-9131427e4de9',
       assignment_date: '8a2bcb6f-e064-44f4-8a58-8f38aa6ebae9',
@@ -306,6 +311,8 @@ function parseAwards(data) {
 }
 
 function findValues({ items, map }) {
+  if (!items) { return }
+
   let values = {}
   Object.keys(map).forEach(key => {
     let value = items.find(item => item.Id === map[key]).Value
@@ -362,8 +369,10 @@ function sortRanks(a, b) {
 }
 
 function sortByOfficerName(a, b) {
-  if (a.full_name > b.full_name) return 1
-  if (a.full_name < b.full_name) return -1
+  if (a.last_name < b.last_name) return -1
+  if (a.last_name > b.last_name) return 1
+  if (a.first_name < b.first_name) return -1
+  if (a.first_name > b.first_name) return 1
   if (a.taxid > b.taxid) return 1
   if (a.taxid < b.taxid) return -1
 }
