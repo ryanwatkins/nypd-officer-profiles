@@ -66,7 +66,7 @@ function parseList(data) {
     const taxid = parseInt(entry.RowValue.trim(), 10)
     let officer = {}
 
-    let map = [
+    const map = [
       { field: 'full_name',         id: '85ed4926-7d4c-4771-a921-f5fe84ac2acc' },
       { field: 'command',           id: '634ce95e-3d6d-48f6-a4d2-08feb790da5c' },
       { field: 'rank',              id: '68ffdffb-f776-46cf-aac1-2b44d81d8ba4' },

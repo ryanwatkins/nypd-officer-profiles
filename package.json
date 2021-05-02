@@ -4,10 +4,12 @@
   "main": "script.js",
   "license": "MIT",
   "scripts": {
-    "start": "node script.js"
+    "start": "node script.js",
+    "tocsv": "node tocsv.js"
   },
   "devDependencies": {
     "async-scheduler": "^1.4.3",
+    "d3": "^6.7.0",
     "node-fetch": "^2.6.1"
   }
 }
