@@ -243,13 +243,17 @@ function parseDiscipline(data) {
 
 function parseDisciplineEntry(data) {
   return data.map(charge => {
-    let penalty = charge.GroupName.split(',')[1].trim()
+    if (!charge.GroupName.match('Penalty:')) {
+      console.error('no penalty in penalty?!')
+    }
+    const group = charge.GroupName.split('Penalty:')
+    let penalty = group[1].trim()
 
     // cleanup formatting in penalty
-    penalty = penalty.replace('&nbsp;',' ')
-    penalty = penalty.replace('<i>','')
-    penalty = penalty.replace('</div>','')
-    penalty = penalty.replace('</i>','')
+    penalty = penalty.replace(/&nbsp;/g, ' ')
+    penalty = penalty.replace(/<i>/g, '')
+    penalty = penalty.replace(/<\/div>/g, '')
+    penalty = penalty.replace(/<\/i>/g, '')
 
     let entry = findValues({
       items: charge.Columns,
