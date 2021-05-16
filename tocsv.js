@@ -56,30 +56,29 @@ function getReport({ profiles, report }) {
 
 async function start() {
   const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')
-  const reports = ['ranks', 'documents', 'awards', 'training']
 
-  let results = {
-    officers: [],
-    discipline: []
+  let reports = ['officers', 'discipline', 'ranks', 'documents', 'awards', 'training']
+  if (process.argv.slice(2).length) {
+    reports = process.argv.slice(2)
   }
-  reports.forEach(report => { results[report] = [] })
-
-  for await (let letter of letters) {
-    const profiles = await loadFile({ letter })
-
-    results.officers.push(...getOfficers({ profiles }))
-    results.discipline.push(...getDiscipline({ profiles }))
-
-    reports.forEach(report => {
-      results[report] = results[report].concat(getReport({ profiles, report }))
-    })
-  }
-
-  await fs.writeFile('officers.csv', d3.csvFormat(results.officers))
-  await fs.writeFile('discipline.csv', d3.csvFormat(results.discipline))
 
   for await (let report of reports) {
-    await fs.writeFile(`${report}.csv`, d3.csvFormat(results[report]))
+    let results = []
+
+    for await (let letter of letters) {
+      const profiles = await loadFile({ letter })
+
+      if (report === 'officers') {
+        results = results.concat(getOfficers({ profiles }))
+      } else if (report === 'discipline') {
+        results = results.concat(getDiscipline({ profiles }))
+      } else {
+        results = results.concat(getReport({ profiles, report }))
+      }
+    }
+
+    // csvFormat of training data can trigger oom
+    await fs.writeFile(`${report}.csv`, d3.csvFormat(results))
   }
 }
 

@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node script.js",
-    "tocsv": "node --max-old-space-size=2048 tocsv.js"
+    "tocsv": "node --max-old-space-size=4096 tocsv.js"
   },
   "devDependencies": {
     "async-scheduler": "^1.4.3",

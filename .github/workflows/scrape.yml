@@ -19,7 +19,7 @@ jobs:
       run: |-
         yarn install
         yarn start
-        yarn tocsv
+        yarn tocsv officers ranks discipline documents awards
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
