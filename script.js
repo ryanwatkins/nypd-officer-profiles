@@ -133,40 +133,53 @@ async function getOfficer({ officer }) {
     body: `{"filters":[{"key":"@TAXID","label":"TAXID","values":["${officer.taxid}"]}]}`
   }
 
-  const allReports = await Promise.all([
-    scheduleFetch({ url: reportList.summary, options }),
-    scheduleFetch({ url: reportList.ranks, options }),
-    scheduleFetch({ url: reportList.documents, options }),
-    scheduleFetch({ url: reportList.discipline, options }),
-    scheduleFetch({ url: reportList.arrests, options }),
-    scheduleFetch({ url: reportList.training, options }),
-    scheduleFetch({ url: reportList.awards, options })
-  ])
-
-  officer.reports.summary = parseSummary(allReports[0])
-
-  if (!officer.reports.summary) {
-    console.log(`${officer.full_name} missing summary`)
+  let allReports = []
+  try {
+    allReports = await Promise.all([
+      scheduleFetch({ url: reportList.summary, options }),
+      scheduleFetch({ url: reportList.ranks, options }),
+      scheduleFetch({ url: reportList.documents, options }),
+      scheduleFetch({ url: reportList.discipline, options }),
+      scheduleFetch({ url: reportList.arrests, options }),
+      scheduleFetch({ url: reportList.training, options }),
+      scheduleFetch({ url: reportList.awards, options })
+    ])
+  } catch(e) {
+    console.error(`fetching reports failed ${officer.full_name}`)
   }
 
-  officer.reports.ranks = parseRanks(allReports[1])
-  officer.reports.documents = parseDocuments(allReports[2])
+  try {
+    officer.reports.summary = parseSummary(allReports[0])
 
-  officer.reports.discipline = await getCharges({
-    url: reportList.disciplineentry,
-    options,
-    taxid: officer.taxid,
-    discipline: parseDiscipline(allReports[3])
-  })
+    if (!officer.reports.summary) {
+      console.error(`${officer.full_name} missing summary`)
+    }
 
-  officer.reports.arrests = parseArrests(allReports[4])
-  officer.reports.training = parseTraining(allReports[5])
-  officer.reports.awards = parseAwards(allReports[6])
+    officer.reports.ranks = parseRanks(allReports[1])
+    officer.reports.documents = parseDocuments(allReports[2])
+
+    officer.reports.discipline = await getCharges({
+      url: reportList.disciplineentry,
+      options,
+      taxid: officer.taxid,
+      discipline: parseDiscipline(allReports[3])
+    })
+
+    officer.reports.arrests = parseArrests(allReports[4])
+    officer.reports.training = parseTraining(allReports[5])
+    officer.reports.awards = parseAwards(allReports[6])
+  } catch(e) {
+    console.error(`parsing reports failed ${officer.full_name}`)
+  }
 
   return officer
 }
 
 async function getCharges({ url, options, taxid, discipline }) {
+  if (!discipline) {
+    console.error('no discipline for charges')
+    return []
+  }
   let disciplineEntries = []
   for await (let entry of discipline) {
     const body = `{"filters":[{"key":"@TAXID","label":"TAXID","values":["${taxid}"]},{"key":"@DATE","values":["${entry.entry}"]}]}}`
@@ -177,7 +190,7 @@ async function getCharges({ url, options, taxid, discipline }) {
       entry.charges = parseDisciplineEntry(result, entry)
       disciplineEntries.push(entry)
     } catch(e) {
-      console.log('ERROR! invalid discipline charges', e)
+      console.error('invalid discipline charges')
     }
   }
   return disciplineEntries
@@ -185,7 +198,7 @@ async function getCharges({ url, options, taxid, discipline }) {
 
 function parseSummary(data) {
   return findValues({
-    items: data[0]?.Items,
+    items: data?.[0]?.Items,
     map: {
       command: '1692f3bf-ed70-4b4a-96a1-9131427e4de9',
       assignment_date: '8a2bcb6f-e064-44f4-8a58-8f38aa6ebae9',
@@ -198,6 +211,7 @@ function parseSummary(data) {
 }
 
 function parseRanks(data) {
+  if (!validData(data)) return
   let ranks = data.map(entry => {
     return findValues({
       items: entry.Columns,
@@ -213,6 +227,7 @@ function parseRanks(data) {
 }
 
 function parseDocuments(data) {
+  if (!validData(data)) return
   let documents = data.map(document => {
     let entry = findValues({
       items: document.Columns,
@@ -229,6 +244,7 @@ function parseDocuments(data) {
 }
 
 function parseDiscipline(data) {
+  if (!validData(data)) return
   return data.map(entry => {
     let e = findValues({
       items: entry.Columns,
@@ -242,9 +258,10 @@ function parseDiscipline(data) {
 }
 
 function parseDisciplineEntry(data) {
+  if (!validData(data)) return
   return data.map(charge => {
     if (!charge.GroupName.match('Penalty:')) {
-      console.error('no penalty in penalty?!')
+      console.error('no penalty in penalty')
     }
     const group = charge.GroupName.split('Penalty:')
     let penalty = group[1].trim()
@@ -272,6 +289,7 @@ function parseDisciplineEntry(data) {
 }
 
 function parseArrests(data) {
+  if (!validData(data)) return
   let arrests = {}
   data.forEach(arrest => {
     let entry = findValues({
@@ -287,6 +305,7 @@ function parseArrests(data) {
 }
 
 function parseTraining(data) {
+  if (!validData(data)) return
   let trainings = data.map(entry => {
     return findValues({
       items: entry.Columns,
@@ -301,6 +320,7 @@ function parseTraining(data) {
 }
 
 function parseAwards(data) {
+  if (!validData(data)) return
   let awards = data.map(entry => {
     return findValues({
       items: entry.Columns,
@@ -314,8 +334,17 @@ function parseAwards(data) {
   return awards
 }
 
+function validData(data) {
+  if (!data) return false
+  if (!Array.isArray(data)) return false
+  return true
+}
+
 function findValues({ items, map }) {
-  if (!items) { return }
+  if (!items) {
+    console.error('no items to find values in')
+    return
+  }
 
   let values = {}
   Object.keys(map).forEach(key => {
@@ -384,6 +413,8 @@ function sortByOfficerName(a, b) {
 function scheduleFetch({ url, options }) {
   return scheduler.enqueue(() => fetch(url, options).then(response => {
     return response.json()
+  }).catch(e => {
+    console.error(`fetch ${url} failed`, e.code)
   }))
 }
 
@@ -400,11 +431,11 @@ async function saveProfiles({ letter, officers }) {
 
 async function start() {
   const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')
-  headers.Cookie = await getCookie()
 
   for await (let letter of letters) {
+    headers.Cookie = await getCookie()
     let officers = await getList({ letters: [letter] })
-    console.log(`fetching officer details ${letter} (${officers.length})`)
+    console.info(`fetching officer details ${letter} (${officers.length})`)
     let promises = []
     officers.forEach(officer => {
       promises.push(getOfficer({ officer }))
