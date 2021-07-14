@@ -71,7 +71,7 @@
 		"shield_no": "5581",
 		"appt_date": "1/9/2012",
 		"recognition_count": 0,
-		"arrest_count": 158,
+		"arrest_count": 159,
 		"reports": {
 			"summary": {
 				"command": "TIMES SQUARE UNIT",
@@ -518,8 +518,8 @@
 		"rank": "DEPUTY INSPECTOR",
 		"shield_no": "",
 		"appt_date": "1/10/2005",
-		"recognition_count": 1,
-		"arrest_count": 66,
+		"recognition_count": 2,
+		"arrest_count": 132,
 		"reports": {
 			"summary": {
 				"command": "032 PRECINCT",
@@ -991,7 +991,7 @@
 		"first_name": "DAVID",
 		"last_name": "YAN",
 		"middle_initial": "",
-		"command": "UNIFORMED PROMOTIONS TRN UNIT",
+		"command": "013 PRECINCT",
 		"rank": "SERGEANT",
 		"shield_no": "1630",
 		"appt_date": "1/7/2008",
@@ -999,8 +999,8 @@
 		"arrest_count": 103,
 		"reports": {
 			"summary": {
-				"command": "UNIFORMED PROMOTIONS TRN UNIT",
-				"assignment_date": "6/10/2021",
+				"command": "013 PRECINCT",
+				"assignment_date": "7/9/2021",
 				"ethnicity": "ASIAN",
 				"rank_desc": "SERGEANT",
 				"shield_no": "1630",
@@ -1714,7 +1714,7 @@
 		"shield_no": "3752",
 		"appt_date": "7/9/2013",
 		"recognition_count": 0,
-		"arrest_count": 116,
+		"arrest_count": 117,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 20",
@@ -1970,12 +1970,16 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 1,
-				"felony": 31,
-				"misdemeanor": 136
+				"infraction": 2,
+				"felony": 62,
+				"misdemeanor": 272
 			},
 			"training": [],
 			"awards": [
+				{
+					"date": "8/27/2018",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "8/27/2018",
 					"name": "EXCELLENT POLICE DUTY"
@@ -2262,7 +2266,9 @@
 			],
 			"documents": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1
+			},
 			"training": [],
 			"awards": []
 		}
@@ -3605,7 +3611,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 27,
+				"felony": 28,
 				"misdemeanor": 44,
 				"violation": 2
 			},
@@ -5994,21 +6000,13 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 26,
-				"misdemeanor": 118
+				"felony": 13,
+				"misdemeanor": 59
 			},
 			"training": [],
 			"awards": [
 				{
 					"date": "11/12/2018",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "11/12/2018",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/9/2016",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -6461,15 +6459,23 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 23,
-				"misdemeanor": 44,
-				"other": 1,
-				"violation": 5
+				"felony": 46,
+				"misdemeanor": 88,
+				"other": 2,
+				"violation": 10
 			},
 			"training": [],
 			"awards": [
 				{
 					"date": "8/8/2018",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "8/8/2018",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "8/1/2018",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -6481,7 +6487,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "4/18/2018",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "12/22/2016",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "12/22/2016",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "9/28/2015",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -6559,7 +6577,7 @@
 		"first_name": "KINDA",
 		"last_name": "YORKE",
 		"middle_initial": "E",
-		"command": "UNIFORMED PROMOTIONS TRN UNIT",
+		"command": "TRANSIT DISTRICT 20",
 		"rank": "SERGEANT",
 		"shield_no": "1646",
 		"appt_date": "7/11/2012",
@@ -6567,8 +6585,8 @@
 		"arrest_count": 80,
 		"reports": {
 			"summary": {
-				"command": "UNIFORMED PROMOTIONS TRN UNIT",
-				"assignment_date": "6/10/2021",
+				"command": "TRANSIT DISTRICT 20",
+				"assignment_date": "7/9/2021",
 				"ethnicity": "BLACK",
 				"rank_desc": "SERGEANT",
 				"shield_no": "1646",
@@ -7144,8 +7162,8 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "56",
 		"appt_date": "1/9/2013",
-		"recognition_count": 2,
-		"arrest_count": 303,
+		"recognition_count": 4,
+		"arrest_count": 606,
 		"reports": {
 			"summary": {
 				"command": "NARC BORO BROOKLYN NORTH",
@@ -8286,7 +8304,7 @@
 		"shield_no": "14405",
 		"appt_date": "1/9/2012",
 		"recognition_count": 0,
-		"arrest_count": 30,
+		"arrest_count": 31,
 		"reports": {
 			"summary": {
 				"command": "018 PCT-MIDTOWN NO. PCT",
