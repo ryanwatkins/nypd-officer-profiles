@@ -119,7 +119,7 @@
 		"shield_no": "12666",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 6,
+		"arrest_count": 7,
 		"reports": {
 			"summary": {
 				"command": "014 PCT-MIDTOWN SO. PCT",
@@ -139,7 +139,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
+				"felony": 3,
 				"misdemeanor": 4
 			},
 			"training": [],
@@ -1118,7 +1118,7 @@
 		"shield_no": "12535",
 		"appt_date": "12/29/2020",
 		"recognition_count": 0,
-		"arrest_count": 0,
+		"arrest_count": 1,
 		"reports": {
 			"summary": {
 				"command": "009 PRECINCT",
@@ -1137,7 +1137,9 @@
 			],
 			"documents": [],
 			"discipline": [],
-			"arrests": {},
+			"arrests": {
+				"felony": 1
+			},
 			"training": [],
 			"awards": []
 		}
@@ -1865,7 +1867,7 @@
 		"shield_no": "24587",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 4,
+		"arrest_count": 6,
 		"reports": {
 			"summary": {
 				"command": "033 PRECINCT",
@@ -1885,7 +1887,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 4
+				"misdemeanor": 6
 			},
 			"training": [],
 			"awards": []
@@ -2421,9 +2423,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 6,
-				"misdemeanor": 18,
-				"violation": 2
+				"felony": 3,
+				"misdemeanor": 9,
+				"violation": 1
 			},
 			"training": [],
 			"awards": []
@@ -4925,7 +4927,7 @@
 		"first_name": "JIMMY",
 		"last_name": "QUINONES",
 		"middle_initial": "R",
-		"command": "MILITARY & EXTENDED LEAVE DESK",
+		"command": "SPECIALIZED TRAINING SECTION",
 		"rank": "POLICE OFFICER",
 		"shield_no": "19304",
 		"appt_date": "7/8/2015",
@@ -4933,8 +4935,8 @@
 		"arrest_count": 55,
 		"reports": {
 			"summary": {
-				"command": "MILITARY & EXTENDED LEAVE DESK",
-				"assignment_date": "3/2/2020",
+				"command": "SPECIALIZED TRAINING SECTION",
+				"assignment_date": "7/10/2021",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "19304",
@@ -5490,14 +5492,18 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 2,
-				"felony": 633,
-				"misdemeanor": 360,
-				"other": 3,
-				"violation": 2
+				"infraction": 4,
+				"felony": 1266,
+				"misdemeanor": 720,
+				"other": 6,
+				"violation": 4
 			},
 			"training": [],
 			"awards": [
+				{
+					"date": "6/30/1994",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "6/30/1994",
 					"name": "EXCELLENT POLICE DUTY"
@@ -6041,7 +6047,7 @@
 		"shield_no": "22114",
 		"appt_date": "10/11/2016",
 		"recognition_count": 1,
-		"arrest_count": 56,
+		"arrest_count": 57,
 		"reports": {
 			"summary": {
 				"command": "120 PRECINCT",
@@ -6504,7 +6510,7 @@
 		"shield_no": "3477",
 		"appt_date": "1/7/2015",
 		"recognition_count": 1,
-		"arrest_count": 114,
+		"arrest_count": 115,
 		"reports": {
 			"summary": {
 				"command": "120 DETECTIVE SQUAD",
