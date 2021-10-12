@@ -44,6 +44,7 @@ function getDiscipline({ profiles }) {
 function getReport({ profiles, report }) {
   let rows = []
   profiles.forEach(profile => {
+    if (!profile?.reports?.[report]) { return }
     profile.reports[report].forEach(entry => {
       rows.push({
         taxid: profile.taxid,

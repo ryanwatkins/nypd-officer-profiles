@@ -7,6 +7,8 @@ const Scheduler = require('async-scheduler').Scheduler
 
 const scheduler = new Scheduler(20)
 
+let lettersRetry = new Map()
+
 let headers = {
   'Accept': 'application/json, text/plain, */*',
   'Content-Type': 'application/json;charset=UTF-8',
@@ -152,6 +154,7 @@ async function getOfficer({ officer }) {
     officer.reports.summary = parseSummary(allReports[0])
 
     if (!officer.reports.summary) {
+      lettersRetry.set(officer.full_name.charAt(0), true)
       console.error(`${officer.full_name} missing summary`)
     }
 
@@ -169,6 +172,7 @@ async function getOfficer({ officer }) {
     officer.reports.training = parseTraining(allReports[5])
     officer.reports.awards = parseAwards(allReports[6])
   } catch(e) {
+    lettersRetry.set(officer.full_name.charAt(0), true)
     console.error(`parsing reports failed ${officer.full_name}`)
   }
 
@@ -431,18 +435,26 @@ async function saveProfiles({ letter, officers }) {
 
 async function start() {
   const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')
+  lettersRetry = new Map()
 
-  for await (let letter of letters) {
-    headers.Cookie = await getCookie()
-    let officers = await getList({ letters: [letter] })
-    console.info(`fetching officer details ${letter} (${officers.length})`)
-    let promises = []
-    officers.forEach(officer => {
-      promises.push(getOfficer({ officer }))
-    })
-    officers = await Promise.all(promises)
+  async function handleLetters(letters) {
+    for await (let letter of letters) {
+      headers.Cookie = await getCookie()
+      let officers = await getList({ letters: [letter] })
+      console.info(`fetching officer details ${letter} (${officers.length})`)
+      let promises = []
+      officers.forEach(officer => {
+        promises.push(getOfficer({ officer }))
+      })
+      officers = await Promise.all(promises)
+      await saveProfiles({ letter, officers })
+    }
+  }
 
-    await saveProfiles({ letter, officers })
+  await handleLetters(letters)
+  if (lettersRetry.size) {
+    console.info(`retrying letters with errors`, Array.from(lettersRetry.keys()))
+    await handleLetters(Array.from(lettersRetry.keys()))
   }
 }
 
