@@ -237,7 +237,11 @@ function parseDocuments(data) {
       items: document.Columns,
       map: {
         date: '0ecf6c5c-f9a1-4c90-9203-d6518e62937f',
-        url:  'd6458572-9ecb-438c-8f8e-c56e070c91ba'
+        url:  'd6458572-9ecb-438c-8f8e-c56e070c91ba',
+        type: '0ad88646-ece6-405a-bb43-ae0c4b7ba666',
+        // year:  '7106df93-db85-4614-a35f-2a9c11be0432',
+        // month: 'e64cb85b-c3eb-4087-b170-4ac1b30cde30',
+        // day:   '81b47568-2508-4b0a-b106-72c1ffe521b1',
       }
     })
     entry.url = 'https://oip.nypdonline.org' + entry.url.split('"')[1]

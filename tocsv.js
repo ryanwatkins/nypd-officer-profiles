@@ -1,4 +1,4 @@
-// read per-letter profile json, covert to joined csvs
+// read per-letter profile json, convert to joined csvs
 
 const fs = require('fs').promises
 const d3 = require('d3')
