@@ -13,7 +13,8 @@ function getOfficers({ profiles }) {
   return profiles.map(profile => {
     let officer = {
       ...profile,
-      ethnicity: profile.reports.summary?.ethnicity
+      ethnicity: profile.reports.summary?.ethnicity,
+      assignment_date: profile.reports.summary?.assignment_date
     }
     const classifications = ['infraction', 'misdemeanor', 'felony', 'violation', 'other']
     classifications.forEach(classification => {
