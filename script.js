@@ -7,6 +7,18 @@ const Scheduler = require('async-scheduler').Scheduler
 
 const scheduler = new Scheduler(20)
 
+const reportList = {
+  summary:     'https://oip.nypdonline.org/api/reports/1/datasource/list',
+  ranks:       'https://oip.nypdonline.org/api/reports/7/datasource/list',
+  documents:   'https://oip.nypdonline.org/api/reports/2041/datasource/list',
+  discipline:  'https://oip.nypdonline.org/api/reports/1031/datasource/list',
+  charges:     'https://oip.nypdonline.org/api/reports/1030/datasource/list',
+  allegations: 'https://oip.nypdonline.org/api/reports/2043/datasource/list',
+  arrests:     'https://oip.nypdonline.org/api/reports/2042/datasource/list',
+  awards:      'https://oip.nypdonline.org/api/reports/13/datasource/list',
+  training:    'https://oip.nypdonline.org/api/reports/1027/datasource/list'
+}
+
 let lettersRetry = new Map()
 
 let headers = {
@@ -119,16 +131,6 @@ function parseList(data) {
 async function getOfficer({ officer }) {
   officer.reports = {}
 
-  const reportList = {
-    summary:         'https://oip.nypdonline.org/api/reports/1/datasource/list',
-    ranks:           'https://oip.nypdonline.org/api/reports/7/datasource/list',
-    documents:       'https://oip.nypdonline.org/api/reports/2041/datasource/list',
-    discipline:      'https://oip.nypdonline.org/api/reports/1031/datasource/list',
-    disciplineentry: 'https://oip.nypdonline.org/api/reports/1030/datasource/list',
-    arrests:         'https://oip.nypdonline.org/api/reports/2042/datasource/list',
-    awards:          'https://oip.nypdonline.org/api/reports/13/datasource/list',
-    training:        'https://oip.nypdonline.org/api/reports/1027/datasource/list'
-  }
   const options = {
     method: 'POST',
     headers,
@@ -161,8 +163,7 @@ async function getOfficer({ officer }) {
     officer.reports.ranks = parseRanks(allReports[1])
     officer.reports.documents = parseDocuments(allReports[2])
 
-    officer.reports.discipline = await getCharges({
-      url: reportList.disciplineentry,
+    officer.reports.discipline = await getDiscipline({
       options,
       taxid: officer.taxid,
       discipline: parseDiscipline(allReports[3])
@@ -179,7 +180,7 @@ async function getOfficer({ officer }) {
   return officer
 }
 
-async function getCharges({ url, options, taxid, discipline }) {
+async function getDiscipline({ options, taxid, discipline }) {
   if (!discipline) {
     console.error('no discipline for charges')
     return []
@@ -190,11 +191,17 @@ async function getCharges({ url, options, taxid, discipline }) {
     let result
 
     try {
-      result = await scheduleFetch({ url, options: { ...options, body } })
-      entry.charges = parseDisciplineEntry(result, entry)
+      if (entry.charges_count) {
+        result = await scheduleFetch({ url: reportList.charges, options: { ...options, body } })
+        entry.charges = parseDisciplineCharge(result, entry)
+      }
+      if (entry.allegations_count) {
+        result = await scheduleFetch({ url: reportList.allegations, options: { ...options, body } })
+        entry.allegations = parseDisciplineAllegation(result, entry)
+      }
       disciplineEntries.push(entry)
     } catch(e) {
-      console.error('invalid discipline charges')
+      console.error('invalid discipline charges/allegations')
     }
   }
   return disciplineEntries
@@ -258,14 +265,17 @@ function parseDiscipline(data) {
       items: entry.Columns,
       map: {
         entry:         '56baedfe-465d-4812-8dae-9bf94c240bbe', // is date, but also key
-        charges_count: 'e495a851-c40e-4d96-9eb6-96352ce069df'
+        charges_count: 'e495a851-c40e-4d96-9eb6-96352ce069df',
+        allegations_count: '61dd971c-e4ba-42a6-8067-a1445bfee1e7'
       }
     })
+    if (e.charges_count == 0) delete e.charges_count
+    if (e.allegations_count == 0) delete e.allegations_count
     return e
   })
 }
 
-function parseDisciplineEntry(data) {
+function parseDisciplineCharge(data) {
   if (!validData(data)) return
   return data.map(charge => {
     if (!charge.GroupName.match('Penalty:')) {
@@ -294,6 +304,35 @@ function parseDisciplineEntry(data) {
     }
     return entry
   })
+}
+
+function parseDisciplineAllegation(data) {
+  let allegations = data.map(allegation => {
+
+    const group = allegation.GroupName.split('Penalty:')
+    let penalty = group?.[1]?.trim()
+    if (penalty) {
+      penalty = penalty.replace(/&nbsp;/g, ' ')
+      penalty = penalty.replace(/<i>/g, '')
+      penalty = penalty.replace(/<\/div>/g, '')
+      penalty = penalty.replace(/<\/i>/g, '')
+    }
+
+    let entry = findValues({
+      items: allegation.Columns,
+      map: {
+        recommendation: '56d6e87d-d665-4c20-aa2c-0238a11b1816',
+        case_no:        '7946f55e-8d1d-4384-8c75-eca46968cccf',
+        description:    'eace1634-fdc7-4fa1-ba60-58dc23643872'
+      }
+    })
+    if (entry.recommendation) { entry.recommendation = entry.recommendation.replace(/,$/, '') }
+    if (penalty) {
+      entry.penalty = penalty
+    }
+    return entry
+  })
+  return allegations
 }
 
 function parseArrests(data) {

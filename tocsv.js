@@ -19,7 +19,7 @@ function getOfficers({ profiles }) {
     const classifications = ['infraction', 'misdemeanor', 'felony', 'violation', 'other']
     classifications.forEach(classification => {
       const key = `arrests_${classification}`.toLowerCase()
-      officer[key] = profile.reports.arrests[classification]
+      officer[key] = profile.reports.arrests?.[classification]
     })
     delete officer.reports
     return officer
@@ -30,13 +30,33 @@ function getDiscipline({ profiles }) {
   let discipline = []
   profiles.forEach(profile => {
     profile.reports.discipline.forEach(entry => {
-      entry.charges.forEach(charge => {
-        discipline.push({
-          taxid: profile.taxid,
-          date: entry.entry.split(' ')[0],
-          ...charge
+      if (entry.charges) {
+        entry.charges.forEach(charge => {
+          discipline.push({
+            taxid: profile.taxid,
+            date: entry.entry.split(' ')[0],
+            disposition: charge.disposition,
+            command: charge.command,
+            case_no: charge.case_no,
+            description: charge.description,
+            penalty: charge.penalty,
+            type: 'charge'
+          })
         })
-      })
+      }
+      if (entry.allegations) {
+        entry.allegations.forEach(allegation => {
+          discipline.push({
+            taxid: profile.taxid,
+            date: entry.entry.split(' ')[0],
+            case_no: allegation.case_no,
+            description: allegation.description,
+            recommendation: allegation.recommendation,
+            penalty: allegation.penalty,
+            type: 'allegation'
+          })
+        })
+      }
     })
   })
   return discipline
