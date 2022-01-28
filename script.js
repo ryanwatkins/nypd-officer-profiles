@@ -50,9 +50,14 @@ async function getList({ letters }) {
       { method: 'GET', headers }
     )
     const result = await response.json()
-    const { officers, total } = parseList(result)
-    letterTotal = total
-    officerList.push(...officers)
+    let list = parseList(result)
+    if (!list) {
+      lettersRetry.set(letter, true)
+      return
+    }
+
+    letterTotal = list.total
+    officerList.push(...list.officers)
 
     while (!letterTotal || ((page * 100) < letterTotal)) {
       page++
@@ -64,8 +69,12 @@ async function getList({ letters }) {
 
     const allResults = await Promise.all(promises)
     allResults.forEach(result => {
-      const { officers } = parseList(result)
-      officerList.push(...officers)
+      let list = parseList(result)
+      if (!list) {
+        lettersRetry.set(letter, true)
+        return
+      }
+      officerList.push(...list.officers)
     })
   }
 
@@ -73,6 +82,12 @@ async function getList({ letters }) {
 }
 
 function parseList(data) {
+
+  if (!data || !data.Data) {
+    console.error('error parsing list', letter, data)
+    return
+  }
+
   const total = data.Total
 
   const officers = data.Data.map(entry => {
