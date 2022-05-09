@@ -84,7 +84,7 @@ async function getList({ letters }) {
 function parseList(data) {
 
   if (!data || !data.Data) {
-    console.error('error parsing list', letter, data)
+    console.error('error parsing list', data)
     return
   }
 
