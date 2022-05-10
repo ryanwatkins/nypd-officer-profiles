@@ -20,6 +20,7 @@ const reportList = {
 }
 
 let lettersRetry = new Map()
+let officersRetry = new Map()
 
 let headers = {
   'Accept': 'application/json, text/plain, */*',
@@ -67,15 +68,20 @@ async function getList({ letters }) {
       }))
     }
 
-    const allResults = await Promise.all(promises)
-    allResults.forEach(result => {
-      let list = parseList(result)
-      if (!list) {
-        lettersRetry.set(letter, true)
-        return
-      }
-      officerList.push(...list.officers)
-    })
+    try {
+      const allResults = await Promise.all(promises)
+      allResults.forEach(result => {
+        let list = parseList(result)
+        if (!list) {
+          lettersRetry.set(letter, true)
+          return
+        }
+        officerList.push(...list.officers)
+      })
+    } catch(e) {
+      console.error('error fetching list')
+      lettersRetry.set(letter, true)
+    }
   }
 
   return officerList
@@ -165,37 +171,54 @@ async function getOfficer({ officer }) {
     ])
   } catch(e) {
     console.error(`fetching reports failed ${officer.full_name}`)
+    officersRetry.set(officer.taxid, officer)
   }
 
   try {
     officer.reports.summary = parseSummary(allReports[0])
 
     if (!officer.reports.summary) {
-      lettersRetry.set(officer.full_name.charAt(0), true)
+      officersRetry.set(officer.taxid, officer)
       console.error(`${officer.full_name} missing summary`)
     }
 
     officer.reports.ranks = parseRanks(allReports[1])
+    // should not be empty but persists
+    //
+    // if (!officer.reports.ranks || officer.reports.ranks.length == 0) {
+    //   console.error(`empty ranks ${officer.full_name}`)
+    //   officersRetry.set(officer.taxid, officer)
+    // }
+
     officer.reports.documents = parseDocuments(allReports[2])
 
     officer.reports.discipline = await getDiscipline({
       options,
       taxid: officer.taxid,
-      discipline: parseDiscipline(allReports[3])
+      discipline: parseDiscipline(allReports[3]),
+      officer
     })
 
     officer.reports.arrests = parseArrests(allReports[4])
+
     officer.reports.training = parseTraining(allReports[5])
+    // should not be empty but persists
+    //
+    // if (!officer.reports.training || officer.reports.training.length == 0) {
+    //   console.error(`empty training ${officer.full_name}`)
+    //   officersRetry.set(officer.taxid, officer)
+    // }
+
     officer.reports.awards = parseAwards(allReports[6])
   } catch(e) {
-    lettersRetry.set(officer.full_name.charAt(0), true)
+    officersRetry.set(officer.taxid, officer)
     console.error(`parsing reports failed ${officer.full_name}`)
   }
 
   return officer
 }
 
-async function getDiscipline({ options, taxid, discipline }) {
+async function getDiscipline({ options, taxid, discipline, officer }) {
   if (!discipline) {
     console.error('no discipline for charges')
     return []
@@ -217,6 +240,7 @@ async function getDiscipline({ options, taxid, discipline }) {
       disciplineEntries.push(entry)
     } catch(e) {
       console.error('invalid discipline charges/allegations')
+      officersRetry.set(taxid, officer)
     }
   }
   return disciplineEntries
@@ -475,8 +499,6 @@ function sortByOfficerName(a, b) {
 function scheduleFetch({ url, options }) {
   return scheduler.enqueue(() => fetch(url, options).then(response => {
     return response.json()
-  }).catch(e => {
-    console.error(`fetch ${url} failed`, e.code)
   }))
 }
 
@@ -493,18 +515,35 @@ async function saveProfiles({ letter, officers }) {
 
 async function start() {
   const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')
-  lettersRetry = new Map()
+
+  async function handleOfficers(officers) {
+    let promises = []
+    officers.forEach(officer => {
+      promises.push(getOfficer({ officer }))
+    })
+    officers = await Promise.all(promises)
+    return officers
+  }
 
   async function handleLetters(letters) {
+
     for await (let letter of letters) {
+      officersRetry = new Map()
+
       headers.Cookie = await getCookie()
       let officers = await getList({ letters: [letter] })
       console.info(`fetching officer details ${letter} (${officers.length})`)
-      let promises = []
-      officers.forEach(officer => {
-        promises.push(getOfficer({ officer }))
-      })
-      officers = await Promise.all(promises)
+      officers = await handleOfficers(officers)
+
+      if (officersRetry.size) {
+        console.info(`retrying officers with errors`, Array.from(officersRetry.keys()))
+        let retriedOfficers = await handleOfficers(Array.from(officersRetry.values()))
+        retriedOfficers.forEach(officer => {
+          const index = officers.findIndex(o => o.taxid === officer.taxid)
+          if (index > -1) { officers[index] = officer }
+        })
+      }
+
       await saveProfiles({ letter, officers })
     }
   }
