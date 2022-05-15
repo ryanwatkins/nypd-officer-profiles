@@ -77,7 +77,7 @@ function getReport({ profiles, report }) {
 }
 
 async function start() {
-  const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')
+  const letters = [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ']
 
   let reports = ['officers', 'discipline', 'ranks', 'documents', 'awards', 'training']
   if (process.argv.slice(2).length) {
@@ -99,8 +99,13 @@ async function start() {
       }
     }
 
-    // csvFormat of training data can trigger oom
-    await fs.writeFile(`${report}.csv`, d3.csvFormat(results))
+    // chunk writing csv to avoid node max str length
+    let chunk = results.splice(0, 1000000)
+    await fs.writeFile(`${report}.csv`, d3.csvFormat(chunk))
+    while (results.length) {
+      let chunk = results.splice(0, 1000000)
+      await fs.appendFile(`${report}.csv`, d3.csvFormatBody(chunk))
+    }
   }
 }
 
