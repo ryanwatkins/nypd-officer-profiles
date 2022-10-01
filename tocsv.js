@@ -1,7 +1,7 @@
 // read per-letter profile json, convert to joined csvs
 
-const fs = require('fs').promises
-const d3 = require('d3')
+import { promises as fs } from 'fs'
+import * as d3 from 'd3';
 
 async function loadFile({ letter }) {
   const json = await fs.readFile(`nypd-profiles-${letter}.json`)

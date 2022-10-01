@@ -1,9 +1,9 @@
 // gather NYPD Officer Profile data
 // https://nypdonline.org/link/2
 
-const fs = require('fs').promises
-const fetch = require('node-fetch')
-const Scheduler = require('async-scheduler').Scheduler
+import { promises as fs } from 'fs'
+import fetch from 'node-fetch'
+import { Scheduler } from 'async-scheduler'
 
 const scheduler = new Scheduler(20)
 
