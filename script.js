@@ -8,15 +8,16 @@ import { Scheduler } from 'async-scheduler'
 const scheduler = new Scheduler(20)
 
 const reportList = {
-  summary:     'https://oip.nypdonline.org/api/reports/1/datasource/list',
-  ranks:       'https://oip.nypdonline.org/api/reports/7/datasource/list',
-  documents:   'https://oip.nypdonline.org/api/reports/2041/datasource/list',
-  discipline:  'https://oip.nypdonline.org/api/reports/1031/datasource/list',
-  charges:     'https://oip.nypdonline.org/api/reports/1030/datasource/list',
-  allegations: 'https://oip.nypdonline.org/api/reports/2043/datasource/list',
-  arrests:     'https://oip.nypdonline.org/api/reports/2042/datasource/list',
-  awards:      'https://oip.nypdonline.org/api/reports/13/datasource/list',
-  training:    'https://oip.nypdonline.org/api/reports/1027/datasource/list'
+  summary:        'https://oip.nypdonline.org/api/reports/1/datasource/list',
+  ranks:          'https://oip.nypdonline.org/api/reports/7/datasource/list',
+  documents:      'https://oip.nypdonline.org/api/reports/2041/datasource/list',
+  discipline:     'https://oip.nypdonline.org/api/reports/1031/datasource/list',
+  charges:        'https://oip.nypdonline.org/api/reports/1030/datasource/list',
+  allegations:    'https://oip.nypdonline.org/api/reports/2043/datasource/list',
+  arrests:        'https://oip.nypdonline.org/api/reports/2042/datasource/list',
+  awards:         'https://oip.nypdonline.org/api/reports/13/datasource/list',
+  training:       'https://oip.nypdonline.org/api/reports/1027/datasource/list',
+  trialDecisions: 'https://oip.nypdonline.org/api/reports/2038/datasource/list',
 }
 
 let lettersRetry = new Map()
@@ -513,6 +514,60 @@ async function saveProfiles({ letter, officers }) {
   await fs.writeFile(file, data)
 }
 
+// Scrape trial decision docs from https://oip.nypdonline.org/view/1006///%7B%22hideMobileMenu%22:true%7D/true/true
+// Most of these should already be included in the profile data, but in the case a trial decision gets posted
+// when an officer no longer works for the department (e.g. they got fired) it'll show up here but not in the
+// profile data (because their profile goes away when they leave).
+async function scrapeTrialDecisions() {
+  headers.Cookie = await getCookie()
+
+  const result = await scheduleFetch({
+    url: reportList.trialDecisions,
+    options: { method: 'GET', headers },
+  })
+
+  let data = []
+  for (const row of result) {
+    let doc = findValues({
+      items: row.Columns,
+      map: {
+        names: 'aa970ef7-62f1-4d89-bcb8-5078017ee41a',
+        date: '8a6d6957-716f-4f3c-998f-e4aebbdbe912',
+        url: '0be5eacf-3870-4351-aa42-439067baadbe',
+      },
+    })
+    doc.url = 'https://oip.nypdonline.org' + doc.url.match(/<a href="([^"]+)"/)[1]
+
+    const nameCol = row.Columns.find(item => item.Id === 'aa970ef7-62f1-4d89-bcb8-5078017ee41a')
+    let taxids = []
+    if (nameCol.ColumnValue) {
+      taxids = nameCol.ColumnValue.split(',')
+    }
+    let taxidIndex = 0
+    doc.officers = doc.names.split('; ').map(name => {
+      const [last_name, first_name] = name.replace(/<u>/g, '').replace(/<\/u>/g, '').split(', ')
+      let officer = {
+        last_name,
+        first_name,
+      }
+      // Tax IDs are in the same order as the names, but skipped for officers
+      // who are no longer active.
+      if (first_name.endsWith('*')) {
+        officer.retired = true
+        officer.first_name = officer.first_name.slice(0, -1)
+      } else {
+        officer.taxid = taxids[taxidIndex++]
+      }
+      return officer
+    })
+
+    delete doc.names
+    data.push(doc)
+  }
+
+  await fs.writeFile('trial-decisions.json', JSON.stringify(data, null, '\t'))
+}
+
 async function start() {
   const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')
 
@@ -553,6 +608,8 @@ async function start() {
     console.info(`retrying letters with errors`, Array.from(lettersRetry.keys()))
     await handleLetters(Array.from(lettersRetry.keys()))
   }
+
+  await scrapeTrialDecisions()
 }
 
 start()
