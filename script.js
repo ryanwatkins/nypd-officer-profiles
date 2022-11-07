@@ -560,10 +560,12 @@ async function scrapeTrialDecisions() {
       }
       return officer
     })
+    doc.officers.sort(sortByOfficerName)
 
     delete doc.names
     data.push(doc)
   }
+  data.sort(sortDocuments)
 
   await fs.writeFile('trial-decisions.json', JSON.stringify(data, null, '\t'))
 }
