@@ -464,6 +464,8 @@ function sortByDateName(a, b) {
 
 function sortDocuments(a, b) {
   if (a.date === b.date) {
+    const byOfficers = compareOfficersList(a.officers, b.officers)
+    if (byOfficers !== 0) return byOfficers
     if (a.url < b.url) return -1
     if (a.url > b.url) return 1
     return 0
@@ -471,6 +473,17 @@ function sortDocuments(a, b) {
   if (!b.date) return -1
   if (!a.date) return 1
   return new Date(b.date) - new Date(a.date);
+}
+
+function compareOfficersList(a, b) {
+  if (a === undefined && b === undefined) return 0
+  if (a === undefined) return -1
+  if (b === undefined) return 1
+  for (let i = 0; i < Math.min(a.length, b.length); i++) {
+    const compare = sortByOfficerName(a[i], b[i])
+    if (compare !== 0) return compare
+  }
+  return a.length - b.length
 }
 
 function sortRanks(a, b) {
@@ -495,6 +508,7 @@ function sortByOfficerName(a, b) {
   if (a.first_name > b.first_name) return 1
   if (a.taxid > b.taxid) return 1
   if (a.taxid < b.taxid) return -1
+  return 0
 }
 
 function scheduleFetch({ url, options }) {
