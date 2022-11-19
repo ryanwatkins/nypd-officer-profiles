@@ -1105,9 +1105,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1,
-				"misdemeanor": 8,
-				"violation": 2
+				"felony": 2,
+				"misdemeanor": 16,
+				"violation": 4
 			},
 			"training": [],
 			"awards": []
@@ -1800,7 +1800,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 15,
-				"misdemeanor": 84,
+				"misdemeanor": 85,
 				"other": 1,
 				"violation": 32
 			},
@@ -3110,7 +3110,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 36,
-				"misdemeanor": 113,
+				"misdemeanor": 114,
 				"other": 1
 			},
 			"training": [],
@@ -7553,8 +7553,8 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "6375",
 		"appt_date": "7/9/2013",
-		"recognition_count": 2,
-		"arrest_count": 263,
+		"recognition_count": 4,
+		"arrest_count": 530,
 		"reports": {
 			"summary": {
 				"command": "025 DET SQUAD",
@@ -7579,14 +7579,22 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 86,
-				"misdemeanor": 170,
-				"violation": 7
+				"felony": 176,
+				"misdemeanor": 340,
+				"violation": 14
 			},
 			"training": [],
 			"awards": [
 				{
 					"date": "11/20/2018",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/20/2018",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "2/25/2014",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -9838,8 +9846,8 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "3728",
 		"appt_date": "1/8/2014",
-		"recognition_count": 12,
-		"arrest_count": 580,
+		"recognition_count": 6,
+		"arrest_count": 292,
 		"reports": {
 			"summary": {
 				"command": "114TH DET SQUAD",
@@ -9864,9 +9872,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 222,
-				"misdemeanor": 350,
-				"violation": 8
+				"felony": 112,
+				"misdemeanor": 176,
+				"violation": 4
 			},
 			"training": [],
 			"awards": [
@@ -9875,19 +9883,7 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
-					"date": "9/28/2019",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
 					"date": "12/22/2018",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "12/22/2018",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "2/21/2018",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -9899,19 +9895,7 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
-					"date": "12/29/2016",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
 					"date": "8/7/2016",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "8/7/2016",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "4/27/2016",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -10771,7 +10755,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/10/2018 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "849-TB ANTI TERRORISM UNIT",
+							"case_no": "2018-18401",
+							"description": "while on-duty, failed to conduct a proper investigation.",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "849-TB ANTI TERRORISM UNIT",
+							"case_no": "2018-18401",
+							"description": "while on-duty, failed and neglected to properly safeguard a prisoner resulting in the loss of said prisoner.",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 28,
 				"misdemeanor": 73,
