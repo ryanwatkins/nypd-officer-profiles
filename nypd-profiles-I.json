@@ -1852,8 +1852,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "21610",
 		"appt_date": "10/7/2015",
-		"recognition_count": 1,
-		"arrest_count": 39,
+		"recognition_count": 2,
+		"arrest_count": 78,
 		"reports": {
 			"summary": {
 				"command": "122 PRECINCT",
@@ -2159,7 +2159,7 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "14647",
 		"appt_date": "1/6/2016",
-		"recognition_count": 0,
+		"recognition_count": 1,
 		"arrest_count": 26,
 		"reports": {
 			"summary": {
@@ -3847,8 +3847,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 3,
-				"misdemeanor": 9
+				"felony": 4,
+				"misdemeanor": 12
 			},
 			"training": [],
 			"awards": []
@@ -4311,7 +4311,7 @@
 		"shield_no": "3909",
 		"appt_date": "7/13/2016",
 		"recognition_count": 3,
-		"arrest_count": 101,
+		"arrest_count": 103,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 7",
@@ -5561,7 +5561,7 @@
 		"shield_no": "3085",
 		"appt_date": "1/4/2017",
 		"recognition_count": 2,
-		"arrest_count": 189,
+		"arrest_count": 191,
 		"reports": {
 			"summary": {
 				"command": "120 DETECTIVE SQUAD",
@@ -7942,7 +7942,29 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/15/2022 12:00:00 AM",
+					"allegations_count": 3,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2021-24207",
+							"description": "01.Wrongful entry of a premises."
+						},
+						{
+							"recommendation": "A-CD",
+							"case_no": "2021-24207",
+							"description": "02.Wrongful search of a premises."
+						},
+						{
+							"recommendation": "OTHER",
+							"case_no": "2021-24208",
+							"description": "01.Failed to timely activate body-worn camera.\r\nWrongfully deactivated body-worn camera."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 38,
 				"misdemeanor": 43,
@@ -8625,16 +8647,16 @@
 		"first_name": "VINCENT",
 		"last_name": "IOVINE",
 		"middle_initial": "J",
-		"command": "DET BORO STATEN ISLAND",
+		"command": "120 PRECINCT",
 		"rank": "POLICE OFFICER",
 		"shield_no": "20346",
 		"appt_date": "7/5/2017",
-		"recognition_count": 1,
+		"recognition_count": 2,
 		"arrest_count": 13,
 		"reports": {
 			"summary": {
-				"command": "DET BORO STATEN ISLAND",
-				"assignment_date": "2/21/2022",
+				"command": "120 PRECINCT",
+				"assignment_date": "11/14/2022",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "20346",
@@ -8655,6 +8677,10 @@
 			},
 			"training": [],
 			"awards": [
+				{
+					"date": "9/7/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "9/13/2018",
 					"name": "EXCELLENT POLICE DUTY"
@@ -12588,7 +12614,7 @@
 		"shield_no": "14026",
 		"appt_date": "1/10/2018",
 		"recognition_count": 0,
-		"arrest_count": 4,
+		"arrest_count": 8,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 34",
@@ -12608,9 +12634,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1,
-				"misdemeanor": 2,
-				"violation": 1
+				"felony": 2,
+				"misdemeanor": 4,
+				"violation": 2
 			},
 			"training": [],
 			"awards": []
@@ -12928,7 +12954,7 @@
 		"shield_no": "26027",
 		"appt_date": "7/5/2017",
 		"recognition_count": 0,
-		"arrest_count": 23,
+		"arrest_count": 24,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 2",
@@ -12948,7 +12974,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 12,
+				"felony": 13,
 				"misdemeanor": 11
 			},
 			"training": [],
@@ -13125,8 +13151,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "11669",
 		"appt_date": "4/12/2017",
-		"recognition_count": 4,
-		"arrest_count": 54,
+		"recognition_count": 2,
+		"arrest_count": 27,
 		"reports": {
 			"summary": {
 				"command": "108 PRECINCT",
@@ -13146,21 +13172,13 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 10,
-				"misdemeanor": 44
+				"felony": 5,
+				"misdemeanor": 22
 			},
 			"training": [],
 			"awards": [
 				{
 					"date": "3/7/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "3/7/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/11/2019",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
