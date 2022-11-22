@@ -256,7 +256,7 @@
 		"shield_no": "1687",
 		"appt_date": "10/18/2017",
 		"recognition_count": 0,
-		"arrest_count": 26,
+		"arrest_count": 14,
 		"reports": {
 			"summary": {
 				"command": "102 PRECINCT",
@@ -2722,7 +2722,7 @@
 		"shield_no": "13921",
 		"appt_date": "4/15/2019",
 		"recognition_count": 0,
-		"arrest_count": 39,
+		"arrest_count": 40,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 7",
@@ -2743,7 +2743,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 9,
-				"misdemeanor": 28,
+				"misdemeanor": 29,
 				"violation": 2
 			},
 			"training": [],
@@ -3530,7 +3530,7 @@
 		"shield_no": "1538",
 		"appt_date": "4/25/2018",
 		"recognition_count": 0,
-		"arrest_count": 34,
+		"arrest_count": 68,
 		"reports": {
 			"summary": {
 				"command": "YOUTH STRATEGIES DIVISION",
@@ -5193,7 +5193,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "11/24/2021 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2021-23677",
+							"description": "01.Disparaging Remark"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 5,
 				"misdemeanor": 15
@@ -7452,7 +7464,7 @@
 		"shield_no": "26418",
 		"appt_date": "10/7/2019",
 		"recognition_count": 0,
-		"arrest_count": 21,
+		"arrest_count": 22,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 5",
@@ -7473,7 +7485,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 17
+				"misdemeanor": 18
 			},
 			"training": [],
 			"awards": []
