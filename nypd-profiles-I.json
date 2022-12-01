@@ -1485,7 +1485,24 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "11/26/2022 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-26288",
+							"description": "01.Wrongfully used a chokehold."
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-26288",
+							"description": "02.Wrongfully used physical force."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 57,
 				"misdemeanor": 63
@@ -2611,7 +2628,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 8,
+				"felony": 9,
 				"misdemeanor": 19
 			},
 			"training": [],
@@ -3792,7 +3809,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 4,
+				"felony": 5,
 				"misdemeanor": 12
 			},
 			"training": [],
@@ -5504,8 +5521,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 105,
-				"misdemeanor": 86
+				"felony": 108,
+				"misdemeanor": 88
 			},
 			"training": [],
 			"awards": [
@@ -6900,8 +6917,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "3813",
 		"appt_date": "7/13/2016",
-		"recognition_count": 2,
-		"arrest_count": 86,
+		"recognition_count": 4,
+		"arrest_count": 172,
 		"reports": {
 			"summary": {
 				"command": "PBQN PUBLIC SAFETY TEAMS",
@@ -6921,14 +6938,22 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 35,
-				"misdemeanor": 48,
-				"violation": 3
+				"felony": 70,
+				"misdemeanor": 96,
+				"violation": 6
 			},
 			"training": [],
 			"awards": [
 				{
 					"date": "4/23/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "4/23/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/5/2019",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -7842,7 +7867,7 @@
 		"shield_no": "21087",
 		"appt_date": "7/5/2017",
 		"recognition_count": 0,
-		"arrest_count": 82,
+		"arrest_count": 166,
 		"reports": {
 			"summary": {
 				"command": "046 PRECINCT",
@@ -7863,8 +7888,13 @@
 			"discipline": [
 				{
 					"entry": "1/15/2022 12:00:00 AM",
-					"allegations_count": 3,
+					"allegations_count": 6,
 					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2021-24207",
+							"description": "01.Wrongful entry of a premises."
+						},
 						{
 							"recommendation": "A-CD",
 							"case_no": "2021-24207",
@@ -7876,6 +7906,16 @@
 							"description": "02.Wrongful search of a premises."
 						},
 						{
+							"recommendation": "A-CD",
+							"case_no": "2021-24207",
+							"description": "02.Wrongful search of a premises."
+						},
+						{
+							"recommendation": "OTHER",
+							"case_no": "2021-24208",
+							"description": "01.Failed to timely activate body-worn camera.\r\nWrongfully deactivated body-worn camera."
+						},
+						{
 							"recommendation": "OTHER",
 							"case_no": "2021-24208",
 							"description": "01.Failed to timely activate body-worn camera.\r\nWrongfully deactivated body-worn camera."
@@ -7884,9 +7924,9 @@
 				}
 			],
 			"arrests": {
-				"felony": 38,
-				"misdemeanor": 43,
-				"violation": 1
+				"felony": 78,
+				"misdemeanor": 86,
+				"violation": 2
 			},
 			"training": [],
 			"awards": []
@@ -12091,7 +12131,7 @@
 		"shield_no": "7333",
 		"appt_date": "4/6/2016",
 		"recognition_count": 0,
-		"arrest_count": 21,
+		"arrest_count": 23,
 		"reports": {
 			"summary": {
 				"command": "070 PRECINCT",
@@ -12609,9 +12649,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
-				"misdemeanor": 4,
-				"violation": 2
+				"felony": 1,
+				"misdemeanor": 2,
+				"violation": 1
 			},
 			"training": [],
 			"awards": []
@@ -14570,7 +14610,7 @@
 		"shield_no": "23086",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 10,
+		"arrest_count": 11,
 		"reports": {
 			"summary": {
 				"command": "060 PRECINCT",
@@ -14591,7 +14631,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 8
+				"misdemeanor": 9
 			},
 			"training": [],
 			"awards": []
