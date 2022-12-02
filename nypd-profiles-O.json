@@ -2168,7 +2168,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 25,
+				"felony": 27,
 				"misdemeanor": 26,
 				"violation": 1
 			},
@@ -3326,7 +3326,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 8,
-				"misdemeanor": 9
+				"misdemeanor": 10
 			},
 			"training": [],
 			"awards": []
@@ -3917,8 +3917,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 3,
-				"misdemeanor": 6
+				"felony": 8,
+				"misdemeanor": 12
 			},
 			"training": [],
 			"awards": [
@@ -3927,7 +3927,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "8/23/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "7/26/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "7/26/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "3/21/2020",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -7079,8 +7091,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 18,
-				"misdemeanor": 46
+				"felony": 9,
+				"misdemeanor": 23
 			},
 			"training": [],
 			"awards": []
@@ -7942,7 +7954,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "3/16/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-24727",
+							"description": "01.Made computer inquiries unrelated to official Department business.",
+							"penalty": "B - COMMAND DISCIPLINE, FORFEITURE OF TIME/LEAVE BALANCES"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 10,
 				"misdemeanor": 23
@@ -10357,7 +10382,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 27,
-				"misdemeanor": 48,
+				"misdemeanor": 49,
 				"violation": 1
 			},
 			"training": [],
@@ -12090,8 +12115,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 14,
-				"misdemeanor": 23
+				"felony": 28,
+				"misdemeanor": 46
 			},
 			"training": [],
 			"awards": []
@@ -12892,7 +12917,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 9,
-				"misdemeanor": 17
+				"misdemeanor": 18
 			},
 			"training": [],
 			"awards": []
@@ -13662,8 +13687,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 20,
-				"misdemeanor": 50
+				"felony": 10,
+				"misdemeanor": 25
 			},
 			"training": [],
 			"awards": []
@@ -20181,8 +20206,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 16,
-				"misdemeanor": 56
+				"felony": 32,
+				"misdemeanor": 114
 			},
 			"training": [],
 			"awards": []
@@ -20660,8 +20685,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 12,
-				"misdemeanor": 34
+				"felony": 6,
+				"misdemeanor": 17
 			},
 			"training": [],
 			"awards": []
@@ -23046,7 +23071,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 10,
-				"misdemeanor": 29,
+				"misdemeanor": 30,
 				"other": 1
 			},
 			"training": [],
@@ -24747,7 +24772,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 14,
+				"misdemeanor": 15,
 				"violation": 1
 			},
 			"training": [],
@@ -27366,7 +27391,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 14,
-				"misdemeanor": 19
+				"misdemeanor": 21
 			},
 			"training": [],
 			"awards": []
@@ -28341,7 +28366,44 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "9/11/2022 12:00:00 AM",
+					"allegations_count": 5,
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-26580",
+							"description": "01..Made computer inquiries unrelated to official Department business.",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (18 day(s) )"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-26580",
+							"description": "02.Failed to make proper notifications (Patrol Supervisor, IAB, Desk Sergeant, Sick Desk\r\nSupervisor, ACS, Commanding Officer if PPO, Operations Unit, CCRB, etc.).",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (18 day(s) )"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-26580",
+							"description": "03.Failed to make required entries in Department Logs (Command Log, Roll Call, Activity Log,\r\nVehicle Movement/Utilization, Radio Log, Vehicle Assignment, DV Activity Log).",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (18 day(s) )"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-26580",
+							"description": "04.Failed to prepare required reports (Complaint Report, DIR, CCRB complaint).",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (18 day(s) )"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-26580",
+							"description": "05.Off-duty employment without permission.",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (18 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 10,
 				"misdemeanor": 20
@@ -29525,7 +29587,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 4
+				"misdemeanor": 2
 			},
 			"training": [],
 			"awards": []
@@ -32486,7 +32548,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 27,
-				"misdemeanor": 32
+				"misdemeanor": 35
 			},
 			"training": [],
 			"awards": []
@@ -32745,7 +32807,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 35,
+				"felony": 36,
 				"misdemeanor": 26
 			},
 			"training": [],
@@ -33593,7 +33655,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 15,
-				"misdemeanor": 11
+				"misdemeanor": 13
 			},
 			"training": [],
 			"awards": [
@@ -34186,8 +34248,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 10,
-				"misdemeanor": 32
+				"felony": 5,
+				"misdemeanor": 16
 			},
 			"training": [],
 			"awards": []
@@ -34931,7 +34993,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 13,
+				"felony": 14,
 				"misdemeanor": 40
 			},
 			"training": [],
@@ -35596,15 +35658,11 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 48,
-				"misdemeanor": 66
+				"felony": 24,
+				"misdemeanor": 34
 			},
 			"training": [],
 			"awards": [
-				{
-					"date": "6/28/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
 				{
 					"date": "6/28/2020",
 					"name": "EXCELLENT POLICE DUTY"
@@ -36723,8 +36781,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 16,
-				"misdemeanor": 26
+				"felony": 17,
+				"misdemeanor": 27
 			},
 			"training": [],
 			"awards": [

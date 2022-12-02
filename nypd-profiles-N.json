@@ -31,7 +31,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 8,
-				"misdemeanor": 8
+				"misdemeanor": 9
 			},
 			"training": [],
 			"awards": []
@@ -2513,9 +2513,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 88,
-				"misdemeanor": 48,
-				"violation": 2
+				"felony": 44,
+				"misdemeanor": 24,
+				"violation": 1
 			},
 			"training": [],
 			"awards": []
@@ -6445,7 +6445,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 24,
-				"misdemeanor": 29,
+				"misdemeanor": 30,
 				"violation": 8
 			},
 			"training": [],
@@ -9846,7 +9846,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 7,
+				"felony": 8,
 				"misdemeanor": 14
 			},
 			"training": [],
@@ -10137,9 +10137,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 2,
-				"felony": 50,
-				"misdemeanor": 48
+				"infraction": 1,
+				"felony": 25,
+				"misdemeanor": 24
 			},
 			"training": [],
 			"awards": []
@@ -10719,7 +10719,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 7,
+				"felony": 8,
 				"misdemeanor": 13
 			},
 			"training": [],
@@ -11778,7 +11778,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 27,
+				"felony": 28,
 				"misdemeanor": 50,
 				"violation": 1
 			},
@@ -11869,10 +11869,23 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/19/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2021-24431",
+							"description": "01.Failed to obtain medical treatment.",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
-				"felony": 30,
-				"misdemeanor": 42
+				"felony": 15,
+				"misdemeanor": 21
 			},
 			"training": [],
 			"awards": []
@@ -12064,51 +12077,6 @@
 			},
 			"training": [],
 			"awards": []
-		}
-	},
-	{
-		"taxid": 944844,
-		"full_name": "NEGRON, NOEL M",
-		"first_name": "NOEL",
-		"last_name": "NEGRON",
-		"middle_initial": "M",
-		"command": "TRANSIT DISTRICT 3",
-		"rank": "POLICE OFFICER",
-		"shield_no": "10150",
-		"appt_date": "7/9/2007",
-		"recognition_count": 1,
-		"arrest_count": 115,
-		"reports": {
-			"summary": {
-				"command": "TRANSIT DISTRICT 3",
-				"assignment_date": "11/1/2017",
-				"ethnicity": "HISPANIC",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "10150",
-				"appt_date": "7/9/2007"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/9/2007",
-					"shield_no": "10150"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"infraction": 1,
-				"felony": 7,
-				"misdemeanor": 104,
-				"violation": 3
-			},
-			"training": [],
-			"awards": [
-				{
-					"date": "10/22/2010",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
 		}
 	},
 	{
@@ -14802,7 +14770,7 @@
 		"shield_no": "18963",
 		"appt_date": "7/1/2019",
 		"recognition_count": 0,
-		"arrest_count": 24,
+		"arrest_count": 48,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 7",
@@ -14822,8 +14790,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 10,
-				"misdemeanor": 14
+				"felony": 20,
+				"misdemeanor": 28
 			},
 			"training": [],
 			"awards": []
@@ -17724,7 +17692,7 @@
 		"shield_no": "25617",
 		"appt_date": "1/6/2020",
 		"recognition_count": 1,
-		"arrest_count": 44,
+		"arrest_count": 45,
 		"reports": {
 			"summary": {
 				"command": "014 PCT-MIDTOWN SO. PCT",
@@ -17744,7 +17712,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 15,
+				"felony": 16,
 				"misdemeanor": 29
 			},
 			"training": [],
@@ -17854,7 +17822,7 @@
 		"shield_no": "29813",
 		"appt_date": "10/7/2019",
 		"recognition_count": 0,
-		"arrest_count": 48,
+		"arrest_count": 24,
 		"reports": {
 			"summary": {
 				"command": "007 PRECINCT",
@@ -17874,8 +17842,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 12,
-				"misdemeanor": 36
+				"felony": 6,
+				"misdemeanor": 18
 			},
 			"training": [],
 			"awards": []
@@ -24819,7 +24787,7 @@
 		"shield_no": "7534",
 		"appt_date": "10/24/2018",
 		"recognition_count": 0,
-		"arrest_count": 162,
+		"arrest_count": 83,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 3",
@@ -24839,10 +24807,10 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 2,
-				"felony": 62,
-				"misdemeanor": 96,
-				"violation": 2
+				"infraction": 1,
+				"felony": 32,
+				"misdemeanor": 49,
+				"violation": 1
 			},
 			"training": [],
 			"awards": []
@@ -26586,7 +26554,7 @@
 		"shield_no": "5283",
 		"appt_date": "1/10/2018",
 		"recognition_count": 1,
-		"arrest_count": 17,
+		"arrest_count": 20,
 		"reports": {
 			"summary": {
 				"command": "115 PRECINCT",
@@ -28883,7 +28851,7 @@
 		"shield_no": "20671",
 		"appt_date": "7/1/2019",
 		"recognition_count": 0,
-		"arrest_count": 41,
+		"arrest_count": 42,
 		"reports": {
 			"summary": {
 				"command": "121 PRECINCT",
@@ -28904,7 +28872,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 17,
-				"misdemeanor": 24
+				"misdemeanor": 25
 			},
 			"training": [],
 			"awards": []
@@ -32045,7 +32013,7 @@
 		"shield_no": "454",
 		"appt_date": "7/2/2018",
 		"recognition_count": 0,
-		"arrest_count": 22,
+		"arrest_count": 23,
 		"reports": {
 			"summary": {
 				"command": "060 DET SQUAD",
@@ -32065,7 +32033,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 5,
+				"felony": 6,
 				"misdemeanor": 17
 			},
 			"training": [],
@@ -36824,7 +36792,7 @@
 		"shield_no": "2580",
 		"appt_date": "1/10/2018",
 		"recognition_count": 4,
-		"arrest_count": 133,
+		"arrest_count": 134,
 		"reports": {
 			"summary": {
 				"command": "101 PRECINCT",
@@ -37893,7 +37861,7 @@
 		"shield_no": "3385",
 		"appt_date": "4/15/2019",
 		"recognition_count": 0,
-		"arrest_count": 54,
+		"arrest_count": 31,
 		"reports": {
 			"summary": {
 				"command": "018 PCT-MIDTOWN NO. PCT",
@@ -37913,8 +37881,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 24,
-				"misdemeanor": 30
+				"felony": 16,
+				"misdemeanor": 15
 			},
 			"training": [],
 			"awards": []
