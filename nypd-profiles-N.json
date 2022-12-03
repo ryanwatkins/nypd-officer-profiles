@@ -10,7 +10,7 @@
 		"shield_no": "23581",
 		"appt_date": "1/3/2019",
 		"recognition_count": 0,
-		"arrest_count": 16,
+		"arrest_count": 17,
 		"reports": {
 			"summary": {
 				"command": "108 PRECINCT",
@@ -2493,7 +2493,7 @@
 		"shield_no": "24830",
 		"appt_date": "1/6/2020",
 		"recognition_count": 0,
-		"arrest_count": 138,
+		"arrest_count": 69,
 		"reports": {
 			"summary": {
 				"command": "075 PRECINCT",
@@ -5537,24 +5537,16 @@
 			],
 			"discipline": [],
 			"arrests": {
-				"infraction": 6,
-				"felony": 14,
-				"misdemeanor": 136,
-				"violation": 28
+				"infraction": 3,
+				"felony": 7,
+				"misdemeanor": 68,
+				"violation": 14
 			},
 			"training": [],
 			"awards": [
 				{
 					"date": "5/18/2016",
 					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "5/18/2016",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "3/31/2001",
-					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "3/31/2001",
@@ -5938,7 +5930,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 206,
-				"misdemeanor": 357,
+				"misdemeanor": 358,
 				"other": 4,
 				"violation": 7
 			},
@@ -6424,7 +6416,7 @@
 		"shield_no": "12750",
 		"appt_date": "7/2/2018",
 		"recognition_count": 1,
-		"arrest_count": 61,
+		"arrest_count": 62,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 2",
@@ -6727,7 +6719,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "11/20/2021 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2021-23911",
+							"description": "01.Wrongful entry of a premises.",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 109,
 				"misdemeanor": 65,
@@ -9561,7 +9566,7 @@
 		"shield_no": "26787",
 		"appt_date": "1/10/2018",
 		"recognition_count": 0,
-		"arrest_count": 195,
+		"arrest_count": 197,
 		"reports": {
 			"summary": {
 				"command": "046 PRECINCT",
@@ -9826,7 +9831,7 @@
 		"shield_no": "14054",
 		"appt_date": "7/1/2019",
 		"recognition_count": 0,
-		"arrest_count": 21,
+		"arrest_count": 22,
 		"reports": {
 			"summary": {
 				"command": "121 PRECINCT",
@@ -10117,7 +10122,7 @@
 		"shield_no": "7052",
 		"appt_date": "10/7/2019",
 		"recognition_count": 0,
-		"arrest_count": 100,
+		"arrest_count": 50,
 		"reports": {
 			"summary": {
 				"command": "070 PRECINCT",
@@ -10699,7 +10704,7 @@
 		"shield_no": "18950",
 		"appt_date": "7/1/2019",
 		"recognition_count": 0,
-		"arrest_count": 20,
+		"arrest_count": 21,
 		"reports": {
 			"summary": {
 				"command": "060 PRECINCT",
@@ -11460,44 +11465,6 @@
 		}
 	},
 	{
-		"taxid": 967625,
-		"full_name": "NEGRON, CINDY I",
-		"first_name": "CINDY",
-		"last_name": "NEGRON",
-		"middle_initial": "I",
-		"command": "019 PRECINCT",
-		"rank": "POLICE OFFICER",
-		"shield_no": "60",
-		"appt_date": "4/15/2019",
-		"recognition_count": 0,
-		"arrest_count": 8,
-		"reports": {
-			"summary": {
-				"command": "019 PRECINCT",
-				"assignment_date": "9/16/2021",
-				"ethnicity": "HISPANIC",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "60",
-				"appt_date": "4/15/2019"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "4/15/2019",
-					"shield_no": "60"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 2,
-				"misdemeanor": 6
-			},
-			"training": [],
-			"awards": []
-		}
-	},
-	{
 		"taxid": 939108,
 		"full_name": "NEGRON, DAVID R",
 		"first_name": "DAVID",
@@ -11758,7 +11725,7 @@
 		"shield_no": "5695",
 		"appt_date": "4/12/2017",
 		"recognition_count": 1,
-		"arrest_count": 78,
+		"arrest_count": 79,
 		"reports": {
 			"summary": {
 				"command": "017 PRECINCT",
@@ -11851,7 +11818,7 @@
 		"shield_no": "26287",
 		"appt_date": "10/7/2019",
 		"recognition_count": 0,
-		"arrest_count": 72,
+		"arrest_count": 36,
 		"reports": {
 			"summary": {
 				"command": "090 PRECINCT",
@@ -12077,6 +12044,51 @@
 			},
 			"training": [],
 			"awards": []
+		}
+	},
+	{
+		"taxid": 944844,
+		"full_name": "NEGRON, NOEL M",
+		"first_name": "NOEL",
+		"last_name": "NEGRON",
+		"middle_initial": "M",
+		"command": "TRANSIT DISTRICT 3",
+		"rank": "POLICE OFFICER",
+		"shield_no": "10150",
+		"appt_date": "7/9/2007",
+		"recognition_count": 1,
+		"arrest_count": 115,
+		"reports": {
+			"summary": {
+				"command": "TRANSIT DISTRICT 3",
+				"assignment_date": "11/1/2017",
+				"ethnicity": "HISPANIC",
+				"rank_desc": "POLICE OFFICER",
+				"shield_no": "10150",
+				"appt_date": "7/9/2007"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/9/2007",
+					"shield_no": "10150"
+				}
+			],
+			"documents": [],
+			"discipline": [],
+			"arrests": {
+				"infraction": 1,
+				"felony": 7,
+				"misdemeanor": 104,
+				"violation": 3
+			},
+			"training": [],
+			"awards": [
+				{
+					"date": "10/22/2010",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		}
 	},
 	{
@@ -16705,8 +16717,8 @@
 		"rank": "LT SPECIAL ASSIGN",
 		"shield_no": "",
 		"appt_date": "8/30/1993",
-		"recognition_count": 1,
-		"arrest_count": 47,
+		"recognition_count": 2,
+		"arrest_count": 94,
 		"reports": {
 			"summary": {
 				"command": "POLICE COMMISSIONER",
@@ -16741,13 +16753,17 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 2,
-				"felony": 17,
-				"misdemeanor": 27,
-				"other": 1
+				"infraction": 4,
+				"felony": 34,
+				"misdemeanor": 54,
+				"other": 2
 			},
 			"training": [],
 			"awards": [
+				{
+					"date": "9/3/1995",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
 				{
 					"date": "9/3/1995",
 					"name": "MERITORIOUS POLICE DUTY"
@@ -18844,7 +18860,7 @@
 		"shield_no": "",
 		"appt_date": "7/18/1996",
 		"recognition_count": 0,
-		"arrest_count": 116,
+		"arrest_count": 58,
 		"reports": {
 			"summary": {
 				"command": "DEP COMM PUBLIC INFORMATION",
@@ -18879,10 +18895,10 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 6,
-				"felony": 58,
-				"misdemeanor": 46,
-				"violation": 6
+				"infraction": 3,
+				"felony": 29,
+				"misdemeanor": 23,
+				"violation": 3
 			},
 			"training": [],
 			"awards": []
@@ -28932,8 +28948,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "12472",
 		"appt_date": "7/18/1996",
-		"recognition_count": 7,
-		"arrest_count": 124,
+		"recognition_count": 14,
+		"arrest_count": 248,
 		"reports": {
 			"summary": {
 				"command": "106 PRECINCT",
@@ -28953,15 +28969,23 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 2,
-				"felony": 35,
-				"misdemeanor": 80,
-				"violation": 7
+				"infraction": 4,
+				"felony": 70,
+				"misdemeanor": 160,
+				"violation": 14
 			},
 			"training": [],
 			"awards": [
 				{
 					"date": "3/18/2004",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "3/18/2004",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "2/8/2003",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -28973,6 +28997,14 @@
 					"name": "COMMENDATION"
 				},
 				{
+					"date": "12/20/2002",
+					"name": "COMMENDATION"
+				},
+				{
+					"date": "5/8/2002",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "5/8/2002",
 					"name": "EXCELLENT POLICE DUTY"
 				},
@@ -28981,7 +29013,19 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "11/14/2001",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "9/22/2001",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "9/22/2001",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "8/26/2000",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -31817,8 +31861,8 @@
 		"rank": "DEPUTY INSPECTOR",
 		"shield_no": "",
 		"appt_date": "4/15/1997",
-		"recognition_count": 1,
-		"arrest_count": 80,
+		"recognition_count": 2,
+		"arrest_count": 160,
 		"reports": {
 			"summary": {
 				"command": "OFFICE OF DEP COMM MANAGEMENT & BUDGET",
@@ -31863,12 +31907,16 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 18,
-				"misdemeanor": 59,
-				"violation": 3
+				"felony": 36,
+				"misdemeanor": 118,
+				"violation": 6
 			},
 			"training": [],
 			"awards": [
+				{
+					"date": "12/1/2006",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
 				{
 					"date": "12/1/2006",
 					"name": "MERITORIOUS POLICE DUTY"
@@ -38632,8 +38680,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "3026",
 		"appt_date": "8/30/1993",
-		"recognition_count": 6,
-		"arrest_count": 350,
+		"recognition_count": 3,
+		"arrest_count": 175,
 		"reports": {
 			"summary": {
 				"command": "024 PRECINCT",
@@ -38651,12 +38699,24 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "6/21/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2022-25138",
+							"description": "01.Failed to prepare required reports."
+						}
+					]
+				}
+			],
 			"arrests": {
-				"infraction": 2,
-				"felony": 118,
-				"misdemeanor": 216,
-				"violation": 14
+				"infraction": 1,
+				"felony": 59,
+				"misdemeanor": 108,
+				"violation": 7
 			},
 			"training": [],
 			"awards": [
@@ -38665,20 +38725,8 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "3/17/2018",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "7/28/2017",
 					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "7/28/2017",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "7/10/2012",
-					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
 					"date": "7/10/2012",

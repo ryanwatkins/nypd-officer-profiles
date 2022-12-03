@@ -2273,7 +2273,7 @@
 		"shield_no": "23935",
 		"appt_date": "1/3/2019",
 		"recognition_count": 0,
-		"arrest_count": 32,
+		"arrest_count": 36,
 		"reports": {
 			"summary": {
 				"command": "047 PRECINCT",
@@ -3436,7 +3436,7 @@
 		"shield_no": "26543",
 		"appt_date": "1/10/2018",
 		"recognition_count": 0,
-		"arrest_count": 14,
+		"arrest_count": 7,
 		"reports": {
 			"summary": {
 				"command": "102 PRECINCT",
@@ -3726,7 +3726,35 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "6/28/2017 12:00:00 AM",
+					"charges_count": 3,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "114-114 PRECINCT",
+							"case_no": "2017-17596",
+							"description": "WHILE OFF-DUTY WAS INVOLVED IN A PERSONAL PHYSICAL ALTERCATION WITH A  PERSON KNOWN TO THE DEPARTMENT.",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "114-114 PRECINCT",
+							"case_no": "2017-17596",
+							"description": "WHILE OFF-DUTY, AFTER BEING INVOLVED IN A PERSONAL PHYSICAL ALTERCATION, FAILED TO REQUEST THE RESPONSE OF THE PATROL SUPERVISOR.",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "114-114 PRECINCT",
+							"case_no": "2017-17596",
+							"description": "WHILE OFF-DUTY, AFTER BEING INVOLVED IN A PERSONAL PHYSICAL ALTERCATION, DISCARDED ANOTHER PERSON'S PERSONAL PROPERTY WITHOUT PERMISSION OR AUTHORITY.",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 5,
 				"felony": 97,
@@ -4046,7 +4074,7 @@
 		"shield_no": "19831",
 		"appt_date": "1/10/2018",
 		"recognition_count": 0,
-		"arrest_count": 20,
+		"arrest_count": 10,
 		"reports": {
 			"summary": {
 				"command": "073 PRECINCT",
@@ -4936,7 +4964,7 @@
 		"shield_no": "31800",
 		"appt_date": "1/10/2018",
 		"recognition_count": 0,
-		"arrest_count": 28,
+		"arrest_count": 14,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 12",
@@ -7454,7 +7482,7 @@
 		"shield_no": "19355",
 		"appt_date": "10/7/2019",
 		"recognition_count": 0,
-		"arrest_count": 52,
+		"arrest_count": 56,
 		"reports": {
 			"summary": {
 				"command": "073 PRECINCT",
@@ -7691,7 +7719,35 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "8/14/2017 12:00:00 AM",
+					"charges_count": 3,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "498-QUALITY ASSURANCE DIV DC S IN",
+							"case_no": "2017-17597",
+							"description": "WHILE ON-DUTY, WAS DISCOURTEOUS TO A SUPERVISOR.",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "498-QUALITY ASSURANCE DIV DC S IN",
+							"case_no": "2017-17597",
+							"description": "AFTER BEING GIVEN A LAWFUL  ORDER BY A SUPERVISOR, DISREGARDED SAID ORDER.",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "498-QUALITY ASSURANCE DIV DC S IN",
+							"case_no": "2017-17597",
+							"description": "WHILE ON-DUTY, WAS DISCOURTEOUS TO A SUPERVISOR.",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 7,
 				"misdemeanor": 16,
@@ -8903,7 +8959,7 @@
 		"shield_no": "28011",
 		"appt_date": "1/6/2020",
 		"recognition_count": 0,
-		"arrest_count": 52,
+		"arrest_count": 53,
 		"reports": {
 			"summary": {
 				"command": "108 PRECINCT",
@@ -9668,7 +9724,7 @@
 		"shield_no": "13354",
 		"appt_date": "7/2/2018",
 		"recognition_count": 1,
-		"arrest_count": 65,
+		"arrest_count": 66,
 		"reports": {
 			"summary": {
 				"command": "042 PRECINCT",
@@ -11579,8 +11635,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "6764",
 		"appt_date": "7/9/2007",
-		"recognition_count": 4,
-		"arrest_count": 169,
+		"recognition_count": 8,
+		"arrest_count": 338,
 		"reports": {
 			"summary": {
 				"command": "101 PRECINCT",
@@ -11652,8 +11708,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "18873",
 		"appt_date": "7/1/2019",
-		"recognition_count": 8,
-		"arrest_count": 162,
+		"recognition_count": 4,
+		"arrest_count": 81,
 		"reports": {
 			"summary": {
 				"command": "083 PRECINCT",
@@ -11759,52 +11815,6 @@
 				},
 				{
 					"date": "10/12/2018",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
-		}
-	},
-	{
-		"taxid": 923986,
-		"full_name": "JASZCZAK, JOHN J",
-		"first_name": "JOHN",
-		"last_name": "JASZCZAK",
-		"middle_initial": "J",
-		"command": "PATROL BORO QUEENS NORTH",
-		"rank": "POLICE OFFICER",
-		"shield_no": "21903",
-		"appt_date": "7/7/1999",
-		"recognition_count": 1,
-		"arrest_count": 68,
-		"reports": {
-			"summary": {
-				"command": "PATROL BORO QUEENS NORTH",
-				"assignment_date": "11/15/2004",
-				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "21903",
-				"appt_date": "7/7/1999"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/7/1999",
-					"shield_no": "21903"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"infraction": 28,
-				"felony": 11,
-				"misdemeanor": 25,
-				"other": 1,
-				"violation": 3
-			},
-			"training": [],
-			"awards": [
-				{
-					"date": "8/28/2001",
 					"name": "EXCELLENT POLICE DUTY"
 				}
 			]
@@ -11929,7 +11939,7 @@
 		"shield_no": "10388",
 		"appt_date": "1/10/2018",
 		"recognition_count": 0,
-		"arrest_count": 27,
+		"arrest_count": 28,
 		"reports": {
 			"summary": {
 				"command": "120 PRECINCT",
@@ -12315,7 +12325,7 @@
 		"shield_no": "23060",
 		"appt_date": "1/6/2020",
 		"recognition_count": 1,
-		"arrest_count": 51,
+		"arrest_count": 55,
 		"reports": {
 			"summary": {
 				"command": "014 PCT-MIDTOWN SO. PCT",
@@ -14009,7 +14019,21 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "12/14/2017 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "043-043 PRECINCT",
+							"case_no": "2017-17412",
+							"description": "KNOWINGLY ASSOCIATED WITH A PERSON REASONABLY BELIEVED TO BE ENGAGED IN, LIKELY TO ENGAGE IN, OR TO HAVE ENGAGED IN CRIMINAL ACTIVITIES",
+							"penalty": "VACATION DAYS (2 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 10,
@@ -15891,101 +15915,6 @@
 		}
 	},
 	{
-		"taxid": 924675,
-		"full_name": "JEANTY, ARAMUS",
-		"first_name": "ARAMUS",
-		"last_name": "JEANTY",
-		"middle_initial": "",
-		"command": "COUNTERTERRORISM DIVISION",
-		"rank": "SGT SPECIAL ASSIGN",
-		"shield_no": "2537",
-		"appt_date": "7/16/1999",
-		"recognition_count": 11,
-		"arrest_count": 106,
-		"reports": {
-			"summary": {
-				"command": "COUNTERTERRORISM DIVISION",
-				"assignment_date": "6/5/2017",
-				"ethnicity": "BLACK",
-				"rank_desc": "SGT SPECIAL ASSIGN",
-				"shield_no": "2537",
-				"appt_date": "7/16/1999"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/7/1999",
-					"shield_no": "18302"
-				},
-				{
-					"rank": "SERGEANT",
-					"date": "5/26/2006",
-					"shield_no": "2537"
-				},
-				{
-					"rank": "SGT DET SQUAD",
-					"date": "1/25/2013",
-					"shield_no": ""
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"infraction": 12,
-				"felony": 30,
-				"misdemeanor": 62,
-				"violation": 2
-			},
-			"training": [],
-			"awards": [
-				{
-					"date": "12/8/2005",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "11/16/2005",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "10/31/2005",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "1/5/2005",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "12/15/2004",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "11/9/2004",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "9/14/2004",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "11/14/2003",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "8/30/2002",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "7/19/2002",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "3/10/2002",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
-		}
-	},
-	{
 		"taxid": 926995,
 		"full_name": "JEANTY, AURCLIEN",
 		"first_name": "AURCLIEN",
@@ -16839,7 +16768,7 @@
 		"shield_no": "25651",
 		"appt_date": "10/24/2018",
 		"recognition_count": 2,
-		"arrest_count": 61,
+		"arrest_count": 62,
 		"reports": {
 			"summary": {
 				"command": "101 PRECINCT",
@@ -16870,7 +16799,11 @@
 					]
 				}
 			],
-			"arrests": {},
+			"arrests": {
+				"felony": 34,
+				"misdemeanor": 25,
+				"violation": 3
+			},
 			"training": [],
 			"awards": [
 				{
@@ -18244,95 +18177,6 @@
 		}
 	},
 	{
-		"taxid": 936814,
-		"full_name": "JEREMIAH, JASON A",
-		"first_name": "JASON",
-		"last_name": "JEREMIAH",
-		"middle_initial": "A",
-		"command": "POLICE ACADEMY",
-		"rank": "LIEUTENANT",
-		"shield_no": "",
-		"appt_date": "1/10/2005",
-		"recognition_count": 8,
-		"arrest_count": 251,
-		"reports": {
-			"summary": {
-				"command": "POLICE ACADEMY",
-				"assignment_date": "5/19/2022",
-				"ethnicity": "BLACK",
-				"rank_desc": "LIEUTENANT",
-				"shield_no": "",
-				"appt_date": "1/10/2005"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "1/10/2005",
-					"shield_no": "26736"
-				},
-				{
-					"rank": "SERGEANT",
-					"date": "1/27/2012",
-					"shield_no": "4388"
-				},
-				{
-					"rank": "LIEUTENANT",
-					"date": "1/29/2021",
-					"shield_no": ""
-				}
-			],
-			"documents": [
-				{
-					"date": "1/17/2012",
-					"url": "https://oip.nypdonline.org/files/936814_01172012_2012071.pdf",
-					"type": "Trial Decision"
-				}
-			],
-			"discipline": [],
-			"arrests": {
-				"felony": 63,
-				"misdemeanor": 175,
-				"other": 1,
-				"violation": 12
-			},
-			"training": [],
-			"awards": [
-				{
-					"date": "10/26/2008",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "11/6/2007",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "6/29/2007",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/22/2007",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/21/2007",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "2/15/2007",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "1/11/2007",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "11/7/2005",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
-		}
-	},
-	{
 		"taxid": 941258,
 		"full_name": "JEREZ, EDWIN",
 		"first_name": "EDWIN",
@@ -19404,8 +19248,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "12328",
 		"appt_date": "3/1/2000",
-		"recognition_count": 6,
-		"arrest_count": 66,
+		"recognition_count": 3,
+		"arrest_count": 33,
 		"reports": {
 			"summary": {
 				"command": "PATROL BORO MAN SOUTH",
@@ -19425,9 +19269,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 6,
-				"misdemeanor": 50,
-				"violation": 10
+				"felony": 3,
+				"misdemeanor": 25,
+				"violation": 5
 			},
 			"training": [],
 			"awards": [
@@ -19436,19 +19280,7 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "3/12/2004",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "3/15/2003",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "3/15/2003",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "8/4/2002",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -19516,8 +19348,8 @@
 		"rank": "LIEUTENANT",
 		"shield_no": "",
 		"appt_date": "3/1/2000",
-		"recognition_count": 4,
-		"arrest_count": 46,
+		"recognition_count": 2,
+		"arrest_count": 23,
 		"reports": {
 			"summary": {
 				"command": "009 PRECINCT",
@@ -19557,23 +19389,15 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 14,
-				"misdemeanor": 28,
-				"violation": 4
+				"felony": 7,
+				"misdemeanor": 14,
+				"violation": 2
 			},
 			"training": [],
 			"awards": [
 				{
 					"date": "9/12/2006",
 					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "9/12/2006",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "2/22/2002",
-					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "2/22/2002",
@@ -21138,7 +20962,7 @@
 		"shield_no": "19269",
 		"appt_date": "7/1/2019",
 		"recognition_count": 0,
-		"arrest_count": 12,
+		"arrest_count": 24,
 		"reports": {
 			"summary": {
 				"command": "CHARACTER ASSESSMENT SECTION",
@@ -22070,7 +21894,7 @@
 		"shield_no": "18551",
 		"appt_date": "7/1/2019",
 		"recognition_count": 1,
-		"arrest_count": 25,
+		"arrest_count": 26,
 		"reports": {
 			"summary": {
 				"command": "049 PRECINCT",
@@ -23496,7 +23320,7 @@
 		"shield_no": "3426",
 		"appt_date": "1/6/2020",
 		"recognition_count": 0,
-		"arrest_count": 53,
+		"arrest_count": 56,
 		"reports": {
 			"summary": {
 				"command": "040 PRECINCT",
@@ -23533,8 +23357,8 @@
 		"rank": "DETECTIVE 1ST GRADE",
 		"shield_no": "3034",
 		"appt_date": "7/28/1987",
-		"recognition_count": 24,
-		"arrest_count": 1528,
+		"recognition_count": 12,
+		"arrest_count": 764,
 		"reports": {
 			"summary": {
 				"command": "CRIMINAL ENTERPRISE INVEST SEC",
@@ -23564,11 +23388,11 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 2,
-				"felony": 884,
-				"misdemeanor": 622,
-				"other": 14,
-				"violation": 6
+				"infraction": 1,
+				"felony": 442,
+				"misdemeanor": 311,
+				"other": 7,
+				"violation": 3
 			},
 			"training": [],
 			"awards": [
@@ -23794,6 +23618,89 @@
 				"felony": 11,
 				"misdemeanor": 51,
 				"violation": 9
+			},
+			"training": [],
+			"awards": []
+		}
+	},
+	{
+		"taxid": 945856,
+		"full_name": "JIMINIAN, PEDRO A",
+		"first_name": "PEDRO",
+		"last_name": "JIMINIAN",
+		"middle_initial": "A",
+		"command": "MILITARY & EXTENDED LEAVE DESK",
+		"rank": "POLICE OFFICER",
+		"shield_no": "26817",
+		"appt_date": "1/7/2008",
+		"recognition_count": 0,
+		"arrest_count": 71,
+		"reports": {
+			"summary": {
+				"command": "MILITARY & EXTENDED LEAVE DESK",
+				"assignment_date": "10/9/2020",
+				"ethnicity": "HISPANIC",
+				"rank_desc": "POLICE OFFICER",
+				"shield_no": "26817",
+				"appt_date": "1/7/2008"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/7/2008",
+					"shield_no": "26817"
+				}
+			],
+			"documents": [
+				{
+					"date": "1/7/2013",
+					"url": "https://oip.nypdonline.org/files/945856_01072013_2013122.pdf",
+					"type": "Trial Decision"
+				}
+			],
+			"discipline": [],
+			"arrests": {
+				"felony": 11,
+				"misdemeanor": 51,
+				"violation": 9
+			},
+			"training": [],
+			"awards": []
+		}
+	},
+	{
+		"taxid": 969828,
+		"full_name": "JO, WOORI",
+		"first_name": "WOORI",
+		"last_name": "JO",
+		"middle_initial": "",
+		"command": "032 PRECINCT",
+		"rank": "POLICE OFFICER",
+		"shield_no": "25090",
+		"appt_date": "11/2/2020",
+		"recognition_count": 0,
+		"arrest_count": 46,
+		"reports": {
+			"summary": {
+				"command": "032 PRECINCT",
+				"assignment_date": "5/10/2021",
+				"ethnicity": "ASIAN",
+				"rank_desc": "POLICE OFFICER",
+				"shield_no": "25090",
+				"appt_date": "11/2/2020"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "11/2/2020",
+					"shield_no": "25090"
+				}
+			],
+			"documents": [],
+			"discipline": [],
+			"arrests": {
+				"felony": 15,
+				"misdemeanor": 31
 			},
 			"training": [],
 			"awards": []
@@ -24036,7 +23943,7 @@
 		"shield_no": "14719",
 		"appt_date": "7/2/2018",
 		"recognition_count": 0,
-		"arrest_count": 94,
+		"arrest_count": 49,
 		"reports": {
 			"summary": {
 				"command": "005 PRECINCT",
@@ -24114,7 +24021,7 @@
 		"shield_no": "31119",
 		"appt_date": "1/10/2018",
 		"recognition_count": 0,
-		"arrest_count": 13,
+		"arrest_count": 14,
 		"reports": {
 			"summary": {
 				"command": "078 PRECINCT",
@@ -28341,12 +28248,16 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 17,
-				"misdemeanor": 40,
-				"violation": 1
+				"felony": 34,
+				"misdemeanor": 80,
+				"violation": 2
 			},
 			"training": [],
 			"awards": [
+				{
+					"date": "2/23/2021",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "2/23/2021",
 					"name": "EXCELLENT POLICE DUTY"
@@ -29103,84 +29014,50 @@
 		}
 	},
 	{
-		"taxid": 935078,
-		"full_name": "JOHNSON, TONYA R",
-		"first_name": "TONYA",
+		"taxid": 935076,
+		"full_name": "JOHNSON, THOMAS G",
+		"first_name": "THOMAS",
 		"last_name": "JOHNSON",
-		"middle_initial": "R",
-		"command": "TRAFFIC MANAGEMENT CENTER",
+		"middle_initial": "G",
+		"command": "HARBOR UNIT",
 		"rank": "POLICE OFFICER",
-		"shield_no": "10422",
+		"shield_no": "14272",
 		"appt_date": "7/1/2004",
-		"recognition_count": 0,
-		"arrest_count": 48,
+		"recognition_count": 2,
+		"arrest_count": 108,
 		"reports": {
 			"summary": {
-				"command": "TRAFFIC MANAGEMENT CENTER",
-				"assignment_date": "10/19/2017",
-				"ethnicity": "BLACK",
+				"command": "HARBOR UNIT",
+				"assignment_date": "2/10/2020",
+				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
-				"shield_no": "10422",
+				"shield_no": "14272",
 				"appt_date": "7/1/2004"
 			},
 			"ranks": [
 				{
 					"rank": "POLICE OFFICER",
 					"date": "7/1/2004",
-					"shield_no": "10422"
+					"shield_no": "14272"
 				}
 			],
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 7,
-				"misdemeanor": 41
+				"felony": 25,
+				"misdemeanor": 83
 			},
 			"training": [],
-			"awards": []
-		}
-	},
-	{
-		"taxid": 972025,
-		"full_name": "JOHNSON, TYLER",
-		"first_name": "TYLER",
-		"last_name": "JOHNSON",
-		"middle_initial": "",
-		"command": "068 PRECINCT",
-		"rank": "POLICE OFFICER",
-		"shield_no": "4487",
-		"appt_date": "7/7/2021",
-		"recognition_count": 0,
-		"arrest_count": 4,
-		"reports": {
-			"summary": {
-				"command": "068 PRECINCT",
-				"assignment_date": "12/30/2021",
-				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "4487",
-				"appt_date": "7/7/2021"
-			},
-			"ranks": [
+			"awards": [
 				{
-					"rank": "POLICE OFFICER",
-					"date": "7/7/2021",
-					"shield_no": "27724"
+					"date": "10/12/2015",
+					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"rank": "POLICE OFFICER",
-					"date": "11/17/2021",
-					"shield_no": "4487"
+					"date": "4/9/2008",
+					"name": "MERITORIOUS POLICE DUTY"
 				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 1,
-				"misdemeanor": 3
-			},
-			"training": [],
-			"awards": []
+			]
 		}
 	},
 	{
@@ -29402,7 +29279,21 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "12/18/2014 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "075-075 PRECINCT",
+							"case_no": "2014-11359",
+							"description": "WHILE ON-DUTY, ABUSED HIS AUTHORITY AS A MEMBER OF THE NEW YORK CITY POLICE DEPARTMENT, IN THAT HE THREATENED TO ARREST A PERSON KNOWN TO THE DEPARTMENT WITHOUT SUFFICIENT LEGAL AUTHORITY.",
+							"penalty": "VACATION DAYS (3 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 467,
 				"misdemeanor": 484,
@@ -30083,8 +29974,8 @@
 		"rank": "DETECTIVE SPECIALIST",
 		"shield_no": "5806",
 		"appt_date": "6/30/1992",
-		"recognition_count": 10,
-		"arrest_count": 44,
+		"recognition_count": 5,
+		"arrest_count": 22,
 		"reports": {
 			"summary": {
 				"command": "EMERGENCY SERVICE UNIT",
@@ -30109,9 +30000,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
-				"misdemeanor": 40,
-				"violation": 2
+				"felony": 1,
+				"misdemeanor": 20,
+				"violation": 1
 			},
 			"training": [],
 			"awards": [
@@ -30120,19 +30011,7 @@
 					"name": "COMMENDATION"
 				},
 				{
-					"date": "2/17/2003",
-					"name": "COMMENDATION"
-				},
-				{
 					"date": "12/12/1996",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "12/12/1996",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "10/16/1996",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -30142,14 +30021,6 @@
 				{
 					"date": "7/5/1996",
 					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "7/5/1996",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "3/2/1994",
-					"name": "COMMENDATION"
 				},
 				{
 					"date": "3/2/1994",
@@ -37148,8 +37019,8 @@
 		"rank": "DETECTIVE 1ST GRADE",
 		"shield_no": "7766",
 		"appt_date": "3/1/2000",
-		"recognition_count": 6,
-		"arrest_count": 596,
+		"recognition_count": 3,
+		"arrest_count": 298,
 		"reports": {
 			"summary": {
 				"command": "DET BORO BKLYN NO HOMICIDE SQ",
@@ -37179,11 +37050,11 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 2,
-				"felony": 328,
-				"misdemeanor": 260,
-				"other": 4,
-				"violation": 2
+				"infraction": 1,
+				"felony": 164,
+				"misdemeanor": 130,
+				"other": 2,
+				"violation": 1
 			},
 			"training": [],
 			"awards": [
@@ -37192,19 +37063,7 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "11/28/2005",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "6/29/2005",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "6/29/2005",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "12/23/2004",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{

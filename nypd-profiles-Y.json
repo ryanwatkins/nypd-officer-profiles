@@ -1305,7 +1305,7 @@
 		"shield_no": "17132",
 		"appt_date": "4/15/2019",
 		"recognition_count": 1,
-		"arrest_count": 59,
+		"arrest_count": 60,
 		"reports": {
 			"summary": {
 				"command": "067 PRECINCT",
@@ -2139,7 +2139,7 @@
 		"shield_no": "15829",
 		"appt_date": "7/2/2018",
 		"recognition_count": 2,
-		"arrest_count": 38,
+		"arrest_count": 39,
 		"reports": {
 			"summary": {
 				"command": "069 PRECINCT",
@@ -2514,7 +2514,7 @@
 		"shield_no": "13089",
 		"appt_date": "10/7/2019",
 		"recognition_count": 0,
-		"arrest_count": 40,
+		"arrest_count": 84,
 		"reports": {
 			"summary": {
 				"command": "005 PRECINCT",
@@ -4556,41 +4556,6 @@
 		}
 	},
 	{
-		"taxid": 968697,
-		"full_name": "YEPES, GUSTAVO",
-		"first_name": "GUSTAVO",
-		"last_name": "YEPES",
-		"middle_initial": "",
-		"command": "QUARTERMASTER SECTION",
-		"rank": "POLICE OFFICER",
-		"shield_no": "6413",
-		"appt_date": "10/7/2019",
-		"recognition_count": 0,
-		"arrest_count": 4,
-		"reports": {
-			"summary": {
-				"command": "QUARTERMASTER SECTION",
-				"assignment_date": "7/1/2021",
-				"ethnicity": "HISPANIC",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "6413",
-				"appt_date": "10/7/2019"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "10/7/2019",
-					"shield_no": "6413"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {},
-			"training": [],
-			"awards": []
-		}
-	},
-	{
 		"taxid": 967233,
 		"full_name": "YEPESALZATE, CRISTIAN",
 		"first_name": "CRISTIAN",
@@ -5822,6 +5787,96 @@
 		}
 	},
 	{
+		"taxid": 953592,
+		"full_name": "YISRAEL, MEKUBAHDYA",
+		"first_name": "MEKUBAHDYA",
+		"last_name": "YISRAEL",
+		"middle_initial": "",
+		"command": "DET BORO BKLYN SOUTH",
+		"rank": "DETECTIVE 3RD GRADE",
+		"shield_no": "2691",
+		"appt_date": "7/11/2012",
+		"recognition_count": 11,
+		"arrest_count": 170,
+		"reports": {
+			"summary": {
+				"command": "DET BORO BKLYN SOUTH",
+				"assignment_date": "9/14/2022",
+				"ethnicity": "BLACK",
+				"rank_desc": "DETECTIVE 3RD GRADE",
+				"shield_no": "2691",
+				"appt_date": "7/11/2012"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/11/2012",
+					"shield_no": "24158"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "2/9/2022",
+					"shield_no": "2691"
+				}
+			],
+			"documents": [],
+			"discipline": [],
+			"arrests": {
+				"infraction": 2,
+				"felony": 44,
+				"misdemeanor": 104,
+				"violation": 20
+			},
+			"training": [],
+			"awards": [
+				{
+					"date": "3/30/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/17/2019",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "5/1/2019",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "4/4/2018",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "5/14/2017",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/29/2016",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/23/2016",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/15/2016",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "4/20/2016",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "2/25/2016",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "2/18/2015",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
+		}
+	},
+	{
 		"taxid": 967400,
 		"full_name": "YLDEFONSO, DARIEN A",
 		"first_name": "DARIEN",
@@ -6888,7 +6943,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "8/11/2016 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "109-109 PRECINCT",
+							"case_no": "2016-16231",
+							"description": "ENGAGED IN CONDUCT PREJUDICIAL TO THE GOOD ORDER, EFFICIENCY OR DISCIPLINE OF THE DEPARTMENT TO WIT: SAID POLICE OFFICER PATRONIZED AN UNLAWFUL LOCATION.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), SUSPENDED W/O PAY (10 day(s) ), VACATION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 33,
