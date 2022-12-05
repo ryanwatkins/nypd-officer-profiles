@@ -355,8 +355,8 @@
 		"rank": "CAPTAIN",
 		"shield_no": "",
 		"appt_date": "3/1/2000",
-		"recognition_count": 1,
-		"arrest_count": 185,
+		"recognition_count": 2,
+		"arrest_count": 370,
 		"reports": {
 			"summary": {
 				"command": "BROOKLYN SOUTH WARRANT SQD",
@@ -2022,7 +2022,7 @@
 		"shield_no": "20778",
 		"appt_date": "1/4/2017",
 		"recognition_count": 0,
-		"arrest_count": 9,
+		"arrest_count": 10,
 		"reports": {
 			"summary": {
 				"command": "TB SPECIAL OPERATIONS DISTRICT",
@@ -5728,8 +5728,8 @@
 		"rank": "DETECTIVE 2ND GRADE",
 		"shield_no": "4835",
 		"appt_date": "3/10/2000",
-		"recognition_count": 2,
-		"arrest_count": 618,
+		"recognition_count": 4,
+		"arrest_count": 1236,
 		"reports": {
 			"summary": {
 				"command": "DRUG ENFORCEMENT TASK FORCE",
@@ -6798,7 +6798,7 @@
 		"shield_no": "8734",
 		"appt_date": "7/1/2003",
 		"recognition_count": 0,
-		"arrest_count": 66,
+		"arrest_count": 132,
 		"reports": {
 			"summary": {
 				"command": "AUTO POUND",
@@ -6818,10 +6818,10 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 1,
-				"felony": 14,
-				"misdemeanor": 49,
-				"violation": 2
+				"infraction": 2,
+				"felony": 28,
+				"misdemeanor": 98,
+				"violation": 4
 			},
 			"training": [],
 			"awards": []
@@ -9522,8 +9522,8 @@
 		"rank": "CAPTAIN",
 		"shield_no": "",
 		"appt_date": "1/10/2005",
-		"recognition_count": 12,
-		"arrest_count": 144,
+		"recognition_count": 24,
+		"arrest_count": 288,
 		"reports": {
 			"summary": {
 				"command": "076 PRECINCT",
@@ -9556,10 +9556,31 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "6/23/2015 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "075-075 PRECINCT",
+							"case_no": "2015-13595",
+							"description": "WRONGFULLY THREATENED ONE OR MORE INDIVIDUALS KNOWN TO THE DEPARTMENT WITH PHYSICAL HARM.",
+							"penalty": "COUNSELING, COUNSELING, PRE-TRIAL SUSPENSION DAYS (20 day(s) ), PRE-TRIAL SUSPENSION DAYS (20 day(s) ), RESTORATION OF SUSPENSION DAYS (12 day(s) ), RESTORATION OF SUSPENSION DAYS (12 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "075-075 PRECINCT",
+							"case_no": "2015-13595",
+							"description": "WRONGFULLY THREATENED ONE OR MORE INDIVIDUALS KNOWN TO THE DEPARTMENT WITH PHYSICAL HARM.",
+							"penalty": "COUNSELING, COUNSELING, PRE-TRIAL SUSPENSION DAYS (20 day(s) ), PRE-TRIAL SUSPENSION DAYS (20 day(s) ), RESTORATION OF SUSPENSION DAYS (12 day(s) ), RESTORATION OF SUSPENSION DAYS (12 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
-				"felony": 39,
-				"misdemeanor": 105
+				"felony": 78,
+				"misdemeanor": 210
 			},
 			"training": [],
 			"awards": [
@@ -9568,7 +9589,19 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "11/21/2018",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "12/27/2016",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "12/27/2016",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "12/11/2016",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -9580,7 +9613,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "4/19/2015",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "5/27/2014",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/27/2014",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/7/2011",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -9592,7 +9637,19 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "8/21/2008",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "10/28/2007",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/28/2007",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/9/2007",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -9604,7 +9661,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "12/16/2006",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "10/29/2006",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/29/2006",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "8/2/2006",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -12251,8 +12320,8 @@
 		"rank": "CAPTAIN",
 		"shield_no": "",
 		"appt_date": "7/1/2004",
-		"recognition_count": 2,
-		"arrest_count": 78,
+		"recognition_count": 1,
+		"arrest_count": 39,
 		"reports": {
 			"summary": {
 				"command": "CRITICAL RESPONSE COMMAND",
@@ -12287,17 +12356,13 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 4,
-				"felony": 14,
-				"misdemeanor": 58,
-				"violation": 2
+				"infraction": 2,
+				"felony": 7,
+				"misdemeanor": 29,
+				"violation": 1
 			},
 			"training": [],
 			"awards": [
-				{
-					"date": "12/6/2013",
-					"name": "EXCELLENT POLICE DUTY"
-				},
 				{
 					"date": "12/6/2013",
 					"name": "EXCELLENT POLICE DUTY"
@@ -15827,8 +15892,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "29643",
 		"appt_date": "7/1/2003",
-		"recognition_count": 4,
-		"arrest_count": 62,
+		"recognition_count": 2,
+		"arrest_count": 31,
 		"reports": {
 			"summary": {
 				"command": "CEREMONIAL UNIT",
@@ -15848,23 +15913,15 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 4,
-				"felony": 24,
-				"misdemeanor": 30,
-				"violation": 4
+				"infraction": 2,
+				"felony": 12,
+				"misdemeanor": 15,
+				"violation": 2
 			},
 			"training": [],
 			"awards": [
 				{
 					"date": "4/1/2007",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "4/1/2007",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "12/31/2006",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -19929,8 +19986,8 @@
 		"rank": "SGT SPECIAL ASSIGN",
 		"shield_no": "3322",
 		"appt_date": "7/1/2003",
-		"recognition_count": 2,
-		"arrest_count": 466,
+		"recognition_count": 1,
+		"arrest_count": 233,
 		"reports": {
 			"summary": {
 				"command": "CRITICAL RESPONSE COMMAND",
