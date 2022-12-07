@@ -302,8 +302,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1,
-				"misdemeanor": 10
+				"felony": 3,
+				"misdemeanor": 11
 			},
 			"training": [],
 			"awards": []
@@ -1337,8 +1337,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 20,
-				"misdemeanor": 12
+				"felony": 10,
+				"misdemeanor": 7
 			},
 			"training": [],
 			"awards": []
@@ -6002,7 +6002,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 1
+				"misdemeanor": 3
 			},
 			"training": [],
 			"awards": []
@@ -7801,7 +7801,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 14
+				"misdemeanor": 28
 			},
 			"training": [],
 			"awards": []
@@ -8278,7 +8278,7 @@
 		"arrest_count": 50,
 		"reports": {
 			"summary": {
-				"command": "COUNTERTERRORISM DIVISION",
+				"command": "CTR OPERATIONAL SUPPORT SECTION",
 				"assignment_date": "6/5/2017",
 				"ethnicity": "WHITE",
 				"rank_desc": "LIEUTENANT",
@@ -8479,7 +8479,41 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/12/2010 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "875-TRANSIT BUR BRKLYN TASK FORCE",
+							"case_no": "2010-598",
+							"description": "WRONGFULLY DUPLICATED HIS 2009 RESTRICTED NYPD PARKING PERMIT AND DID PROVIDE SAID UNAUTHORIZED DUPLICATE NEW YORK CITY POLICE DEPARTMENT RESTRICTED PARKING PERMIT TO AN INDIVIDUAL KNOWN TO THE DEPARTMENT WHO THEN DISPLAYED SAID PERMIT IN HER VEHICLE.",
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (20 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "11/23/2020 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "875-TRANSIT BUR BRKLYN TASK FORCE",
+							"case_no": "2020-22741",
+							"description": "Failure to comply with an order.",
+							"penalty": "VACATION DAYS (16 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "875-TRANSIT BUR BRKLYN TASK FORCE",
+							"case_no": "2020-22741",
+							"description": "Wrongfully discourteous to an individual known to the Department.",
+							"penalty": "VACATION DAYS (16 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 6,
 				"misdemeanor": 91,
@@ -8949,8 +8983,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
-				"misdemeanor": 6
+				"felony": 4,
+				"misdemeanor": 12
 			},
 			"training": [],
 			"awards": []
@@ -13747,8 +13781,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 3,
-				"misdemeanor": 11
+				"felony": 6,
+				"misdemeanor": 22
 			},
 			"training": [],
 			"awards": []
@@ -15099,8 +15133,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
-				"misdemeanor": 18
+				"felony": 1,
+				"misdemeanor": 9
 			},
 			"training": [],
 			"awards": []
@@ -19542,8 +19576,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 8,
-				"misdemeanor": 18
+				"felony": 4,
+				"misdemeanor": 9
 			},
 			"training": [],
 			"awards": []
@@ -21499,7 +21533,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 7
+				"misdemeanor": 8
 			},
 			"training": [],
 			"awards": []
@@ -24368,7 +24402,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1,
+				"felony": 2,
 				"misdemeanor": 7
 			},
 			"training": [],
@@ -24678,7 +24712,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 7
+				"misdemeanor": 8
 			},
 			"training": [],
 			"awards": []
@@ -34891,8 +34925,8 @@
 		"arrest_count": 110,
 		"reports": {
 			"summary": {
-				"command": "030 PRECINCT",
-				"assignment_date": "4/8/2020",
+				"command": "072 PRECINCT",
+				"assignment_date": "12/5/2022",
 				"ethnicity": "WHITE",
 				"rank_desc": "LIEUTENANT",
 				"shield_no": "",
