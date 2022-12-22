@@ -29,13 +29,28 @@ let headers = {
   'Pragma': 'no-cache'
 }
 
+function delay(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms))
+}
+
 async function getCookie() {
-  const response = await fetch('https://oip.nypdonline.org/oauth2/token', {
-    'body': 'grant_type=client_credentials&scope=clientId%3D435e66dd-eca9-47fc-be6b-091858a1ca7d',
-    'method': 'POST'
-  })
-  const result = await response.json()
-  return `user=${result.access_token}`
+  let error
+  for (let i = 1; i < 6; i++) {
+    try {
+      const response = await fetch('https://oip.nypdonline.org/oauth2/token', {
+        'body': 'grant_type=client_credentials&scope=clientId%3D435e66dd-eca9-47fc-be6b-091858a1ca7d',
+        'method': 'POST'
+      })
+      const result = await response.json()
+      return `user=${result.access_token}`
+    } catch(e) {
+      console.info('retrying cookie fetch ...')
+      await delay(60 * 1000 * i)
+      error = e
+    }
+  }
+  console.error('error fetching cookie')
+  throw error
 }
 
 async function getList({ letters }) {
@@ -459,7 +474,7 @@ function sortByDateName(a, b) {
   }
   if (!b.date) return -1
   if (!a.date) return 1
-  return new Date(b.date) - new Date(a.date);
+  return new Date(b.date) - new Date(a.date)
 }
 
 function sortDocuments(a, b) {
@@ -472,7 +487,7 @@ function sortDocuments(a, b) {
   }
   if (!b.date) return -1
   if (!a.date) return 1
-  return new Date(b.date) - new Date(a.date);
+  return new Date(b.date) - new Date(a.date)
 }
 
 function compareOfficersList(a, b) {
@@ -498,7 +513,7 @@ function sortRanks(a, b) {
   }
   if (!b.date) return 1
   if (!a.date) return -1
-  return new Date(a.date) - new Date(b.date);
+  return new Date(a.date) - new Date(b.date)
 }
 
 function sortByOfficerName(a, b) {
