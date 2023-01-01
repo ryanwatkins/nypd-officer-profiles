@@ -22,10 +22,21 @@ const reportList = {
 
 let lettersRetry = new Map()
 let officersRetry = new Map()
+const TOKEN_RETRIES = 5
 
 let headers = {
   'Accept': 'application/json, text/plain, */*',
   'Content-Type': 'application/json;charset=UTF-8',
+  'Accept-Encoding': 'gzip, deflate, br',
+  'Accept-Language': 'en-US,en;q=0.9',
+  'Referer': 'https://nypdonline.org/link/2',
+  'Sec-Fetch-Dest': 'empty',
+  'Sec-Fetch-Mode': 'cors',
+  'Sec-Fetch-Site': 'same-origin',
+  'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+  'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+  'sec-ch-ua-mobile': '?0',
+  'sec-ch-ua-platform': '"macOS"',
   'Pragma': 'no-cache'
 }
 
@@ -33,13 +44,20 @@ function delay(ms) {
   return new Promise(resolve => setTimeout(resolve, ms))
 }
 
+function shuffle(arr) {
+  return arr.map(value => ({ value, sort: Math.random() }))
+    .sort((a, b) => a.sort - b.sort)
+    .map(({ value }) => value)
+}
+
 async function getCookie() {
   let error
-  for (let i = 1; i < 6; i++) {
+  for (let i = 1; i <= TOKEN_RETRIES ; i++) {
     try {
       const response = await fetch('https://oip.nypdonline.org/oauth2/token', {
-        'body': 'grant_type=client_credentials&scope=clientId%3D435e66dd-eca9-47fc-be6b-091858a1ca7d',
-        'method': 'POST'
+        body: 'grant_type=client_credentials&scope=clientId%3D435e66dd-eca9-47fc-be6b-091858a1ca7d',
+        method: 'POST',
+        headers
       })
       const result = await response.json()
       return `user=${result.access_token}`
@@ -600,7 +618,7 @@ async function scrapeTrialDecisions() {
 }
 
 async function start() {
-  const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')
+  const letters = shuffle('ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split(''))
 
   async function handleOfficers(officers) {
     let promises = []
@@ -612,12 +630,12 @@ async function start() {
   }
 
   async function handleLetters(letters) {
-
     for await (let letter of letters) {
       officersRetry = new Map()
-
       headers.Cookie = await getCookie()
+
       let officers = await getList({ letters: [letter] })
+      officers = shuffle(officers)
       console.info(`fetching officer details ${letter} (${officers.length})`)
       officers = await handleOfficers(officers)
 
