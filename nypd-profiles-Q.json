@@ -24471,13 +24471,45 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "12/14/2018 12:00:00 AM",
+					"charges_count": 3,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "094-094 PRECINCT",
+							"case_no": "2018-19756",
+							"description": "Violated confidential informant procedures.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (60 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "094-094 PRECINCT",
+							"case_no": "2018-19756",
+							"description": "Wrongfully accessed confidential Department information.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (60 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "094-094 PRECINCT",
+							"case_no": "2018-19756",
+							"description": "Gambling.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (60 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 24,
 				"misdemeanor": 67,
 				"violation": 4
 			},
 			"training": [
+				{
+					"date": "1/24/2023",
+					"name": "CLT-PROCEDURAL OPERATIONS"
+				},
 				{
 					"date": "1/7/2023",
 					"name": "CLT-VOLUNTARY - INVOLUNTARY TRANSPORTS"
@@ -25208,7 +25240,7 @@
 				},
 				{
 					"date": "9/12/2019",
-					"name": "RMB FAIR AND IMPARTIAL POLICING - ALL POS AND DETS"
+					"name": "CPS FAIR AND IMPARTIAL POLICING - ALL POS AND DETS"
 				},
 				{
 					"date": "9/3/2019",
@@ -25416,7 +25448,7 @@
 				},
 				{
 					"date": "8/27/2018",
-					"name": "RMB BODY-WORN CAMERA TRAINING WITH SCENARIOS"
+					"name": "CPS BODY-WORN CAMERA TRAINING WITH SCENARIOS"
 				},
 				{
 					"date": "8/23/2018",
@@ -25708,6 +25740,22 @@
 				},
 				{
 					"date": "12/1/2017",
+					"name": "CPS INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 1"
+				},
+				{
+					"date": "12/1/2017",
+					"name": "CPS INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 2"
+				},
+				{
+					"date": "12/1/2017",
+					"name": "CPS INTERIOR PATROL TRESPASS AFFIDAVIT PROGRAM (TAP) VIDEO 1"
+				},
+				{
+					"date": "12/1/2017",
+					"name": "CPS INTERIOR PATROL TRESPASS AFFIDAVIT PROGRAM (TAP) VIDEO 2"
+				},
+				{
+					"date": "12/1/2017",
 					"name": "CRIME CONTROL STRATEGIES- COMMUNITY SUPERVISION"
 				},
 				{
@@ -25824,18 +25872,6 @@
 				},
 				{
 					"date": "12/1/2017",
-					"name": "RMB INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 1"
-				},
-				{
-					"date": "12/1/2017",
-					"name": "RMB INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 2"
-				},
-				{
-					"date": "12/1/2017",
-					"name": "RMB INTERIOR PATROL OF MULTIPLE DWELLING BUILDINGS ENROLLED IN THE TRESPASS AFFIDAVIT PROGRAM (TAP),"
-				},
-				{
-					"date": "12/1/2017",
 					"name": "SEND TO DESKTOP"
 				},
 				{
@@ -25900,11 +25936,11 @@
 				},
 				{
 					"date": "8/28/2017",
-					"name": "RMB INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 2"
+					"name": "CPS INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 2"
 				},
 				{
 					"date": "8/28/2017",
-					"name": "RMB INTERIOR PATROL OF MULTIPLE DWELLING BUILDINGS ENROLLED IN THE TRESPASS AFFIDAVIT PROGRAM (TAP),"
+					"name": "CPS INTERIOR PATROL TRESPASS AFFIDAVIT PROGRAM (TAP) VIDEO 2"
 				},
 				{
 					"date": "8/3/2017",
@@ -25916,11 +25952,11 @@
 				},
 				{
 					"date": "6/22/2017",
-					"name": "RMB INTERIOR PATROL OF MULTIPLE DWELLING BUILDINGS ENROLLED IN THE TRESPASS AFFIDAVIT PROGRAM (TAP),"
+					"name": "CPS INTERIOR PATROL TRESPASS AFFIDAVIT PROGRAM (TAP) VIDEO 1"
 				},
 				{
 					"date": "6/15/2017",
-					"name": "RMB INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 1"
+					"name": "CPS INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 1"
 				},
 				{
 					"date": "5/8/2017",
@@ -32886,6 +32922,18 @@
 			},
 			"training": [
 				{
+					"date": "1/26/2023",
+					"name": "NYPD-U VOLUNTARY - INVOLUNTARY TRANSPORTS"
+				},
+				{
+					"date": "1/25/2023",
+					"name": "CLT-SPECIAL POPULATIONS"
+				},
+				{
+					"date": "1/24/2023",
+					"name": "RAISING THE LOWER AGE OF JUVENILE DELINQUENCY"
+				},
+				{
 					"date": "1/10/2023",
 					"name": "INVESTIGATIVE ENCOUNTERS 2023: MODULE 2 SQF LEVEL 1"
 				},
@@ -33423,7 +33471,7 @@
 				},
 				{
 					"date": "11/20/2019",
-					"name": "RMB - INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS"
+					"name": "CPS - INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS"
 				},
 				{
 					"date": "11/19/2019",
@@ -33507,7 +33555,7 @@
 				},
 				{
 					"date": "10/3/2019",
-					"name": "RMB FAIR AND IMPARTIAL POLICING - ALL POS AND DETS"
+					"name": "CPS FAIR AND IMPARTIAL POLICING - ALL POS AND DETS"
 				},
 				{
 					"date": "10/1/2019",
@@ -33771,15 +33819,19 @@
 				},
 				{
 					"date": "3/1/2019",
-					"name": "RMB INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 1"
+					"name": "CPS INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 1"
 				},
 				{
 					"date": "3/1/2019",
-					"name": "RMB INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 2"
+					"name": "CPS INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 2"
 				},
 				{
 					"date": "3/1/2019",
-					"name": "RMB INTERIOR PATROL OF MULTIPLE DWELLING BUILDINGS ENROLLED IN THE TRESPASS AFFIDAVIT PROGRAM (TAP),"
+					"name": "CPS INTERIOR PATROL TRESPASS AFFIDAVIT PROGRAM (TAP) VIDEO 1"
+				},
+				{
+					"date": "3/1/2019",
+					"name": "CPS INTERIOR PATROL TRESPASS AFFIDAVIT PROGRAM (TAP) VIDEO 2"
 				},
 				{
 					"date": "2/28/2019",
@@ -34031,7 +34083,7 @@
 				},
 				{
 					"date": "8/24/2018",
-					"name": "RMB BODY-WORN CAMERA TRAINING WITH SCENARIOS"
+					"name": "CPS BODY-WORN CAMERA TRAINING WITH SCENARIOS"
 				},
 				{
 					"date": "8/23/2018",
@@ -34163,11 +34215,11 @@
 				},
 				{
 					"date": "9/13/2017",
-					"name": "RMB INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 1"
+					"name": "CPS INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 1"
 				},
 				{
 					"date": "9/13/2017",
-					"name": "RMB INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 2"
+					"name": "CPS INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 2"
 				},
 				{
 					"date": "8/2/2017",
@@ -34179,15 +34231,19 @@
 				},
 				{
 					"date": "7/6/2017",
-					"name": "RMB INTERIOR PATROL OF MULTIPLE DWELLING BUILDINGS ENROLLED IN THE TRESPASS AFFIDAVIT PROGRAM (TAP),"
+					"name": "CPS INTERIOR PATROL TRESPASS AFFIDAVIT PROGRAM (TAP) VIDEO 1"
 				},
 				{
 					"date": "6/28/2017",
-					"name": "RMB INTERIOR PATROL OF MULTIPLE DWELLING BUILDINGS ENROLLED IN THE TRESPASS AFFIDAVIT PROGRAM (TAP),"
+					"name": "CPS INTERIOR PATROL TRESPASS AFFIDAVIT PROGRAM (TAP) VIDEO 2"
 				},
 				{
 					"date": "6/27/2017",
-					"name": "RMB INTERIOR PATROL OF MULTIPLE DWELLING BUILDINGS ENROLLED IN THE TRESPASS AFFIDAVIT PROGRAM (TAP),"
+					"name": "CPS INTERIOR PATROL TRESPASS AFFIDAVIT PROGRAM (TAP) VIDEO 1"
+				},
+				{
+					"date": "6/27/2017",
+					"name": "CPS INTERIOR PATROL TRESPASS AFFIDAVIT PROGRAM (TAP) VIDEO 2"
 				},
 				{
 					"date": "5/5/2017",
@@ -62637,6 +62693,14 @@
 			},
 			"training": [
 				{
+					"date": "1/27/2023",
+					"name": "NYPD-U VOLUNTARY - INVOLUNTARY TRANSPORTS"
+				},
+				{
+					"date": "1/24/2023",
+					"name": "INVESTIGATIVE ENCOUNTERS 2023: MODULE 2 SQF LEVEL 1"
+				},
+				{
 					"date": "1/12/2023",
 					"name": "CLT-DOCUMENTATION AND FORMS"
 				},
@@ -62934,11 +62998,27 @@
 				},
 				{
 					"date": "1/29/2020",
-					"name": "RMB - INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS"
+					"name": "CPS - INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS"
 				},
 				{
 					"date": "1/25/2020",
-					"name": "RMB - INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS"
+					"name": "CPS - INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS"
+				},
+				{
+					"date": "1/10/2020",
+					"name": "CPS INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 1"
+				},
+				{
+					"date": "1/10/2020",
+					"name": "CPS INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 2"
+				},
+				{
+					"date": "1/10/2020",
+					"name": "CPS INTERIOR PATROL TRESPASS AFFIDAVIT PROGRAM (TAP) VIDEO 1"
+				},
+				{
+					"date": "1/10/2020",
+					"name": "CPS INTERIOR PATROL TRESPASS AFFIDAVIT PROGRAM (TAP) VIDEO 2"
 				},
 				{
 					"date": "1/10/2020",
@@ -62983,18 +63063,6 @@
 				{
 					"date": "1/10/2020",
 					"name": "RESPONDING TO PEOPLE IN CRISIS-INTRODUCTION TO CIT VIDEO SERIES"
-				},
-				{
-					"date": "1/10/2020",
-					"name": "RMB INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 1"
-				},
-				{
-					"date": "1/10/2020",
-					"name": "RMB INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 2"
-				},
-				{
-					"date": "1/10/2020",
-					"name": "RMB INTERIOR PATROL OF MULTIPLE DWELLING BUILDINGS ENROLLED IN THE TRESPASS AFFIDAVIT PROGRAM (TAP),"
 				},
 				{
 					"date": "1/10/2020",
@@ -63130,7 +63198,7 @@
 				},
 				{
 					"date": "9/20/2019",
-					"name": "RMB BODY-WORN CAMERA TRAINING WITH SCENARIOS"
+					"name": "CPS BODY-WORN CAMERA TRAINING WITH SCENARIOS"
 				},
 				{
 					"date": "9/19/2019",
@@ -63194,7 +63262,7 @@
 				},
 				{
 					"date": "2/27/2018",
-					"name": "RMB FAIR AND IMPARTIAL POLICING - ALL POS AND DETS"
+					"name": "CPS FAIR AND IMPARTIAL POLICING - ALL POS AND DETS"
 				},
 				{
 					"date": "1/30/2018",
@@ -63230,23 +63298,23 @@
 				},
 				{
 					"date": "7/5/2017",
-					"name": "RMB INTERIOR PATROL OF MULTIPLE DWELLING BUILDINGS ENROLLED IN THE TRESPASS AFFIDAVIT PROGRAM (TAP),"
+					"name": "CPS INTERIOR PATROL TRESPASS AFFIDAVIT PROGRAM (TAP) VIDEO 2"
 				},
 				{
 					"date": "6/29/2017",
-					"name": "RMB INTERIOR PATROL OF MULTIPLE DWELLING BUILDINGS ENROLLED IN THE TRESPASS AFFIDAVIT PROGRAM (TAP),"
+					"name": "CPS INTERIOR PATROL TRESPASS AFFIDAVIT PROGRAM (TAP) VIDEO 1"
 				},
 				{
 					"date": "6/15/2017",
-					"name": "RMB INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 1"
+					"name": "CPS INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 1"
 				},
 				{
 					"date": "6/15/2017",
-					"name": "RMB INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 2"
+					"name": "CPS INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 2"
 				},
 				{
 					"date": "6/15/2017",
-					"name": "RMB INTERIOR PATROL OF MULTIPLE DWELLING BUILDINGS ENROLLED IN THE TRESPASS AFFIDAVIT PROGRAM (TAP),"
+					"name": "CPS INTERIOR PATROL TRESPASS AFFIDAVIT PROGRAM (TAP) VIDEO 1"
 				},
 				{
 					"date": "6/9/2017",
@@ -77973,7 +78041,7 @@
 				},
 				{
 					"date": "12/18/2019",
-					"name": "RMB FAIR AND IMPARTIAL POLICING - ALL POS AND DETS"
+					"name": "CPS FAIR AND IMPARTIAL POLICING - ALL POS AND DETS"
 				},
 				{
 					"date": "11/6/2019",
@@ -78021,6 +78089,18 @@
 				},
 				{
 					"date": "1/13/2019",
+					"name": "CPS INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 2"
+				},
+				{
+					"date": "1/13/2019",
+					"name": "CPS INTERIOR PATROL TRESPASS AFFIDAVIT PROGRAM (TAP) VIDEO 1"
+				},
+				{
+					"date": "1/13/2019",
+					"name": "CPS INTERIOR PATROL TRESPASS AFFIDAVIT PROGRAM (TAP) VIDEO 2"
+				},
+				{
+					"date": "1/13/2019",
 					"name": "CRIMINAL JUSTICE REFORM ACT ROLL CALL TRAINING PART 1"
 				},
 				{
@@ -78042,14 +78122,6 @@
 				{
 					"date": "1/13/2019",
 					"name": "RESPONDING TO PEOPLE IN CRISIS-INTRODUCTION TO CIT VIDEO SERIES"
-				},
-				{
-					"date": "1/13/2019",
-					"name": "RMB INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 2"
-				},
-				{
-					"date": "1/13/2019",
-					"name": "RMB INTERIOR PATROL OF MULTIPLE DWELLING BUILDINGS ENROLLED IN THE TRESPASS AFFIDAVIT PROGRAM (TAP),"
 				},
 				{
 					"date": "10/11/2018",
@@ -78193,6 +78265,10 @@
 				},
 				{
 					"date": "2/21/2018",
+					"name": "CPS INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 1"
+				},
+				{
+					"date": "2/21/2018",
 					"name": "CRIME CONTROL STRATEGIES- COMMUNITY SUPERVISION"
 				},
 				{
@@ -78206,10 +78282,6 @@
 				{
 					"date": "2/21/2018",
 					"name": "NEW YEAR'S EVE TACTICAL AWARENESS"
-				},
-				{
-					"date": "2/21/2018",
-					"name": "RMB INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 1"
 				},
 				{
 					"date": "2/21/2018",
@@ -78289,15 +78361,19 @@
 				},
 				{
 					"date": "7/10/2017",
-					"name": "RMB INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 1"
+					"name": "CPS INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 1"
 				},
 				{
 					"date": "7/10/2017",
-					"name": "RMB INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 2"
+					"name": "CPS INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 2"
 				},
 				{
 					"date": "7/10/2017",
-					"name": "RMB INTERIOR PATROL OF MULTIPLE DWELLING BUILDINGS ENROLLED IN THE TRESPASS AFFIDAVIT PROGRAM (TAP),"
+					"name": "CPS INTERIOR PATROL TRESPASS AFFIDAVIT PROGRAM (TAP) VIDEO 1"
+				},
+				{
+					"date": "7/10/2017",
+					"name": "CPS INTERIOR PATROL TRESPASS AFFIDAVIT PROGRAM (TAP) VIDEO 2"
 				},
 				{
 					"date": "5/24/2017",
@@ -134228,6 +134304,34 @@
 			},
 			"training": [
 				{
+					"date": "1/31/2023",
+					"name": "NYPD-U VOLUNTARY - INVOLUNTARY TRANSPORTS"
+				},
+				{
+					"date": "1/31/2023",
+					"name": "VIDEO 1 - PATROLLING THE NYC SUBWAY SYSTEM 2022"
+				},
+				{
+					"date": "1/31/2023",
+					"name": "VIDEO 2 -TACTICAL CONSIDERATIONS FOR TRANSIT PATROL 2022 (PART 1)"
+				},
+				{
+					"date": "1/31/2023",
+					"name": "VIDEO 3 - TACTICAL CONSIDERATIONS FOR TRANSIT PATROL 2022 (PART 2)"
+				},
+				{
+					"date": "1/31/2023",
+					"name": "VIDEO 4 - PLATFORM SAFETY 2022"
+				},
+				{
+					"date": "1/29/2023",
+					"name": "SRG - RAPID MOBILIZATION (PATROL) LEVEL 3"
+				},
+				{
+					"date": "1/27/2023",
+					"name": "SRG - RAPID MOBILIZATION (PATROL) LEVEL 3"
+				},
+				{
 					"date": "11/23/2022",
 					"name": "FTS - ANNUAL CEW RECERTIFICATION"
 				},
@@ -134453,7 +134557,7 @@
 				},
 				{
 					"date": "5/21/2019",
-					"name": "RMB FAIR AND IMPARTIAL POLICING - ALL POS AND DETS"
+					"name": "CPS FAIR AND IMPARTIAL POLICING - ALL POS AND DETS"
 				},
 				{
 					"date": "5/16/2019",
@@ -134609,6 +134713,22 @@
 				},
 				{
 					"date": "12/28/2017",
+					"name": "CPS INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 1"
+				},
+				{
+					"date": "12/28/2017",
+					"name": "CPS INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 2"
+				},
+				{
+					"date": "12/28/2017",
+					"name": "CPS INTERIOR PATROL TRESPASS AFFIDAVIT PROGRAM (TAP) VIDEO 1"
+				},
+				{
+					"date": "12/28/2017",
+					"name": "CPS INTERIOR PATROL TRESPASS AFFIDAVIT PROGRAM (TAP) VIDEO 2"
+				},
+				{
+					"date": "12/28/2017",
 					"name": "DAS PATTERN MODE"
 				},
 				{
@@ -134642,18 +134762,6 @@
 				{
 					"date": "12/28/2017",
 					"name": "POLICE COMMISSIONER MESSAGE- NYC GIVES"
-				},
-				{
-					"date": "12/28/2017",
-					"name": "RMB INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 1"
-				},
-				{
-					"date": "12/28/2017",
-					"name": "RMB INTERIOR PATROL OF HOUSING AUTHORITY BUILDINGS, PG 212-60 ROLL CALL VIDEO 2"
-				},
-				{
-					"date": "12/28/2017",
-					"name": "RMB INTERIOR PATROL OF MULTIPLE DWELLING BUILDINGS ENROLLED IN THE TRESPASS AFFIDAVIT PROGRAM (TAP),"
 				},
 				{
 					"date": "12/26/2017",
