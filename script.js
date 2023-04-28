@@ -145,7 +145,7 @@ function parseList(data) {
       { field: 'arrest_count',      id: 'c10b2ff4-08a6-45f6-ab18-c6d06e6f43b2' }
     ]
     map.forEach(entry => {
-      let value = columns.find(cell => cell.Id === entry.id).Value
+      let value = columns.find(cell => cell.Id === entry.id)?.Value
       if (value) {
         value = value.trim()
         if (entry.field.endsWith('_count')) {
@@ -154,8 +154,8 @@ function parseList(data) {
         if (entry.field.endsWith('_date')) {
           value = value.split(' ')[0].trim()
         }
+        officer[entry.field] = value
       }
-      officer[entry.field] = value
     })
 
     const last_name = officer.full_name.split(',')[0].trim()
@@ -211,18 +211,23 @@ async function getOfficer({ officer }) {
   try {
     officer.reports.summary = parseSummary(allReports[0])
 
+    // command was removed from list,
+    // but copy it from summary for backward compatabilty
+    if (!officer.command && officer.reports.summary?.command) {
+      officer.command = officer.reports.summary.command
+    }
     if (!officer.reports.summary) {
       officersRetry.set(officer.taxid, officer)
       console.error(`${officer.full_name} missing summary`)
     }
 
     officer.reports.ranks = parseRanks(allReports[1])
+
     // should not be empty but persists
-    //
-    // if (!officer.reports.ranks || officer.reports.ranks.length == 0) {
-    //   console.error(`empty ranks ${officer.full_name}`)
-    //   officersRetry.set(officer.taxid, officer)
-    // }
+    if (!officer.reports.ranks || officer.reports.ranks.length == 0) {
+      // console.error(`empty ranks ${officer.full_name}`)
+      officersRetry.set(officer.taxid, officer)
+    }
 
     officer.reports.documents = parseDocuments(allReports[2])
 
