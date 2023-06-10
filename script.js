@@ -315,6 +315,14 @@ function parseRanks(data) {
   return ranks
 }
 
+function correctDocUrl(url) {
+  if (url.startsWith('https://oip-admin.nypdonline.local/')) {
+    return url.replace('https://oip-admin.nypdonline.local/', 'https://oip.nypdonline.org/')
+  } else {
+    return 'https://oip.nypdonline.org' + url
+  }
+}
+
 function parseDocuments(data) {
   if (!validData(data)) return
   let documents = data.map(document => {
@@ -329,7 +337,7 @@ function parseDocuments(data) {
         // day:   '81b47568-2508-4b0a-b106-72c1ffe521b1',
       }
     })
-    entry.url = 'https://oip.nypdonline.org' + entry.url.split('"')[1]
+    entry.url = correctDocUrl(entry.url.split('"')[1])
     return entry
   })
   documents.sort(sortDocuments)
@@ -588,7 +596,7 @@ async function scrapeTrialDecisions() {
         url: '0be5eacf-3870-4351-aa42-439067baadbe',
       },
     })
-    doc.url = 'https://oip.nypdonline.org' + doc.url.match(/<a href="([^"]+)"/)[1]
+    doc.url = correctDocUrl(doc.url.match(/<a href="([^"]+)"/)[1])
 
     const nameCol = row.Columns.find(item => item.Id === 'aa970ef7-62f1-4d89-bcb8-5078017ee41a')
     let taxids = []
