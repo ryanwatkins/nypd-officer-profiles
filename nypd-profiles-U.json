@@ -60670,6 +60670,10 @@
 			},
 			"training": [
 				{
+					"date": "7/11/2023",
+					"name": "CLT-SPECIAL POPULATIONS"
+				},
+				{
 					"date": "6/15/2023",
 					"name": "CLT-SPECIAL POPULATIONS"
 				},
@@ -80773,7 +80777,7 @@
 		"shield_no": "28469",
 		"appt_date": "1/6/2020",
 		"recognition_count": 1,
-		"arrest_count": 54,
+		"arrest_count": 55,
 		"reports": {
 			"summary": {
 				"command": "110 PRECINCT",
@@ -107123,7 +107127,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "8/21/2018 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "268-DET SQD. BX-045",
+							"case_no": "2018-19351",
+							"description": "WHILE OFF-DUTY, FAIL TO PROPERLY SAFEGURAD HIS FIREARM.",
+							"penalty": "VACATION DAYS (25 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "268-DET SQD. BX-045",
+							"case_no": "2018-19351",
+							"description": "AFTER BEING INVOLVED IN AN UNUSUAL POLICE OCCURRENCE, FAIL TO NOTIFY THE OPERATIONS UNIT.",
+							"penalty": "VACATION DAYS (25 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 123,
@@ -136734,8 +136759,8 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "5405",
 		"appt_date": "7/1/2004",
-		"recognition_count": 2,
-		"arrest_count": 1262,
+		"recognition_count": 1,
+		"arrest_count": 631,
 		"reports": {
 			"summary": {
 				"command": "OPERATIONS & ANALYSIS SECTION",
