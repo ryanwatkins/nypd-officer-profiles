@@ -26135,7 +26135,7 @@
 		"shield_no": "4821",
 		"appt_date": "10/12/2021",
 		"recognition_count": 0,
-		"arrest_count": 2,
+		"arrest_count": 3,
 		"reports": {
 			"summary": {
 				"command": "TB SPECIAL OPERATIONS DISTRICT",
@@ -68984,7 +68984,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "8/9/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-26236",
+							"description": "01.Failed to timely activate their body worn camera."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 63,
@@ -68992,6 +69004,10 @@
 				"violation": 14
 			},
 			"training": [
+				{
+					"date": "7/12/2023",
+					"name": "TRAFFIC COURT TESTIMONY VIDEO"
+				},
 				{
 					"date": "5/19/2023",
 					"name": "2023 EQUAL EMPLOYMENT OPPORTUNITY TRAINING-SEXUAL HARASSMENT AWARENESS AND PREVENTION"
@@ -114110,7 +114126,7 @@
 		"shield_no": "28576",
 		"appt_date": "1/7/2008",
 		"recognition_count": 0,
-		"arrest_count": 86,
+		"arrest_count": 43,
 		"reports": {
 			"summary": {
 				"command": "UNIFORMED OPERATIONS UNIT",
@@ -114130,11 +114146,15 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 12,
-				"misdemeanor": 68,
-				"violation": 6
+				"felony": 6,
+				"misdemeanor": 34,
+				"violation": 3
 			},
 			"training": [
+				{
+					"date": "7/9/2023",
+					"name": "TRAFFIC COURT TESTIMONY VIDEO"
+				},
 				{
 					"date": "5/22/2023",
 					"name": "INVESTIGATIVE ENCOUNTERS 2023: MODULE 4 SQF LEVELS 2, 3 AND 4"
@@ -121085,7 +121105,7 @@
 		"shield_no": "20097",
 		"appt_date": "1/10/2005",
 		"recognition_count": 0,
-		"arrest_count": 381,
+		"arrest_count": 382,
 		"reports": {
 			"summary": {
 				"command": "028 PRECINCT",
@@ -142928,7 +142948,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "7/2/2019 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "574-WORLD TRADE CENTER COMMAND",
+							"case_no": "2019-20500",
+							"description": "WRONGFULLY ALLOWED HIS RESIDENTIAL ADDRESS TO BE USED BY ANOTHER AS HIS RESIDENTIAL ADDRESS, THEREBY CAUSING INACCURATE ENTRIES IN DEPARTMENT RECORDS.",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 3,
 				"misdemeanor": 164,
@@ -148118,12 +148152,16 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 118,
+				"felony": 120,
 				"misdemeanor": 152,
 				"other": 1,
 				"violation": 37
 			},
 			"training": [
+				{
+					"date": "7/11/2023",
+					"name": "DASHBOARD CAMERA FOR NEIGHBORHOOD SAFETY TEAMS"
+				},
 				{
 					"date": "5/23/2023",
 					"name": "INVESTIGATIVE ENCOUNTERS 2023: MODULE 4 SQF LEVELS 2, 3 AND 4"
