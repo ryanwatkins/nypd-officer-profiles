@@ -1563,7 +1563,7 @@
 		"shield_no": "3466",
 		"appt_date": "7/2/2001",
 		"recognition_count": 7,
-		"arrest_count": 304,
+		"arrest_count": 305,
 		"reports": {
 			"summary": {
 				"command": "020 DET SQUAD",
@@ -1595,7 +1595,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 73,
+				"felony": 74,
 				"misdemeanor": 223,
 				"violation": 6
 			},
@@ -40415,6 +40415,10 @@
 			},
 			"training": [
 				{
+					"date": "9/22/2023",
+					"name": "CLT-PROCEDURAL OPERATIONS"
+				},
+				{
 					"date": "8/30/2023",
 					"name": "NYPD JOUVERT AND WEST INDIAN DAY-2023"
 				},
@@ -59952,7 +59956,28 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "11/1/2017 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "318-INTELL-CRIM. SECT. (DORMANT)",
+							"case_no": "2017-18149",
+							"description": "FAILED TO SUPERVISE MEMBERS OF THE SERVICE BY LEAVING MEMBERS ALONE DURING THE EXECUTION OF A SEARCH WARRANT.",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "318-INTELL-CRIM. SECT. (DORMANT)",
+							"case_no": "2017-18149",
+							"description": "CONDUCTED AN IMPROPER SEARCH INSIDE A BEDROOM BY OPENING A BLACK BOX CONTAINING A PISTOL WITHUT LEGAL AUTHORITY.",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 47,
 				"misdemeanor": 61,
@@ -70415,7 +70440,7 @@
 		"shield_no": "7970",
 		"appt_date": "7/2/2018",
 		"recognition_count": 1,
-		"arrest_count": 43,
+		"arrest_count": 45,
 		"reports": {
 			"summary": {
 				"command": "061 PRECINCT",
@@ -70436,7 +70461,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 10,
-				"misdemeanor": 32,
+				"misdemeanor": 34,
 				"violation": 1
 			},
 			"training": [
@@ -95595,7 +95620,7 @@
 		"shield_no": "4572",
 		"appt_date": "2/28/1994",
 		"recognition_count": 0,
-		"arrest_count": 4,
+		"arrest_count": 2,
 		"reports": {
 			"summary": {
 				"command": "OPERATIONS & ANALYSIS SECTION",
