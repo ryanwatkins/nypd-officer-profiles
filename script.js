@@ -33,8 +33,8 @@ let headers = {
   'Sec-Fetch-Dest': 'empty',
   'Sec-Fetch-Mode': 'cors',
   'Sec-Fetch-Site': 'same-origin',
-  'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
-  'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+  'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+  'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
   'sec-ch-ua-mobile': '?0',
   'sec-ch-ua-platform': '"macOS"',
   'Pragma': 'no-cache'
@@ -63,7 +63,7 @@ async function getCookie() {
       return `user=${result.access_token}`
     } catch(e) {
       console.info('retrying cookie fetch ...')
-      await delay(60 * 1000 * i)
+      await delay(30 * 1000 * i)
       error = e
     }
   }
@@ -204,7 +204,7 @@ async function getOfficer({ officer }) {
       scheduleFetch({ url: reportList.awards, options })
     ])
   } catch(e) {
-    console.error(`fetching reports failed ${officer.full_name}`)
+    console.error(`fetching reports failed ${officer.full_name} ${officer.taxid}`)
     officersRetry.set(officer.taxid, officer)
   }
 
@@ -218,14 +218,13 @@ async function getOfficer({ officer }) {
     }
     if (!officer.reports.summary) {
       officersRetry.set(officer.taxid, officer)
-      console.error(`${officer.full_name} missing summary`)
+      console.error(`${officer.full_name} ${officer.taxid} missing summary`)
     }
 
     officer.reports.ranks = parseRanks(allReports[1])
 
-    // should not be empty but persists
+    // should not be empty
     if (!officer.reports.ranks || officer.reports.ranks.length == 0) {
-      // console.error(`empty ranks ${officer.full_name}`)
       officersRetry.set(officer.taxid, officer)
     }
 
@@ -241,25 +240,28 @@ async function getOfficer({ officer }) {
     officer.reports.arrests = parseArrests(allReports[4])
 
     officer.reports.training = parseTraining(allReports[5])
-    // should not be empty but persists
+
+    // should not be empty and officer often has previous data in a previous run
+    // retry doesnt seem to fix it
     //
-    // if (!officer.reports.training || officer.reports.training.length == 0) {
-    //   console.error(`empty training ${officer.full_name}`)
-    //   officersRetry.set(officer.taxid, officer)
-    // }
+    if (!officer.reports.training || officer.reports.training.length == 0) {
+      console.error(`empty training ${officer.full_name} ${officer.taxid}`)
+      officersRetry.set(officer.taxid, officer)
+    }
 
     officer.reports.awards = parseAwards(allReports[6])
   } catch(e) {
     officersRetry.set(officer.taxid, officer)
-    console.error(`parsing reports failed ${officer.full_name}`)
+    console.error(`parsing reports failed ${officer.full_name} ${officer.taxid}`)
   }
 
+  // console.info(`${officer.full_name} ${officer.taxid}`)
   return officer
 }
 
 async function getDiscipline({ options, taxid, discipline, officer }) {
   if (!discipline) {
-    console.error('no discipline for charges')
+    console.error(`no discipline for charges ${officer.full_name} ${officer.taxid}`)
     return []
   }
   let disciplineEntries = []
@@ -270,15 +272,25 @@ async function getDiscipline({ options, taxid, discipline, officer }) {
     try {
       if (entry.charges_count) {
         result = await scheduleFetch({ url: reportList.charges, options: { ...options, body } })
-        entry.charges = parseDisciplineCharge(result, entry)
+        entry.charges = parseDisciplineCharges(result, entry)
       }
       if (entry.allegations_count) {
         result = await scheduleFetch({ url: reportList.allegations, options: { ...options, body } })
-        entry.allegations = parseDisciplineAllegation(result, entry)
+        entry.allegations = parseDisciplineAllegations(result, entry)
       }
+
+      if (entry.charges_count !== entry.charges?.length) {
+        console.info(`mismatch charges count ${officer.full_name} ${officer.taxid}`, entry)
+        officersRetry.set(taxid, officer)
+      }
+      if (entry.allegations_count !== entry.allegations?.length) {
+        console.info(`mismatch allegations count ${officer.full_name} ${officer.taxid}`, entry)
+        officersRetry.set(taxid, officer)
+      }
+
       disciplineEntries.push(entry)
     } catch(e) {
-      console.error('invalid discipline charges/allegations')
+      console.error(`invalid discipline charges/allegations for ${officer.full_name} ${officer.taxid}`, e)
       officersRetry.set(taxid, officer)
     }
   }
@@ -361,20 +373,15 @@ function parseDiscipline(data) {
   })
 }
 
-function parseDisciplineCharge(data) {
+function parseDisciplineCharges(data) {
   if (!validData(data)) return
-  return data.map(charge => {
+
+  let charges = data.map(charge => {
     if (!charge.GroupName.match('Penalty:')) {
       console.error('no penalty in penalty')
     }
     const group = charge.GroupName.split('Penalty:')
-    let penalty = group[1].trim()
-
-    // cleanup formatting in penalty
-    penalty = penalty.replace(/&nbsp;/g, ' ')
-    penalty = penalty.replace(/<i>/g, '')
-    penalty = penalty.replace(/<\/div>/g, '')
-    penalty = penalty.replace(/<\/i>/g, '')
+    let penalty = cleanPenalty(group?.[1])
 
     let entry = findValues({
       items: charge.Columns,
@@ -390,19 +397,16 @@ function parseDisciplineCharge(data) {
     }
     return entry
   })
+
+  return charges
 }
 
-function parseDisciplineAllegation(data) {
-  let allegations = data.map(allegation => {
+function parseDisciplineAllegations(data) {
+  if (!validData(data)) return
 
+  let allegations = data.map(allegation => {
     const group = allegation.GroupName.split('Penalty:')
-    let penalty = group?.[1]?.trim()
-    if (penalty) {
-      penalty = penalty.replace(/&nbsp;/g, ' ')
-      penalty = penalty.replace(/<i>/g, '')
-      penalty = penalty.replace(/<\/div>/g, '')
-      penalty = penalty.replace(/<\/i>/g, '')
-    }
+    let penalty = cleanPenalty(group?.[1])
 
     let entry = findValues({
       items: allegation.Columns,
@@ -418,6 +422,7 @@ function parseDisciplineAllegation(data) {
     }
     return entry
   })
+
   return allegations
 }
 
@@ -471,6 +476,18 @@ function validData(data) {
   if (!data) return false
   if (!Array.isArray(data)) return false
   return true
+}
+
+function cleanPenalty(penalty) {
+  if (penalty) {
+    penalty = penalty.trim()
+    penalty = penalty.replace(/&nbsp;/g, ' ')
+    penalty = penalty.replace(/<i>/g, '')
+    penalty = penalty.replace(/<\/div>/g, '')
+    penalty = penalty.replace(/<\/i>/g, '')
+  }
+
+  return penalty
 }
 
 function findValues({ items, map }) {
