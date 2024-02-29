@@ -33,8 +33,8 @@ let headers = {
   'Sec-Fetch-Dest': 'empty',
   'Sec-Fetch-Mode': 'cors',
   'Sec-Fetch-Site': 'same-origin',
-  'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-  'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
+  'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'sec-ch-ua': '"Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"',
   'sec-ch-ua-mobile': '?0',
   'sec-ch-ua-platform': '"macOS"',
   'Pragma': 'no-cache'
@@ -586,9 +586,29 @@ function getListQuery({ letter, page }) {
 
 async function saveProfiles({ letter, officers }) {
   officers.sort(sortByOfficerName)
+
+  let training = officers.map(officer => {
+    const entry = {
+      taxid: officer.taxid,
+      full_name: officer.full_name,
+      training: officer.reports?.training || []
+    }
+    return entry
+  })
+
   const file = `nypd-profiles-${letter}.json`
-  const data = JSON.stringify(officers, null, '\t')
+  const data = JSON.stringify(officers.map(o => {
+    delete o.reports?.training
+    return o
+  }), null, '\t')
   await fs.writeFile(file, data)
+
+  let index = 1
+  while (training.length) {
+    const slice = training.splice(0,1000)
+    fs.writeFile(`nypd-profiles-${letter}-training-${index}.json`, JSON.stringify(slice, null, '\t'))
+    index++
+  }
 }
 
 // Scrape trial decision docs from https://oip.nypdonline.org/view/1006///%7B%22hideMobileMenu%22:true%7D/true/true

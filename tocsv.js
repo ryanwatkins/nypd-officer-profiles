@@ -3,9 +3,28 @@
 import { promises as fs } from 'fs'
 import * as d3 from 'd3';
 
-async function loadFile({ letter }) {
-  const json = await fs.readFile(`nypd-profiles-${letter}.json`)
-  const profiles = JSON.parse(json)
+async function loadFile({ letter, reports }) {
+  let json = await fs.readFile(`nypd-profiles-${letter}.json`)
+  let profiles = JSON.parse(json)
+
+  if (reports.includes('training')) {
+    let files = await fs.readdir('.')
+    files = files.filter(f => f.startsWith(`nypd-profiles-${letter}-training-`))
+    for (const file of files) {
+      json = await fs.readFile(file)
+      const training = JSON.parse(json)
+      profiles = profiles.map(profile => {
+        const entry = training.find(t => (t.taxid == profile.taxid))
+        if (entry && entry.training.length) {
+          const reports = profile.reports || {}
+          reports.training = entry.training
+          profile.reports = reports
+        }
+        return profile
+      })
+    }
+  }
+
   return profiles
 }
 
@@ -88,7 +107,7 @@ async function start() {
     let results = []
 
     for await (let letter of letters) {
-      const profiles = await loadFile({ letter })
+      const profiles = await loadFile({ letter, reports })
 
       if (report === 'officers') {
         results = results.concat(getOfficers({ profiles }))
