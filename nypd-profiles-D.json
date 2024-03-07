@@ -2725,7 +2725,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 125,
+				"felony": 129,
 				"misdemeanor": 158,
 				"violation": 8
 			},
@@ -7897,8 +7897,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 23,
-				"misdemeanor": 61,
+				"felony": 25,
+				"misdemeanor": 62,
 				"violation": 9
 			},
 			"awards": [
@@ -10287,10 +10287,23 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "2/6/2024 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2023-29008",
+							"description": "01.Wrongfully searched a vehicle.",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (3 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 5,
-				"felony": 68,
+				"felony": 70,
 				"misdemeanor": 60,
 				"violation": 5
 			},
@@ -17365,7 +17378,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 189,
+				"felony": 190,
 				"misdemeanor": 344,
 				"violation": 28
 			},
@@ -17445,7 +17458,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 51,
+				"felony": 52,
 				"misdemeanor": 168,
 				"violation": 25
 			},
@@ -24651,7 +24664,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 58,
+				"misdemeanor": 59,
 				"violation": 36
 			},
 			"awards": []
@@ -25521,6 +25534,11 @@
 					"rank": "SERGEANT",
 					"date": "8/30/2019",
 					"shield_no": "5524"
+				},
+				{
+					"rank": "LIEUTENANT",
+					"date": "2/23/2024",
+					"shield_no": ""
 				}
 			],
 			"documents": [],
@@ -31162,8 +31180,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 5,
-				"misdemeanor": 25
+				"felony": 7,
+				"misdemeanor": 26
 			},
 			"awards": [
 				{
@@ -31687,11 +31705,19 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 61,
+				"felony": 62,
 				"misdemeanor": 199,
 				"violation": 24
 			},
 			"awards": [
+				{
+					"date": "9/2/2023",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "6/3/2023",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "6/20/2021",
 					"name": "EXCELLENT POLICE DUTY"
@@ -34039,7 +34065,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 7,
-				"misdemeanor": 41,
+				"misdemeanor": 42,
 				"violation": 7
 			},
 			"awards": []
@@ -45066,8 +45092,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 182,
-				"misdemeanor": 116,
+				"felony": 188,
+				"misdemeanor": 121,
 				"violation": 14
 			},
 			"awards": [
@@ -50629,8 +50655,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 181,
-				"misdemeanor": 195,
+				"felony": 185,
+				"misdemeanor": 197,
 				"other": 1
 			},
 			"awards": [
@@ -52655,7 +52681,7 @@
 			"arrests": {
 				"infraction": 5,
 				"felony": 14,
-				"misdemeanor": 54,
+				"misdemeanor": 55,
 				"violation": 8
 			},
 			"awards": [
@@ -73504,7 +73530,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 81,
-				"misdemeanor": 147,
+				"misdemeanor": 150,
 				"violation": 1
 			},
 			"awards": [
@@ -80001,8 +80027,8 @@
 			],
 			"arrests": {
 				"infraction": 6,
-				"felony": 120,
-				"misdemeanor": 167,
+				"felony": 121,
+				"misdemeanor": 168,
 				"violation": 3
 			},
 			"awards": [
@@ -80055,7 +80081,7 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "10/16/2019",
+					"date": "10/6/2019",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -80072,10 +80098,6 @@
 				},
 				{
 					"date": "9/26/2018",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "9/5/2018",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -80104,10 +80126,6 @@
 				},
 				{
 					"date": "6/30/2017",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "11/3/2016",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -83030,21 +83048,35 @@
 			"discipline": [
 				{
 					"entry": "10/29/2015 12:00:00 AM",
-					"charges_count": 2,
+					"charges_count": 4,
 					"charges": [
 						{
 							"disposition": "PLEADED GUILTY",
 							"command": "113-113 PRECINCT",
 							"case_no": "2015-14503",
 							"description": "WHILE OFF-DUTY, CONDUCTED AN INDEPENDENT INVESTIGATION INTO A CRIMINAL MATTER, BY ENTERING A LOCATION KNOWN TO THE DEPARTMENT, REQUESTED SURVEILLANCE FOOTAGE AND REQUESTED TO SPEAK TO AN EMPLOYEE WHO TRANSLATED FOR THE APPREHENDED INDIVIDUAL.",
-							"penalty": "VACATION DAYS (20 day(s) )"
+							"penalty": "VACATION DAYS (20 day(s) ), VACATION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "113-113 PRECINCT",
+							"case_no": "2015-14503",
+							"description": "WHILE OFF-DUTY, CONDUCTED AN INDEPENDENT INVESTIGATION INTO A CRIMINAL MATTER, BY ENTERING A LOCATION KNOWN TO THE DEPARTMENT, REQUESTED SURVEILLANCE FOOTAGE AND REQUESTED TO SPEAK TO AN EMPLOYEE WHO TRANSLATED FOR THE APPREHENDED INDIVIDUAL.",
+							"penalty": "VACATION DAYS (20 day(s) ), VACATION DAYS (20 day(s) )"
 						},
 						{
 							"disposition": "PLEADED GUILTY",
 							"command": "113-113 PRECINCT",
 							"case_no": "2015-14503",
 							"description": "WHILE OFF-DUTY, WRONGFULLY REPRESENTED HIMSELF AS AN NYPD DETECTIVE AND ENTERED A LOCATION KNOWN TO THE DEPARTMENT STATING THAT HE WAS ASSIGNED TO INVESTIGATE A CRIME THAT TOOK PLACE.",
-							"penalty": "VACATION DAYS (20 day(s) )"
+							"penalty": "VACATION DAYS (20 day(s) ), VACATION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "113-113 PRECINCT",
+							"case_no": "2015-14503",
+							"description": "WHILE OFF-DUTY, WRONGFULLY REPRESENTED HIMSELF AS AN NYPD DETECTIVE AND ENTERED A LOCATION KNOWN TO THE DEPARTMENT STATING THAT HE WAS ASSIGNED TO INVESTIGATE A CRIME THAT TOOK PLACE.",
+							"penalty": "VACATION DAYS (20 day(s) ), VACATION DAYS (20 day(s) )"
 						}
 					]
 				}
@@ -83951,8 +83983,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 84,
-				"misdemeanor": 103,
+				"felony": 86,
+				"misdemeanor": 107,
 				"other": 1
 			},
 			"awards": [
@@ -86896,6 +86928,11 @@
 							"recommendation": "OTHER",
 							"case_no": "2022-26129",
 							"description": "01.Failed to make required entries in Department Logs."
+						},
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-26129",
+							"description": "01.Failed to make required entries in Department Logs."
 						}
 					]
 				},
@@ -86907,17 +86944,26 @@
 							"recommendation": "CHARGES AND SPECIFICATIONS",
 							"case_no": "2022-26128",
 							"description": "01.Failed to obtain medical treatment."
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-26128",
+							"description": "01.Failed to obtain medical treatment."
 						}
 					]
 				}
 			],
 			"arrests": {
-				"infraction": 2,
-				"felony": 179,
-				"misdemeanor": 58,
-				"violation": 21
+				"infraction": 4,
+				"felony": 362,
+				"misdemeanor": 116,
+				"violation": 42
 			},
 			"awards": [
+				{
+					"date": "3/19/2020",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
 				{
 					"date": "3/19/2020",
 					"name": "MERITORIOUS POLICE DUTY"
@@ -86928,6 +86974,18 @@
 				},
 				{
 					"date": "3/18/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "3/18/2020",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "3/18/2020",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "3/7/2020",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -86939,7 +86997,19 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "1/1/2020",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "11/22/2019",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "11/22/2019",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "9/12/2019",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -86951,6 +87021,14 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "8/6/2019",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "7/21/2019",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "7/21/2019",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
@@ -86959,7 +87037,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "7/13/2019",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "5/15/2019",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "5/15/2019",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "4/4/2019",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -86971,12 +87061,28 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "12/27/2018",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "12/20/2018",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "12/20/2018",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
 					"date": "10/28/2018",
 					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "10/28/2018",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "2/11/2017",
+					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "2/11/2017",
@@ -92270,6 +92376,11 @@
 					"rank": "SERGEANT",
 					"date": "3/27/2018",
 					"shield_no": "1294"
+				},
+				{
+					"rank": "LIEUTENANT",
+					"date": "2/23/2024",
+					"shield_no": ""
 				}
 			],
 			"documents": [],

@@ -698,8 +698,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 123,
-				"misdemeanor": 115,
+				"felony": 124,
+				"misdemeanor": 116,
 				"other": 1,
 				"violation": 5
 			},
@@ -4881,7 +4881,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 3,
-				"felony": 9,
+				"felony": 10,
 				"misdemeanor": 24,
 				"violation": 6
 			},
@@ -5425,7 +5425,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 81,
-				"misdemeanor": 164,
+				"misdemeanor": 166,
 				"other": 1,
 				"violation": 3
 			},
@@ -5650,7 +5650,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 47,
+				"felony": 49,
 				"misdemeanor": 63,
 				"violation": 3
 			},
@@ -12929,7 +12929,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "2/6/2024 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2023-29646",
+							"description": "01.Wrongfully threatened to damage property."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 10,
 				"misdemeanor": 47
@@ -20359,11 +20371,7 @@
 			],
 			"documents": [],
 			"discipline": [],
-			"arrests": {
-				"felony": 46,
-				"misdemeanor": 78,
-				"violation": 7
-			},
+			"arrests": {},
 			"awards": [
 				{
 					"date": "1/8/2021",
@@ -33414,7 +33422,7 @@
 			"arrests": {
 				"infraction": 11,
 				"felony": 28,
-				"misdemeanor": 121,
+				"misdemeanor": 124,
 				"violation": 5
 			},
 			"awards": [
@@ -37521,7 +37529,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 21,
-				"misdemeanor": 50,
+				"misdemeanor": 51,
 				"violation": 6
 			},
 			"awards": [
@@ -37614,7 +37622,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 47,
+				"felony": 50,
 				"misdemeanor": 52,
 				"violation": 8
 			},
@@ -43066,8 +43074,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 8,
-				"felony": 82,
-				"misdemeanor": 54,
+				"felony": 86,
+				"misdemeanor": 56,
 				"violation": 4
 			},
 			"awards": [
@@ -44887,11 +44895,15 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1,
-				"misdemeanor": 71,
-				"violation": 33
+				"felony": 2,
+				"misdemeanor": 142,
+				"violation": 66
 			},
 			"awards": [
+				{
+					"date": "3/29/2015",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "3/29/2015",
 					"name": "EXCELLENT POLICE DUTY"
@@ -48671,6 +48683,11 @@
 					"rank": "SERGEANT",
 					"date": "5/3/2019",
 					"shield_no": "4924"
+				},
+				{
+					"rank": "LIEUTENANT",
+					"date": "2/23/2024",
+					"shield_no": ""
 				}
 			],
 			"documents": [],
