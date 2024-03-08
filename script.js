@@ -623,6 +623,11 @@ async function scrapeTrialDecisions() {
     options: { method: 'GET', headers },
   })
 
+  if (!result?.length) {
+    console.error('error fetching trial decisions')
+    return
+  }
+
   let data = []
   for (const row of result) {
     let doc = findValues({
