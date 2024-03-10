@@ -144,7 +144,7 @@
 		"shield_no": "4652",
 		"appt_date": "12/29/2020",
 		"recognition_count": 0,
-		"arrest_count": 53,
+		"arrest_count": 59,
 		"reports": {
 			"summary": {
 				"command": "044 PRECINCT",
@@ -257,7 +257,7 @@
 		"shield_no": "4036",
 		"appt_date": "12/29/2020",
 		"recognition_count": 0,
-		"arrest_count": 35,
+		"arrest_count": 40,
 		"reports": {
 			"summary": {
 				"command": "060 PRECINCT",
@@ -449,7 +449,7 @@
 		"shield_no": "22783",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 25,
+		"arrest_count": 26,
 		"reports": {
 			"summary": {
 				"command": "024 PRECINCT",
@@ -470,7 +470,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 21
+				"misdemeanor": 22
 			},
 			"awards": []
 		},
@@ -676,7 +676,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 4
+				"misdemeanor": 5
 			},
 			"awards": []
 		},
@@ -747,9 +747,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/20/2022 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2020-22835",
+							"description": "01.refused to provide name",
+							"penalty": "A - COMMAND DISCIPLINE, TRAINING"
+						},
+						{
+							"recommendation": "A-CD",
+							"case_no": "2020-22835",
+							"description": "02.refused to provide shield number",
+							"penalty": "A - COMMAND DISCIPLINE, TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
-				"felony": 4,
+				"felony": 5,
 				"misdemeanor": 12
 			},
 			"awards": []
@@ -920,7 +939,7 @@
 		"shield_no": "4607",
 		"appt_date": "12/29/2020",
 		"recognition_count": 0,
-		"arrest_count": 26,
+		"arrest_count": 29,
 		"reports": {
 			"summary": {
 				"command": "041 PRECINCT",
@@ -1261,7 +1280,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 43,
+				"felony": 44,
 				"misdemeanor": 36
 			},
 			"awards": []
@@ -1608,8 +1627,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 6,
-				"misdemeanor": 33
+				"felony": 7,
+				"misdemeanor": 35
 			},
 			"awards": [
 				{
@@ -2075,7 +2094,7 @@
 		"shield_no": "7309",
 		"appt_date": "4/12/2017",
 		"recognition_count": 1,
-		"arrest_count": 82,
+		"arrest_count": 87,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 7",
@@ -2095,8 +2114,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 29,
-				"misdemeanor": 52,
+				"felony": 30,
+				"misdemeanor": 56,
 				"violation": 1
 			},
 			"awards": [
@@ -2404,7 +2423,7 @@
 		"reports": {
 			"summary": {
 				"command": "DET BORO MANHATTAN NORTH",
-				"assignment_date": "1/16/2023",
+				"assignment_date": "3/4/2024",
 				"ethnicity": "BLACK",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "2658",
@@ -3704,7 +3723,7 @@
 		"shield_no": "25758",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 15,
+		"arrest_count": 16,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 7",
@@ -3724,7 +3743,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 8,
+				"felony": 9,
 				"misdemeanor": 7
 			},
 			"awards": []
@@ -3926,7 +3945,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 19
+				"misdemeanor": 20
 			},
 			"awards": []
 		},
@@ -4098,7 +4117,7 @@
 		"shield_no": "24715",
 		"appt_date": "10/11/2016",
 		"recognition_count": 0,
-		"arrest_count": 131,
+		"arrest_count": 132,
 		"reports": {
 			"summary": {
 				"command": "043 PRECINCT",
@@ -4508,8 +4527,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 44,
-				"misdemeanor": 177
+				"felony": 48,
+				"misdemeanor": 179
 			},
 			"awards": [
 				{
@@ -5629,10 +5648,50 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "12/5/2022 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-25297",
+							"description": "01.Wrongful removal to a hospital."
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-25297",
+							"description": "02.Wrongfully used physical force."
+						}
+					]
+				},
+				{
+					"entry": "2/23/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-25387",
+							"description": "01.Failed to prepare required reports."
+						}
+					]
+				},
+				{
+					"entry": "1/2/2024 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2023-28577",
+							"description": "01.Wrongful entry of a premises.",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
-				"felony": 11,
-				"misdemeanor": 22
+				"felony": 12,
+				"misdemeanor": 24
 			},
 			"awards": [
 				{

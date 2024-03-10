@@ -552,7 +552,7 @@
 		"shield_no": "20881",
 		"appt_date": "12/29/2020",
 		"recognition_count": 0,
-		"arrest_count": 30,
+		"arrest_count": 33,
 		"reports": {
 			"summary": {
 				"command": "108 PRECINCT",
@@ -1198,9 +1198,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "11/8/2023 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2023-28535",
+							"description": "01.failed to activate BWC",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (3 day(s) )"
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2023-28535",
+							"description": "02.failed to prepare activity logs",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (3 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
-				"felony": 1,
+				"felony": 3,
 				"misdemeanor": 8,
 				"violation": 1
 			},
@@ -1456,7 +1475,7 @@
 		"shield_no": "12399",
 		"appt_date": "12/29/2020",
 		"recognition_count": 0,
-		"arrest_count": 20,
+		"arrest_count": 21,
 		"reports": {
 			"summary": {
 				"command": "121 PRECINCT",
@@ -3430,7 +3449,7 @@
 		"shield_no": "24568",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 43,
+		"arrest_count": 86,
 		"reports": {
 			"summary": {
 				"command": "034 PRECINCT",
@@ -3827,8 +3846,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 30,
-				"misdemeanor": 41,
+				"felony": 31,
+				"misdemeanor": 42,
 				"violation": 1
 			},
 			"awards": [
@@ -3921,7 +3940,7 @@
 		"shield_no": "3909",
 		"appt_date": "7/13/2016",
 		"recognition_count": 3,
-		"arrest_count": 127,
+		"arrest_count": 129,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 7",
@@ -4269,7 +4288,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 20,
+				"misdemeanor": 21,
 				"violation": 6
 			},
 			"awards": [
@@ -5079,7 +5098,7 @@
 		"shield_no": "1378",
 		"appt_date": "12/29/2020",
 		"recognition_count": 0,
-		"arrest_count": 15,
+		"arrest_count": 17,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 2",
@@ -7012,9 +7031,31 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/15/2022 12:00:00 AM",
+					"allegations_count": 3,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2021-24207",
+							"description": "01.Wrongful entry of a premises."
+						},
+						{
+							"recommendation": "A-CD",
+							"case_no": "2021-24207",
+							"description": "02.Wrongful search of a premises."
+						},
+						{
+							"recommendation": "OTHER",
+							"case_no": "2021-24208",
+							"description": "01.Failed to timely activate body-worn camera.\r\nWrongfully deactivated body-worn camera."
+						}
+					]
+				}
+			],
 			"arrests": {
-				"felony": 43,
+				"felony": 44,
 				"misdemeanor": 45,
 				"violation": 1
 			},
@@ -8441,7 +8482,7 @@
 		"shield_no": "2430",
 		"appt_date": "12/29/2020",
 		"recognition_count": 0,
-		"arrest_count": 27,
+		"arrest_count": 29,
 		"reports": {
 			"summary": {
 				"command": "063 PRECINCT",
@@ -9830,8 +9871,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 29,
-				"misdemeanor": 41,
+				"felony": 30,
+				"misdemeanor": 43,
 				"violation": 3
 			},
 			"awards": [
@@ -10446,7 +10487,7 @@
 		"shield_no": "7892",
 		"appt_date": "12/29/2020",
 		"recognition_count": 0,
-		"arrest_count": 42,
+		"arrest_count": 51,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 20",
@@ -10698,7 +10739,7 @@
 		"shield_no": "3116",
 		"appt_date": "12/29/2020",
 		"recognition_count": 0,
-		"arrest_count": 29,
+		"arrest_count": 30,
 		"reports": {
 			"summary": {
 				"command": "018 PCT-MIDTOWN NO. PCT",
@@ -11113,7 +11154,7 @@
 		"shield_no": "4402",
 		"appt_date": "12/29/2020",
 		"recognition_count": 0,
-		"arrest_count": 19,
+		"arrest_count": 20,
 		"reports": {
 			"summary": {
 				"command": "007 PRECINCT",
@@ -11827,7 +11868,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 23,
+				"felony": 24,
 				"misdemeanor": 13
 			},
 			"awards": []
@@ -12590,8 +12631,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 19,
-				"misdemeanor": 35
+				"felony": 21,
+				"misdemeanor": 40
 			},
 			"awards": [
 				{
