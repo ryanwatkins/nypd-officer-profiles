@@ -92,7 +92,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 13,
-				"misdemeanor": 18
+				"misdemeanor": 21
 			},
 			"awards": [
 				{
@@ -529,7 +529,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 16,
+				"felony": 21,
 				"misdemeanor": 46,
 				"violation": 2
 			},
@@ -2890,7 +2890,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 54,
+				"felony": 57,
 				"misdemeanor": 49,
 				"violation": 1
 			},
@@ -6600,10 +6600,22 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "2/6/2024 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2023-29604",
+							"description": "01.Wrongfully discourteous to an individual known to the Department."
+						}
+					]
+				}
+			],
 			"arrests": {
-				"felony": 32,
-				"misdemeanor": 36
+				"felony": 33,
+				"misdemeanor": 38
 			},
 			"awards": []
 		},
@@ -9587,8 +9599,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 17,
-				"misdemeanor": 21
+				"felony": 36,
+				"misdemeanor": 42
 			},
 			"awards": []
 		},
@@ -10099,7 +10111,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
-				"misdemeanor": 3,
+				"misdemeanor": 4,
 				"violation": 1
 			},
 			"awards": []
@@ -12259,7 +12271,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 14,
-				"misdemeanor": 17
+				"misdemeanor": 20
 			},
 			"awards": []
 		},
@@ -12525,12 +12537,40 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 73,
-				"misdemeanor": 59
+				"felony": 81,
+				"misdemeanor": 60
 			},
 			"awards": [
 				{
+					"date": "8/30/2023",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/31/2023",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/23/2023",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/14/2023",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/2/2023",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/18/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "6/20/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "8/8/2021",
 					"name": "EXCELLENT POLICE DUTY"
 				}
 			]
