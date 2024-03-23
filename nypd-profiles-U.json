@@ -3213,8 +3213,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 21,
-				"misdemeanor": 47
+				"felony": 26,
+				"misdemeanor": 48
 			},
 			"awards": [
 				{
@@ -4634,9 +4634,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "10/18/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "NO DISCIPLINARY ACTION",
+							"case_no": "2023-28668",
+							"description": "01.Violated patrol rules - failed to provide a business card"
+						}
+					]
+				}
+			],
 			"arrests": {
-				"felony": 30,
+				"felony": 31,
 				"misdemeanor": 33
 			},
 			"awards": [

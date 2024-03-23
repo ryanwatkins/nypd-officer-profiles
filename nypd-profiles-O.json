@@ -3787,7 +3787,7 @@
 		"shield_no": "10712",
 		"appt_date": "8/31/1998",
 		"recognition_count": 0,
-		"arrest_count": 38,
+		"arrest_count": 76,
 		"reports": {
 			"summary": {
 				"command": "049 PRECINCT",
@@ -4336,7 +4336,7 @@
 		"shield_no": "2179",
 		"appt_date": "12/8/1997",
 		"recognition_count": 14,
-		"arrest_count": 609,
+		"arrest_count": 612,
 		"reports": {
 			"summary": {
 				"command": "120 DETECTIVE SQUAD",
@@ -6441,7 +6441,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "2/6/2024 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2023-29667",
+							"description": "01.Failed to prepare required reports."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 9,
 				"misdemeanor": 61,
@@ -8711,53 +8723,6 @@
 		"command": "GVSD Z1 VIOLENCE RED T/F"
 	},
 	{
-		"taxid": 921634,
-		"full_name": "OHARA, DENNIS D",
-		"first_name": "DENNIS",
-		"last_name": "OHARA",
-		"middle_initial": "D",
-		"rank": "POLICE OFFICER",
-		"shield_no": "11118",
-		"appt_date": "7/1/1998",
-		"recognition_count": 2,
-		"arrest_count": 59,
-		"reports": {
-			"summary": {
-				"command": "083 PRECINCT",
-				"assignment_date": "12/2/1999",
-				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "11118",
-				"appt_date": "7/1/1998"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/1/1998",
-					"shield_no": "11118"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 18,
-				"misdemeanor": 37,
-				"violation": 4
-			},
-			"awards": [
-				{
-					"date": "9/4/2015",
-					"name": "HONORABLE MENTION"
-				},
-				{
-					"date": "9/4/2015",
-					"name": "POLICE COMBAT CROSS"
-				}
-			]
-		},
-		"command": "083 PRECINCT"
-	},
-	{
 		"taxid": 970041,
 		"full_name": "OHARA, DENNIS J",
 		"first_name": "DENNIS",
@@ -9026,7 +8991,7 @@
 		"first_name": "ROBERT",
 		"last_name": "OHARE",
 		"middle_initial": "W",
-		"rank": "INSPECTOR",
+		"rank": "DEPUTY CHIEF",
 		"shield_no": "",
 		"appt_date": "7/10/1995",
 		"recognition_count": 0,
@@ -9036,7 +9001,7 @@
 				"command": "QAD STANDARDS & ASMT SEC",
 				"assignment_date": "1/27/2023",
 				"ethnicity": "WHITE",
-				"rank_desc": "INSPECTOR",
+				"rank_desc": "DEPUTY CHIEF",
 				"shield_no": "",
 				"appt_date": "7/10/1995"
 			},
@@ -9633,8 +9598,8 @@
 		"rank": "LT SPECIAL ASSIGN",
 		"shield_no": "",
 		"appt_date": "3/1/2000",
-		"recognition_count": 17,
-		"arrest_count": 316,
+		"recognition_count": 34,
+		"arrest_count": 632,
 		"reports": {
 			"summary": {
 				"command": "LOWER MANHATTAN SECURITY INITIATIVE",
@@ -13728,8 +13693,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 7,
-				"misdemeanor": 44,
+				"felony": 8,
+				"misdemeanor": 50,
 				"violation": 1
 			},
 			"awards": []
@@ -14136,7 +14101,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 81,
+				"felony": 82,
 				"misdemeanor": 175,
 				"violation": 1
 			},
@@ -17453,10 +17418,15 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 19,
-				"misdemeanor": 34,
+				"misdemeanor": 39,
 				"other": 1
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "6/15/2023",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		},
 		"command": "073 PRECINCT"
 	},
@@ -18437,7 +18407,7 @@
 			"arrests": {
 				"infraction": 6,
 				"felony": 50,
-				"misdemeanor": 80,
+				"misdemeanor": 81,
 				"violation": 10
 			},
 			"awards": [
@@ -20804,8 +20774,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 70,
-				"misdemeanor": 135,
+				"felony": 71,
+				"misdemeanor": 137,
 				"violation": 2
 			},
 			"awards": [
@@ -21457,7 +21427,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 15,
-				"misdemeanor": 33,
+				"misdemeanor": 35,
 				"violation": 1
 			},
 			"awards": [
@@ -21956,7 +21926,7 @@
 		"shield_no": "6216",
 		"appt_date": "7/10/1995",
 		"recognition_count": 7,
-		"arrest_count": 206,
+		"arrest_count": 207,
 		"reports": {
 			"summary": {
 				"command": "079 PRECINCT",
@@ -25249,8 +25219,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 278,
-				"misdemeanor": 555,
+				"felony": 280,
+				"misdemeanor": 556,
 				"violation": 1
 			},
 			"awards": [
@@ -25333,9 +25303,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 206,
-				"misdemeanor": 170,
-				"violation": 2
+				"felony": 103,
+				"misdemeanor": 85,
+				"violation": 1
 			},
 			"awards": []
 		},
@@ -25496,8 +25466,8 @@
 		"rank": "LT DET COMMANDER",
 		"shield_no": "",
 		"appt_date": "12/8/1997",
-		"recognition_count": 181,
-		"arrest_count": 37,
+		"recognition_count": 362,
+		"arrest_count": 74,
 		"reports": {
 			"summary": {
 				"command": "DRUG ENFORCEMENT TASK FORCE",
@@ -27028,8 +26998,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 438,
-				"misdemeanor": 226,
+				"felony": 451,
+				"misdemeanor": 231,
 				"violation": 3
 			},
 			"awards": [
@@ -31536,10 +31506,14 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 2,
-				"misdemeanor": 13
+				"felony": 4,
+				"misdemeanor": 26
 			},
 			"awards": [
+				{
+					"date": "6/8/2005",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "6/8/2005",
 					"name": "EXCELLENT POLICE DUTY"
@@ -33816,55 +33790,6 @@
 		"command": "072 PRECINCT"
 	},
 	{
-		"taxid": 904723,
-		"full_name": "OTOO, REGINA N",
-		"first_name": "REGINA",
-		"last_name": "OTOO",
-		"middle_initial": "N",
-		"rank": "LT SPECIAL ASSIGN",
-		"shield_no": "",
-		"appt_date": "8/30/1993",
-		"recognition_count": 0,
-		"arrest_count": 0,
-		"reports": {
-			"summary": {
-				"command": "TRANSPORTATION BUREAU",
-				"assignment_date": "8/10/2020",
-				"ethnicity": "BLACK",
-				"rank_desc": "LT SPECIAL ASSIGN",
-				"shield_no": "",
-				"appt_date": "8/30/1993"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "8/30/1993",
-					"shield_no": "21997"
-				},
-				{
-					"rank": "SERGEANT",
-					"date": "8/24/2001",
-					"shield_no": "2381"
-				},
-				{
-					"rank": "LIEUTENANT",
-					"date": "9/24/2004",
-					"shield_no": ""
-				},
-				{
-					"rank": "LT SPECIAL ASSIGN",
-					"date": "10/27/2017",
-					"shield_no": ""
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {},
-			"awards": []
-		},
-		"command": "TRANSPORTATION BUREAU"
-	},
-	{
 		"taxid": 964194,
 		"full_name": "OTOOLE, ASHLEY A",
 		"first_name": "ASHLEY",
@@ -35667,53 +35592,6 @@
 		"command": "123 PRECINCT"
 	},
 	{
-		"taxid": 928555,
-		"full_name": "OWEN, RICHARD J",
-		"first_name": "RICHARD",
-		"last_name": "OWEN",
-		"middle_initial": "J",
-		"rank": "POLICE OFFICER",
-		"shield_no": "29126",
-		"appt_date": "7/11/2001",
-		"recognition_count": 2,
-		"arrest_count": 220,
-		"reports": {
-			"summary": {
-				"command": "122 PRECINCT",
-				"assignment_date": "8/2/2010",
-				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "29126",
-				"appt_date": "7/11/2001"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/2/2001",
-					"shield_no": "29126"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 34,
-				"misdemeanor": 185,
-				"violation": 1
-			},
-			"awards": [
-				{
-					"date": "2/19/2018",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "4/18/2009",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
-		},
-		"command": "122 PRECINCT"
-	},
-	{
 		"taxid": 920686,
 		"full_name": "OWENS, BRENDAN P",
 		"first_name": "BRENDAN",
@@ -36856,6 +36734,11 @@
 					"rank": "DETECTIVE",
 					"date": "1/26/2024",
 					"shield_no": "689"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "2/23/2024",
+					"shield_no": "2623"
 				}
 			],
 			"documents": [],

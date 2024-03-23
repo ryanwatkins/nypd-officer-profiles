@@ -6565,8 +6565,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 23,
-				"misdemeanor": 33
+				"felony": 24,
+				"misdemeanor": 37
 			},
 			"awards": []
 		},
@@ -6970,7 +6970,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 73,
+				"felony": 75,
 				"misdemeanor": 40,
 				"violation": 1
 			},
@@ -7787,45 +7787,6 @@
 		"command": "123 PRECINCT"
 	},
 	{
-		"taxid": 923975,
-		"full_name": "IOVENO, JOHN M",
-		"first_name": "JOHN",
-		"last_name": "IOVENO",
-		"middle_initial": "M",
-		"rank": "DETECTIVE 2ND GRADE",
-		"shield_no": "3215",
-		"appt_date": "7/7/1999",
-		"recognition_count": 0,
-		"arrest_count": 0,
-		"reports": {
-			"summary": {
-				"command": "PUBLIC SECURITY SECTION",
-				"assignment_date": "1/3/2014",
-				"ethnicity": "WHITE",
-				"rank_desc": "DETECTIVE 2ND GRADE",
-				"shield_no": "3215",
-				"appt_date": "7/7/1999"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/7/1999",
-					"shield_no": "17622"
-				},
-				{
-					"rank": "DETECTIVE",
-					"date": "8/31/2015",
-					"shield_no": "3215"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {},
-			"awards": []
-		},
-		"command": "PUBLIC SECURITY SECTION"
-	},
-	{
 		"taxid": 964068,
 		"full_name": "IOVINE, VINCENT J",
 		"first_name": "VINCENT",
@@ -8220,9 +8181,22 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "11/21/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2021-24125",
+							"description": "01.Violated patrol rules - refused to provide name",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
-				"felony": 36,
+				"felony": 37,
 				"misdemeanor": 38
 			},
 			"awards": [
@@ -8586,11 +8560,36 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/13/2022 12:00:00 AM",
+					"allegations_count": 3,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2021-24399",
+							"description": "01.Failed to maintain activity log while on duty.",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (8 day(s) )"
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2021-24399",
+							"description": "02.Failed to notify the radio dispatcher about a vehicle pursuit.",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (8 day(s) )"
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2021-24399",
+							"description": "03.Improper vehicle pursuit while on duty.",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (8 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 58,
-				"misdemeanor": 62,
+				"felony": 62,
+				"misdemeanor": 65,
 				"violation": 2
 			},
 			"awards": [

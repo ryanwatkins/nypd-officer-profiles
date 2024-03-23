@@ -7991,10 +7991,19 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 57,
-				"misdemeanor": 35
+				"felony": 60,
+				"misdemeanor": 35,
+				"violation": 1
 			},
 			"awards": [
+				{
+					"date": "9/2/2023",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "7/7/2023",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
 				{
 					"date": "11/17/2019",
 					"name": "MERITORIOUS POLICE DUTY"
@@ -8824,8 +8833,8 @@
 		"rank": "DETECTIVE 2ND GRADE",
 		"shield_no": "5797",
 		"appt_date": "8/31/1998",
-		"recognition_count": 51,
-		"arrest_count": 271,
+		"recognition_count": 153,
+		"arrest_count": 813,
 		"reports": {
 			"summary": {
 				"command": "ORGANIZED THEFT SQUAD",
@@ -10270,7 +10279,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 7,
+				"felony": 8,
 				"misdemeanor": 12
 			},
 			"awards": [
@@ -11525,8 +11534,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 42,
-				"misdemeanor": 21,
+				"felony": 46,
+				"misdemeanor": 22,
 				"violation": 1
 			},
 			"awards": [
@@ -14691,69 +14700,6 @@
 		"command": "050 DET SQUAD"
 	},
 	{
-		"taxid": 924650,
-		"full_name": "ZIMMERLI, PIERRE G",
-		"first_name": "PIERRE",
-		"last_name": "ZIMMERLI",
-		"middle_initial": "G",
-		"rank": "DETECTIVE 1ST GRADE",
-		"shield_no": "6654",
-		"appt_date": "7/7/1999",
-		"recognition_count": 5,
-		"arrest_count": 7,
-		"reports": {
-			"summary": {
-				"command": "AVIATION UNIT",
-				"assignment_date": "1/14/2003",
-				"ethnicity": "WHITE",
-				"rank_desc": "DETECTIVE 1ST GRADE",
-				"shield_no": "6654",
-				"appt_date": "7/7/1999"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/7/1999",
-					"shield_no": "12690"
-				},
-				{
-					"rank": "DETECTIVE",
-					"date": "3/30/2007",
-					"shield_no": "6654"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 1,
-				"misdemeanor": 6
-			},
-			"awards": [
-				{
-					"date": "2/9/2013",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "4/12/2010",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "8/11/2009",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "9/19/2003",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "3/23/2000",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
-		},
-		"command": "AVIATION UNIT"
-	},
-	{
 		"taxid": 927705,
 		"full_name": "ZIMMERLY, DAVID G",
 		"first_name": "DAVID",
@@ -15163,8 +15109,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
-				"misdemeanor": 6
+				"felony": 5,
+				"misdemeanor": 7
 			},
 			"awards": []
 		},
@@ -17610,7 +17556,38 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "8/3/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2021-23725",
+							"description": "01.Failed to prepare required reports.",
+							"penalty": "TRAINING"
+						}
+					]
+				},
+				{
+					"entry": "3/25/2023 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2023-27780",
+							"description": "01.Violated patrol rules.",
+							"penalty": "B - COMMAND DISCIPLINE, INSTRUCTIONS"
+						},
+						{
+							"recommendation": "NO DISCIPLINARY ACTION",
+							"case_no": "2023-27780",
+							"description": "01.Wrongfully stopped an individual known to the Department.",
+							"penalty": "B - COMMAND DISCIPLINE, INSTRUCTIONS"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 11,
 				"misdemeanor": 33,
@@ -17867,7 +17844,7 @@
 			"arrests": {
 				"felony": 349,
 				"misdemeanor": 302,
-				"other": 98,
+				"other": 99,
 				"violation": 9
 			},
 			"awards": [

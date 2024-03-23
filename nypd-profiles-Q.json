@@ -75,42 +75,8 @@
 				}
 			],
 			"discipline": [],
-			"arrests": {
-				"infraction": 2,
-				"felony": 75,
-				"misdemeanor": 223,
-				"violation": 6
-			},
-			"awards": [
-				{
-					"date": "4/29/2010",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "6/8/2009",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "8/7/2007",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "4/30/2005",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "4/13/2004",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "9/10/2003",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "8/15/2003",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
+			"arrests": {},
+			"awards": []
 		},
 		"command": "032 PRECINCT"
 	},
@@ -2212,7 +2178,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 23,
-				"misdemeanor": 33
+				"misdemeanor": 34
 			},
 			"awards": []
 		},
@@ -5680,7 +5646,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/10/2024 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2023-29007",
+							"description": "01.Violated patrol rules - failed to provide a business card",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 38,
@@ -5910,43 +5889,6 @@
 			"awards": []
 		},
 		"command": "078 PRECINCT"
-	},
-	{
-		"taxid": 972189,
-		"full_name": "QUINTEROSIERRA, KEVIN",
-		"first_name": "KEVIN",
-		"last_name": "QUINTEROSIERRA",
-		"middle_initial": "",
-		"rank": "POLICE OFFICER",
-		"shield_no": "26048",
-		"appt_date": "7/7/2021",
-		"recognition_count": 0,
-		"arrest_count": 12,
-		"reports": {
-			"summary": {
-				"command": "069 PRECINCT",
-				"assignment_date": "12/30/2021",
-				"ethnicity": "HISPANIC",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "26048",
-				"appt_date": "7/7/2021"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/7/2021",
-					"shield_no": "26048"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 5,
-				"misdemeanor": 7
-			},
-			"awards": []
-		},
-		"command": "069 PRECINCT"
 	},
 	{
 		"taxid": 942394,
