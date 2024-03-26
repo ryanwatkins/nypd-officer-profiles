@@ -1119,8 +1119,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 5,
-				"misdemeanor": 17
+				"felony": 10,
+				"misdemeanor": 34
 			},
 			"awards": []
 		},
@@ -2317,10 +2317,23 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "6/27/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-25756",
+							"description": "01.Wrongfully used physical force.",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 33,
+				"felony": 39,
 				"misdemeanor": 103,
 				"violation": 8
 			},
@@ -4795,7 +4808,7 @@
 			"arrests": {
 				"infraction": 8,
 				"felony": 59,
-				"misdemeanor": 326,
+				"misdemeanor": 327,
 				"violation": 7
 			},
 			"awards": []
