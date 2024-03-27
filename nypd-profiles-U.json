@@ -1099,7 +1099,7 @@
 		"shield_no": "26074",
 		"appt_date": "12/29/2021",
 		"recognition_count": 0,
-		"arrest_count": 22,
+		"arrest_count": 44,
 		"reports": {
 			"summary": {
 				"command": "122 PRECINCT",
@@ -2299,7 +2299,7 @@
 		"shield_no": "26224",
 		"appt_date": "1/7/2008",
 		"recognition_count": 0,
-		"arrest_count": 145,
+		"arrest_count": 151,
 		"reports": {
 			"summary": {
 				"command": "028 PRECINCT",
@@ -3919,7 +3919,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 98,
+				"felony": 100,
 				"misdemeanor": 99,
 				"violation": 8
 			},
@@ -4716,7 +4716,7 @@
 		"shield_no": "20097",
 		"appt_date": "1/10/2005",
 		"recognition_count": 0,
-		"arrest_count": 400,
+		"arrest_count": 401,
 		"reports": {
 			"summary": {
 				"command": "028 PRECINCT",
@@ -6289,7 +6289,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "7/2/2019 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "574-WORLD TRADE CENTER COMMAND",
+							"case_no": "2019-20500",
+							"description": "WRONGFULLY ALLOWED HIS RESIDENTIAL ADDRESS TO BE USED BY ANOTHER AS HIS RESIDENTIAL ADDRESS, THEREBY CAUSING INACCURATE ENTRIES IN DEPARTMENT RECORDS.",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 3,
 				"misdemeanor": 164,
@@ -6582,10 +6596,22 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "8/9/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-25835",
+							"description": "01.Wrongfully searched a vehicle."
+						}
+					]
+				}
+			],
 			"arrests": {
-				"felony": 152,
-				"misdemeanor": 158,
+				"felony": 155,
+				"misdemeanor": 159,
 				"other": 1,
 				"violation": 37
 			},
