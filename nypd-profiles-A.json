@@ -3013,7 +3013,7 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "23781",
 		"appt_date": "1/4/2017",
-		"recognition_count": 0,
+		"recognition_count": 1,
 		"arrest_count": 67,
 		"reports": {
 			"summary": {
@@ -3038,7 +3038,12 @@
 				"misdemeanor": 47,
 				"violation": 2
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "6/3/2021",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		},
 		"command": "090 PRECINCT"
 	},
@@ -5367,7 +5372,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 256,
+				"felony": 257,
 				"misdemeanor": 575,
 				"other": 1,
 				"violation": 9
@@ -5546,50 +5551,7 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
-				{
-					"entry": "12/1/2022 12:00:00 AM",
-					"allegations_count": 2,
-					"allegations": [
-						{
-							"recommendation": "CHARGES AND SPECIFICATIONS",
-							"case_no": "2022-25830",
-							"description": "01.Wrongfully searched a vehicle."
-						},
-						{
-							"recommendation": "CHARGES AND SPECIFICATIONS",
-							"case_no": "2022-25830",
-							"description": "02.Wrongfully unholstered/displayed a firearm."
-						}
-					]
-				},
-				{
-					"entry": "4/18/2023 12:00:00 AM",
-					"allegations_count": 4,
-					"allegations": [
-						{
-							"recommendation": "CHARGES AND SPECIFICATIONS",
-							"case_no": "2023-27939",
-							"description": "01.Failed to take police action/render police services."
-						},
-						{
-							"recommendation": "CHARGES AND SPECIFICATIONS",
-							"case_no": "2023-27939",
-							"description": "01.Wrongful entry of a premises."
-						},
-						{
-							"recommendation": "CHARGES AND SPECIFICATIONS",
-							"case_no": "2023-27939",
-							"description": "02.Violated patrol rules."
-						},
-						{
-							"recommendation": "CHARGES AND SPECIFICATIONS",
-							"case_no": "2023-27939",
-							"description": "02.Wrongful search of a premises."
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"felony": 29,
 				"misdemeanor": 65
@@ -14406,7 +14368,7 @@
 		"shield_no": "3807",
 		"appt_date": "9/29/2000",
 		"recognition_count": 9,
-		"arrest_count": 686,
+		"arrest_count": 687,
 		"reports": {
 			"summary": {
 				"command": "VICE MAJOR CASE",
@@ -27303,8 +27265,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 29,
-				"misdemeanor": 40
+				"felony": 30,
+				"misdemeanor": 42
 			},
 			"awards": [
 				{
@@ -31703,7 +31665,7 @@
 		"shield_no": "5893",
 		"appt_date": "7/1/2002",
 		"recognition_count": 3,
-		"arrest_count": 1090,
+		"arrest_count": 1091,
 		"reports": {
 			"summary": {
 				"command": "088 DET SQUAD",
@@ -31823,7 +31785,7 @@
 		"shield_no": "894",
 		"appt_date": "7/1/2002",
 		"recognition_count": 7,
-		"arrest_count": 1295,
+		"arrest_count": 1296,
 		"reports": {
 			"summary": {
 				"command": "SPECIAL FRAUDS SQUAD",
@@ -58016,20 +57978,7 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
-				{
-					"entry": "1/9/2023 12:00:00 AM",
-					"allegations_count": 1,
-					"allegations": [
-						{
-							"recommendation": "A-CD",
-							"case_no": "2022-27314",
-							"description": "01.Violated patrol rules - failed to provide business card",
-							"penalty": "A - COMMAND DISCIPLINE"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"felony": 13,
 				"misdemeanor": 29
@@ -67498,8 +67447,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
-				"misdemeanor": 10
+				"felony": 8,
+				"misdemeanor": 20
 			},
 			"awards": []
 		},
@@ -68457,7 +68406,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 23,
-				"misdemeanor": 183,
+				"misdemeanor": 185,
 				"other": 6,
 				"violation": 2
 			},
@@ -70287,44 +70236,7 @@
 				"felony": 15,
 				"misdemeanor": 106
 			},
-			"awards": [
-				{
-					"date": "8/18/2009",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "3/4/2007",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "8/22/2006",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "2/4/2006",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/25/2005",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/19/2005",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "2/12/2005",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "12/30/2004",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "11/20/2004",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
+			"awards": []
 		},
 		"command": "122 PRECINCT"
 	},
@@ -71686,158 +71598,6 @@
 			"awards": []
 		},
 		"command": "023 PRECINCT"
-	},
-	{
-		"taxid": 934414,
-		"full_name": "ARCEO, CESAR",
-		"first_name": "CESAR",
-		"last_name": "ARCEO",
-		"middle_initial": "",
-		"rank": "DETECTIVE 3RD GRADE",
-		"shield_no": "3929",
-		"appt_date": "7/1/2004",
-		"recognition_count": 21,
-		"arrest_count": 533,
-		"reports": {
-			"summary": {
-				"command": "115TH DET SQUAD",
-				"assignment_date": "12/13/2023",
-				"ethnicity": "ASIAN",
-				"rank_desc": "DETECTIVE 3RD GRADE",
-				"shield_no": "3929",
-				"appt_date": "7/1/2004"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/1/2004",
-					"shield_no": "20783"
-				},
-				{
-					"rank": "DETECTIVE",
-					"date": "12/17/2015",
-					"shield_no": "3929"
-				}
-			],
-			"documents": [],
-			"discipline": [
-				{
-					"entry": "11/8/2022 12:00:00 AM",
-					"allegations_count": 1,
-					"allegations": [
-						{
-							"recommendation": "A-CD",
-							"case_no": "2022-25833",
-							"description": "01.Wrongfully searched a vehicle."
-						}
-					]
-				},
-				{
-					"entry": "5/1/2023 12:00:00 AM",
-					"allegations_count": 1,
-					"allegations": [
-						{
-							"recommendation": "A-CD",
-							"case_no": "2023-27938",
-							"description": "01.Failed to take police action/render police services."
-						}
-					]
-				}
-			],
-			"arrests": {
-				"infraction": 3,
-				"felony": 172,
-				"misdemeanor": 334,
-				"violation": 24
-			},
-			"awards": [
-				{
-					"date": "5/4/2023",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "10/14/2022",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "4/2/2022",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "7/18/2017",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "10/14/2016",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "7/26/2014",
-					"name": "MERITORIOUS POLICE DUTY-INTEGRITY"
-				},
-				{
-					"date": "7/24/2014",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/15/2014",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "2/9/2014",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "12/13/2013",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "10/27/2013",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "6/9/2013",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "5/11/2013",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "3/17/2013",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "3/10/2013",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "2/24/2013",
-					"name": "COMMENDATION"
-				},
-				{
-					"date": "2/1/2013",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "2/1/2013",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "12/5/2012",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "10/6/2012",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "2/6/2010",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
-		},
-		"command": "115TH DET SQUAD"
 	},
 	{
 		"taxid": 945475,
@@ -75305,8 +75065,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 31,
-				"misdemeanor": 23
+				"felony": 32,
+				"misdemeanor": 24
 			},
 			"awards": []
 		},
@@ -83378,8 +83138,8 @@
 		"rank": "DETECTIVE 2ND GRADE",
 		"shield_no": "1178",
 		"appt_date": "7/1/2002",
-		"recognition_count": 6,
-		"arrest_count": 872,
+		"recognition_count": 3,
+		"arrest_count": 439,
 		"reports": {
 			"summary": {
 				"command": "BKLYN TRANSIT ROBBERY SQUAD",
@@ -89343,7 +89103,7 @@
 		"shield_no": "6483",
 		"appt_date": "7/1/2002",
 		"recognition_count": 10,
-		"arrest_count": 1139,
+		"arrest_count": 1142,
 		"reports": {
 			"summary": {
 				"command": "110TH DET SQUAD",
@@ -89370,7 +89130,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 329,
-				"misdemeanor": 773,
+				"misdemeanor": 776,
 				"other": 1,
 				"violation": 34
 			},
@@ -91532,14 +91292,6 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "11/26/2005",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "6/1/2004",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "6/1/2004",
 					"name": "EXCELLENT POLICE DUTY"
 				}
@@ -93379,6 +93131,54 @@
 			]
 		},
 		"command": "TRANSIT DISTRICT 33"
+	},
+	{
+		"taxid": 952434,
+		"full_name": "AWAD, HASHEM A",
+		"first_name": "HASHEM",
+		"last_name": "AWAD",
+		"middle_initial": "A",
+		"rank": "SERGEANT",
+		"shield_no": "1752",
+		"appt_date": "7/11/2012",
+		"recognition_count": 0,
+		"arrest_count": 35,
+		"reports": {
+			"summary": {
+				"command": "INTERNAL AFFAIRS BUREAU",
+				"assignment_date": "1/19/2021",
+				"ethnicity": "WHITE",
+				"rank_desc": "SERGEANT",
+				"shield_no": "1752",
+				"appt_date": "7/11/2012"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/11/2012",
+					"shield_no": "11054"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "11/21/2017",
+					"shield_no": "1070"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "12/21/2018",
+					"shield_no": "1752"
+				}
+			],
+			"documents": [],
+			"discipline": [],
+			"arrests": {
+				"felony": 2,
+				"misdemeanor": 32,
+				"violation": 1
+			},
+			"awards": []
+		},
+		"command": "INTERNAL AFFAIRS BUREAU"
 	},
 	{
 		"taxid": 952434,

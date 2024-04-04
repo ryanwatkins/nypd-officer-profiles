@@ -3643,7 +3643,13 @@
 				"shield_no": "30084",
 				"appt_date": "1/9/2013"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/9/2013",
+					"shield_no": "30084"
+				}
+			],
 			"documents": [],
 			"discipline": [],
 			"arrests": {
@@ -14170,7 +14176,12 @@
 				"felony": 53,
 				"misdemeanor": 74
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "11/13/2022",
+					"name": "MERITORIOUS POLICE DUTY"
+				}
+			]
 		},
 		"command": "114 PRECINCT"
 	},
@@ -21918,20 +21929,7 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
-				{
-					"entry": "11/29/2023 12:00:00 AM",
-					"allegations_count": 1,
-					"allegations": [
-						{
-							"recommendation": "B-CD",
-							"case_no": "2023-29116",
-							"description": "01.Failed to safeguard prisoner property.",
-							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (8 day(s) )"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"felony": 37,
 				"misdemeanor": 49,
@@ -23569,7 +23567,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 46,
-				"misdemeanor": 71,
+				"misdemeanor": 73,
 				"violation": 1
 			},
 			"awards": []
@@ -23652,6 +23650,10 @@
 				"misdemeanor": 24
 			},
 			"awards": [
+				{
+					"date": "2/14/2022",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
 				{
 					"date": "4/22/2021",
 					"name": "EXCELLENT POLICE DUTY"
@@ -25806,7 +25808,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 15,
-				"misdemeanor": 22,
+				"misdemeanor": 23,
 				"violation": 2
 			},
 			"awards": [
@@ -25915,7 +25917,7 @@
 		"shield_no": "20892",
 		"appt_date": "1/4/2017",
 		"recognition_count": 1,
-		"arrest_count": 59,
+		"arrest_count": 61,
 		"reports": {
 			"summary": {
 				"command": "050 PRECINCT",
@@ -25935,9 +25937,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 1,
+				"infraction": 2,
 				"felony": 17,
-				"misdemeanor": 41
+				"misdemeanor": 42
 			},
 			"awards": [
 				{
@@ -27813,14 +27815,6 @@
 		"recognition_count": 0,
 		"arrest_count": 183,
 		"reports": {
-			"summary": {
-				"command": "TRANSIT DISTRICT 33",
-				"assignment_date": "3/28/2002",
-				"ethnicity": "HISPANIC",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "20187",
-				"appt_date": "7/2/2001"
-			},
 			"ranks": [
 				{
 					"rank": "POLICE OFFICER",
@@ -27837,8 +27831,7 @@
 				"violation": 52
 			},
 			"awards": []
-		},
-		"command": "TRANSIT DISTRICT 33"
+		}
 	},
 	{
 		"taxid": 939836,
@@ -32932,75 +32925,6 @@
 			]
 		},
 		"command": "TRANSIT DISTRICT 30"
-	},
-	{
-		"taxid": 963315,
-		"full_name": "VERMA, SUNJAY",
-		"first_name": "SUNJAY",
-		"last_name": "VERMA",
-		"middle_initial": "",
-		"rank": "DETECTIVE 3RD GRADE",
-		"shield_no": "2972",
-		"appt_date": "1/4/2017",
-		"recognition_count": 5,
-		"arrest_count": 156,
-		"reports": {
-			"summary": {
-				"command": "BKLYN TRANSIT ROBBERY SQUAD",
-				"assignment_date": "2/12/2023",
-				"ethnicity": "ASIAN",
-				"rank_desc": "DETECTIVE 3RD GRADE",
-				"shield_no": "2972",
-				"appt_date": "1/4/2017"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "1/4/2017",
-					"shield_no": "4184"
-				},
-				{
-					"rank": "DETECTIVE",
-					"date": "12/21/2021",
-					"shield_no": "5651"
-				},
-				{
-					"rank": "DETECTIVE",
-					"date": "12/30/2021",
-					"shield_no": "2972"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 86,
-				"misdemeanor": 68,
-				"violation": 2
-			},
-			"awards": [
-				{
-					"date": "8/25/2021",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "2/2/2021",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "11/4/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/26/2020",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "1/22/2019",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
-		},
-		"command": "BKLYN TRANSIT ROBBERY SQUAD"
 	},
 	{
 		"taxid": 953527,
