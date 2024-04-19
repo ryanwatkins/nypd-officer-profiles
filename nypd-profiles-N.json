@@ -2717,7 +2717,7 @@
 		"shield_no": "8240",
 		"appt_date": "4/15/2019",
 		"recognition_count": 0,
-		"arrest_count": 32,
+		"arrest_count": 34,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 7",
@@ -3133,7 +3133,7 @@
 		"shield_no": "12884",
 		"appt_date": "4/15/2019",
 		"recognition_count": 0,
-		"arrest_count": 82,
+		"arrest_count": 170,
 		"reports": {
 			"summary": {
 				"command": "045 PRECINCT",
@@ -3153,9 +3153,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 1,
-				"felony": 19,
-				"misdemeanor": 62
+				"infraction": 2,
+				"felony": 38,
+				"misdemeanor": 130
 			},
 			"awards": []
 		},
@@ -4637,8 +4637,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "19284",
 		"appt_date": "7/2/2018",
-		"recognition_count": 53,
-		"arrest_count": 83,
+		"recognition_count": 56,
+		"arrest_count": 85,
 		"reports": {
 			"summary": {
 				"command": "075 PRECINCT",
@@ -5952,7 +5952,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 168,
+				"felony": 171,
 				"misdemeanor": 308,
 				"other": 4
 			},
@@ -6457,7 +6457,7 @@
 		"shield_no": "12750",
 		"appt_date": "7/2/2018",
 		"recognition_count": 1,
-		"arrest_count": 106,
+		"arrest_count": 107,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 2",
@@ -6477,7 +6477,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 41,
+				"felony": 42,
 				"misdemeanor": 55,
 				"violation": 10
 			},
@@ -6721,7 +6721,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "11/20/2021 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2021-23911",
+							"description": "01.Wrongful entry of a premises.",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 102,
 				"misdemeanor": 49,
@@ -8616,7 +8629,7 @@
 		"shield_no": "2936",
 		"appt_date": "7/2/2018",
 		"recognition_count": 1,
-		"arrest_count": 11,
+		"arrest_count": 12,
 		"reports": {
 			"summary": {
 				"command": "001 PRECINCT",
@@ -9155,7 +9168,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 19,
+				"felony": 22,
 				"misdemeanor": 33
 			},
 			"awards": [
@@ -9385,7 +9398,7 @@
 		"shield_no": "26787",
 		"appt_date": "1/10/2018",
 		"recognition_count": 2,
-		"arrest_count": 283,
+		"arrest_count": 284,
 		"reports": {
 			"summary": {
 				"command": "NARC BORO BRONX",
@@ -9658,7 +9671,7 @@
 		"shield_no": "14054",
 		"appt_date": "7/1/2019",
 		"recognition_count": 0,
-		"arrest_count": 30,
+		"arrest_count": 32,
 		"reports": {
 			"summary": {
 				"command": "STRATEGIC RESP GRP 5 SI",
@@ -9824,7 +9837,7 @@
 		"shield_no": "7052",
 		"appt_date": "10/7/2019",
 		"recognition_count": 0,
-		"arrest_count": 77,
+		"arrest_count": 78,
 		"reports": {
 			"summary": {
 				"command": "070 PRECINCT",
@@ -11327,7 +11340,7 @@
 		"shield_no": "10938",
 		"appt_date": "10/7/2019",
 		"recognition_count": 0,
-		"arrest_count": 8,
+		"arrest_count": 4,
 		"reports": {
 			"summary": {
 				"command": "MILITARY & EXTENDED LEAVE DESK",
@@ -11488,7 +11501,7 @@
 		"shield_no": "5695",
 		"appt_date": "4/12/2017",
 		"recognition_count": 1,
-		"arrest_count": 93,
+		"arrest_count": 94,
 		"reports": {
 			"summary": {
 				"command": "BROOKLYN COURT SECTION",
@@ -11573,67 +11586,6 @@
 			]
 		},
 		"command": "TRANSIT DISTRICT 12"
-	},
-	{
-		"taxid": 968665,
-		"full_name": "NEGRON, LUIS M",
-		"first_name": "LUIS",
-		"last_name": "NEGRON",
-		"middle_initial": "M",
-		"rank": "POLICE OFFICER",
-		"shield_no": "26287",
-		"appt_date": "10/7/2019",
-		"recognition_count": 0,
-		"arrest_count": 60,
-		"reports": {
-			"summary": {
-				"command": "090 PRECINCT",
-				"assignment_date": "3/10/2021",
-				"ethnicity": "HISPANIC",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "26287",
-				"appt_date": "10/7/2019"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "10/7/2019",
-					"shield_no": "26287"
-				}
-			],
-			"documents": [],
-			"discipline": [
-				{
-					"entry": "5/19/2022 12:00:00 AM",
-					"allegations_count": 1,
-					"allegations": [
-						{
-							"recommendation": "A-CD",
-							"case_no": "2021-24431",
-							"description": "01.Failed to obtain medical treatment.",
-							"penalty": "A - COMMAND DISCIPLINE"
-						}
-					]
-				},
-				{
-					"entry": "1/5/2024 12:00:00 AM",
-					"allegations_count": 1,
-					"allegations": [
-						{
-							"recommendation": "A-CD",
-							"case_no": "2023-29513",
-							"description": "01.Violated patrol rules."
-						}
-					]
-				}
-			],
-			"arrests": {
-				"felony": 37,
-				"misdemeanor": 23
-			},
-			"awards": []
-		},
-		"command": "090 PRECINCT"
 	},
 	{
 		"taxid": 949385,
@@ -12426,7 +12378,7 @@
 		"shield_no": "28390",
 		"appt_date": "1/10/2018",
 		"recognition_count": 0,
-		"arrest_count": 36,
+		"arrest_count": 37,
 		"reports": {
 			"summary": {
 				"command": "PBSI FERRY SECURITY UNIT",
@@ -14316,8 +14268,8 @@
 				}
 			],
 			"arrests": {
-				"felony": 21,
-				"misdemeanor": 56,
+				"felony": 23,
+				"misdemeanor": 58,
 				"violation": 14
 			},
 			"awards": [
@@ -14426,7 +14378,7 @@
 		"shield_no": "18963",
 		"appt_date": "7/1/2019",
 		"recognition_count": 0,
-		"arrest_count": 47,
+		"arrest_count": 48,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 7",
@@ -15088,7 +15040,7 @@
 		"shield_no": "5879",
 		"appt_date": "10/24/2018",
 		"recognition_count": 0,
-		"arrest_count": 45,
+		"arrest_count": 46,
 		"reports": {
 			"summary": {
 				"command": "001 PRECINCT",
@@ -16934,7 +16886,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 52,
-				"misdemeanor": 219,
+				"misdemeanor": 221,
 				"violation": 4
 			},
 			"awards": [
@@ -17191,8 +17143,8 @@
 		"arrest_count": 86,
 		"reports": {
 			"summary": {
-				"command": "PATROL BORO MAN SOUTH",
-				"assignment_date": "1/22/2024",
+				"command": "PBMS GR LARC/PICKPOCKET TEAM",
+				"assignment_date": "4/12/2024",
 				"ethnicity": "ASIAN",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "25617",
@@ -17219,7 +17171,7 @@
 				}
 			]
 		},
-		"command": "PATROL BORO MAN SOUTH"
+		"command": "PBMS GR LARC/PICKPOCKET TEAM"
 	},
 	{
 		"taxid": 950945,
@@ -17279,7 +17231,7 @@
 		"shield_no": "29813",
 		"appt_date": "10/7/2019",
 		"recognition_count": 0,
-		"arrest_count": 69,
+		"arrest_count": 70,
 		"reports": {
 			"summary": {
 				"command": "122 PRECINCT",
@@ -17300,7 +17252,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 16,
-				"misdemeanor": 53
+				"misdemeanor": 54
 			},
 			"awards": []
 		},
@@ -19330,7 +19282,7 @@
 		"shield_no": "21042",
 		"appt_date": "1/4/2017",
 		"recognition_count": 0,
-		"arrest_count": 34,
+		"arrest_count": 36,
 		"reports": {
 			"summary": {
 				"command": "TB ANTI TERRORISM 3",
@@ -20258,8 +20210,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "23602",
 		"appt_date": "1/3/2019",
-		"recognition_count": 2,
-		"arrest_count": 22,
+		"recognition_count": 4,
+		"arrest_count": 48,
 		"reports": {
 			"summary": {
 				"command": "114 PRECINCT",
@@ -21975,7 +21927,7 @@
 		"shield_no": "16882",
 		"appt_date": "10/7/2019",
 		"recognition_count": 0,
-		"arrest_count": 56,
+		"arrest_count": 57,
 		"reports": {
 			"summary": {
 				"command": "107 PRECINCT",
@@ -22963,8 +22915,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "10194",
 		"appt_date": "11/2/2020",
-		"recognition_count": 4,
-		"arrest_count": 74,
+		"recognition_count": 2,
+		"arrest_count": 44,
 		"reports": {
 			"summary": {
 				"command": "048 PRECINCT",
@@ -27227,7 +27179,7 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "18482",
 		"appt_date": "7/8/2015",
-		"recognition_count": 6,
+		"recognition_count": 7,
 		"arrest_count": 122,
 		"reports": {
 			"summary": {
@@ -27294,8 +27246,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "20671",
 		"appt_date": "7/1/2019",
-		"recognition_count": 4,
-		"arrest_count": 61,
+		"recognition_count": 8,
+		"arrest_count": 122,
 		"reports": {
 			"summary": {
 				"command": "121 PRECINCT",
@@ -27365,7 +27317,7 @@
 		"shield_no": "26355",
 		"appt_date": "1/10/2018",
 		"recognition_count": 5,
-		"arrest_count": 150,
+		"arrest_count": 152,
 		"reports": {
 			"summary": {
 				"command": "106 PRECINCT",
@@ -27386,8 +27338,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 75,
-				"misdemeanor": 72,
+				"felony": 76,
+				"misdemeanor": 73,
 				"violation": 1
 			},
 			"awards": [
@@ -29943,7 +29895,7 @@
 		"shield_no": "29537",
 		"appt_date": "10/24/2018",
 		"recognition_count": 2,
-		"arrest_count": 69,
+		"arrest_count": 71,
 		"reports": {
 			"summary": {
 				"command": "121 DETECTIVE SQUAD",
@@ -30181,7 +30133,7 @@
 		"shield_no": "454",
 		"appt_date": "7/2/2018",
 		"recognition_count": 0,
-		"arrest_count": 84,
+		"arrest_count": 86,
 		"reports": {
 			"summary": {
 				"command": "060 DET SQUAD",
@@ -33535,7 +33487,7 @@
 		"shield_no": "25963",
 		"appt_date": "1/10/2018",
 		"recognition_count": 1,
-		"arrest_count": 29,
+		"arrest_count": 30,
 		"reports": {
 			"summary": {
 				"command": "083 PRECINCT",
@@ -34281,7 +34233,7 @@
 		"shield_no": "13652",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 16,
+		"arrest_count": 17,
 		"reports": {
 			"summary": {
 				"command": "107 PRECINCT",
@@ -34568,8 +34520,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "2580",
 		"appt_date": "1/10/2018",
-		"recognition_count": 13,
-		"arrest_count": 172,
+		"recognition_count": 15,
+		"arrest_count": 173,
 		"reports": {
 			"summary": {
 				"command": "101 PRECINCT",
@@ -34589,7 +34541,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 59,
+				"felony": 60,
 				"misdemeanor": 112,
 				"violation": 1
 			},
@@ -34668,7 +34620,7 @@
 		"shield_no": "26223",
 		"appt_date": "7/5/2017",
 		"recognition_count": 1,
-		"arrest_count": 14,
+		"arrest_count": 15,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 11",
@@ -35512,7 +35464,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "12/13/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2023-29111",
+							"description": "01.Wrongfully discourteous to an individual known to the Department."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 8,
@@ -35537,7 +35501,7 @@
 		"shield_no": "10742",
 		"appt_date": "10/18/2017",
 		"recognition_count": 5,
-		"arrest_count": 83,
+		"arrest_count": 84,
 		"reports": {
 			"summary": {
 				"command": "042 PRECINCT",
@@ -35598,8 +35562,8 @@
 		"arrest_count": 33,
 		"reports": {
 			"summary": {
-				"command": "018 PCT-MIDTOWN NO. PCT",
-				"assignment_date": "10/14/2020",
+				"command": "MANHATTAN COURT SECTION",
+				"assignment_date": "4/9/2024",
 				"ethnicity": "BLACK",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "3385",
@@ -35625,7 +35589,7 @@
 				}
 			]
 		},
-		"command": "018 PCT-MIDTOWN NO. PCT"
+		"command": "MANHATTAN COURT SECTION"
 	},
 	{
 		"taxid": 970037,
