@@ -3629,7 +3629,7 @@
 		"shield_no": "8989",
 		"appt_date": "4/25/2018",
 		"recognition_count": 1,
-		"arrest_count": 35,
+		"arrest_count": 36,
 		"reports": {
 			"summary": {
 				"command": "030 PRECINCT",
@@ -6743,7 +6743,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 75,
+				"felony": 79,
 				"misdemeanor": 40,
 				"violation": 1
 			},
@@ -7946,10 +7946,23 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "11/21/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2021-24125",
+							"description": "01.Violated patrol rules - refused to provide name",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 38,
-				"misdemeanor": 38
+				"misdemeanor": 39
 			},
 			"awards": [
 				{
@@ -8315,8 +8328,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 62,
-				"misdemeanor": 65,
+				"felony": 65,
+				"misdemeanor": 70,
 				"violation": 2
 			},
 			"awards": [

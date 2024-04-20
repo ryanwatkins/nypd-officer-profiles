@@ -2429,7 +2429,7 @@
 		"first_name": "KATHLEEN",
 		"last_name": "FAHEY",
 		"middle_initial": "E",
-		"rank": "DEPUTY INSPECTOR",
+		"rank": "INSPECTOR",
 		"shield_no": "",
 		"appt_date": "7/18/1996",
 		"recognition_count": 0,
@@ -2439,7 +2439,7 @@
 				"command": "DEP COMM DEPARTMENT ADVOCATE",
 				"assignment_date": "7/26/2023",
 				"ethnicity": "WHITE",
-				"rank_desc": "DEPUTY INSPECTOR",
+				"rank_desc": "INSPECTOR",
 				"shield_no": "",
 				"appt_date": "7/18/1996"
 			},
@@ -2472,6 +2472,11 @@
 				{
 					"rank": "DEPUTY INSPECTOR",
 					"date": "10/18/2021",
+					"shield_no": ""
+				},
+				{
+					"rank": "INSPECTOR",
+					"date": "4/4/2024",
 					"shield_no": ""
 				}
 			],
@@ -4706,10 +4711,31 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "3/25/2021 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "115-115 PRECINCT",
+							"case_no": "2020-22444",
+							"description": "Said Police Officer was unfit for duty.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, VACATION DAYS (35 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "115-115 PRECINCT",
+							"case_no": "2020-22444",
+							"description": "Said Police Officer was unfit for duty while armed.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, VACATION DAYS (35 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 16,
-				"misdemeanor": 25
+				"misdemeanor": 27
 			},
 			"awards": [
 				{
@@ -6211,7 +6237,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 14,
-				"misdemeanor": 43,
+				"misdemeanor": 44,
 				"violation": 2
 			},
 			"awards": [
@@ -7799,7 +7825,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 10,
-				"misdemeanor": 173,
+				"misdemeanor": 175,
 				"other": 1,
 				"violation": 22
 			},
@@ -14494,8 +14520,8 @@
 		"arrest_count": 31,
 		"reports": {
 			"summary": {
-				"command": "FIRST DEPUTY COMMISSIONER",
-				"assignment_date": "1/7/2022",
+				"command": "FAMILY ASSISTANCE SECTION",
+				"assignment_date": "4/11/2024",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "SGT SPECIAL ASSIGN",
 				"shield_no": "552",
@@ -14528,7 +14554,7 @@
 			},
 			"awards": []
 		},
-		"command": "FIRST DEPUTY COMMISSIONER"
+		"command": "FAMILY ASSISTANCE SECTION"
 	},
 	{
 		"taxid": 950396,
@@ -14638,7 +14664,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "6/23/2010 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "584-BRONX COURT SECTION",
+							"case_no": "2010-1629",
+							"description": "PRODUCED THE WRONG PRISONER FOR ARRAIGNMENT RESULTING IN THE IMPROPER RELEASE OF SAID PRISONER.",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 22,
 				"misdemeanor": 188,
@@ -19604,7 +19644,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 37,
+				"felony": 40,
 				"misdemeanor": 16
 			},
 			"awards": []
@@ -21455,7 +21495,7 @@
 		"shield_no": "5200",
 		"appt_date": "8/31/1998",
 		"recognition_count": 6,
-		"arrest_count": 485,
+		"arrest_count": 488,
 		"reports": {
 			"summary": {
 				"command": "078 DET SQUAD",
@@ -30698,8 +30738,8 @@
 		"rank": "LIEUTENANT",
 		"shield_no": "",
 		"appt_date": "7/6/1999",
-		"recognition_count": 6,
-		"arrest_count": 282,
+		"recognition_count": 12,
+		"arrest_count": 564,
 		"reports": {
 			"summary": {
 				"command": "CRITICAL RESPONSE COMMAND",
@@ -38416,8 +38456,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 6,
-				"misdemeanor": 22
+				"infraction": 1,
+				"felony": 7,
+				"misdemeanor": 23
 			},
 			"awards": []
 		},
@@ -38432,8 +38473,8 @@
 		"rank": "DETECTIVE 1ST GRADE",
 		"shield_no": "298",
 		"appt_date": "7/18/1996",
-		"recognition_count": 46,
-		"arrest_count": 1670,
+		"recognition_count": 23,
+		"arrest_count": 835,
 		"reports": {
 			"summary": {
 				"command": "DET BORO BX HOMICIDE SQ",
@@ -41392,7 +41433,7 @@
 		"shield_no": "3992",
 		"appt_date": "7/6/2011",
 		"recognition_count": 0,
-		"arrest_count": 94,
+		"arrest_count": 95,
 		"reports": {
 			"summary": {
 				"command": "121 PRECINCT",
@@ -44254,11 +44295,19 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 3
+				"felony": 6
 			},
 			"awards": [
 				{
 					"date": "8/4/1997",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "8/4/1997",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "1/27/1997",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -44274,6 +44323,18 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "1/17/1997",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/17/1997",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "12/17/1996",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "12/17/1996",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
@@ -44282,7 +44343,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "2/13/1996",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "1/27/1996",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/27/1996",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/24/1996",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -44298,7 +44371,23 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "12/28/1995",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "12/28/1995",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "11/21/1995",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/21/1995",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/13/1995",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -44310,7 +44399,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "11/10/1995",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "10/18/1995",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/18/1995",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/13/1995",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -44322,7 +44423,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "10/6/1995",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "10/4/1995",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/4/1995",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "9/5/1995",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -44332,6 +44445,14 @@
 				{
 					"date": "8/2/1995",
 					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "8/2/1995",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "7/31/1995",
+					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
 					"date": "7/31/1995",
@@ -44346,7 +44467,23 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "7/30/1995",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "7/30/1995",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "7/15/1995",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "7/15/1995",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "7/14/1995",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -44358,7 +44495,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "6/3/1995",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "5/31/1995",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/31/1995",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "2/8/1995",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -44370,7 +44519,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "2/1/1995",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "1/3/1995",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/3/1995",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/28/1994",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -44382,6 +44543,14 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "11/27/1994",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/21/1994",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "11/21/1994",
 					"name": "EXCELLENT POLICE DUTY"
 				},
@@ -44390,7 +44559,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "11/17/1994",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "11/3/1994",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/3/1994",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "9/17/1994",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -44406,7 +44587,23 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "9/16/1994",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "9/16/1994",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "9/12/1994",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "9/12/1994",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "8/31/1994",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -44416,6 +44613,14 @@
 				{
 					"date": "7/25/1994",
 					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "7/25/1994",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "8/5/1992",
+					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
 					"date": "8/5/1992",
@@ -47188,7 +47393,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "10/12/2016 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "010-010 PRECINCT",
+							"case_no": "2016-16458",
+							"description": "WHILE ON-DUTY AUTHORIZED THE STRIP-SEARCH OF A PERSON KNOWN TO THE DEPARTMENT WITHOUT SUFFICIENT LEGAL AUTHORITY.",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 55,
 				"misdemeanor": 279,
@@ -49242,7 +49461,7 @@
 		"shield_no": "2510",
 		"appt_date": "7/6/2010",
 		"recognition_count": 4,
-		"arrest_count": 231,
+		"arrest_count": 235,
 		"reports": {
 			"summary": {
 				"command": "120 DETECTIVE SQUAD",
@@ -54772,7 +54991,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "10/18/2023 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "034-034 PRECINCT",
+							"case_no": "2022-26579",
+							"description": "Possession of a fraudulent instrument.",
+							"penalty": "VACATION DAYS (25 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "034-034 PRECINCT",
+							"case_no": "2022-26579",
+							"description": "Failed to make proper notifications.",
+							"penalty": "VACATION DAYS (25 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 8,
@@ -64336,7 +64576,7 @@
 		"shield_no": "7611",
 		"appt_date": "7/6/2011",
 		"recognition_count": 7,
-		"arrest_count": 461,
+		"arrest_count": 462,
 		"reports": {
 			"summary": {
 				"command": "QUEENS CHILD ABUSE SQUAD",
@@ -67665,7 +67905,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "6/13/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-24923",
+							"description": "01.Violated patrol rules."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 24,
 				"misdemeanor": 35

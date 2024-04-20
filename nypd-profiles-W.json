@@ -2965,7 +2965,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 9,
-				"misdemeanor": 19
+				"misdemeanor": 20
 			},
 			"awards": []
 		},
@@ -3895,7 +3895,7 @@
 		"shield_no": "2894",
 		"appt_date": "4/15/2019",
 		"recognition_count": 3,
-		"arrest_count": 50,
+		"arrest_count": 51,
 		"reports": {
 			"summary": {
 				"command": "109 PRECINCT",
@@ -4546,7 +4546,7 @@
 		"shield_no": "26843",
 		"appt_date": "1/10/2018",
 		"recognition_count": 3,
-		"arrest_count": 111,
+		"arrest_count": 113,
 		"reports": {
 			"summary": {
 				"command": "049 PRECINCT",
@@ -5496,7 +5496,7 @@
 		"shield_no": "16125",
 		"appt_date": "7/1/2019",
 		"recognition_count": 1,
-		"arrest_count": 129,
+		"arrest_count": 133,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 32",
@@ -6041,7 +6041,7 @@
 		"shield_no": "10477",
 		"appt_date": "7/2/2018",
 		"recognition_count": 1,
-		"arrest_count": 150,
+		"arrest_count": 151,
 		"reports": {
 			"summary": {
 				"command": "090 DET SQUAD",
@@ -7559,7 +7559,7 @@
 		"shield_no": "27105",
 		"appt_date": "1/6/2020",
 		"recognition_count": 2,
-		"arrest_count": 40,
+		"arrest_count": 42,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 6",
@@ -7905,7 +7905,35 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "6/15/2015 12:00:00 AM",
+					"charges_count": 3,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "318-INTELL-CRIM. SECT. (DORMANT)",
+							"case_no": "2015-13627",
+							"description": "WHILE ON-DUTY, ABUSED HIS AUTHORITY AS A MEMBER OF THE NEW YORK CITY POLICE DEPARTMENT IN THAT HE AUTHORIZED THE STOP OFF AN INDIVIDUAL KNOWN TO THE DEPARTMENT, WITHOUT SUFFICIENT LEGAL AUTHORITY.",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "318-INTELL-CRIM. SECT. (DORMANT)",
+							"case_no": "2015-13627",
+							"description": "WHILE ON-DUTY, AUTHORIZED THE STOP OF AN INDIVIDUAL KNOWN TO THE DEPARTMENT, WITHOUT SUFFICIENT LEGAL AUTHORITY.",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "318-INTELL-CRIM. SECT. (DORMANT)",
+							"case_no": "2015-13627",
+							"description": "WHILE ON-DUTY, WRONGFULLY USED FORCE WITHOUT POLICE NECESSITY.",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 3,
 				"felony": 28,
@@ -11487,7 +11515,61 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "7/19/2012 12:00:00 AM",
+					"charges_count": 3,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "078-078 PRECINCT",
+							"case_no": "2010-2419",
+							"description": "DISCOURTEOUS TO A SUPERVISOR .",
+							"penalty": "SUSPENDED W/O PAY (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "078-078 PRECINCT",
+							"case_no": "2010-2419",
+							"description": "DISCOURTEOUS TO A SUPERVISOR .",
+							"penalty": "SUSPENDED W/O PAY (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "078-078 PRECINCT",
+							"case_no": "2010-2419",
+							"description": "FAILED TO COMPLY WITH LAWFUL ORDERS GIVEN BY SUPERVISORS.",
+							"penalty": "SUSPENDED W/O PAY (30 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "12/2/2022 12:00:00 AM",
+					"allegations_count": 4,
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-25124",
+							"description": "01.Made false statements during a Civilian Complaint Review Board interview."
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-25124",
+							"description": "02.Made misleading or inaccurate statements during a Civilian Complaint Review Board interview."
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-25124",
+							"description": "03.Wrongfully discourteous to an individual known to the Department."
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-25124",
+							"description": "04.Wrongfully threatened to remove an individual to the hospital."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 31,
@@ -11774,8 +11856,8 @@
 		"rank": "DETECTIVE 1ST GRADE",
 		"shield_no": "4580",
 		"appt_date": "4/28/1987",
-		"recognition_count": 5,
-		"arrest_count": 107,
+		"recognition_count": 10,
+		"arrest_count": 214,
 		"reports": {
 			"summary": {
 				"command": "DA SQUAD SI",
@@ -15055,8 +15137,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 6,
-				"felony": 335,
-				"misdemeanor": 240,
+				"felony": 336,
+				"misdemeanor": 242,
 				"violation": 27
 			},
 			"awards": [
@@ -15513,7 +15595,42 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "6/17/2020 12:00:00 AM",
+					"charges_count": 4,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "136-SOD STRAT RESP GRP 1 MANH",
+							"case_no": "2020-21792",
+							"description": "Off post.",
+							"penalty": "TRAINING, VACATION DAYS (10 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "136-SOD STRAT RESP GRP 1 MANH",
+							"case_no": "2020-21792",
+							"description": "Off post. \r\nFailed to remain alert while on post.",
+							"penalty": "TRAINING, VACATION DAYS (10 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "136-SOD STRAT RESP GRP 1 MANH",
+							"case_no": "2020-21792",
+							"description": "Off post. \r\nFailed to make proper notifications.",
+							"penalty": "TRAINING, VACATION DAYS (10 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "136-SOD STRAT RESP GRP 1 MANH",
+							"case_no": "2020-21792",
+							"description": "Failed to make required entries in Department Logs.",
+							"penalty": "TRAINING, VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 47,
 				"misdemeanor": 157,
@@ -17041,8 +17158,8 @@
 		"rank": "SGT SPECIAL ASSIGN",
 		"shield_no": "3772",
 		"appt_date": "8/31/1998",
-		"recognition_count": 1,
-		"arrest_count": 50,
+		"recognition_count": 2,
+		"arrest_count": 100,
 		"reports": {
 			"summary": {
 				"command": "OPERATIONS UNIT",
@@ -23072,7 +23189,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 38,
+				"felony": 40,
 				"misdemeanor": 65
 			},
 			"awards": [
@@ -24331,14 +24448,10 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 8,
-				"misdemeanor": 68
+				"felony": 4,
+				"misdemeanor": 34
 			},
 			"awards": [
-				{
-					"date": "11/9/2001",
-					"name": "EXCELLENT POLICE DUTY"
-				},
 				{
 					"date": "11/9/2001",
 					"name": "EXCELLENT POLICE DUTY"
@@ -25308,6 +25421,11 @@
 					"rank": "DEPUTY INSPECTOR",
 					"date": "12/21/2021",
 					"shield_no": ""
+				},
+				{
+					"rank": "INSPECTOR",
+					"date": "4/4/2024",
+					"shield_no": ""
 				}
 			],
 			"documents": [],
@@ -25912,10 +26030,24 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "8/25/2022 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "083-083 PRECINCT",
+							"case_no": "2022-25053",
+							"description": "Failed to conduct an investigation.\r\nFailed to take police action/render police services.\r\nFailed to make proper notifications.\r\nMade or caused to be made false or inaccurate entries in Department records.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (15 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 22,
-				"misdemeanor": 48,
+				"misdemeanor": 51,
 				"violation": 1
 			},
 			"awards": []
@@ -34038,9 +34170,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
-				"misdemeanor": 30,
-				"violation": 1
+				"felony": 8,
+				"misdemeanor": 60,
+				"violation": 2
 			},
 			"awards": []
 		},
@@ -40560,7 +40692,7 @@
 		"shield_no": "5929",
 		"appt_date": "6/30/1992",
 		"recognition_count": 0,
-		"arrest_count": 46,
+		"arrest_count": 92,
 		"reports": {
 			"summary": {
 				"command": "BROOKLYN NORTH OPER NIGHT WATCH",
@@ -41962,10 +42094,14 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 11,
-				"misdemeanor": 25
+				"felony": 22,
+				"misdemeanor": 50
 			},
 			"awards": [
+				{
+					"date": "6/27/2006",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "6/27/2006",
 					"name": "EXCELLENT POLICE DUTY"
@@ -45286,8 +45422,8 @@
 		"arrest_count": 41,
 		"reports": {
 			"summary": {
-				"command": "CRITICAL RESPONSE COMMAND",
-				"assignment_date": "10/30/2015",
+				"command": "CRC CANINE UNIT",
+				"assignment_date": "4/4/2024",
 				"ethnicity": "ASIAN",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "24965",
@@ -45313,7 +45449,7 @@
 				}
 			]
 		},
-		"command": "CRITICAL RESPONSE COMMAND"
+		"command": "CRC CANINE UNIT"
 	},
 	{
 		"taxid": 972316,
@@ -48086,10 +48222,10 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 2,
-				"felony": 48,
-				"misdemeanor": 314,
-				"violation": 10
+				"infraction": 1,
+				"felony": 24,
+				"misdemeanor": 157,
+				"violation": 5
 			},
 			"awards": []
 		},
@@ -50735,7 +50871,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 9,
-				"misdemeanor": 14
+				"misdemeanor": 15
 			},
 			"awards": [
 				{
@@ -52504,7 +52640,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 109,
+				"felony": 112,
 				"misdemeanor": 64,
 				"violation": 6
 			},
@@ -54415,8 +54551,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 5,
-				"felony": 188,
-				"misdemeanor": 511,
+				"felony": 189,
+				"misdemeanor": 512,
 				"violation": 50
 			},
 			"awards": [
