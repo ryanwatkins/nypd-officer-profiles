@@ -563,7 +563,7 @@
 			"arrests": {
 				"infraction": 11,
 				"felony": 32,
-				"misdemeanor": 138,
+				"misdemeanor": 139,
 				"violation": 5
 			},
 			"awards": []
@@ -727,7 +727,7 @@
 		"shield_no": "25566",
 		"appt_date": "7/7/2021",
 		"recognition_count": 0,
-		"arrest_count": 31,
+		"arrest_count": 33,
 		"reports": {
 			"summary": {
 				"command": "103 PRECINCT",
@@ -859,7 +859,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 153,
+				"felony": 154,
 				"misdemeanor": 165,
 				"violation": 12
 			},
@@ -2562,7 +2562,7 @@
 		"shield_no": "26805",
 		"appt_date": "7/7/2021",
 		"recognition_count": 0,
-		"arrest_count": 41,
+		"arrest_count": 43,
 		"reports": {
 			"summary": {
 				"command": "120 PRECINCT",
@@ -5270,7 +5270,7 @@
 		"shield_no": "11593",
 		"appt_date": "7/6/2010",
 		"recognition_count": 0,
-		"arrest_count": 270,
+		"arrest_count": 90,
 		"reports": {
 			"summary": {
 				"command": "WORLD TRADE CENTER COMMAND",
@@ -6046,20 +6046,7 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
-				{
-					"entry": "4/18/2022 12:00:00 AM",
-					"allegations_count": 1,
-					"allegations": [
-						{
-							"recommendation": "INSTRUCTIONS",
-							"case_no": "2022-24814",
-							"description": "01.Failed to supervise",
-							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (10 day(s) )"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"felony": 4,
 				"misdemeanor": 66,
@@ -6311,7 +6298,32 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "4/22/2024 12:00:00 AM",
+					"allegations_count": 3,
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2021-23401",
+							"description": "01.Failure to provide a department business card",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2021-23401",
+							"description": "02.Improper entry of an apartment",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2021-23401",
+							"description": "03.Improper search of an apartment bedroom",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 13,
