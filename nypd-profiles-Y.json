@@ -452,7 +452,7 @@
 		"shield_no": "16439",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 76,
+		"arrest_count": 77,
 		"reports": {
 			"summary": {
 				"command": "025 PRECINCT",
@@ -473,7 +473,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 33,
-				"misdemeanor": 43
+				"misdemeanor": 44
 			},
 			"awards": []
 		},
@@ -1234,21 +1234,13 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 78,
-				"misdemeanor": 112
+				"felony": 43,
+				"misdemeanor": 56
 			},
 			"awards": [
 				{
 					"date": "8/22/2021",
 					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "8/22/2021",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "6/9/2021",
-					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
 					"date": "6/9/2021",
@@ -1726,28 +1718,7 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
-				{
-					"entry": "10/13/2022 12:00:00 AM",
-					"charges_count": 2,
-					"charges": [
-						{
-							"disposition": "PLEADED GUILTY",
-							"command": "805-HOUSING PSA 5",
-							"case_no": "2021-24438",
-							"description": "Inaccurate entries in Department records.",
-							"penalty": "FORFEITURE OF TIME/LEAVE BALANCES, VACATION DAYS (15 day(s) )"
-						},
-						{
-							"disposition": "PLEADED GUILTY",
-							"command": "805-HOUSING PSA 5",
-							"case_no": "2021-24438",
-							"description": "Failed to submit reports.",
-							"penalty": "FORFEITURE OF TIME/LEAVE BALANCES, VACATION DAYS (15 day(s) )"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"felony": 6,
 				"misdemeanor": 10
@@ -3805,7 +3776,7 @@
 		"shield_no": "10914",
 		"appt_date": "4/12/2017",
 		"recognition_count": 8,
-		"arrest_count": 212,
+		"arrest_count": 213,
 		"reports": {
 			"summary": {
 				"command": "072 PRECINCT",
@@ -3825,7 +3796,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 89,
+				"felony": 90,
 				"misdemeanor": 121,
 				"other": 2
 			},
@@ -3983,7 +3954,36 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "12/5/2022 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-26010",
+							"description": "01.Wrongfully threatened to arrest an individual known to the Department"
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-26010",
+							"description": "02.Wrongfully used physical force."
+						}
+					]
+				},
+				{
+					"entry": "8/8/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2022-27613",
+							"description": "01.Wrongful entry of a premises.",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 51,
@@ -4061,7 +4061,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 26,
-				"misdemeanor": 57
+				"misdemeanor": 59
 			},
 			"awards": [
 				{
@@ -4304,8 +4304,8 @@
 		"arrest_count": 10,
 		"reports": {
 			"summary": {
-				"command": "ATU LATE TOUR PATROL TD 2",
-				"assignment_date": "11/10/2018",
+				"command": "TB ANTI TERRORISM 3",
+				"assignment_date": "4/15/2024",
 				"ethnicity": "ASIAN",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "22131",
@@ -4326,7 +4326,7 @@
 			},
 			"awards": []
 		},
-		"command": "ATU LATE TOUR PATROL TD 2"
+		"command": "TB ANTI TERRORISM 3"
 	},
 	{
 		"taxid": 965630,
@@ -4569,30 +4569,7 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
-				{
-					"entry": "9/27/2022 12:00:00 AM",
-					"allegations_count": 1,
-					"allegations": [
-						{
-							"recommendation": "OTHER",
-							"case_no": "2022-26195",
-							"description": "01.Failed to activate their body worn camera."
-						}
-					]
-				},
-				{
-					"entry": "1/17/2023 12:00:00 AM",
-					"allegations_count": 1,
-					"allegations": [
-						{
-							"recommendation": "B-CD",
-							"case_no": "2022-26194",
-							"description": "01.Wrongfully used physical force."
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"felony": 7,
 				"misdemeanor": 16,
@@ -5257,7 +5234,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 31,
+				"felony": 33,
 				"misdemeanor": 65
 			},
 			"awards": [
@@ -6532,7 +6509,7 @@
 		"shield_no": "20674",
 		"appt_date": "1/4/2017",
 		"recognition_count": 8,
-		"arrest_count": 202,
+		"arrest_count": 203,
 		"reports": {
 			"summary": {
 				"command": "014 PCT-MIDTOWN SO. PCT",
@@ -6553,7 +6530,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 97,
-				"misdemeanor": 105
+				"misdemeanor": 106
 			},
 			"awards": [
 				{
@@ -8200,20 +8177,26 @@
 			"discipline": [
 				{
 					"entry": "12/12/2023 12:00:00 AM",
-					"allegations_count": 1,
+					"allegations_count": 2,
 					"allegations": [
 						{
 							"recommendation": "A-CD",
 							"case_no": "2023-29131",
 							"description": "01.Wrongfully discourteous to an individual known to the Department.",
-							"penalty": "A - COMMAND DISCIPLINE"
+							"penalty": "A - COMMAND DISCIPLINE, A - COMMAND DISCIPLINE"
+						},
+						{
+							"recommendation": "A-CD",
+							"case_no": "2023-29131",
+							"description": "01.Wrongfully discourteous to an individual known to the Department.",
+							"penalty": "A - COMMAND DISCIPLINE, A - COMMAND DISCIPLINE"
 						}
 					]
 				}
 			],
 			"arrests": {
-				"felony": 25,
-				"misdemeanor": 43
+				"felony": 50,
+				"misdemeanor": 88
 			},
 			"awards": []
 		},
