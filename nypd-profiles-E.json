@@ -536,20 +536,10 @@
 				"shield_no": "14063",
 				"appt_date": "7/7/2021"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/7/2021",
-					"shield_no": "14063"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"discipline": [],
-			"arrests": {
-				"felony": 3,
-				"misdemeanor": 12,
-				"violation": 1
-			},
+			"arrests": {},
 			"awards": []
 		},
 		"command": "052 PRECINCT"
@@ -7951,7 +7941,48 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/27/2018 12:00:00 AM",
+					"charges_count": 3,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "541-NARCOTICS BOROUGH QUEENS",
+							"case_no": "2017-17901",
+							"description": "ABUSED HIS AUTHORITY AS A MEMBER OF THE NEW YORK CITY POLICE DEPARTMENT, IN THAT HE STOPPED A PERSON UNKNOWN TO THE DEPARTMENT WITHOUT SUFFICIENT LEGAL AUTHORITY.",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "541-NARCOTICS BOROUGH QUEENS",
+							"case_no": "2017-17901",
+							"description": "WRONGFULLY USED FORCE, IN THAT HE USED A CONDUCTED ELECTRICAL WEAPON AGAINST A PERSON UNKNOWN TO THE DEPARTMENT WITHOUT  POLICE NECESSITY.",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "541-NARCOTICS BOROUGH QUEENS",
+							"case_no": "2017-17901",
+							"description": "WRONGFULLY USED FORCE, IN THAT HE USED PHYSICAL FORCE, NAMELY PUSHED A PERSON UNKNOWN TO THE DEPARTMENT WITHOUT POLICE NECCESSITY.",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "11/19/2019 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "541-NARCOTICS BOROUGH QUEENS",
+							"case_no": "2017-18225",
+							"description": "ENGAGED IN A PHYSICAL ALTERCATION WITH A PERSON KNOWN TO THE DEPARTMENT.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (33 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 228,
 				"misdemeanor": 311,
@@ -9192,7 +9223,7 @@
 		"shield_no": "11753",
 		"appt_date": "1/6/2020",
 		"recognition_count": 0,
-		"arrest_count": 31,
+		"arrest_count": 33,
 		"reports": {
 			"summary": {
 				"command": "088 PRECINCT",
