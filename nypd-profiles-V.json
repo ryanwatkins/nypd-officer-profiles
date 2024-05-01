@@ -5011,7 +5011,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 313,
+				"felony": 314,
 				"misdemeanor": 137,
 				"violation": 12
 			},
@@ -5770,7 +5770,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "4/29/2014 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "483-CENTRAL PARK PRECINCT",
+							"case_no": "2014-11113",
+							"description": "FAILED AND NEGLECTED TO PREPARE A PROPERTY CLERK INVOICE WORKSHEET.",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "483-CENTRAL PARK PRECINCT",
+							"case_no": "2014-11113",
+							"description": "FAILED TO NOTIFY THE DESK OFFICER.",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 24,
 				"misdemeanor": 161,
@@ -13454,7 +13475,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "6/8/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-25458",
+							"description": "01.Wrongfully discourteous to an individual known to the Department."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 19,
 				"misdemeanor": 87
@@ -20976,11 +21009,11 @@
 		"shield_no": "25967",
 		"appt_date": "10/7/2019",
 		"recognition_count": 0,
-		"arrest_count": 90,
+		"arrest_count": 91,
 		"reports": {
 			"summary": {
-				"command": "047 PRECINCT",
-				"assignment_date": "2/13/2024",
+				"command": "PBBX COMMUNITY RESPONSE TEAM",
+				"assignment_date": "4/22/2024",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "25967",
@@ -20996,14 +21029,14 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 38,
+				"felony": 39,
 				"misdemeanor": 49,
 				"other": 1,
 				"violation": 2
 			},
 			"awards": []
 		},
-		"command": "047 PRECINCT"
+		"command": "PBBX COMMUNITY RESPONSE TEAM"
 	},
 	{
 		"taxid": 943331,
@@ -21309,8 +21342,8 @@
 		"arrest_count": 75,
 		"reports": {
 			"summary": {
-				"command": "SPECIALIZED TRAINING SECTION",
-				"assignment_date": "4/9/2024",
+				"command": "005 PRECINCT",
+				"assignment_date": "4/22/2024",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "27030",
@@ -21353,7 +21386,7 @@
 				}
 			]
 		},
-		"command": "SPECIALIZED TRAINING SECTION"
+		"command": "005 PRECINCT"
 	},
 	{
 		"taxid": 970288,
@@ -21510,7 +21543,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/14/2019 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "108-108 PRECINCT",
+							"case_no": "2017-18058",
+							"description": "WHILE ON-DUTY AS THE PATROL SUPERVISOR, FAILED TO IMMEDIATELY RESPOND TO AN DDIRECT ACTIVITIES AT A RADIO RUN INVOLVING A WEAPON.",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 2,
 				"misdemeanor": 10,
@@ -22971,7 +23018,7 @@
 		"shield_no": "29152",
 		"appt_date": "1/6/2020",
 		"recognition_count": 0,
-		"arrest_count": 41,
+		"arrest_count": 42,
 		"reports": {
 			"summary": {
 				"command": "017 PRECINCT",
@@ -22992,7 +23039,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 12,
-				"misdemeanor": 29
+				"misdemeanor": 30
 			},
 			"awards": []
 		},
@@ -24866,7 +24913,7 @@
 		"shield_no": "12804",
 		"appt_date": "12/29/2020",
 		"recognition_count": 1,
-		"arrest_count": 40,
+		"arrest_count": 41,
 		"reports": {
 			"summary": {
 				"command": "066 PRECINCT",
@@ -24887,7 +24934,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 15,
-				"misdemeanor": 23,
+				"misdemeanor": 24,
 				"violation": 2
 			},
 			"awards": [
@@ -24996,7 +25043,7 @@
 		"shield_no": "20892",
 		"appt_date": "1/4/2017",
 		"recognition_count": 1,
-		"arrest_count": 63,
+		"arrest_count": 64,
 		"reports": {
 			"summary": {
 				"command": "050 PRECINCT",
@@ -30268,9 +30315,9 @@
 			],
 			"discipline": [],
 			"arrests": {
-				"felony": 42,
-				"misdemeanor": 126,
-				"violation": 7
+				"felony": 84,
+				"misdemeanor": 252,
+				"violation": 14
 			},
 			"awards": [
 				{
@@ -30278,7 +30325,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "8/4/2019",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "7/17/2017",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "7/17/2017",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "7/20/2015",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -35427,7 +35486,7 @@
 		"shield_no": "4543",
 		"appt_date": "7/13/2016",
 		"recognition_count": 0,
-		"arrest_count": 34,
+		"arrest_count": 17,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 9",
@@ -44440,7 +44499,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 235,
+				"felony": 236,
 				"misdemeanor": 143,
 				"other": 1,
 				"violation": 1
@@ -46631,7 +46690,7 @@
 		"shield_no": "6366",
 		"appt_date": "7/1/2002",
 		"recognition_count": 19,
-		"arrest_count": 320,
+		"arrest_count": 321,
 		"reports": {
 			"summary": {
 				"command": "MTN DET SQUAD",
