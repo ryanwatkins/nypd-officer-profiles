@@ -198,7 +198,7 @@
 		"shield_no": "23818",
 		"appt_date": "7/1/2004",
 		"recognition_count": 0,
-		"arrest_count": 186,
+		"arrest_count": 187,
 		"reports": {
 			"summary": {
 				"command": "STRATEGIC RESP GRP 3 BROOKLYN",
@@ -3336,7 +3336,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 7,
-				"felony": 211,
+				"felony": 213,
 				"misdemeanor": 231,
 				"violation": 4
 			},
@@ -6779,34 +6779,6 @@
 		"command": "PATROL BORO QUEENS SOUTH"
 	},
 	{
-		"taxid": 968895,
-		"full_name": "YOUNGBLOOD, ISAIAH T",
-		"first_name": "ISAIAH",
-		"last_name": "YOUNGBLOOD",
-		"middle_initial": "T",
-		"rank": "POLICE OFFICER",
-		"shield_no": "1176",
-		"appt_date": "10/7/2019",
-		"recognition_count": 0,
-		"arrest_count": 71,
-		"reports": {
-			"summary": {
-				"command": "CID TACTICAL TRAINING",
-				"assignment_date": "4/28/2024",
-				"ethnicity": "BLACK",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "1176",
-				"appt_date": "10/7/2019"
-			},
-			"ranks": [],
-			"documents": [],
-			"discipline": [],
-			"arrests": {},
-			"awards": []
-		},
-		"command": "CID TACTICAL TRAINING"
-	},
-	{
 		"taxid": 940877,
 		"full_name": "YOUNGER, RAYSHAWN",
 		"first_name": "RAYSHAWN",
@@ -6902,7 +6874,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "4/6/2011 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "-",
+							"case_no": "2010-2831",
+							"description": "WRONGFULLY ENGAGED IN A PHYSICAL ALTERCATION WITH AN INDIVIDUAL KNOWN TO THE DEPARTMENT.",
+							"penalty": "COUNSELING, PRE-TRIAL SUSPENSION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 4,
@@ -9224,7 +9210,40 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/19/2022 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "005-005 PRECINCT",
+							"case_no": "2021-24447",
+							"description": "INVOLVED IN A PHYSICAL ALTERCATION",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), SUSPENDED W/O PAY (30 day(s) ), VACATION DAYS (25 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "005-005 PRECINCT",
+							"case_no": "2021-24447",
+							"description": "OFF DUTY INCIDENTS INVOLVING OFF DUTY MEMBERS OF THE SERVICE.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), SUSPENDED W/O PAY (30 day(s) ), VACATION DAYS (25 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "3/29/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2021-24360",
+							"description": "01.Wrongfully threatened to arrest an individual known to the Department.",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 6,
 				"misdemeanor": 64,

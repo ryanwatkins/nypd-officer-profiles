@@ -3023,7 +3023,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 56,
+				"felony": 57,
 				"misdemeanor": 419,
 				"violation": 2
 			},
@@ -4985,7 +4985,7 @@
 		"shield_no": "5697",
 		"appt_date": "7/1/2004",
 		"recognition_count": 2,
-		"arrest_count": 463,
+		"arrest_count": 464,
 		"reports": {
 			"summary": {
 				"command": "AC ZONE II BRONX/ MANHATTAN",
@@ -5430,7 +5430,26 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "2/15/2022 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2021-24064",
+							"description": "01.Failed to make proper notifications to IAB.",
+							"penalty": "B - COMMAND DISCIPLINE"
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2021-24064",
+							"description": "02.Made computer inquiries unrelated to official Department business.",
+							"penalty": "B - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 156,
@@ -8311,7 +8330,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "12/12/2022 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "296-DET SQD. BKLYN NORTH-075",
+							"case_no": "2022-27294",
+							"description": "Engaged in inappropriate conduct with a complainant.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), INSTRUCTIONS, VACATION DAYS (45 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "296-DET SQD. BKLYN NORTH-075",
+							"case_no": "2022-27294",
+							"description": "Misused Department electronics (email, MDT, cellphone, radio, computer).",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), INSTRUCTIONS, VACATION DAYS (45 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 177,
 				"misdemeanor": 289,
@@ -12077,8 +12117,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 102,
-				"misdemeanor": 293,
+				"felony": 107,
+				"misdemeanor": 296,
 				"violation": 157
 			},
 			"awards": [
@@ -22470,35 +22510,7 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [
-				{
-					"entry": "12/2/2020 12:00:00 AM",
-					"charges_count": 3,
-					"charges": [
-						{
-							"disposition": "PLEADED GUILTY",
-							"command": "585-QUEENS COURT SECTION",
-							"case_no": "2020-22299",
-							"description": "Involved in a physical altercation.",
-							"penalty": "PRE-TRIAL SUSPENSION DAYS (31 day(s) ), VACATION DAYS (10 day(s) )"
-						},
-						{
-							"disposition": "PLEADED GUILTY",
-							"command": "585-QUEENS COURT SECTION",
-							"case_no": "2020-22299",
-							"description": "Left the scene of an accident.",
-							"penalty": "PRE-TRIAL SUSPENSION DAYS (31 day(s) ), VACATION DAYS (10 day(s) )"
-						},
-						{
-							"disposition": "PLEADED GUILTY",
-							"command": "585-QUEENS COURT SECTION",
-							"case_no": "2020-22299",
-							"description": "Failed to make proper notifications.",
-							"penalty": "PRE-TRIAL SUSPENSION DAYS (31 day(s) ), VACATION DAYS (10 day(s) )"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"felony": 29,
 				"misdemeanor": 104,
@@ -22878,24 +22890,7 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
-				{
-					"entry": "1/26/2023 12:00:00 AM",
-					"allegations_count": 2,
-					"allegations": [
-						{
-							"recommendation": "A-CD",
-							"case_no": "2022-26347",
-							"description": "01.Wrongfully stopped a vehicle."
-						},
-						{
-							"recommendation": "OTHER",
-							"case_no": "2022-26348",
-							"description": "01.Failed to make required entries in Department Logs."
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"felony": 48,
 				"misdemeanor": 133,
@@ -24169,7 +24164,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 17,
-				"misdemeanor": 112,
+				"misdemeanor": 113,
 				"violation": 88
 			},
 			"awards": [
@@ -25781,15 +25776,11 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 68,
-				"misdemeanor": 198,
-				"violation": 52
+				"felony": 34,
+				"misdemeanor": 99,
+				"violation": 26
 			},
 			"awards": [
-				{
-					"date": "7/14/2017",
-					"name": "EXCELLENT POLICE DUTY"
-				},
 				{
 					"date": "7/14/2017",
 					"name": "EXCELLENT POLICE DUTY"
@@ -30288,8 +30279,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "1177",
 		"appt_date": "7/1/2003",
-		"recognition_count": 3,
-		"arrest_count": 175,
+		"recognition_count": 6,
+		"arrest_count": 350,
 		"reports": {
 			"summary": {
 				"command": "088 PRECINCT",
@@ -30419,7 +30410,48 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "3/6/2017 12:00:00 AM",
+					"charges_count": 3,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "050-050 PRECINCT",
+							"case_no": "2016-15495",
+							"description": "WHILE OFF-DUTY, WRONGFULLY USED A PERSON KNOWN TO THE DEPARTMENT'S PERSONAL VEHICLE WITHOUT HIS PERMISSION OR AUTHORITY.",
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (20 day(s) ), RESTORATION OF SUSPENSION DAYS (22 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "050-050 PRECINCT",
+							"case_no": "2016-15495",
+							"description": "WHILE OFF-DUTY, WRONGFULLY TOOK A PERSON KNOWN TO THE DEPARTMENT'S PROPERTY WITHOUT HIS PERMISSION OR AUTHORITY.",
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (20 day(s) ), RESTORATION OF SUSPENSION DAYS (22 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "050-050 PRECINCT",
+							"case_no": "2016-15495",
+							"description": "WHILE OFF-DUTY, DID FAIL AND NEGLECT TO PROPERLY SAFEGUARD HER ON-DUTY FIREARM.",
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (20 day(s) ), RESTORATION OF SUSPENSION DAYS (22 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "3/24/2017 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "579-MANHATTAN COURT SECTION",
+							"case_no": "2017-17116",
+							"description": "DID FAIL AND NEGLECT TO APPEAR FOR HER ASSIGNED TOUR WITHOUT PERMISSION AND AUTHORITY.",
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (20 day(s) ), RESTORATION OF SUSPENSION DAYS (22 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 10,
 				"misdemeanor": 43,
@@ -31165,7 +31197,49 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "6/2/2016 12:00:00 AM",
+					"charges_count": 5,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "034-034 PRECINCT",
+							"case_no": "2016-15751",
+							"description": "WHILE OFF-DUTY, OPERATED A MOTOR VEHICLE WHILE UNDER THE INFLENCE OF AN INTOXICANT.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), SUSPENDED W/O PAY (20 day(s) ), VACATION DAYS (10 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "034-034 PRECINCT",
+							"case_no": "2016-15751",
+							"description": "OPERATED A MOTOR VEHICLE WHILE HIS ABILITY WAS IMPAIRED BY AN INTOXICANT.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), SUSPENDED W/O PAY (20 day(s) ), VACATION DAYS (10 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "034-034 PRECINCT",
+							"case_no": "2016-15751",
+							"description": "REFUSED TO SUBMIT TO A CHEMICAL BREATH TEST.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), SUSPENDED W/O PAY (20 day(s) ), VACATION DAYS (10 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "034-034 PRECINCT",
+							"case_no": "2016-15751",
+							"description": "CONSUMED AN INTOXICANT TO THE EXTENT THAT SAID POLICE OFFICER WAS UNFIT FOR DUTY.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), SUSPENDED W/O PAY (20 day(s) ), VACATION DAYS (10 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "034-034 PRECINCT",
+							"case_no": "2016-15751",
+							"description": "WHILE OPERATING A MOTOR VEHICLE UNDER THE INFLUENCE OF AN INTOXICANT, STRUCK/HIT TWO PEDESTRIANS.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), SUSPENDED W/O PAY (20 day(s) ), VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 13,
 				"misdemeanor": 99,
@@ -37627,8 +37701,8 @@
 		"arrest_count": 210,
 		"reports": {
 			"summary": {
-				"command": "MILITARY & EXTENDED LEAVE DESK",
-				"assignment_date": "4/25/2023",
+				"command": "SPECIALIZED TRAINING SECTION",
+				"assignment_date": "4/25/2024",
 				"ethnicity": "BLACK",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "25295",
@@ -37651,7 +37725,7 @@
 			},
 			"awards": []
 		},
-		"command": "MILITARY & EXTENDED LEAVE DESK"
+		"command": "SPECIALIZED TRAINING SECTION"
 	},
 	{
 		"taxid": 954403,
@@ -41456,7 +41530,26 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "11/30/2023 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2023-29165",
+							"description": "01.Failed to make proper notification",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (3 day(s) )"
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2023-29165",
+							"description": "02.Failure to Supervise",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (3 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 19,
 				"misdemeanor": 132,
@@ -42845,26 +42938,7 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
-				{
-					"entry": "5/31/2022 12:00:00 AM",
-					"allegations_count": 2,
-					"allegations": [
-						{
-							"recommendation": "CHARGES AND SPECIFICATIONS",
-							"case_no": "2022-24812",
-							"description": "01.Failed to safeguard Department property.",
-							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (13 day(s) )"
-						},
-						{
-							"recommendation": "CHARGES AND SPECIFICATIONS",
-							"case_no": "2022-24812",
-							"description": "02.Failed to safeguard a firearm not resulting in loss.",
-							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (13 day(s) )"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"infraction": 1,
 				"felony": 91,
@@ -44474,7 +44548,7 @@
 		"shield_no": "3966",
 		"appt_date": "7/1/2004",
 		"recognition_count": 8,
-		"arrest_count": 380,
+		"arrest_count": 381,
 		"reports": {
 			"summary": {
 				"command": "001 DET SQUAD",
@@ -46467,45 +46541,6 @@
 			"awards": []
 		},
 		"command": "121 PRECINCT"
-	},
-	{
-		"taxid": 932689,
-		"full_name": "VOLLARO, ALEXA S",
-		"first_name": "ALEXA",
-		"last_name": "VOLLARO",
-		"middle_initial": "S",
-		"rank": "POLICE OFFICER",
-		"shield_no": "19147",
-		"appt_date": "7/1/2003",
-		"recognition_count": 0,
-		"arrest_count": 178,
-		"reports": {
-			"summary": {
-				"command": "POLICE ACADEMY",
-				"assignment_date": "6/3/2021",
-				"ethnicity": "HISPANIC",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "19147",
-				"appt_date": "7/1/2003"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/1/2003",
-					"shield_no": "19147"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 19,
-				"misdemeanor": 146,
-				"other": 1,
-				"violation": 12
-			},
-			"awards": []
-		},
-		"command": "POLICE ACADEMY"
 	},
 	{
 		"taxid": 933461,

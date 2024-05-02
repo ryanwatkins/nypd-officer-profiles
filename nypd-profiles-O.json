@@ -3612,12 +3612,16 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 2,
-				"felony": 50,
-				"misdemeanor": 345,
-				"violation": 3
+				"infraction": 4,
+				"felony": 100,
+				"misdemeanor": 690,
+				"violation": 6
 			},
 			"awards": [
+				{
+					"date": "5/18/2009",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "5/18/2009",
 					"name": "EXCELLENT POLICE DUTY"
@@ -4103,6 +4107,10 @@
 				"violation": 1
 			},
 			"awards": [
+				{
+					"date": "4/6/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "9/12/2017",
 					"name": "EXCELLENT POLICE DUTY"
@@ -7006,21 +7014,43 @@
 			"discipline": [
 				{
 					"entry": "10/30/2023 12:00:00 AM",
-					"allegations_count": 1,
+					"allegations_count": 2,
 					"allegations": [
 						{
 							"recommendation": "CHARGES AND SPECIFICATIONS",
 							"case_no": "2021-24041",
 							"description": "01.Wrongfully used offensive language towards an individual known to the department",
-							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (1 day(s) )"
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (1 day(s) ), A - COMMAND DISCIPLINE, VACATION DAYS (1 day(s) )"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2021-24041",
+							"description": "01.Wrongfully used offensive language towards an individual known to the department",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (1 day(s) ), A - COMMAND DISCIPLINE, VACATION DAYS (1 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "4/22/2024 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2024-30358",
+							"description": "01.Failed to prepare required reports."
+						},
+						{
+							"recommendation": "A-CD",
+							"case_no": "2024-30358",
+							"description": "01.Failed to prepare required reports."
 						}
 					]
 				}
 			],
 			"arrests": {
-				"felony": 5,
-				"misdemeanor": 50,
-				"violation": 5
+				"felony": 10,
+				"misdemeanor": 100,
+				"violation": 10
 			},
 			"awards": []
 		},
@@ -13303,7 +13333,21 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "12/15/2016 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "006-006 PRECINCT",
+							"case_no": "2016-16558",
+							"description": "WHILE OFF-DUTY ON NUMEROUS OCCASIONS, USED A LICENSE PLATE NOT REGISTERED TO HIS VEHICLE IN ORDER TO DRIVE HIS PERSONAL VEHICLE, THUS OPERATING A VEHICLE WITHOUT INSURANCE.",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 3,
 				"felony": 20,
@@ -24259,7 +24303,40 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "2/12/2015 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "081-081 PRECINCT",
+							"case_no": "2014-12486",
+							"description": "ENTERED A PREMISE WITHOUT SUFFICIENT LEGAL AUTHORITY.",
+							"penalty": "VACATION DAYS (8 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "081-081 PRECINCT",
+							"case_no": "2014-12486",
+							"description": "SEARCHED A PREMISE WITHOUT SUFFICIENT LEGAL AUTHORITY.",
+							"penalty": "VACATION DAYS (8 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "10/13/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "INSTRUCTIONS",
+							"case_no": "2022-25865",
+							"description": "01.Vehicle pursuit.",
+							"penalty": "INSTRUCTIONS"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 78,
@@ -25051,60 +25128,56 @@
 		"command": "023 PRECINCT"
 	},
 	{
-		"taxid": 967236,
+		"taxid": 956993,
 		"full_name": "ORTIZ, JORGE L",
 		"first_name": "JORGE",
 		"last_name": "ORTIZ",
 		"middle_initial": "L",
 		"rank": "POLICE OFFICER",
-		"shield_no": "25387",
-		"appt_date": "1/3/2019",
+		"shield_no": "8024",
+		"appt_date": "7/9/2014",
 		"recognition_count": 0,
-		"arrest_count": 73,
+		"arrest_count": 139,
 		"reports": {
 			"summary": {
-				"command": "040 PRECINCT",
-				"assignment_date": "10/15/2020",
+				"command": "023 PRECINCT",
+				"assignment_date": "8/19/2015",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
-				"shield_no": "25387",
-				"appt_date": "1/3/2019"
+				"shield_no": "8024",
+				"appt_date": "7/9/2014"
 			},
 			"ranks": [
 				{
 					"rank": "POLICE OFFICER",
-					"date": "1/3/2019",
-					"shield_no": "25392"
-				},
-				{
-					"rank": "POLICE OFFICER",
-					"date": "4/12/2024",
-					"shield_no": "25387"
+					"date": "7/9/2014",
+					"shield_no": "8024"
 				}
 			],
 			"documents": [],
 			"discipline": [
 				{
-					"entry": "9/1/2023 12:00:00 AM",
-					"allegations_count": 1,
-					"allegations": [
+					"entry": "8/10/2018 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
 						{
-							"recommendation": "B-CD",
-							"case_no": "2023-28588",
-							"description": "01.Failed to prepare required reports",
-							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
+							"disposition": "GUILTY",
+							"command": "023-023 PRECINCT",
+							"case_no": "2018-19059",
+							"description": "Discharged a firearm outside Department guidelines.",
+							"penalty": "VACATION DAYS (15 day(s) )"
 						}
 					]
 				}
 			],
 			"arrests": {
-				"felony": 32,
-				"misdemeanor": 40,
+				"felony": 37,
+				"misdemeanor": 101,
 				"violation": 1
 			},
 			"awards": []
 		},
-		"command": "040 PRECINCT"
+		"command": "023 PRECINCT"
 	},
 	{
 		"taxid": 920682,
@@ -35922,7 +35995,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 52,
+				"felony": 53,
 				"misdemeanor": 272,
 				"violation": 34
 			},

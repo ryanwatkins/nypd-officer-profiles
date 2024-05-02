@@ -3705,7 +3705,7 @@
 		"shield_no": "17675",
 		"appt_date": "7/1/2003",
 		"recognition_count": 37,
-		"arrest_count": 616,
+		"arrest_count": 617,
 		"reports": {
 			"summary": {
 				"command": "HIGHWAY UNIT 2",
@@ -5087,7 +5087,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "4/22/2024 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2024-30497",
+							"description": "01.Violated patrol rules."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 3,
 				"felony": 16,
@@ -15897,7 +15909,59 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "9/21/2010 12:00:00 AM",
+					"charges_count": 3,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "081-081 PRECINCT",
+							"case_no": "2010-2814",
+							"description": "WHILE ON-DUTY, OFFICER WAS INVOLVED IN AN ON-DUTY VERBAL AND PHYSICAL ALTERCATION WITH ANOTHER MEMBER OF THE SERVICE.",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "081-081 PRECINCT",
+							"case_no": "2010-2814",
+							"description": "WHILE ON-DUTY, UPON OBSERVING, HAVING BECOME AWARE OF, OR UPON RECEIVING AN ALLEGATION OF CORRUPTION OR SERIOUS MISCONDUCT INVOLVING A MEMBER OF SERVICE, DID FAIL AND NEGLECT TO NOTIFY THE INTERNAL AFFAIRS BUREAU, AS REQUIRED.",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "081-081 PRECINCT",
+							"case_no": "2010-2814",
+							"description": "WHILE ON-DUTY, DID WRONGFULLY AND WITHOUT JUST CAUSE PREVENT OR INTERFERE WITH AN OFFICIAL DEPARTMENT INVESTIGATION.",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "11/22/2023 12:00:00 AM",
+					"allegations_count": 3,
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2019-21559",
+							"description": "01.Failed to provide a business card to an individual",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (10 day(s) )"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2019-21559",
+							"description": "02.Improper entry of a premises",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (10 day(s) )"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2019-21559",
+							"description": "03.Improper search of a premises",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 71,
@@ -19260,12 +19324,16 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 25,
-				"misdemeanor": 79,
-				"other": 1,
-				"violation": 21
+				"felony": 50,
+				"misdemeanor": 158,
+				"other": 2,
+				"violation": 42
 			},
 			"awards": [
+				{
+					"date": "12/1/2008",
+					"name": "COMMENDATION"
+				},
 				{
 					"date": "12/1/2008",
 					"name": "COMMENDATION"
@@ -21745,7 +21813,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 240,
+				"felony": 241,
 				"misdemeanor": 245,
 				"other": 1,
 				"violation": 8
@@ -26912,31 +26980,7 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
-				{
-					"entry": "8/15/2022 12:00:00 AM",
-					"allegations_count": 1,
-					"allegations": [
-						{
-							"recommendation": "B-CD",
-							"case_no": "2022-24721",
-							"description": "01.Wrongfully used physical force.",
-							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (8 day(s) )"
-						}
-					]
-				},
-				{
-					"entry": "8/16/2022 12:00:00 AM",
-					"allegations_count": 1,
-					"allegations": [
-						{
-							"recommendation": "NO DISCIPLINARY ACTION",
-							"case_no": "2022-24722",
-							"description": "01.Failed to activate their body worn camera."
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"infraction": 1,
 				"felony": 20,
@@ -28250,7 +28294,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 213,
+				"felony": 214,
 				"misdemeanor": 199,
 				"violation": 70
 			},
@@ -32281,7 +32325,35 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "6/18/2010 12:00:00 AM",
+					"charges_count": 3,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "050-050 PRECINCT",
+							"case_no": "2010-1522",
+							"description": "KNOWINGLY ASSOCIATED WITH A PERSON KNOWN TO THE DEPARTMENT, A PERSON REASONABLY BELIEVED TO BE ENGAGED IN, LIKELY TO ENGAGE IN OR TO HAVE ENGAGED IN CRIMINAL ACTIVITIES.",
+							"penalty": "VACATION DAYS (25 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "050-050 PRECINCT",
+							"case_no": "2010-1522",
+							"description": "FAILED TO IDENTIFY HIMSELF AS A MEMBER OF SERVICE WHILE AT KNOWN LOCATION PICKING UP PERSONAL PROPERTY BELONGING TO A PERSON KNOWN TO THE DEPARTMENT.",
+							"penalty": "VACATION DAYS (25 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "050-050 PRECINCT",
+							"case_no": "2010-1522",
+							"description": "FAILED TO SAFEGUARD HIS DEPARTMENT ISSUED RESTRICTED PARKING PERMIT RESULTING IN THE REPRODUCTION OF SAID POLICE OFFICER'S PARKING PERMIT.",
+							"penalty": "VACATION DAYS (25 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 9,
@@ -32341,7 +32413,7 @@
 		"shield_no": "21981",
 		"appt_date": "1/20/2004",
 		"recognition_count": 1,
-		"arrest_count": 669,
+		"arrest_count": 670,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 11",
@@ -37857,7 +37929,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 274,
+				"felony": 275,
 				"misdemeanor": 427,
 				"violation": 1
 			},
@@ -38578,10 +38650,10 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 36,
-				"misdemeanor": 230,
-				"other": 2,
-				"violation": 38
+				"felony": 18,
+				"misdemeanor": 115,
+				"other": 1,
+				"violation": 19
 			},
 			"awards": []
 		},
@@ -42494,7 +42566,21 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "9/27/2011 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "104-104 PRECINCT",
+							"case_no": "2010-3157",
+							"description": "WHILE ON DUTY ON APPROXIMATELY TWENTY (20) OCCASIONS, FAILED TO MAKE ENTRIES IN ACTIVITY LOG REGARDING SUMMONS ISSUED.",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 93,
 				"misdemeanor": 234,
@@ -50085,17 +50171,17 @@
 		"first_name": "MALIK",
 		"last_name": "HIRANI",
 		"middle_initial": "I",
-		"rank": "LIEUTENANT",
+		"rank": "CAPTAIN",
 		"shield_no": "",
 		"appt_date": "7/1/2004",
 		"recognition_count": 0,
 		"arrest_count": 159,
 		"reports": {
 			"summary": {
-				"command": "083 PRECINCT",
-				"assignment_date": "1/7/2023",
+				"command": "UNIFORMED PROMOTIONS TRN UNIT",
+				"assignment_date": "4/26/2024",
 				"ethnicity": "ASIAN",
-				"rank_desc": "LIEUTENANT",
+				"rank_desc": "CAPTAIN",
 				"shield_no": "",
 				"appt_date": "7/1/2004"
 			},
@@ -50114,6 +50200,11 @@
 					"rank": "LIEUTENANT",
 					"date": "2/9/2022",
 					"shield_no": ""
+				},
+				{
+					"rank": "CAPTAIN",
+					"date": "4/26/2024",
+					"shield_no": ""
 				}
 			],
 			"documents": [],
@@ -50126,7 +50217,7 @@
 			},
 			"awards": []
 		},
-		"command": "083 PRECINCT"
+		"command": "UNIFORMED PROMOTIONS TRN UNIT"
 	},
 	{
 		"taxid": 906464,
@@ -50290,18 +50381,7 @@
 					]
 				},
 				{
-					"entry": "9/30/2021 12:00:00 AM",
-					"allegations_count": 1,
-					"allegations": [
-						{
-							"recommendation": "CHARGES AND SPECIFICATIONS",
-							"case_no": "2021-24043",
-							"description": "01.Wrongfully discourteous to an individual known to the department"
-						}
-					]
-				},
-				{
-					"entry": "3/22/2022 12:00:00 AM",
+					"entry": "5/11/2022 12:00:00 AM",
 					"allegations_count": 1,
 					"allegations": [
 						{
@@ -50329,6 +50409,17 @@
 							"recommendation": "OTHER",
 							"case_no": "2022-25069",
 							"description": "02.Failed to prepare required reports."
+						}
+					]
+				},
+				{
+					"entry": "7/23/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2021-24043",
+							"description": "01.Wrongfully discourteous to an individual known to the department"
 						}
 					]
 				},
@@ -60895,7 +60986,7 @@
 		"shield_no": "6672",
 		"appt_date": "7/11/2005",
 		"recognition_count": 6,
-		"arrest_count": 397,
+		"arrest_count": 398,
 		"reports": {
 			"summary": {
 				"command": "017 DET SQUAD",
@@ -60920,7 +61011,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 187,
+				"felony": 188,
 				"misdemeanor": 207,
 				"other": 2,
 				"violation": 1
@@ -61883,9 +61974,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
-				"misdemeanor": 40,
-				"violation": 4
+				"felony": 8,
+				"misdemeanor": 80,
+				"violation": 8
 			},
 			"awards": []
 		},
@@ -63224,13 +63315,21 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 13,
-				"misdemeanor": 81,
-				"violation": 9
+				"felony": 26,
+				"misdemeanor": 162,
+				"violation": 18
 			},
 			"awards": [
 				{
 					"date": "1/12/2010",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/12/2010",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/14/2009",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -64499,7 +64598,26 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "3/28/2023 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2022-26997",
+							"description": "01.Violated patrol rules - failed to provide a business card",
+							"penalty": "TRAINING"
+						},
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-26997",
+							"description": "02.Wrongfully deactivated their body-worn camera.",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 7,
 				"felony": 25,
@@ -71226,7 +71344,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 252,
+				"felony": 253,
 				"misdemeanor": 179,
 				"other": 1,
 				"violation": 5
@@ -71981,7 +72099,49 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "3/18/2015 12:00:00 AM",
+					"charges_count": 5,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "069-069 PRECINCT",
+							"case_no": "2015-13061",
+							"description": "WHILE ON-DUTY, RESPONDED TO A DOMESTIC INCIDENT INVOLVING AN INDIVIDUAL KNOWN TO THE DEPARTMENT, EXCHANGED NUMBERS WITH HER AND HAD CONTACT WITH HER OUTSIDE HIS OFFICIAL POLICE DUTIES.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "069-069 PRECINCT",
+							"case_no": "2015-13061",
+							"description": "WHILE ON-DUTY FAILED TO PREPARE A DOMESTIC INCIDENT REPORT AS REQUIRED.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "069-069 PRECINCT",
+							"case_no": "2015-13061",
+							"description": "WHILE ON-DUTY, FAILED TO MAKE A PROPER ENTRY IN HIS ACTIVITY LOG RELATING TO A DOMESTIC INCIDENT.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "069-069 PRECINCT",
+							"case_no": "2015-13061",
+							"description": "WHILE ON-DUTY, FAILED TO GIVE BACK A PROPER RADIO DISPOSITION RELATING TO A DOMESTIC INCIDENT.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "069-069 PRECINCT",
+							"case_no": "2015-13061",
+							"description": "RESPONDED TO A DOMESTIC INCIDENT INVOLVING AN INDIVIDUAL KNOWN TO THE DEPARTMENT, EXCHANGED NUMBERS WITH HER AND MADE AN INAPPROPRIATE STATEMENT TO HER.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 43,
@@ -76008,7 +76168,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 3,
-				"felony": 204,
+				"felony": 205,
 				"misdemeanor": 404,
 				"violation": 14
 			},
