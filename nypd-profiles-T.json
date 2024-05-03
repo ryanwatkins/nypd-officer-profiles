@@ -8713,7 +8713,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 6,
-				"misdemeanor": 7
+				"misdemeanor": 8
 			},
 			"awards": []
 		},
@@ -9696,7 +9696,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 29,
-				"misdemeanor": 18
+				"misdemeanor": 19
 			},
 			"awards": []
 		},
@@ -12494,7 +12494,7 @@
 		"shield_no": "7167",
 		"appt_date": "1/9/2006",
 		"recognition_count": 0,
-		"arrest_count": 101,
+		"arrest_count": 202,
 		"reports": {
 			"summary": {
 				"command": "HEADQUARTERS SECURITY UNIT",
@@ -18633,7 +18633,7 @@
 		"shield_no": "2260",
 		"appt_date": "7/11/2005",
 		"recognition_count": 14,
-		"arrest_count": 490,
+		"arrest_count": 491,
 		"reports": {
 			"summary": {
 				"command": "BKLYN TRANSIT ROBBERY SQUAD",
@@ -20639,8 +20639,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 28,
-				"misdemeanor": 44
+				"felony": 29,
+				"misdemeanor": 47
 			},
 			"awards": []
 		},
@@ -24520,7 +24520,42 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "11/29/2018 12:00:00 AM",
+					"charges_count": 4,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "138-SOD STRAT RESP GRP 2 BRONX",
+							"case_no": "2018-18694",
+							"description": "WHILE ON DUTY FAILED TO CORRECT A PAID DETAIL SUBMISSION THAT HAD INACCURATE TIME WORKED ENTRIES UPON BECOMING AWARE OF THE ERROR.",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "138-SOD STRAT RESP GRP 2 BRONX",
+							"case_no": "2018-18694",
+							"description": "WHILE ON DUTY ON ONE (1) OCCASION DID IMPROPERLY CORRECT OR EDIT HIS ACTIVITY LOG ENTRIES.",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "138-SOD STRAT RESP GRP 2 BRONX",
+							"case_no": "2018-18694",
+							"description": "VIOLATED PAID DETAIL GUIDELINES BY PERFORMING A PAID DETAIL ASSIGNMENT WITHIN ONE HOUR OF HIS REGULARLY SCHEDULED TOUR.",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "138-SOD STRAT RESP GRP 2 BRONX",
+							"case_no": "2018-18694",
+							"description": "SUBMITED A PAID DETAIL PAYMENT SLIP FOR HOURS THAT HE DID NOT PERFORM SAID DETAIL.",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 52,
@@ -27445,7 +27480,7 @@
 		"first_name": "PATRICK",
 		"last_name": "THOMPSON",
 		"middle_initial": "A",
-		"rank": "DETECTIVE SPECIALIST",
+		"rank": "DETECTIVE 2ND GRADE",
 		"shield_no": "7871",
 		"appt_date": "7/10/2006",
 		"recognition_count": 5,
@@ -27455,7 +27490,7 @@
 				"command": "CHIEF CRIME CONTROL STRATEGIES",
 				"assignment_date": "2/6/2023",
 				"ethnicity": "WHITE",
-				"rank_desc": "DETECTIVE SPECIALIST",
+				"rank_desc": "DETECTIVE 2ND GRADE",
 				"shield_no": "7871",
 				"appt_date": "7/10/2006"
 			},
@@ -31760,45 +31795,6 @@
 		"command": "WAREHOUSE SYSTEM"
 	},
 	{
-		"taxid": 943877,
-		"full_name": "TIRADO, MELISSA M",
-		"first_name": "MELISSA",
-		"last_name": "TIRADO",
-		"middle_initial": "M",
-		"rank": "POLICE OFFICER",
-		"shield_no": "15370",
-		"appt_date": "1/10/2007",
-		"recognition_count": 0,
-		"arrest_count": 21,
-		"reports": {
-			"summary": {
-				"command": "106 PRECINCT",
-				"assignment_date": "9/19/2022",
-				"ethnicity": "HISPANIC",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "15370",
-				"appt_date": "1/10/2007"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "1/10/2007",
-					"shield_no": "15370"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"infraction": 1,
-				"felony": 4,
-				"misdemeanor": 15,
-				"violation": 1
-			},
-			"awards": []
-		},
-		"command": "106 PRECINCT"
-	},
-	{
 		"taxid": 931332,
 		"full_name": "TIRADO, NICOLE",
 		"first_name": "NICOLE",
@@ -32588,8 +32584,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "11551",
 		"appt_date": "7/10/2006",
-		"recognition_count": 1,
-		"arrest_count": 312,
+		"recognition_count": 2,
+		"arrest_count": 624,
 		"reports": {
 			"summary": {
 				"command": "BROOKLYN CHILD ABUSE SQUAD",
@@ -33284,7 +33280,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "2/3/2016 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "596-GANG SQUAD QUEENS",
+							"case_no": "2015-14062",
+							"description": "STOPPED A VEHICLE WITHOUT SUFFICIENT LEGAL AUTHORITY.",
+							"penalty": "VACATION DAYS (1 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "596-GANG SQUAD QUEENS",
+							"case_no": "2015-14062",
+							"description": "SEARCHED A VEHICLE WITHOUT SUFFICIENT LEGAL AUTHORITY.",
+							"penalty": "VACATION DAYS (1 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 59,
 				"misdemeanor": 208,
@@ -34855,8 +34872,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 29,
-				"misdemeanor": 13
+				"felony": 30,
+				"misdemeanor": 14
 			},
 			"awards": []
 		},
@@ -35006,8 +35023,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 18,
-				"misdemeanor": 27
+				"felony": 19,
+				"misdemeanor": 28
 			},
 			"awards": []
 		},
@@ -35022,8 +35039,8 @@
 		"rank": "SERGEANT",
 		"shield_no": "2712",
 		"appt_date": "1/9/2006",
-		"recognition_count": 10,
-		"arrest_count": 416,
+		"recognition_count": 5,
+		"arrest_count": 208,
 		"reports": {
 			"summary": {
 				"command": "EMER SERV SQ 01",
@@ -37488,7 +37505,7 @@
 		"first_name": "JOSEPH",
 		"last_name": "TOMPKINS",
 		"middle_initial": "G",
-		"rank": "DEPUTY INSPECTOR",
+		"rank": "INSPECTOR",
 		"shield_no": "",
 		"appt_date": "7/11/2005",
 		"recognition_count": 0,
@@ -37498,7 +37515,7 @@
 				"command": "040 PRECINCT",
 				"assignment_date": "4/18/2022",
 				"ethnicity": "WHITE",
-				"rank_desc": "DEPUTY INSPECTOR",
+				"rank_desc": "INSPECTOR",
 				"shield_no": "",
 				"appt_date": "7/11/2005"
 			},
@@ -40589,7 +40606,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 9,
-				"misdemeanor": 28
+				"misdemeanor": 30
 			},
 			"awards": []
 		},
@@ -41298,7 +41315,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 24,
-				"misdemeanor": 39
+				"misdemeanor": 41
 			},
 			"awards": []
 		},
@@ -42469,7 +42486,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 35,
-				"misdemeanor": 39,
+				"misdemeanor": 40,
 				"violation": 3
 			},
 			"awards": []
@@ -42942,7 +42959,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 13,
-				"misdemeanor": 42
+				"misdemeanor": 43
 			},
 			"awards": []
 		},
@@ -45175,7 +45192,7 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "31455",
 		"appt_date": "1/9/2006",
-		"recognition_count": 2,
+		"recognition_count": 3,
 		"arrest_count": 158,
 		"reports": {
 			"summary": {
@@ -45792,7 +45809,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 7,
+				"felony": 9,
 				"misdemeanor": 13
 			},
 			"awards": []
@@ -45928,8 +45945,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 28,
-				"misdemeanor": 39
+				"felony": 29,
+				"misdemeanor": 40
 			},
 			"awards": []
 		},
@@ -46188,7 +46205,49 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "12/14/2015 12:00:00 AM",
+					"charges_count": 5,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "026-026 PRECINCT",
+							"case_no": "2015-14878",
+							"description": "WHILE OFF-DUTY, OPERATED A MOTOR VEHICLE WHILE HIS ABILITY WAS IMPAIRED BY AN INTOXICANT.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (31 day(s) ), VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "026-026 PRECINCT",
+							"case_no": "2015-14878",
+							"description": "WHILE OFF-DUTY, WRONGFULLY OPERATED A MOTOR VEHICLE WHILE UNDER THE INFLUENCE OF AN INTOXICANT.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (31 day(s) ), VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "026-026 PRECINCT",
+							"case_no": "2015-14878",
+							"description": "WHILE OFF-DUTY, WRONGFULLY CONSUMED AN INTOXICANT TO THE EXTENT THAT SAID POLICE OFFICER WAS UNFIT FOR DUTY.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (31 day(s) ), VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "026-026 PRECINCT",
+							"case_no": "2015-14878",
+							"description": "WHILE OFF-DUTY, REFUSED TO SUBMIT TO A BREATHALYZER TEST.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (31 day(s) ), VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "026-026 PRECINCT",
+							"case_no": "2015-14878",
+							"description": "WHILE OFF-DUTY, AFTER BEING INVOLVED IN A POLICE INCIDENT, FAILED AND NEGLECTED TO IMMEDIATELY NOTIFY THE OPERATIONS UNIT, AS REQUIRED.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (31 day(s) ), VACATION DAYS (15 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 16,
 				"misdemeanor": 66,
@@ -48042,7 +48101,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 9,
-				"misdemeanor": 16
+				"misdemeanor": 17
 			},
 			"awards": []
 		},
@@ -50744,7 +50803,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 16,
+				"felony": 19,
 				"misdemeanor": 63
 			},
 			"awards": [
@@ -52849,7 +52908,7 @@
 		"shield_no": "18176",
 		"appt_date": "1/10/2007",
 		"recognition_count": 0,
-		"arrest_count": 181,
+		"arrest_count": 182,
 		"reports": {
 			"summary": {
 				"command": "111 PRECINCT",
@@ -54327,7 +54386,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 30,
-				"misdemeanor": 31
+				"misdemeanor": 32
 			},
 			"awards": []
 		},
@@ -60352,8 +60411,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 11,
-				"misdemeanor": 21
+				"felony": 22,
+				"misdemeanor": 46
 			},
 			"awards": []
 		},
@@ -60911,8 +60970,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 20,
-				"misdemeanor": 42
+				"felony": 17,
+				"misdemeanor": 27
 			},
 			"awards": []
 		},
@@ -61155,7 +61214,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 9,
-				"misdemeanor": 12
+				"misdemeanor": 13
 			},
 			"awards": []
 		},

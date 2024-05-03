@@ -429,7 +429,7 @@
 		"rank": "LIEUTENANT",
 		"shield_no": "",
 		"appt_date": "7/9/2007",
-		"recognition_count": 4,
+		"recognition_count": 5,
 		"arrest_count": 84,
 		"reports": {
 			"summary": {
@@ -479,6 +479,10 @@
 				"violation": 9
 			},
 			"awards": [
+				{
+					"date": "4/15/2023",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "10/4/2022",
 					"name": "EXCELLENT POLICE DUTY"
@@ -1587,7 +1591,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 7
+				"misdemeanor": 8
 			},
 			"awards": []
 		},
@@ -3129,7 +3133,7 @@
 		"rank": "DETECTIVE SPECIALIST",
 		"shield_no": "2991",
 		"appt_date": "1/10/2007",
-		"recognition_count": 3,
+		"recognition_count": 4,
 		"arrest_count": 106,
 		"reports": {
 			"summary": {
@@ -4090,8 +4094,8 @@
 		"rank": "DETECTIVE SPECIALIST",
 		"shield_no": "6495",
 		"appt_date": "7/10/2006",
-		"recognition_count": 4,
-		"arrest_count": 1094,
+		"recognition_count": 2,
+		"arrest_count": 547,
 		"reports": {
 			"summary": {
 				"command": "CIVILIAN HIRING UNIT",
@@ -4201,7 +4205,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 21,
+				"felony": 28,
 				"misdemeanor": 21,
 				"other": 1
 			},
@@ -5692,7 +5696,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 186,
-				"misdemeanor": 627,
+				"misdemeanor": 628,
 				"violation": 28
 			},
 			"awards": [
@@ -6854,7 +6858,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 7,
-				"misdemeanor": 30
+				"misdemeanor": 32
 			},
 			"awards": []
 		},
@@ -7662,8 +7666,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "24632",
 		"appt_date": "1/31/2006",
-		"recognition_count": 4,
-		"arrest_count": 178,
+		"recognition_count": 2,
+		"arrest_count": 89,
 		"reports": {
 			"summary": {
 				"command": "120 PRECINCT",
@@ -9331,7 +9335,13 @@
 				"shield_no": "29203",
 				"appt_date": "1/23/2007"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/10/2007",
+					"shield_no": "29203"
+				}
+			],
 			"documents": [],
 			"discipline": [],
 			"arrests": {
@@ -10392,7 +10402,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 2,
-				"misdemeanor": 12
+				"misdemeanor": 13
 			},
 			"awards": []
 		},
@@ -10962,8 +10972,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 15,
-				"misdemeanor": 21
+				"felony": 30,
+				"misdemeanor": 42
 			},
 			"awards": []
 		},
@@ -11303,8 +11313,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 15,
-				"misdemeanor": 13
+				"felony": 30,
+				"misdemeanor": 26
 			},
 			"awards": []
 		},
@@ -12472,21 +12482,7 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
-				{
-					"entry": "1/19/2012 12:00:00 AM",
-					"charges_count": 1,
-					"charges": [
-						{
-							"disposition": "GUILTY",
-							"command": "TD3-",
-							"case_no": "2010-1435",
-							"description": "WHILE OFF DUTY LEFT THE SCENE OF A MOTOR VEHICLE ACCIDENT WITHOUT CONTACTING THE POLICE.",
-							"penalty": "VACATION DAYS (20 day(s) )"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"felony": 6,
 				"misdemeanor": 185,
