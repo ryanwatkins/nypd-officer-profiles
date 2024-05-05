@@ -1399,8 +1399,8 @@
 		"first_name": "JOHN",
 		"last_name": "VALDES",
 		"middle_initial": "A",
-		"rank": "POLICE OFFICER",
-		"shield_no": "1348",
+		"rank": "DETECTIVE 3RD GRADE",
+		"shield_no": "433",
 		"appt_date": "7/6/2010",
 		"recognition_count": 1,
 		"arrest_count": 22,
@@ -9443,8 +9443,8 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "4965",
 		"appt_date": "7/5/2017",
-		"recognition_count": 13,
-		"arrest_count": 94,
+		"recognition_count": 21,
+		"arrest_count": 95,
 		"reports": {
 			"summary": {
 				"command": "INTEL CIS FIO PROGRAM",
@@ -16823,63 +16823,7 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [
-				{
-					"entry": "11/1/2017 12:00:00 AM",
-					"charges_count": 1,
-					"charges": [
-						{
-							"disposition": "GUILTY",
-							"command": "047-047 PRECINCT",
-							"case_no": "2017-18104",
-							"description": "WHILE ON DUTY, WRONGFULLY FAILED TO TERMINATE A VEHICLE PURSUIT WHEN THE RISK OF INJURY OUTWEIGHED THE NEED TO STOP SAID VEHICLE",
-							"penalty": "VACATION DAYS (8 day(s) )"
-						}
-					]
-				},
-				{
-					"entry": "11/9/2021 12:00:00 AM",
-					"allegations_count": 6,
-					"allegations": [
-						{
-							"recommendation": "OTHER",
-							"case_no": "2020-22477",
-							"description": "01.Failed to activate Body-Worn Camera",
-							"penalty": "A - COMMAND DISCIPLINE, FORFEITURE OF TIME/LEAVE BALANCES"
-						},
-						{
-							"recommendation": "A-CD",
-							"case_no": "2020-22477",
-							"description": "02.Failed to prepare required reports.",
-							"penalty": "A - COMMAND DISCIPLINE, FORFEITURE OF TIME/LEAVE BALANCES"
-						},
-						{
-							"recommendation": "A-CD",
-							"case_no": "2020-22477",
-							"description": "03.Violated patrol rules.",
-							"penalty": "A - COMMAND DISCIPLINE, FORFEITURE OF TIME/LEAVE BALANCES"
-						},
-						{
-							"recommendation": "A-CD",
-							"case_no": "2020-22477",
-							"description": "04.Wrongfully frisked an individual known to the Department.",
-							"penalty": "A - COMMAND DISCIPLINE, FORFEITURE OF TIME/LEAVE BALANCES"
-						},
-						{
-							"recommendation": "A-CD",
-							"case_no": "2020-22477",
-							"description": "05.Wrongfully searched an individual known to the Department.",
-							"penalty": "A - COMMAND DISCIPLINE, FORFEITURE OF TIME/LEAVE BALANCES"
-						},
-						{
-							"recommendation": "A-CD",
-							"case_no": "2020-22477",
-							"description": "06.Wrongfully stopped an individual known to the Department.",
-							"penalty": "A - COMMAND DISCIPLINE, FORFEITURE OF TIME/LEAVE BALANCES"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"infraction": 1,
 				"felony": 52,
@@ -17163,8 +17107,8 @@
 		"rank": "SERGEANT",
 		"shield_no": "5508",
 		"appt_date": "7/14/2009",
-		"recognition_count": 6,
-		"arrest_count": 263,
+		"recognition_count": 12,
+		"arrest_count": 526,
 		"reports": {
 			"summary": {
 				"command": "MILITARY & EXTENDED LEAVE DESK",
@@ -17380,7 +17324,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "3/11/2019 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "20-020 PRECINCT",
+							"case_no": "2019-20215",
+							"description": "Failed to timely submit Reports .",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "20-020 PRECINCT",
+							"case_no": "2019-20215",
+							"description": "Failed an Integrity Test.\r\nFailed to prepare a Property Clerk's Invoice Worksheet, as required.",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 22,
 				"misdemeanor": 79,
@@ -18575,21 +18540,7 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
-				{
-					"entry": "6/27/2022 12:00:00 AM",
-					"charges_count": 1,
-					"charges": [
-						{
-							"disposition": "PLEADED GUILTY",
-							"command": "801-HOUSING PSA 1",
-							"case_no": "2022-25214",
-							"description": "Computer Misuse.",
-							"penalty": "VACATION DAYS (15 day(s) )"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"felony": 6,
 				"misdemeanor": 51,
@@ -22252,7 +22203,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 37,
+				"felony": 38,
 				"misdemeanor": 130,
 				"violation": 1
 			},
@@ -28178,6 +28129,10 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "7/21/2023",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "7/11/2023",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
@@ -32041,7 +31996,32 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/2/2024 12:00:00 AM",
+					"allegations_count": 3,
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-26666",
+							"description": "01.Failed to make required entries in Department Logs.",
+							"penalty": "TRAINING"
+						},
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-26666",
+							"description": "02.Failed to prepare required reports.",
+							"penalty": "TRAINING"
+						},
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2022-26666",
+							"description": "03.Wrongful removal to a hospital.",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 42,
@@ -33595,7 +33575,33 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "2/17/2022 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "487-VICE ENFORCEMENT DIV ZONE 2",
+							"case_no": "2022-24715",
+							"description": "-",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "5/8/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2022-24719",
+							"description": "01.Failed to make required entries in Department Logs.",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 45,
 				"misdemeanor": 226,
@@ -36632,6 +36638,10 @@
 				"violation": 2
 			},
 			"awards": [
+				{
+					"date": "6/29/2022",
+					"name": "COMMENDATION"
+				},
 				{
 					"date": "12/12/2019",
 					"name": "MERITORIOUS POLICE DUTY"
@@ -43377,7 +43387,49 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "10/5/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2022-27161",
+							"description": "01.Wrongfully discourteous to an individual known to the Department."
+						}
+					]
+				},
+				{
+					"entry": "5/11/2023 12:00:00 AM",
+					"allegations_count": 4,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2023-27967",
+							"description": "01.Violated patrol rules - failed to provide business card",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (6 day(s) )"
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2023-27967",
+							"description": "02.Violated patrol rules - refused to provide shield number",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (6 day(s) )"
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2023-27967",
+							"description": "03.Wrongfully frisked an individual known to the Department.",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (6 day(s) )"
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2023-27967",
+							"description": "04.Wrongfully stopped an individual known to the Department.",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (6 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 46,
 				"misdemeanor": 93
@@ -45237,26 +45289,13 @@
 				{
 					"entry": "11/21/2022 12:00:00 AM",
 					"allegations_count": 2,
-					"allegations": [
-						{
-							"recommendation": "NO DISCIPLINARY ACTION",
-							"case_no": "2022-26818",
-							"description": "01.Computer Misuse With Dissemination",
-							"penalty": "B - COMMAND DISCIPLINE"
-						},
-						{
-							"recommendation": "B-CD",
-							"case_no": "2022-26818",
-							"description": "02.Computer misuse.",
-							"penalty": "B - COMMAND DISCIPLINE"
-						}
-					]
+					"allegations": []
 				}
 			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 46,
-				"misdemeanor": 165,
+				"misdemeanor": 166,
 				"violation": 13
 			},
 			"awards": [
@@ -46397,7 +46436,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 225,
+				"felony": 227,
 				"misdemeanor": 305,
 				"other": 1,
 				"violation": 81

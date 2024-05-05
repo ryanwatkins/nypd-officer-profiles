@@ -2951,7 +2951,7 @@
 		"shield_no": "8040",
 		"appt_date": "1/14/2009",
 		"recognition_count": 1,
-		"arrest_count": 110,
+		"arrest_count": 111,
 		"reports": {
 			"summary": {
 				"command": "070 PRECINCT",
@@ -8523,7 +8523,42 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "9/8/2022 12:00:00 AM",
+					"charges_count": 4,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "103-103 PRECINCT",
+							"case_no": "2021-24457",
+							"description": "failed to activate body-worn camera in a timely manner.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), TRAINING, VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "103-103 PRECINCT",
+							"case_no": "2021-24457",
+							"description": "Failed to make activity log entries.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), TRAINING, VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "103-103 PRECINCT",
+							"case_no": "2021-24457",
+							"description": "failed to make proper notifications.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), TRAINING, VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "103-103 PRECINCT",
+							"case_no": "2021-24457",
+							"description": "Inaccurate official statement.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), TRAINING, VACATION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 88,
@@ -20693,13 +20728,7 @@
 				{
 					"entry": "8/8/2022 12:00:00 AM",
 					"allegations_count": 1,
-					"allegations": [
-						{
-							"recommendation": "OTHER",
-							"case_no": "2022-25417",
-							"description": "01.Failed to make proper notifications."
-						}
-					]
+					"allegations": []
 				},
 				{
 					"entry": "10/17/2022 12:00:00 AM",
@@ -20714,14 +20743,22 @@
 				}
 			],
 			"arrests": {
-				"infraction": 1,
-				"felony": 29,
-				"misdemeanor": 161,
-				"violation": 67
+				"infraction": 2,
+				"felony": 60,
+				"misdemeanor": 324,
+				"violation": 134
 			},
 			"awards": [
 				{
 					"date": "3/8/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "3/8/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "3/17/2021",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -20733,11 +20770,27 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "3/12/2021",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/25/2020",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "10/25/2020",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
 					"date": "2/18/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "2/18/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/19/2019",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -20749,11 +20802,27 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "3/25/2019",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/19/2018",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "11/19/2018",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "4/2/2018",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "4/2/2018",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "8/27/2015",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
@@ -20765,7 +20834,19 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
+					"date": "3/5/2015",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "3/28/2014",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "3/28/2014",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "2/19/2014",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -20777,7 +20858,19 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
+					"date": "12/27/2013",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "12/20/2013",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "12/20/2013",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "4/15/2013",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -27219,7 +27312,7 @@
 		"shield_no": "16736",
 		"appt_date": "1/7/2008",
 		"recognition_count": 3,
-		"arrest_count": 344,
+		"arrest_count": 346,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 30",
@@ -30843,21 +30936,7 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
-				{
-					"entry": "7/14/2020 12:00:00 AM",
-					"charges_count": 1,
-					"charges": [
-						{
-							"disposition": "PLEADED GUILTY",
-							"command": "014-MIDTOWN PRECINCT SOUTH",
-							"case_no": "2020-21899",
-							"description": "Wrongfully disseminated confidential Department information.",
-							"penalty": "VACATION DAYS (20 day(s) )"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"felony": 6,
 				"misdemeanor": 68,
@@ -33442,25 +33521,11 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
-				{
-					"entry": "2/14/2018 12:00:00 AM",
-					"charges_count": 1,
-					"charges": [
-						{
-							"disposition": "GUILTY",
-							"command": "801-HOUSING PSA 1",
-							"case_no": "2018-18458",
-							"description": "WAS DISCOURTEOUS TO A PERSON KNOWN TO THE DEPARTMENT.",
-							"penalty": "PRE-TRIAL SUSPENSION DAYS (30 day(s) ), TRAINING"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"infraction": 2,
 				"felony": 16,
-				"misdemeanor": 59,
+				"misdemeanor": 60,
 				"violation": 24
 			},
 			"awards": [
@@ -34477,7 +34542,7 @@
 		"reports": {
 			"summary": {
 				"command": "FORCE INVESTIGATION DIVISION",
-				"assignment_date": "2/2/2024",
+				"assignment_date": "4/30/2024",
 				"ethnicity": "BLACK",
 				"rank_desc": "SERGEANT",
 				"shield_no": "993",
@@ -39294,13 +39359,7 @@
 				{
 					"entry": "10/19/2022 12:00:00 AM",
 					"allegations_count": 1,
-					"allegations": [
-						{
-							"recommendation": "OTHER",
-							"case_no": "2022-26186",
-							"description": "01.Failed to prepare required reports."
-						}
-					]
+					"allegations": []
 				},
 				{
 					"entry": "3/16/2023 12:00:00 AM",
@@ -44059,7 +44118,7 @@
 				"command": "WARRANT SECTION",
 				"assignment_date": "7/15/2012",
 				"ethnicity": "WHITE",
-				"rank_desc": "DETECTIVE 2ND GRADE",
+				"rank_desc": "DETECTIVE 1ST GRADE",
 				"shield_no": "7789",
 				"appt_date": "7/8/2008"
 			},
@@ -44985,21 +45044,7 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [
-				{
-					"entry": "7/8/2016 12:00:00 AM",
-					"charges_count": 1,
-					"charges": [
-						{
-							"disposition": "GUILTY",
-							"command": "109-109 PRECINCT",
-							"case_no": "2016-16075",
-							"description": "WHILE ON-DUTY, DID WRONGFULLY UTILIZE THE DEPARTMENT COMPUTER TO MAKE AN INQUIRY UNRELATED TO THE OFFICIAL BUSINESS OF THE NEW YORK CITY POLICE DEPARTMENT.",
-							"penalty": "DISMISSAL PROBATION (12 month(s) ), SUSPENDED W/O PAY (30 day(s) )"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"infraction": 1,
 				"felony": 9,
