@@ -833,7 +833,7 @@
 		"shield_no": "4905",
 		"appt_date": "1/9/2012",
 		"recognition_count": 13,
-		"arrest_count": 332,
+		"arrest_count": 333,
 		"reports": {
 			"summary": {
 				"command": "075 DET SQUAD",
@@ -5544,9 +5544,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "6/14/2023 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-27614",
+							"description": "01.Wrongful entry of a premises.",
+							"penalty": "A - COMMAND DISCIPLINE"
+						},
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-27614",
+							"description": "02.Wrongfully damaged property.",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
-				"felony": 23,
+				"felony": 25,
 				"misdemeanor": 31,
 				"violation": 1
 			},
@@ -6330,6 +6349,10 @@
 				"violation": 2
 			},
 			"awards": [
+				{
+					"date": "11/21/2021",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
 				{
 					"date": "11/13/2015",
 					"name": "EXCELLENT POLICE DUTY"

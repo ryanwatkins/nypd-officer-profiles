@@ -618,7 +618,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 22,
+				"felony": 23,
 				"misdemeanor": 43,
 				"violation": 1
 			},
@@ -3977,7 +3977,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "6/13/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2021-24361",
+							"description": "01.Violated patrol rules.",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 4,
 				"misdemeanor": 69,
@@ -7436,7 +7449,26 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "8/8/2022 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "INSTRUCTIONS",
+							"case_no": "2020-21807",
+							"description": "01.Failed to provide business card.",
+							"penalty": "INSTRUCTIONS, TRAINING"
+						},
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2020-21807",
+							"description": "02.Improper frisk.",
+							"penalty": "INSTRUCTIONS, TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 85,
@@ -8229,7 +8261,7 @@
 		"shield_no": "13274",
 		"appt_date": "7/9/2013",
 		"recognition_count": 1,
-		"arrest_count": 54,
+		"arrest_count": 55,
 		"reports": {
 			"summary": {
 				"command": "061 PRECINCT",
@@ -8249,7 +8281,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 12,
+				"felony": 13,
 				"misdemeanor": 29,
 				"violation": 13
 			},
@@ -9580,7 +9612,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 89,
-				"misdemeanor": 48,
+				"misdemeanor": 49,
 				"violation": 1
 			},
 			"awards": [
@@ -10598,7 +10630,50 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "3/23/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2021-23856",
+							"description": "01.Failed to prepare required report.",
+							"penalty": "TRAINING"
+						}
+					]
+				},
+				{
+					"entry": "9/21/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2021-23855",
+							"description": "01.Improper stop of an individual",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (3 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "3/3/2024 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2023-27831",
+							"description": "01.Wrongfully discourteous.",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (10 day(s) )"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2023-27831",
+							"description": "02.Wrongfully used offensive language.",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 28,
@@ -10606,6 +10681,18 @@
 				"violation": 15
 			},
 			"awards": [
+				{
+					"date": "1/3/2024",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "12/20/2023",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "9/7/2022",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
 				{
 					"date": "9/30/2020",
 					"name": "EXCELLENT POLICE DUTY"
@@ -12094,7 +12181,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 10,
-				"misdemeanor": 81
+				"misdemeanor": 84
 			},
 			"awards": []
 		},
