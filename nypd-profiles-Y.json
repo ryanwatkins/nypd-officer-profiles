@@ -1711,7 +1711,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "10/13/2022 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "805-HOUSING PSA 5",
+							"case_no": "2021-24438",
+							"description": "Inaccurate entries in Department records.",
+							"penalty": "FORFEITURE OF TIME/LEAVE BALANCES, VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "805-HOUSING PSA 5",
+							"case_no": "2021-24438",
+							"description": "Failed to submit reports.",
+							"penalty": "FORFEITURE OF TIME/LEAVE BALANCES, VACATION DAYS (15 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 6,
 				"misdemeanor": 10
@@ -3703,7 +3724,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 21,
+				"felony": 23,
 				"misdemeanor": 13,
 				"violation": 1
 			},
@@ -3947,42 +3968,17 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
-				{
-					"entry": "12/5/2022 12:00:00 AM",
-					"allegations_count": 2,
-					"allegations": [
-						{
-							"recommendation": "B-CD",
-							"case_no": "2022-26010",
-							"description": "01.Wrongfully threatened to arrest an individual known to the Department"
-						},
-						{
-							"recommendation": "B-CD",
-							"case_no": "2022-26010",
-							"description": "02.Wrongfully used physical force."
-						}
-					]
-				},
-				{
-					"entry": "8/8/2023 12:00:00 AM",
-					"allegations_count": 1,
-					"allegations": [
-						{
-							"recommendation": "TRAINING",
-							"case_no": "2022-27613",
-							"description": "01.Wrongful entry of a premises.",
-							"penalty": "TRAINING"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"infraction": 1,
 				"felony": 51,
 				"misdemeanor": 32
 			},
 			"awards": [
+				{
+					"date": "11/8/2023",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
 				{
 					"date": "9/23/2022",
 					"name": "EXCELLENT POLICE DUTY"
@@ -4054,7 +4050,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 26,
-				"misdemeanor": 59
+				"misdemeanor": 60
 			},
 			"awards": [
 				{
@@ -6497,7 +6493,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 97,
+				"felony": 98,
 				"misdemeanor": 106
 			},
 			"awards": [
@@ -8087,29 +8083,10 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
-				{
-					"entry": "12/12/2023 12:00:00 AM",
-					"allegations_count": 2,
-					"allegations": [
-						{
-							"recommendation": "A-CD",
-							"case_no": "2023-29131",
-							"description": "01.Wrongfully discourteous to an individual known to the Department.",
-							"penalty": "A - COMMAND DISCIPLINE, A - COMMAND DISCIPLINE"
-						},
-						{
-							"recommendation": "A-CD",
-							"case_no": "2023-29131",
-							"description": "01.Wrongfully discourteous to an individual known to the Department.",
-							"penalty": "A - COMMAND DISCIPLINE, A - COMMAND DISCIPLINE"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
-				"felony": 50,
-				"misdemeanor": 88
+				"felony": 25,
+				"misdemeanor": 45
 			},
 			"awards": []
 		},

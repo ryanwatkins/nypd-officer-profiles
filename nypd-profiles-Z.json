@@ -494,7 +494,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 5,
+				"felony": 7,
 				"misdemeanor": 17
 			},
 			"awards": [
@@ -1297,7 +1297,49 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "6/27/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-25777",
+							"description": "01.Failed to activate their body worn camera.",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (3 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "7/28/2022 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2022-25776",
+							"description": "01.Wrongfully frisked an individual known to the Department.",
+							"penalty": "TRAINING"
+						},
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2022-25776",
+							"description": "02.Wrongfully stopped an individual known to the Department.",
+							"penalty": "TRAINING"
+						}
+					]
+				},
+				{
+					"entry": "9/22/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2023-28941",
+							"description": "01.Wrongfully used physical force."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 117,
@@ -1305,6 +1347,10 @@
 				"violation": 7
 			},
 			"awards": [
+				{
+					"date": "4/5/2023",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
 				{
 					"date": "11/12/2022",
 					"name": "MERITORIOUS POLICE DUTY"
@@ -2084,7 +2130,7 @@
 			"documents": [],
 			"discipline": [
 				{
-					"entry": "6/23/2022 12:00:00 AM",
+					"entry": "3/27/2023 12:00:00 AM",
 					"allegations_count": 1,
 					"allegations": [
 						{
@@ -3687,8 +3733,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 42,
-				"misdemeanor": 85,
+				"felony": 43,
+				"misdemeanor": 86,
 				"violation": 1
 			},
 			"awards": []
@@ -5136,7 +5182,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/12/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "NO DISCIPLINARY ACTION",
+							"case_no": "2022-27328",
+							"description": "01.Wrongful entry of a premises."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 10,
 				"misdemeanor": 15
@@ -5251,8 +5309,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 17,
-				"misdemeanor": 29
+				"felony": 18,
+				"misdemeanor": 30
 			},
 			"awards": []
 		},
@@ -9096,7 +9154,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 26,
-				"misdemeanor": 37
+				"misdemeanor": 38
 			},
 			"awards": [
 				{
@@ -9530,7 +9588,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 68,
+				"felony": 69,
 				"misdemeanor": 69
 			},
 			"awards": [
@@ -12862,14 +12920,10 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 26,
-				"misdemeanor": 58
+				"felony": 13,
+				"misdemeanor": 30
 			},
 			"awards": [
-				{
-					"date": "6/8/2021",
-					"name": "EXCELLENT POLICE DUTY"
-				},
 				{
 					"date": "6/8/2021",
 					"name": "EXCELLENT POLICE DUTY"
@@ -12908,8 +12962,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 13,
-				"misdemeanor": 32
+				"felony": 14,
+				"misdemeanor": 34
 			},
 			"awards": []
 		},
@@ -14024,7 +14078,7 @@
 		"shield_no": "19974",
 		"appt_date": "10/7/2015",
 		"recognition_count": 1,
-		"arrest_count": 115,
+		"arrest_count": 117,
 		"reports": {
 			"summary": {
 				"command": "HIGHWAY UNIT 1",
@@ -16342,9 +16396,14 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 14,
-				"misdemeanor": 8
+				"misdemeanor": 9
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "12/13/2022",
+					"name": "MERITORIOUS POLICE DUTY"
+				}
+			]
 		},
 		"command": "TRANSIT DISTRICT 4"
 	},
@@ -16540,7 +16599,7 @@
 		"rank": "SERGEANT",
 		"shield_no": "3308",
 		"appt_date": "10/11/2016",
-		"recognition_count": 61,
+		"recognition_count": 65,
 		"arrest_count": 213,
 		"reports": {
 			"summary": {
@@ -16858,7 +16917,7 @@
 		"shield_no": "23142",
 		"appt_date": "10/11/2016",
 		"recognition_count": 2,
-		"arrest_count": 106,
+		"arrest_count": 107,
 		"reports": {
 			"summary": {
 				"command": "070 PRECINCT",
@@ -17625,7 +17684,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 39
+				"misdemeanor": 40
 			},
 			"awards": [
 				{
@@ -18520,7 +18579,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 37,
+				"misdemeanor": 38,
 				"other": 2,
 				"violation": 6
 			},

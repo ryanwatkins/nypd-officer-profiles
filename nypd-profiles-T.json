@@ -371,7 +371,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 30,
-				"misdemeanor": 53
+				"misdemeanor": 54
 			},
 			"awards": []
 		},
@@ -2653,7 +2653,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 7,
-				"misdemeanor": 13
+				"misdemeanor": 17
 			},
 			"awards": []
 		},
@@ -3337,7 +3337,7 @@
 		"shield_no": "5961",
 		"appt_date": "10/7/2015",
 		"recognition_count": 35,
-		"arrest_count": 169,
+		"arrest_count": 170,
 		"reports": {
 			"summary": {
 				"command": "044 PRECINCT",
@@ -5746,7 +5746,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/15/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2021-24221",
+							"description": "01.Wrongful threat of force.\r\nWrongfully unholstered/displayed a Taser."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 4,
 				"misdemeanor": 16,
@@ -5875,7 +5887,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 20,
-				"misdemeanor": 43,
+				"misdemeanor": 44,
 				"other": 6
 			},
 			"awards": [
@@ -7781,7 +7793,7 @@
 		"shield_no": "3487",
 		"appt_date": "7/13/2016",
 		"recognition_count": 0,
-		"arrest_count": 35,
+		"arrest_count": 36,
 		"reports": {
 			"summary": {
 				"command": "105 PRECINCT",
@@ -10559,7 +10571,7 @@
 		"shield_no": "23952",
 		"appt_date": "10/11/2016",
 		"recognition_count": 1,
-		"arrest_count": 92,
+		"arrest_count": 93,
 		"reports": {
 			"summary": {
 				"command": "040 PRECINCT",
@@ -11358,8 +11370,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
-				"misdemeanor": 5
+				"felony": 8,
+				"misdemeanor": 10
 			},
 			"awards": []
 		},
@@ -11535,7 +11547,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 9,
-				"misdemeanor": 26,
+				"misdemeanor": 27,
 				"violation": 1
 			},
 			"awards": []
@@ -12470,7 +12482,7 @@
 		"shield_no": "12707",
 		"appt_date": "1/6/2016",
 		"recognition_count": 0,
-		"arrest_count": 50,
+		"arrest_count": 51,
 		"reports": {
 			"summary": {
 				"command": "042 PRECINCT",
@@ -12729,9 +12741,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 26,
-				"misdemeanor": 68,
-				"violation": 4
+				"felony": 13,
+				"misdemeanor": 34,
+				"violation": 2
 			},
 			"awards": []
 		},
@@ -13168,7 +13180,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 32,
+				"felony": 33,
 				"misdemeanor": 50
 			},
 			"awards": [
@@ -14303,7 +14315,7 @@
 		"shield_no": "2988",
 		"appt_date": "1/6/2016",
 		"recognition_count": 1,
-		"arrest_count": 10,
+		"arrest_count": 11,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 11",
@@ -14664,7 +14676,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 50,
+				"felony": 51,
 				"misdemeanor": 81,
 				"violation": 2
 			},
@@ -15523,8 +15535,8 @@
 		"arrest_count": 146,
 		"reports": {
 			"summary": {
-				"command": "UNIFORMED PROMOTIONS TRN UNIT",
-				"assignment_date": "4/4/2024",
+				"command": "HOUSING PSA 8",
+				"assignment_date": "5/6/2024",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "SERGEANT",
 				"shield_no": "4056",
@@ -15755,7 +15767,7 @@
 				}
 			]
 		},
-		"command": "UNIFORMED PROMOTIONS TRN UNIT"
+		"command": "HOUSING PSA 8"
 	},
 	{
 		"taxid": 961359,
@@ -16200,7 +16212,7 @@
 		"shield_no": "294",
 		"appt_date": "10/11/2016",
 		"recognition_count": 0,
-		"arrest_count": 50,
+		"arrest_count": 52,
 		"reports": {
 			"summary": {
 				"command": "ATU LATE TOUR PATROL TD 1",
@@ -17607,7 +17619,7 @@
 		"shield_no": "31048",
 		"appt_date": "1/6/2016",
 		"recognition_count": 1,
-		"arrest_count": 37,
+		"arrest_count": 41,
 		"reports": {
 			"summary": {
 				"command": "120 PRECINCT",
@@ -19085,7 +19097,7 @@
 		"shield_no": "2439",
 		"appt_date": "1/6/2016",
 		"recognition_count": 2,
-		"arrest_count": 71,
+		"arrest_count": 72,
 		"reports": {
 			"summary": {
 				"command": "STRATEGIC RESP GRP 2 BRONX",
@@ -22175,11 +22187,15 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 1,
-				"felony": 14,
-				"misdemeanor": 15
+				"infraction": 2,
+				"felony": 28,
+				"misdemeanor": 30
 			},
 			"awards": [
+				{
+					"date": "1/12/2023",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "1/12/2023",
 					"name": "EXCELLENT POLICE DUTY"
@@ -23882,7 +23898,7 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "2234",
 		"appt_date": "12/29/2020",
-		"recognition_count": 0,
+		"recognition_count": 1,
 		"arrest_count": 43,
 		"reports": {
 			"summary": {
@@ -25654,7 +25670,7 @@
 		"shield_no": "12292",
 		"appt_date": "1/6/2016",
 		"recognition_count": 1,
-		"arrest_count": 69,
+		"arrest_count": 70,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 12",
@@ -27060,8 +27076,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 69,
-				"misdemeanor": 100
+				"felony": 70,
+				"misdemeanor": 102
 			},
 			"awards": [
 				{
@@ -28191,7 +28207,7 @@
 		"shield_no": "14002",
 		"appt_date": "1/6/2016",
 		"recognition_count": 0,
-		"arrest_count": 112,
+		"arrest_count": 113,
 		"reports": {
 			"summary": {
 				"command": "STRATEGIC RESP GRP 1 MANHATTAN",
@@ -30823,7 +30839,7 @@
 		"shield_no": "3560",
 		"appt_date": "7/13/2016",
 		"recognition_count": 12,
-		"arrest_count": 374,
+		"arrest_count": 378,
 		"reports": {
 			"summary": {
 				"command": "040 DET SQUAD",
@@ -30991,7 +31007,7 @@
 		"shield_no": "8709",
 		"appt_date": "1/6/2016",
 		"recognition_count": 0,
-		"arrest_count": 71,
+		"arrest_count": 72,
 		"reports": {
 			"summary": {
 				"command": "049 PRECINCT",
@@ -31247,7 +31263,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 13,
+				"felony": 14,
 				"misdemeanor": 26,
 				"violation": 1
 			},
@@ -32321,7 +32337,12 @@
 				"misdemeanor": 18,
 				"violation": 1
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "8/2/2023",
+					"name": "MERITORIOUS POLICE DUTY"
+				}
+			]
 		},
 		"command": "QS EVIDENCE COLLECTION TEAM"
 	},
@@ -35924,7 +35945,7 @@
 		"shield_no": "9819",
 		"appt_date": "12/29/2020",
 		"recognition_count": 0,
-		"arrest_count": 119,
+		"arrest_count": 238,
 		"reports": {
 			"summary": {
 				"command": "023 PRECINCT",
@@ -36378,15 +36399,11 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 36,
-				"misdemeanor": 88,
-				"violation": 4
+				"felony": 18,
+				"misdemeanor": 44,
+				"violation": 2
 			},
 			"awards": [
-				{
-					"date": "10/1/2019",
-					"name": "EXCELLENT POLICE DUTY"
-				},
 				{
 					"date": "10/1/2019",
 					"name": "EXCELLENT POLICE DUTY"
@@ -37327,8 +37344,8 @@
 		"arrest_count": 64,
 		"reports": {
 			"summary": {
-				"command": "UNIFORMED PROMOTIONS TRN UNIT",
-				"assignment_date": "4/4/2024",
+				"command": "068 PRECINCT",
+				"assignment_date": "5/6/2024",
 				"ethnicity": "WHITE",
 				"rank_desc": "SERGEANT",
 				"shield_no": "4062",
@@ -37376,7 +37393,7 @@
 				}
 			]
 		},
-		"command": "UNIFORMED PROMOTIONS TRN UNIT"
+		"command": "068 PRECINCT"
 	},
 	{
 		"taxid": 955585,
@@ -38277,7 +38294,7 @@
 		"shield_no": "16833",
 		"appt_date": "1/6/2016",
 		"recognition_count": 10,
-		"arrest_count": 39,
+		"arrest_count": 40,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 33",
@@ -39925,7 +39942,7 @@
 		"shield_no": "11052",
 		"appt_date": "12/29/2020",
 		"recognition_count": 0,
-		"arrest_count": 49,
+		"arrest_count": 51,
 		"reports": {
 			"summary": {
 				"command": "078 PRECINCT",
@@ -41988,7 +42005,7 @@
 		"shield_no": "17542",
 		"appt_date": "1/6/2016",
 		"recognition_count": 1,
-		"arrest_count": 196,
+		"arrest_count": 197,
 		"reports": {
 			"summary": {
 				"command": "105TH DET SQUAD",
@@ -42068,7 +42085,7 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "3111",
 		"appt_date": "12/29/2020",
-		"recognition_count": 0,
+		"recognition_count": 2,
 		"arrest_count": 119,
 		"reports": {
 			"summary": {
@@ -43892,7 +43909,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 16,
-				"misdemeanor": 35
+				"misdemeanor": 36
 			},
 			"awards": [
 				{
@@ -43934,7 +43951,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 13,
-				"misdemeanor": 20
+				"misdemeanor": 21
 			},
 			"awards": []
 		},
@@ -45370,8 +45387,8 @@
 		"rank": "SERGEANT",
 		"shield_no": "2666",
 		"appt_date": "1/6/2016",
-		"recognition_count": 2,
-		"arrest_count": 72,
+		"recognition_count": 1,
+		"arrest_count": 36,
 		"reports": {
 			"summary": {
 				"command": "026 PRECINCT",
@@ -45914,7 +45931,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 22,
-				"misdemeanor": 108
+				"misdemeanor": 110
 			},
 			"awards": []
 		},
@@ -50023,7 +50040,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 31,
+				"felony": 32,
 				"misdemeanor": 29,
 				"violation": 1
 			},
@@ -56196,8 +56213,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
-				"misdemeanor": 16
+				"felony": 8,
+				"misdemeanor": 32
 			},
 			"awards": []
 		},
@@ -56842,44 +56859,7 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
-				{
-					"entry": "6/20/2022 12:00:00 AM",
-					"allegations_count": 2,
-					"allegations": [
-						{
-							"recommendation": "B-CD",
-							"case_no": "2022-25349",
-							"description": "01.Wrongful entry of a premises."
-						},
-						{
-							"recommendation": "B-CD",
-							"case_no": "2022-25349",
-							"description": "02.Wrongfully damaged property."
-						}
-					]
-				},
-				{
-					"entry": "9/20/2023 12:00:00 AM",
-					"charges_count": 2,
-					"charges": [
-						{
-							"disposition": "PLEADED GUILTY",
-							"command": "113-113 PRECINCT",
-							"case_no": "2021-24333",
-							"description": "Failed to remain at the scene of an off-duty incident.",
-							"penalty": "DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (20 day(s) )"
-						},
-						{
-							"disposition": "PLEADED GUILTY",
-							"command": "113-113 PRECINCT",
-							"case_no": "2021-24333",
-							"description": "Made misleading statements during an official Department interview.",
-							"penalty": "DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (20 day(s) )"
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"felony": 19,
 				"misdemeanor": 28,
@@ -59472,7 +59452,7 @@
 		"shield_no": "20732",
 		"appt_date": "1/4/2017",
 		"recognition_count": 3,
-		"arrest_count": 129,
+		"arrest_count": 130,
 		"reports": {
 			"summary": {
 				"command": "063 PRECINCT",
@@ -60015,7 +59995,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 3,
+				"felony": 4,
 				"misdemeanor": 25,
 				"violation": 7
 			},
