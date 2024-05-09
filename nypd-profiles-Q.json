@@ -45,7 +45,7 @@
 		"shield_no": "12666",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 55,
+		"arrest_count": 57,
 		"reports": {
 			"summary": {
 				"command": "014 PCT-MIDTOWN SO. PCT",
@@ -708,7 +708,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 33,
+				"felony": 36,
 				"misdemeanor": 47,
 				"other": 1,
 				"violation": 1
@@ -2683,8 +2683,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "13921",
 		"appt_date": "4/15/2019",
-		"recognition_count": 12,
-		"arrest_count": 150,
+		"recognition_count": 6,
+		"arrest_count": 75,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 7",
@@ -2704,9 +2704,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 40,
-				"misdemeanor": 106,
-				"violation": 4
+				"felony": 20,
+				"misdemeanor": 53,
+				"violation": 2
 			},
 			"awards": [
 				{
@@ -2718,18 +2718,6 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
-					"date": "12/30/2022",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "12/30/2022",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "6/24/2022",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
 					"date": "6/24/2022",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
@@ -2738,20 +2726,8 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "4/4/2022",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "9/26/2021",
 					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "9/26/2021",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "7/19/2021",
-					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "7/19/2021",
@@ -3057,7 +3033,63 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "3/29/2023 12:00:00 AM",
+					"charges_count": 7,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "073-073 PRECINCT",
+							"case_no": "2021-24372",
+							"description": "Operated a motor vehicle while intoxicated.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (40 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "073-073 PRECINCT",
+							"case_no": "2021-24372",
+							"description": "Operated a motor vehicle while impaired by alcohol.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (40 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "073-073 PRECINCT",
+							"case_no": "2021-24372",
+							"description": "Criminal mischief.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (40 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "073-073 PRECINCT",
+							"case_no": "2021-24372",
+							"description": "Refused to submit to a breathalyzer test.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (40 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "073-073 PRECINCT",
+							"case_no": "2021-24372",
+							"description": "Unfit for duty.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (40 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "073-073 PRECINCT",
+							"case_no": "2021-24372",
+							"description": "Unfit for duty while armed.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (40 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "073-073 PRECINCT",
+							"case_no": "2021-24372",
+							"description": "Failed to safeguard a firearm.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (40 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 6,
 				"misdemeanor": 4
@@ -4829,7 +4861,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "11/24/2021 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2021-23677",
+							"description": "01.Disparaging Remark"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 14,
 				"misdemeanor": 31
