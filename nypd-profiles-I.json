@@ -71,7 +71,7 @@
 		"shield_no": "8536",
 		"appt_date": "10/24/2018",
 		"recognition_count": 4,
-		"arrest_count": 35,
+		"arrest_count": 36,
 		"reports": {
 			"summary": {
 				"command": "103 PRECINCT",
@@ -513,7 +513,7 @@
 		"shield_no": "8585",
 		"appt_date": "1/6/2020",
 		"recognition_count": 1,
-		"arrest_count": 69,
+		"arrest_count": 70,
 		"reports": {
 			"summary": {
 				"command": "084 PRECINCT",
@@ -2833,7 +2833,7 @@
 		"shield_no": "7509",
 		"appt_date": "1/6/2020",
 		"recognition_count": 1,
-		"arrest_count": 109,
+		"arrest_count": 110,
 		"reports": {
 			"summary": {
 				"command": "QN AUTO LARCENY UNIT",
@@ -12321,7 +12321,7 @@
 		"shield_no": "20054",
 		"appt_date": "7/1/2019",
 		"recognition_count": 9,
-		"arrest_count": 146,
+		"arrest_count": 148,
 		"reports": {
 			"summary": {
 				"command": "075 PRECINCT",
@@ -12537,7 +12537,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/19/2012 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "TD3-",
+							"case_no": "2010-1435",
+							"description": "WHILE OFF DUTY LEFT THE SCENE OF A MOTOR VEHICLE ACCIDENT WITHOUT CONTACTING THE POLICE.",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 6,
 				"misdemeanor": 185,
