@@ -486,7 +486,35 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "8/1/2016 12:00:00 AM",
+					"charges_count": 3,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "113-113 PRECINCT",
+							"case_no": "2016-16169",
+							"description": "WHILE OFF-DUTY, ENGAGED IN A PHYSICAL ALTERCATION WITH A PERSON KNOWN TO THE DEPARTMENT.",
+							"penalty": "COUNSELING, PRE-TRIAL SUSPENSION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "113-113 PRECINCT",
+							"case_no": "2016-16169",
+							"description": "WHILE OFF-DUTY, WRONGFULLY PREVENTED AND INTERFERED WITH A CALL PLACED TO 911.",
+							"penalty": "COUNSELING, PRE-TRIAL SUSPENSION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "113-113 PRECINCT",
+							"case_no": "2016-16169",
+							"description": "WHILE OFF-DUTY, HAVING BEEN INVOLVED IN AN OFF-DUTY INCIDENT, DID THEREAFTER FAIL AND NEGLECT TO REQUEST THE RESPONSE OF PATROL SUPERVISOR.",
+							"penalty": "COUNSELING, PRE-TRIAL SUSPENSION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 10,
 				"misdemeanor": 29,
@@ -10383,7 +10411,37 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/18/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"case_no": "2021-24302",
+							"description": "01.Wrongfully deactivated their body-worn camera."
+						}
+					]
+				},
+				{
+					"entry": "1/30/2023 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "NO DISCIPLINARY ACTION",
+							"case_no": "2021-24301",
+							"description": "01.Wrongfully damaged property.",
+							"penalty": "A - COMMAND DISCIPLINE"
+						},
+						{
+							"recommendation": "A-CD",
+							"case_no": "2021-24301",
+							"description": "02.Wrongfully frisked an individual known to the Department.",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 4,
 				"felony": 91,
@@ -16929,7 +16987,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "3/26/2015 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "802-HOUSING PSA 2 ==>SATHOPS-B/N",
+							"case_no": "2015-13345",
+							"description": "WHILE OFF-DUTY, ENGAGED IN A PHYSICAL ALTERCATION WITH A PERSON KNOWN TO THE DEPARTMENT",
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "802-HOUSING PSA 2 ==>SATHOPS-B/N",
+							"case_no": "2015-13345",
+							"description": "WHILE OFF-DUTY, FAILED TO NOTIFY THE INTERNAL AFFAIRS BUREAU AFTER ENGAGING IN A PHYSICAL ALTERCATION WITH A PERSON KNOWN TO THE DEPARTMENT",
+							"penalty": "PRE-TRIAL SUSPENSION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 28,
@@ -22376,7 +22455,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "7/5/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2023-27868",
+							"description": "01.Violated patrol rules - failed to provide a business card",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 13,
 				"misdemeanor": 52,
@@ -24672,7 +24764,7 @@
 		"shield_no": "1017",
 		"appt_date": "1/9/2013",
 		"recognition_count": 0,
-		"arrest_count": 45,
+		"arrest_count": 46,
 		"reports": {
 			"summary": {
 				"command": "018 PCT-MIDTOWN NO. PCT",
@@ -24696,7 +24788,21 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "8/25/2017 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "018-MIDTOWN PRECINCT NORTH",
+							"case_no": "2017-17717",
+							"description": "SAID POLICE OFFICER ALLOWED HIS RESIDENTIAL ADDRESS TO BE USED BY ANOTHER POLICE OFFICER",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 10,
 				"misdemeanor": 33,
@@ -27183,7 +27289,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/3/2024 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2023-29133",
+							"description": "01.Wrongful entry of a premises.",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 47,
@@ -33834,7 +33953,13 @@
 				"shield_no": "20339",
 				"appt_date": "1/9/2012"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/9/2012",
+					"shield_no": "20339"
+				}
+			],
 			"documents": [],
 			"discipline": [
 				{
@@ -40416,19 +40541,7 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
-				{
-					"entry": "2/7/2023 12:00:00 AM",
-					"allegations_count": 1,
-					"allegations": [
-						{
-							"recommendation": "A-CD",
-							"case_no": "2022-25631",
-							"description": "01.Wrongful removal to a hospital."
-						}
-					]
-				}
-			],
+			"discipline": [],
 			"arrests": {
 				"felony": 33,
 				"misdemeanor": 32,
@@ -40546,7 +40659,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 55,
+				"felony": 58,
 				"misdemeanor": 21
 			},
 			"awards": [
@@ -53516,7 +53629,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 114,
+				"felony": 115,
 				"misdemeanor": 64,
 				"violation": 6
 			},

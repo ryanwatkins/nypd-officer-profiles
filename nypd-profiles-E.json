@@ -2201,8 +2201,205 @@
 			],
 			"documents": [],
 			"discipline": [],
-			"arrests": {},
-			"awards": []
+			"arrests": {
+				"felony": 30,
+				"misdemeanor": 48,
+				"violation": 1
+			},
+			"awards": [
+				{
+					"date": "6/3/2023",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "4/22/2023",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "3/8/2023",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/24/2023",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/10/2022",
+					"name": "HONORABLE MENTION"
+				},
+				{
+					"date": "5/10/2022",
+					"name": "POLICE COMBAT CROSS"
+				},
+				{
+					"date": "4/9/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "4/6/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "3/27/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "3/8/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "3/2/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/12/2022",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "1/1/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/10/2021",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "5/6/2021",
+					"name": "COMMENDATION"
+				},
+				{
+					"date": "3/20/2021",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "9/16/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "9/8/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/23/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/8/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "5/2/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "3/24/2020",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "1/22/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/22/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/11/2020",
+					"name": "COMMENDATION"
+				},
+				{
+					"date": "1/1/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "12/27/2019",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/26/2019",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/19/2019",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "11/7/2019",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "9/21/2019",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "5/3/2019",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "3/26/2019",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "2/3/2019",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/16/2018",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "4/14/2018",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "2/24/2018",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "2/8/2018",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "11/11/2017",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/19/2017",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "9/6/2017",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "6/1/2017",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "3/11/2017",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "2/24/2017",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/19/2017",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/20/2016",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/1/2016",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "2/27/2016",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		},
 		"command": "PBBX PUBLIC SAFETY TEAMS"
 	},
@@ -5504,8 +5701,8 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "314",
 		"appt_date": "1/9/2012",
-		"recognition_count": 32,
-		"arrest_count": 424,
+		"recognition_count": 16,
+		"arrest_count": 212,
 		"reports": {
 			"summary": {
 				"command": "DBBN VIDEO COLLECTION TEAM",
@@ -7662,7 +7859,48 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/27/2018 12:00:00 AM",
+					"charges_count": 3,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "541-NARCOTICS BOROUGH QUEENS",
+							"case_no": "2017-17901",
+							"description": "ABUSED HIS AUTHORITY AS A MEMBER OF THE NEW YORK CITY POLICE DEPARTMENT, IN THAT HE STOPPED A PERSON UNKNOWN TO THE DEPARTMENT WITHOUT SUFFICIENT LEGAL AUTHORITY.",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "541-NARCOTICS BOROUGH QUEENS",
+							"case_no": "2017-17901",
+							"description": "WRONGFULLY USED FORCE, IN THAT HE USED A CONDUCTED ELECTRICAL WEAPON AGAINST A PERSON UNKNOWN TO THE DEPARTMENT WITHOUT  POLICE NECESSITY.",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "541-NARCOTICS BOROUGH QUEENS",
+							"case_no": "2017-17901",
+							"description": "WRONGFULLY USED FORCE, IN THAT HE USED PHYSICAL FORCE, NAMELY PUSHED A PERSON UNKNOWN TO THE DEPARTMENT WITHOUT POLICE NECCESSITY.",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "11/19/2019 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "541-NARCOTICS BOROUGH QUEENS",
+							"case_no": "2017-18225",
+							"description": "ENGAGED IN A PHYSICAL ALTERCATION WITH A PERSON KNOWN TO THE DEPARTMENT.",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (33 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 228,
 				"misdemeanor": 311,
@@ -12057,7 +12295,49 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "12/14/2018 12:00:00 AM",
+					"charges_count": 5,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "034-034 PRECINCT",
+							"case_no": "2018-19736",
+							"description": "Made or caused to be made false or inaccurate entries in Department records.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), SUSPENDED W/O PAY (50 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "034-034 PRECINCT",
+							"case_no": "2018-19736",
+							"description": "Failed to comply with driving rules and regulations.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), SUSPENDED W/O PAY (50 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "034-034 PRECINCT",
+							"case_no": "2018-19736",
+							"description": "Failed to make proper notifications.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), SUSPENDED W/O PAY (50 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "034-034 PRECINCT",
+							"case_no": "2018-19736",
+							"description": "Made misleading statements to ADA.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), SUSPENDED W/O PAY (50 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "034-034 PRECINCT",
+							"case_no": "2018-19736",
+							"description": "Made misleading or inaccurate statements during an official Department interview.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), SUSPENDED W/O PAY (50 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 8,
 				"misdemeanor": 46,
@@ -25246,7 +25526,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 46,
-				"misdemeanor": 200,
+				"misdemeanor": 202,
 				"other": 1
 			},
 			"awards": [
@@ -26187,7 +26467,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "3/8/2017 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "52-052 PRECINCT",
+							"case_no": "2016-16373",
+							"description": "WHILE ON DUTY FAILED TO PROCESS THE ARREST OF A PERPETRATOR WHO WAS PATRONIZING A PROSTITUTE.",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "52-052 PRECINCT",
+							"case_no": "2016-16373",
+							"description": "WHILE ON DUTY IMPROPERLY ISSUED TWO (2) SUMMONSES FOR TRAFFIC AND LIMOUSINE COMMISSION VIOLATIONS TO A PERPETRATOR WHO WAS NOT ACTING IN THE CAPACITY OF A TRAFFIC AND LIMOUSINE COMMISSION DRIVER.",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 6,
@@ -28832,7 +29133,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "9/30/2010 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "-",
+							"case_no": "2010-2518",
+							"description": "PURCHASED ITEMS USING A DECEASED RELATIVE'S BENEFIT CARD WITHOUT AUTHORITY.",
+							"penalty": "VACATION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 7,
 				"misdemeanor": 44,

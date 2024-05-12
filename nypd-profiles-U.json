@@ -257,7 +257,7 @@
 		"shield_no": "4036",
 		"appt_date": "12/29/2020",
 		"recognition_count": 0,
-		"arrest_count": 48,
+		"arrest_count": 49,
 		"reports": {
 			"summary": {
 				"command": "060 PRECINCT",
@@ -2285,7 +2285,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "6/27/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-25756",
+							"description": "01.Wrongfully used physical force.",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 39,
@@ -4635,7 +4648,35 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "10/18/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "NO DISCIPLINARY ACTION",
+							"case_no": "2023-28668",
+							"description": "01.Violated patrol rules - failed to provide a business card"
+						}
+					]
+				},
+				{
+					"entry": "5/9/2024 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2024-30314",
+							"description": "01.Violated patrol rules."
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2024-30314",
+							"description": "02.Wrongfully searched a vehicle."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 33,
 				"misdemeanor": 33

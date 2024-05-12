@@ -6858,7 +6858,26 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "4/10/2024 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "C-CD",
+							"case_no": "2023-29519",
+							"description": "01.Failed to activate their body-worn camera.",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
+						},
+						{
+							"recommendation": "C-CD",
+							"case_no": "2023-29519",
+							"description": "02.Failed to notify the radio dispatcher about a vehicle pursuit.",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 2,
 				"felony": 79,
@@ -9023,7 +9042,68 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "12/21/2010 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "-",
+							"case_no": "2010-1090",
+							"description": "FAILED TO COMPLY WITH AN ORDER .",
+							"penalty": "VACATION DAYS (25 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "-",
+							"case_no": "2010-1090",
+							"description": "DISCOURTEOUS TO A SUPERVISOR .",
+							"penalty": "VACATION DAYS (25 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "7/7/2015 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "107-107 PRECINCT",
+							"case_no": "2014-12558",
+							"description": "WHILE ON-DUTY, WAS DISCOURTEOUS TO A NEW YORK CITY POLICE DEPARTMENT SUPERVISOR.",
+							"penalty": "TRAINING, VACATION DAYS (25 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "107-107 PRECINCT",
+							"case_no": "2014-12558",
+							"description": "WHILE ON-DUTY, WRONGFULLY ABSENTED HERSELF FROM POLICE DUTIES",
+							"penalty": "TRAINING, VACATION DAYS (25 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "2/22/2017 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "107-107 PRECINCT",
+							"case_no": "2016-16285",
+							"description": "WRONGFULLY FAILED TO REMAIN ALERT AND REMAIN ON POST UNTIL RELIEVED, AS REQUIRED.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "107-107 PRECINCT",
+							"case_no": "2016-16285",
+							"description": "MADE INACCURATE, INCOMPLETE, OR OTHERWISE MISLEADING STATEMENTS DURING AN OFFICIAL DEPARTMENT INTERVIEW.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 8,

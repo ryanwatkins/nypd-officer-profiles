@@ -9729,9 +9729,9 @@
 			],
 			"discipline": [],
 			"arrests": {
-				"felony": 28,
-				"misdemeanor": 58,
-				"violation": 2
+				"felony": 14,
+				"misdemeanor": 29,
+				"violation": 1
 			},
 			"awards": [
 				{
@@ -9739,20 +9739,8 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
-					"date": "1/26/2014",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
 					"date": "1/7/2011",
 					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "1/7/2011",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "9/15/2005",
-					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
 					"date": "9/15/2005",
@@ -18355,7 +18343,7 @@
 		"shield_no": "5393",
 		"appt_date": "3/1/2000",
 		"recognition_count": 23,
-		"arrest_count": 566,
+		"arrest_count": 567,
 		"reports": {
 			"summary": {
 				"command": "075 DET SQUAD",
@@ -21208,8 +21196,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
-				"misdemeanor": 3
+				"felony": 6,
+				"misdemeanor": 4
 			},
 			"awards": []
 		},
@@ -23581,7 +23569,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "2/7/2022 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "294-DET SQD. BKLYN SOUTH-078",
+							"case_no": "2021-24145",
+							"description": "Left the scene of an accident.",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "294-DET SQD. BKLYN SOUTH-078",
+							"case_no": "2021-24145",
+							"description": "Made misleading or inaccurate statements during an official Department interview.",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 124,
@@ -24272,7 +24281,77 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "4/14/2022 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "INSTRUCTIONS",
+							"case_no": "2020-22226",
+							"description": "01.Discourteous to another person.",
+							"penalty": "INSTRUCTIONS"
+						},
+						{
+							"recommendation": "INSTRUCTIONS",
+							"case_no": "2020-22226",
+							"description": "02.Improperly used department equipment.",
+							"penalty": "INSTRUCTIONS"
+						}
+					]
+				},
+				{
+					"entry": "10/11/2022 12:00:00 AM",
+					"allegations_count": 4,
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-26729",
+							"description": "01.Failed to make required entries in Department Logs."
+						},
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-26729",
+							"description": "02.Violated patrol rules."
+						},
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-26734",
+							"description": "01.Violated patrol rules - failed to provide a business card",
+							"penalty": "A - COMMAND DISCIPLINE"
+						},
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-26737",
+							"description": "01.Failed to make required entries in Department Logs."
+						}
+					]
+				},
+				{
+					"entry": "10/14/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-26726",
+							"description": "01.Violated patrol rules - failure to provide business card",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				},
+				{
+					"entry": "12/2/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "C-CD",
+							"case_no": "2023-28942",
+							"description": "01.Failed to notify the radio dispatcher about a vehicle pursuit.",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 88,
@@ -24643,7 +24722,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "7/7/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2023-28113",
+							"description": "01.Violated patrol rules - failed to provide a business card",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 3,
 				"felony": 58,
@@ -25167,192 +25259,6 @@
 			]
 		},
 		"command": "DBBN VIDEO COLLECTION TEAM"
-	},
-	{
-		"taxid": 962839,
-		"full_name": "THOMAS, NADIA M",
-		"first_name": "NADIA",
-		"last_name": "THOMAS",
-		"middle_initial": "M",
-		"rank": "DETECTIVE 3RD GRADE",
-		"shield_no": "5352",
-		"appt_date": "10/11/2016",
-		"recognition_count": 24,
-		"arrest_count": 162,
-		"reports": {
-			"summary": {
-				"command": "DBBN VIDEO COLLECTION TEAM",
-				"assignment_date": "3/20/2024",
-				"ethnicity": "BLACK",
-				"rank_desc": "DETECTIVE 3RD GRADE",
-				"shield_no": "5352",
-				"appt_date": "10/11/2016"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "10/11/2016",
-					"shield_no": "22193"
-				},
-				{
-					"rank": "DETECTIVE",
-					"date": "5/27/2022",
-					"shield_no": "5352"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 99,
-				"misdemeanor": 52,
-				"violation": 11
-			},
-			"awards": [
-				{
-					"date": "1/27/2021",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "1/22/2021",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "1/16/2021",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "1/2/2021",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "12/22/2020",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "12/19/2020",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "12/11/2020",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "11/19/2020",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "10/30/2020",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "10/24/2020",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "10/14/2020",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "10/13/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "9/8/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "8/27/2020",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "8/18/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "8/13/2020",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "7/14/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/26/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/20/2020",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "5/17/2020",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "5/14/2020",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "5/4/2020",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "4/29/2020",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "11/29/2019",
-					"name": "MERITORIOUS POLICE DUTY"
-				}
-			]
-		},
-		"command": "DBBN VIDEO COLLECTION TEAM"
-	},
-	{
-		"taxid": 946322,
-		"full_name": "THOMAS, PATRICK J",
-		"first_name": "PATRICK",
-		"last_name": "THOMAS",
-		"middle_initial": "J",
-		"rank": "POLICE OFFICER",
-		"shield_no": "22039",
-		"appt_date": "1/7/2008",
-		"recognition_count": 2,
-		"arrest_count": 58,
-		"reports": {
-			"summary": {
-				"command": "018 PCT-MIDTOWN NO. PCT",
-				"assignment_date": "7/20/2009",
-				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "22039",
-				"appt_date": "1/7/2008"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "1/7/2008",
-					"shield_no": "22039"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 13,
-				"misdemeanor": 45
-			},
-			"awards": [
-				{
-					"date": "1/6/2021",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "7/18/2008",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
-		},
-		"command": "018 PCT-MIDTOWN NO. PCT"
 	},
 	{
 		"taxid": 946322,
@@ -30237,7 +30143,7 @@
 		"shield_no": "5516",
 		"appt_date": "7/1/1998",
 		"recognition_count": 14,
-		"arrest_count": 645,
+		"arrest_count": 646,
 		"reports": {
 			"summary": {
 				"command": "073 DET SQUAD",
@@ -31339,6 +31245,161 @@
 			]
 		},
 		"command": "PBMN COMMUNITY AFFAIRS SECTION"
+	},
+	{
+		"taxid": 962135,
+		"full_name": "TINEO, BISMAL",
+		"first_name": "BISMAL",
+		"last_name": "TINEO",
+		"middle_initial": "",
+		"rank": "POLICE OFFICER",
+		"shield_no": "3560",
+		"appt_date": "7/13/2016",
+		"recognition_count": 12,
+		"arrest_count": 378,
+		"reports": {
+			"summary": {
+				"command": "040 DET SQUAD",
+				"assignment_date": "6/20/2023",
+				"ethnicity": "HISPANIC",
+				"rank_desc": "POLICE OFFICER",
+				"shield_no": "3560",
+				"appt_date": "7/13/2016"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/13/2016",
+					"shield_no": "3560"
+				}
+			],
+			"documents": [],
+			"discipline": [
+				{
+					"entry": "8/23/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "NO DISCIPLINARY ACTION",
+							"case_no": "2022-25959",
+							"description": "01.Wrongfully used offensive language."
+						}
+					]
+				},
+				{
+					"entry": "7/1/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2023-28000",
+							"description": "01.Wrongfully searched a vehicle.",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (1 day(s) )"
+						}
+					]
+				}
+			],
+			"arrests": {
+				"felony": 157,
+				"misdemeanor": 218,
+				"violation": 3
+			},
+			"awards": [
+				{
+					"date": "2/14/2023",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "11/22/2022",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "10/25/2022",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "7/7/2022",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "6/23/2022",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "3/22/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/12/2022",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "3/2/2021",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "2/17/2021",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "11/18/2020",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "10/24/2020",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "9/26/2018",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
+		},
+		"command": "040 DET SQUAD"
+	},
+	{
+		"taxid": 970259,
+		"full_name": "TINEO, BRIANT A",
+		"first_name": "BRIANT",
+		"last_name": "TINEO",
+		"middle_initial": "A",
+		"rank": "POLICE OFFICER",
+		"shield_no": "10919",
+		"appt_date": "11/2/2020",
+		"recognition_count": 1,
+		"arrest_count": 144,
+		"reports": {
+			"summary": {
+				"command": "030 PRECINCT",
+				"assignment_date": "2/24/2024",
+				"ethnicity": "HISPANIC",
+				"rank_desc": "POLICE OFFICER",
+				"shield_no": "10919",
+				"appt_date": "11/2/2020"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "11/2/2020",
+					"shield_no": "10919"
+				}
+			],
+			"documents": [],
+			"discipline": [],
+			"arrests": {
+				"felony": 76,
+				"misdemeanor": 64,
+				"other": 3,
+				"violation": 1
+			},
+			"awards": [
+				{
+					"date": "1/10/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
+		},
+		"command": "030 PRECINCT"
 	},
 	{
 		"taxid": 959301,
@@ -32520,7 +32581,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/27/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-24823",
+							"description": "01.Violated patrol rules.",
+							"penalty": "A - COMMAND DISCIPLINE, FORFEITURE OF TIME/LEAVE BALANCES"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 4,
 				"misdemeanor": 26,
@@ -34488,7 +34562,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "3/25/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2023-27788",
+							"description": "01.Failed to prepare required reports.",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 4,
 				"misdemeanor": 21,
@@ -34571,7 +34658,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 59,
-				"misdemeanor": 113,
+				"misdemeanor": 114,
 				"violation": 1
 			},
 			"awards": [
@@ -35951,10 +36038,15 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 22,
-				"misdemeanor": 29
+				"felony": 23,
+				"misdemeanor": 30
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "5/24/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		},
 		"command": "090 PRECINCT"
 	},
@@ -39190,8 +39282,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "11196",
 		"appt_date": "10/7/2019",
-		"recognition_count": 3,
-		"arrest_count": 74,
+		"recognition_count": 6,
+		"arrest_count": 150,
 		"reports": {
 			"summary": {
 				"command": "013 PRECINCT",
@@ -41341,8 +41433,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 26,
-				"misdemeanor": 21,
+				"felony": 27,
+				"misdemeanor": 23,
 				"violation": 1
 			},
 			"awards": []
@@ -41810,9 +41902,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 24,
-				"misdemeanor": 30,
-				"other": 2
+				"felony": 12,
+				"misdemeanor": 15,
+				"other": 1
 			},
 			"awards": []
 		},
@@ -44579,7 +44671,60 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "7/22/2022 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-26653",
+							"description": "01.Wrongfully used physical force."
+						},
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-26654",
+							"description": "01.Failed to timely activate their body worn camera."
+						}
+					]
+				},
+				{
+					"entry": "5/1/2024 12:00:00 AM",
+					"allegations_count": 5,
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"case_no": "2019-20548",
+							"description": "01.Failed to prepare a TRI report",
+							"penalty": "TRAINING"
+						},
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2019-20548",
+							"description": "02.Improper stop of an individual known to the department",
+							"penalty": "TRAINING"
+						},
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2019-20548",
+							"description": "03.Improper threat regarding the use of force to an individual known to the department",
+							"penalty": "TRAINING"
+						},
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2019-20548",
+							"description": "04.Improper threat regarding the use of force towards other individuals known to the department",
+							"penalty": "TRAINING"
+						},
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2019-20548",
+							"description": "05.Spoke discourteously to an individual known to the department",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 45,
 				"misdemeanor": 48,
@@ -57488,45 +57633,44 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 19,
-				"misdemeanor": 28,
-				"violation": 1
-			},
-			"awards": []
-		},
-		"command": "HOUSING PSA 1"
-	},
-	{
-		"taxid": 963782,
-		"full_name": "TSAO, CHECHENG",
-		"first_name": "CHECHENG",
-		"last_name": "TSAO",
-		"middle_initial": "",
-		"rank": "POLICE OFFICER",
-		"shield_no": "3280",
-		"appt_date": "4/12/2017",
-		"recognition_count": 0,
-		"arrest_count": 48,
-		"reports": {
-			"summary": {
-				"command": "HOUSING PSA 1",
-				"assignment_date": "2/22/2024",
-				"ethnicity": "ASIAN",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "3280",
-				"appt_date": "4/12/2017"
-			},
-			"ranks": [
+			"discipline": [
 				{
-					"rank": "POLICE OFFICER",
-					"date": "4/12/2017",
-					"shield_no": "3280"
+					"entry": "6/20/2022 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-25349",
+							"description": "01.Wrongful entry of a premises."
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-25349",
+							"description": "02.Wrongfully damaged property."
+						}
+					]
+				},
+				{
+					"entry": "9/20/2023 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "113-113 PRECINCT",
+							"case_no": "2021-24333",
+							"description": "Failed to remain at the scene of an off-duty incident.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (20 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "113-113 PRECINCT",
+							"case_no": "2021-24333",
+							"description": "Made misleading statements during an official Department interview.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (20 day(s) )"
+						}
+					]
 				}
 			],
-			"documents": [],
-			"discipline": [],
 			"arrests": {
 				"felony": 19,
 				"misdemeanor": 28,
@@ -57596,123 +57740,6 @@
 			]
 		},
 		"command": "114 PRECINCT"
-	},
-	{
-		"taxid": 968165,
-		"full_name": "TSATSARONIS, CHRISTOPHER",
-		"first_name": "CHRISTOPHER",
-		"last_name": "TSATSARONIS",
-		"middle_initial": "",
-		"rank": "POLICE OFFICER",
-		"shield_no": "29452",
-		"appt_date": "7/1/2019",
-		"recognition_count": 4,
-		"arrest_count": 142,
-		"reports": {
-			"summary": {
-				"command": "114 PRECINCT",
-				"assignment_date": "10/22/2020",
-				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "29452",
-				"appt_date": "7/1/2019"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/1/2019",
-					"shield_no": "16122"
-				},
-				{
-					"rank": "POLICE OFFICER",
-					"date": "3/29/2021",
-					"shield_no": "29452"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"infraction": 1,
-				"felony": 54,
-				"misdemeanor": 86,
-				"violation": 1
-			},
-			"awards": [
-				{
-					"date": "8/19/2023",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "11/13/2022",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "1/29/2022",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "9/1/2021",
-					"name": "COMMENDATION"
-				}
-			]
-		},
-		"command": "114 PRECINCT"
-	},
-	{
-		"taxid": 953498,
-		"full_name": "TSCHERNE, FRANK M",
-		"first_name": "FRANK",
-		"last_name": "TSCHERNE",
-		"middle_initial": "M",
-		"rank": "DETECTIVE SPECIALIST",
-		"shield_no": "3558",
-		"appt_date": "7/11/2012",
-		"recognition_count": 3,
-		"arrest_count": 160,
-		"reports": {
-			"summary": {
-				"command": "FLEET SERVICES DIVISION",
-				"assignment_date": "9/4/2019",
-				"ethnicity": "WHITE",
-				"rank_desc": "DETECTIVE SPECIALIST",
-				"shield_no": "3558",
-				"appt_date": "7/11/2012"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/11/2012",
-					"shield_no": "18814"
-				},
-				{
-					"rank": "DETECTIVE",
-					"date": "7/28/2023",
-					"shield_no": "3558"
-				}
-			],
-			"documents": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 7,
-				"misdemeanor": 138,
-				"violation": 15
-			},
-			"awards": [
-				{
-					"date": "10/9/2015",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "11/6/2014",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "6/17/2014",
-					"name": "MERITORIOUS POLICE DUTY"
-				}
-			]
-		},
-		"command": "FLEET SERVICES DIVISION"
 	},
 	{
 		"taxid": 953498,
