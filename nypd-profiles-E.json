@@ -117,7 +117,66 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "11/11/2011 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "-",
+							"case_no": "2010-3710",
+							"description": "FAILED TO MAINTAIN RESIDENCY WITHIN NEW YORK STATE , AND WAS OBSERVED ON SEVERAL OCCASIONS AT NEW JERSEY LOCATIONS PRIOR TO THE START OF HIS TOUR OF DUTY.",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "-",
+							"case_no": "2010-3710",
+							"description": "FAILEED TO NOTIFY HIS COMMANDING OFFICER OF HIS FAILURE TO MAINTAIN A RESIDENCE IN NYC OR ITS CONTIGUOUS RESIDENCE COUNTIES",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "12/6/2018 12:00:00 AM",
+					"charges_count": 3,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "046-046 PRECINCT",
+							"case_no": "2018-18939",
+							"description": "FAILED TO NOTE IN HIS ACTIVITY LOG THAT HE TOOK POSSESSION OF PROPERTY AND FAILED TO PREPARE A VOUCHER FOR THE PROPERTY.",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "046-046 PRECINCT",
+							"case_no": "2018-18939",
+							"description": "FAILED TO TAKE POLICE ACTION AFTER LEARNING OF AN ALLEGATION OF HARASSMENT WITH A WEAPON.",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "046-046 PRECINCT",
+							"case_no": "2018-18939",
+							"description": "FAILED TO MAKE PROPER AND NECESSARY ENTRIES IN HIS ACTIVITY LOG.",
+							"penalty": "VACATION DAYS (15 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "6/13/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-25976",
+							"description": "01.Failed to make required entries in Department Logs."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 44,
 				"misdemeanor": 71,
@@ -2200,7 +2259,56 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/31/2015 12:00:00 AM",
+					"charges_count": 3,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "163-PATROL BORO BRONX",
+							"case_no": "2014-12782",
+							"description": "WHILE OFF-DUTY, ENGAGED IN CONDUCT PREJUDICIAL TO THE GOOD ORDER, EFFICIENCY OR DISCIPLINE OF THE DEPARTMENT,  THREATENED AN INDIVIDUAL KNOWN TO THE DEPARTMENT.",
+							"penalty": "COUNSELING, PRE-TRIAL SUSPENSION DAYS (34 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "163-PATROL BORO BRONX",
+							"case_no": "2014-12782",
+							"description": "WHILE OFF-DUTY, ENGAGED IN CONDUCT PREJUDICIAL TO THE GOOD ORDER, EFFICIENCY OR DISCIPLINE OF THE DEPARTMENT,  THREATENED AN INDIVIDUAL KNOWN TO THE DEPARTMENT.",
+							"penalty": "COUNSELING, PRE-TRIAL SUSPENSION DAYS (34 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "163-PATROL BORO BRONX",
+							"case_no": "2014-12782",
+							"description": "WHILE OFF-DUTY, HAVING BECOME AWARE THAT HE WAS THE SUBJECT OF A POLICE INVESTIGATION CONDUCTED BY THE NEWBURG POLICE DEPARTMENT, FAILED TO NOTIFY THE DEPARTMENT.",
+							"penalty": "COUNSELING, PRE-TRIAL SUSPENSION DAYS (34 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "2/15/2023 12:00:00 AM",
+					"allegations_count": 3,
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-25522",
+							"description": "01.Failed to make required entries in Department Logs."
+						},
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-25522",
+							"description": "02.Failed to timely activate their body worn camera."
+						},
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2022-25522",
+							"description": "03.Violated patrol rules."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 30,
 				"misdemeanor": 48,
@@ -19181,7 +19289,43 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "11/10/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-26389",
+							"description": "01.Wrongfully used physical force."
+						}
+					]
+				},
+				{
+					"entry": "5/3/2024 12:00:00 AM",
+					"allegations_count": 3,
+					"allegations": [
+						{
+							"recommendation": "NO DISCIPLINARY ACTION",
+							"case_no": "2023-28580",
+							"description": "01.Wrongfully stopped an individual known to the Department.",
+							"penalty": "TRAINING"
+						},
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2023-29019",
+							"description": "01.Violated patrol rules.",
+							"penalty": "TRAINING"
+						},
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2023-29019",
+							"description": "02.Wrongfully stopped an individual known to the Department.",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 21,
 				"misdemeanor": 47,
@@ -25505,7 +25649,7 @@
 		"shield_no": "13679",
 		"appt_date": "1/10/2018",
 		"recognition_count": 1,
-		"arrest_count": 247,
+		"arrest_count": 249,
 		"reports": {
 			"summary": {
 				"command": "040 PRECINCT",
@@ -29697,7 +29841,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "3/25/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-26943",
+							"description": "01.Failed to prepare required reports.",
+							"penalty": "B - COMMAND DISCIPLINE, TRAINING, VACATION DAYS (5 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 7,

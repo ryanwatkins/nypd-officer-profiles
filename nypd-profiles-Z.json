@@ -1948,7 +1948,7 @@
 		"shield_no": "20778",
 		"appt_date": "1/4/2017",
 		"recognition_count": 0,
-		"arrest_count": 11,
+		"arrest_count": 12,
 		"reports": {
 			"summary": {
 				"command": "TB TRAIN PATROL FORCE",
@@ -8668,7 +8668,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "11/8/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-24990",
+							"description": "01.Failed to activate their body worn camera.",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 5,
 				"misdemeanor": 52,
@@ -11171,7 +11184,7 @@
 		"shield_no": "29060",
 		"appt_date": "1/10/2018",
 		"recognition_count": 1,
-		"arrest_count": 75,
+		"arrest_count": 76,
 		"reports": {
 			"summary": {
 				"command": "PBQN COMMUNITY RESPONSE TEAM",
@@ -17549,7 +17562,7 @@
 		"shield_no": "2449",
 		"appt_date": "7/1/2002",
 		"recognition_count": 15,
-		"arrest_count": 762,
+		"arrest_count": 763,
 		"reports": {
 			"summary": {
 				"command": "STRIKE FORCE",
@@ -17576,7 +17589,7 @@
 			"arrests": {
 				"felony": 349,
 				"misdemeanor": 302,
-				"other": 102,
+				"other": 103,
 				"violation": 9
 			},
 			"awards": [
@@ -19283,7 +19296,36 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "8/31/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-25090",
+							"description": "01.Violated patrol rules - refused to provide name",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				},
+				{
+					"entry": "1/16/2023 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-26147",
+							"description": "01.Violated patrol rules."
+						},
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-26152",
+							"description": "01.Failed to make required entries in Department Logs."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 75,
 				"misdemeanor": 53,

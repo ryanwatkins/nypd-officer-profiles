@@ -11909,7 +11909,7 @@
 		"shield_no": "17294",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 47,
+		"arrest_count": 49,
 		"reports": {
 			"summary": {
 				"command": "007 PRECINCT",
@@ -13375,8 +13375,8 @@
 		"arrest_count": 50,
 		"reports": {
 			"summary": {
-				"command": "UNIFORMED PROMOTIONS TRN UNIT",
-				"assignment_date": "4/4/2024",
+				"command": "070 PRECINCT",
+				"assignment_date": "5/6/2024",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "SERGEANT",
 				"shield_no": "2726",
@@ -13403,7 +13403,7 @@
 			},
 			"awards": []
 		},
-		"command": "UNIFORMED PROMOTIONS TRN UNIT"
+		"command": "070 PRECINCT"
 	},
 	{
 		"taxid": 965728,
@@ -21450,7 +21450,58 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "9/26/2022 12:00:00 AM",
+					"charges_count": 4,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "123-123 PRECINCT",
+							"case_no": "2022-26569",
+							"description": "Wrongfully deactivated their body-worn camera.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (55 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "123-123 PRECINCT",
+							"case_no": "2022-26569",
+							"description": "Engaged in inappropriate conduct with a complainant.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (55 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "123-123 PRECINCT",
+							"case_no": "2022-26569",
+							"description": "Failure to safeguard firearm while off-duty, not resulting in its loss.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (55 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "123-123 PRECINCT",
+							"case_no": "2022-26569",
+							"description": "Made computer inquiries unrelated to official Department business.",
+							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (55 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "8/23/2023 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-27602",
+							"description": "01.Engaged in inappropriate conduct with a complainant."
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"case_no": "2022-27602",
+							"description": "02.Made inappropriate comments."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 36,
 				"misdemeanor": 67
@@ -67953,7 +68004,7 @@
 		"shield_no": "15195",
 		"appt_date": "7/1/2019",
 		"recognition_count": 0,
-		"arrest_count": 38,
+		"arrest_count": 39,
 		"reports": {
 			"summary": {
 				"command": "042 PRECINCT",
@@ -73102,7 +73153,7 @@
 		"shield_no": "20364",
 		"appt_date": "7/1/2019",
 		"recognition_count": 0,
-		"arrest_count": 80,
+		"arrest_count": 81,
 		"reports": {
 			"summary": {
 				"command": "007 PRECINCT",
@@ -73201,7 +73252,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "10/18/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2023-27857",
+							"description": "01.Wrongfully threatened to damage a person's property.",
+							"penalty": "A - COMMAND DISCIPLINE, TRAINING, VACATION DAYS (1 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 41,
 				"misdemeanor": 125,
@@ -79506,9 +79570,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 8,
-				"misdemeanor": 62,
-				"violation": 2
+				"felony": 4,
+				"misdemeanor": 31,
+				"violation": 1
 			},
 			"awards": []
 		},
@@ -85275,8 +85339,8 @@
 		"arrest_count": 73,
 		"reports": {
 			"summary": {
-				"command": "UNIFORMED PROMOTIONS TRN UNIT",
-				"assignment_date": "4/4/2024",
+				"command": "121 PRECINCT",
+				"assignment_date": "5/6/2024",
 				"ethnicity": "WHITE",
 				"rank_desc": "SERGEANT",
 				"shield_no": "2314",
@@ -85307,7 +85371,7 @@
 				}
 			]
 		},
-		"command": "UNIFORMED PROMOTIONS TRN UNIT"
+		"command": "121 PRECINCT"
 	},
 	{
 		"taxid": 959672,
@@ -88842,8 +88906,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "3354",
 		"appt_date": "7/2/2018",
-		"recognition_count": 2,
-		"arrest_count": 30,
+		"recognition_count": 1,
+		"arrest_count": 15,
 		"reports": {
 			"summary": {
 				"command": "105 PRECINCT",
@@ -89516,8 +89580,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 313,
-				"misdemeanor": 167,
+				"felony": 316,
+				"misdemeanor": 168,
 				"other": 1,
 				"violation": 5
 			},
@@ -104190,8 +104254,8 @@
 		"rank": "SGT DET SQUAD",
 		"shield_no": "3086",
 		"appt_date": "7/22/2002",
-		"recognition_count": 4,
-		"arrest_count": 498,
+		"recognition_count": 2,
+		"arrest_count": 249,
 		"reports": {
 			"summary": {
 				"command": "PUBLIC SECURITY SECTION",
@@ -104221,21 +104285,13 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 64,
-				"misdemeanor": 252,
-				"violation": 182
+				"felony": 32,
+				"misdemeanor": 126,
+				"violation": 91
 			},
 			"awards": [
 				{
 					"date": "4/19/2006",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "4/19/2006",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "3/28/2003",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -108674,8 +108730,8 @@
 		"arrest_count": 22,
 		"reports": {
 			"summary": {
-				"command": "013 PRECINCT",
-				"assignment_date": "4/8/2024",
+				"command": "AUTO CRIME UNIT",
+				"assignment_date": "5/6/2024",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "12853",
@@ -108697,7 +108753,7 @@
 			},
 			"awards": []
 		},
-		"command": "013 PRECINCT"
+		"command": "AUTO CRIME UNIT"
 	},
 	{
 		"taxid": 967540,

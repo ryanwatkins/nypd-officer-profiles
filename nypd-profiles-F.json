@@ -21282,7 +21282,7 @@
 		"shield_no": "4613",
 		"appt_date": "6/27/2003",
 		"recognition_count": 0,
-		"arrest_count": 1226,
+		"arrest_count": 1227,
 		"reports": {
 			"summary": {
 				"command": "026 DET SQUAD",
@@ -24999,7 +24999,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 5,
-				"felony": 704,
+				"felony": 705,
 				"misdemeanor": 267,
 				"violation": 5
 			},
@@ -40656,7 +40656,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 327,
+				"felony": 328,
 				"misdemeanor": 309,
 				"violation": 11
 			},
@@ -40799,7 +40799,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "2/8/2023 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "807-HOUSING PSA 7",
+							"case_no": "2022-26412",
+							"description": "Made inappropriate comments.",
+							"penalty": "TRAINING, VACATION DAYS (19 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 32,
 				"misdemeanor": 141,
@@ -41491,8 +41505,8 @@
 		"arrest_count": 24,
 		"reports": {
 			"summary": {
-				"command": "HOUSING PSA 4",
-				"assignment_date": "3/18/2019",
+				"command": "STOLEN PROPERTY INQUIRY UNIT",
+				"assignment_date": "5/6/2024",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "5484",
@@ -41514,7 +41528,7 @@
 			},
 			"awards": []
 		},
-		"command": "HOUSING PSA 4"
+		"command": "STOLEN PROPERTY INQUIRY UNIT"
 	},
 	{
 		"taxid": 954201,
@@ -47282,7 +47296,7 @@
 		"shield_no": "14122",
 		"appt_date": "7/13/2016",
 		"recognition_count": 1,
-		"arrest_count": 22,
+		"arrest_count": 23,
 		"reports": {
 			"summary": {
 				"command": "049 PRECINCT",
@@ -54971,7 +54985,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "10/18/2023 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "034-034 PRECINCT",
+							"case_no": "2022-26579",
+							"description": "Possession of a fraudulent instrument.",
+							"penalty": "VACATION DAYS (25 day(s) )"
+						},
+						{
+							"disposition": "PLEADED GUILTY",
+							"command": "034-034 PRECINCT",
+							"case_no": "2022-26579",
+							"description": "Failed to make proper notifications.",
+							"penalty": "VACATION DAYS (25 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 8,
@@ -59180,7 +59215,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 321,
+				"felony": 323,
 				"misdemeanor": 320,
 				"violation": 9
 			},
@@ -63244,7 +63279,28 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "9/10/2020 12:00:00 AM",
+					"charges_count": 2,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "750-NARCO BORO MAN. SOUTH",
+							"case_no": "2019-20687",
+							"description": "while off-duty, did damage property belonging to a person known to the Department during a verbal dispute.",
+							"penalty": "COUNSELING, PRE-TRIAL SUSPENSION DAYS (30 day(s) )"
+						},
+						{
+							"disposition": "GUILTY",
+							"command": "750-NARCO BORO MAN. SOUTH",
+							"case_no": "2019-20687",
+							"description": "while off-duty, failed to safeguard his Department issued property resulting in its loss.",
+							"penalty": "COUNSELING, PRE-TRIAL SUSPENSION DAYS (30 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 118,
 				"misdemeanor": 154,
