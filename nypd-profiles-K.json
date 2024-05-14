@@ -7345,7 +7345,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 155,
+				"felony": 158,
 				"misdemeanor": 237
 			},
 			"awards": [
@@ -11851,7 +11851,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 248,
-				"misdemeanor": 331,
+				"misdemeanor": 332,
 				"other": 1,
 				"violation": 9
 			},
@@ -11958,7 +11958,24 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "4/26/2022 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-24641",
+							"description": "01.Wrongfully discourteous to an individual known to the Department."
+						},
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-24642",
+							"description": "01.Failed to make required entries in Department Logs."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 3,
 				"felony": 39,
@@ -19335,7 +19352,7 @@
 		"shield_no": "2961",
 		"appt_date": "7/1/2004",
 		"recognition_count": 0,
-		"arrest_count": 752,
+		"arrest_count": 754,
 		"reports": {
 			"summary": {
 				"command": "CEIS MAJOR INVESTIGATION SQUAD",
@@ -19362,8 +19379,8 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 204,
-				"misdemeanor": 512,
-				"other": 2,
+				"misdemeanor": 513,
+				"other": 3,
 				"violation": 33
 			},
 			"awards": []
@@ -29987,7 +30004,7 @@
 		"shield_no": "2280",
 		"appt_date": "1/20/2004",
 		"recognition_count": 2,
-		"arrest_count": 614,
+		"arrest_count": 615,
 		"reports": {
 			"summary": {
 				"command": "MTS DET SQUAD",
@@ -30013,7 +30030,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 3,
-				"felony": 232,
+				"felony": 233,
 				"misdemeanor": 321,
 				"other": 1,
 				"violation": 57
@@ -39584,7 +39601,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 178,
+				"felony": 179,
 				"misdemeanor": 132,
 				"other": 1,
 				"violation": 15
@@ -46573,7 +46590,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 380,
+				"felony": 381,
 				"misdemeanor": 219,
 				"other": 4,
 				"violation": 2
@@ -48183,7 +48200,21 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "8/21/2018 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "023-023 PRECINCT",
+							"case_no": "2018-19345",
+							"description": "WAS OUT OF RESIDENCE WHILE ON SICK REPORT WITHOUT THE PERMISSION OF HER DISTRICT SURGEON OR SICK DESK SUPERVISOR.",
+							"penalty": "VACATION DAYS (10 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 12,
 				"misdemeanor": 103,
@@ -59407,7 +59438,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 130,
+				"felony": 131,
 				"misdemeanor": 226,
 				"violation": 40
 			},
@@ -61714,7 +61745,7 @@
 		"shield_no": "3969",
 		"appt_date": "7/1/2004",
 		"recognition_count": 15,
-		"arrest_count": 559,
+		"arrest_count": 560,
 		"reports": {
 			"summary": {
 				"command": "072 DET SQUAD",
@@ -61740,7 +61771,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 253,
-				"misdemeanor": 296,
+				"misdemeanor": 297,
 				"other": 1,
 				"violation": 9
 			},

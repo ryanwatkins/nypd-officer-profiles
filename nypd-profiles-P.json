@@ -177,7 +177,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "2/23/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"case_no": "2021-24219",
+							"description": "01.Failed to make required entries in Department Logs."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 22,
 				"misdemeanor": 125,
@@ -5350,7 +5362,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "7/22/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-26198",
+							"description": "01.Violated patrol rules."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 8,
@@ -12224,7 +12248,7 @@
 		"shield_no": "6864",
 		"appt_date": "7/1/2003",
 		"recognition_count": 0,
-		"arrest_count": 605,
+		"arrest_count": 606,
 		"reports": {
 			"summary": {
 				"command": "073 DET SQUAD",
@@ -16227,6 +16251,10 @@
 				"violation": 30
 			},
 			"awards": [
+				{
+					"date": "6/4/2022",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
 				{
 					"date": "11/26/2008",
 					"name": "MERITORIOUS POLICE DUTY"
@@ -23892,8 +23920,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
-				"misdemeanor": 34
+				"felony": 2,
+				"misdemeanor": 17
 			},
 			"awards": []
 		},
@@ -26706,7 +26734,7 @@
 		"shield_no": "7720",
 		"appt_date": "1/6/2020",
 		"recognition_count": 0,
-		"arrest_count": 69,
+		"arrest_count": 70,
 		"reports": {
 			"summary": {
 				"command": "046 PRECINCT",
@@ -28001,10 +28029,10 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 4,
-				"felony": 50,
-				"misdemeanor": 173,
-				"violation": 10
+				"infraction": 8,
+				"felony": 100,
+				"misdemeanor": 346,
+				"violation": 20
 			},
 			"awards": []
 		},
@@ -30071,9 +30099,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 152,
-				"misdemeanor": 348,
-				"violation": 6
+				"felony": 76,
+				"misdemeanor": 174,
+				"violation": 3
 			},
 			"awards": [
 				{
@@ -30082,26 +30110,10 @@
 				},
 				{
 					"date": "10/27/2008",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "10/27/2008",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "10/27/2008",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
 					"date": "6/3/2008",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "6/3/2008",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/23/2008",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -30113,19 +30125,7 @@
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
-					"date": "3/15/2008",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
 					"date": "12/14/2006",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "12/14/2006",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "12/7/2006",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -30137,19 +30137,7 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "11/14/2006",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "9/11/2006",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "9/11/2006",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "8/9/2006",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -30161,28 +30149,12 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "7/17/2006",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "7/10/2006",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
 					"date": "7/10/2006",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
 					"date": "6/22/2005",
 					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "6/22/2005",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "4/5/2005",
-					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
 					"date": "4/5/2005",
@@ -31810,7 +31782,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 11,
+				"felony": 12,
 				"misdemeanor": 51,
 				"other": 1,
 				"violation": 27
@@ -41512,65 +41484,77 @@
 		"command": "042 PRECINCT"
 	},
 	{
-		"taxid": 949900,
+		"taxid": 940564,
 		"full_name": "PEREZ, DAVID",
 		"first_name": "DAVID",
 		"last_name": "PEREZ",
 		"middle_initial": "",
 		"rank": "POLICE OFFICER",
-		"shield_no": "10089",
-		"appt_date": "7/6/2011",
-		"recognition_count": 4,
-		"arrest_count": 114,
+		"shield_no": "18864",
+		"appt_date": "1/9/2006",
+		"recognition_count": 3,
+		"arrest_count": 257,
 		"reports": {
 			"summary": {
-				"command": "068 PRECINCT",
-				"assignment_date": "11/19/2012",
+				"command": "101 PRECINCT",
+				"assignment_date": "6/27/2006",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
-				"shield_no": "10089",
-				"appt_date": "7/6/2011"
+				"shield_no": "18864",
+				"appt_date": "1/9/2006"
 			},
 			"ranks": [
 				{
 					"rank": "POLICE OFFICER",
-					"date": "7/6/2011",
-					"shield_no": "10089"
+					"date": "1/9/2006",
+					"shield_no": "18864"
 				}
 			],
-			"documents": [
+			"documents": [],
+			"discipline": [
 				{
-					"date": "5/1/2015",
-					"url": "https://oip.nypdonline.org/files/949900_05012015_2015023.pdf",
-					"type": "Trial Decision"
+					"entry": "2/2/2023 12:00:00 AM",
+					"allegations_count": 3,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-26030",
+							"description": "01.Wrongful entry of a premises."
+						},
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-26033",
+							"description": "01.Failed to activate their body worn camera."
+						},
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-26033",
+							"description": "02.Failed to make required entries in Department Logs."
+						}
+					]
 				}
 			],
-			"discipline": [],
 			"arrests": {
-				"felony": 10,
-				"misdemeanor": 103,
-				"violation": 1
+				"felony": 73,
+				"misdemeanor": 171,
+				"violation": 13
 			},
 			"awards": [
 				{
-					"date": "9/7/2020",
+					"date": "8/20/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "7/30/2016",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "9/10/2007",
 					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "9/7/2017",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "3/27/2016",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "10/25/2015",
-					"name": "EXCELLENT POLICE DUTY"
 				}
 			]
 		},
-		"command": "068 PRECINCT"
+		"command": "101 PRECINCT"
 	},
 	{
 		"taxid": 949900,
@@ -60470,8 +60454,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "31620",
 		"appt_date": "7/1/2003",
-		"recognition_count": 2,
-		"arrest_count": 210,
+		"recognition_count": 1,
+		"arrest_count": 105,
 		"reports": {
 			"summary": {
 				"command": "PATROL BORO BKLYN NORTH",
@@ -61871,7 +61855,7 @@
 		"rank": "LT DET COMMANDER",
 		"shield_no": "",
 		"appt_date": "1/20/2004",
-		"recognition_count": 31,
+		"recognition_count": 32,
 		"arrest_count": 313,
 		"reports": {
 			"summary": {
@@ -66042,8 +66026,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "8055",
 		"appt_date": "1/20/2004",
-		"recognition_count": 14,
-		"arrest_count": 344,
+		"recognition_count": 7,
+		"arrest_count": 172,
 		"reports": {
 			"summary": {
 				"command": "BROOKLYN COURT SECTION",
@@ -69683,7 +69667,7 @@
 		"shield_no": "2295",
 		"appt_date": "1/20/2004",
 		"recognition_count": 4,
-		"arrest_count": 795,
+		"arrest_count": 796,
 		"reports": {
 			"summary": {
 				"command": "083 DET SQUAD",
@@ -86433,8 +86417,8 @@
 				}
 			],
 			"arrests": {
-				"felony": 225,
-				"misdemeanor": 294,
+				"felony": 227,
+				"misdemeanor": 296,
 				"violation": 18
 			},
 			"awards": [
@@ -88560,7 +88544,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 27,
+				"felony": 28,
 				"misdemeanor": 155,
 				"violation": 23
 			},

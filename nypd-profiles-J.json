@@ -2792,7 +2792,7 @@
 		"shield_no": "5974",
 		"appt_date": "7/1/2004",
 		"recognition_count": 60,
-		"arrest_count": 508,
+		"arrest_count": 511,
 		"reports": {
 			"summary": {
 				"command": "STRATEGIC RESP GRP 1 MANHATTAN",
@@ -2818,9 +2818,9 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 126,
-				"misdemeanor": 356,
+				"misdemeanor": 358,
 				"other": 1,
-				"violation": 25
+				"violation": 26
 			},
 			"awards": [
 				{
@@ -19450,7 +19450,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "11/6/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "NO DISCIPLINARY ACTION",
+							"case_no": "2023-29022",
+							"description": "01.Wrongful removal to a hospital."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 3,
 				"felony": 54,
@@ -21268,14 +21280,22 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 23,
-				"misdemeanor": 97,
-				"violation": 22
+				"felony": 46,
+				"misdemeanor": 194,
+				"violation": 44
 			},
 			"awards": [
 				{
 					"date": "11/2/2012",
 					"name": "HONORABLE MENTION"
+				},
+				{
+					"date": "11/2/2012",
+					"name": "HONORABLE MENTION"
+				},
+				{
+					"date": "11/2/2012",
+					"name": "POLICE COMBAT CROSS"
 				},
 				{
 					"date": "11/2/2012",
@@ -25319,8 +25339,8 @@
 		"rank": "SERGEANT",
 		"shield_no": "1816",
 		"appt_date": "1/20/2004",
-		"recognition_count": 3,
-		"arrest_count": 136,
+		"recognition_count": 6,
+		"arrest_count": 272,
 		"reports": {
 			"summary": {
 				"command": "POLICE ACTION LITIGATION SECTION",
@@ -37749,7 +37769,7 @@
 		"shield_no": "1149",
 		"appt_date": "7/1/2004",
 		"recognition_count": 1,
-		"arrest_count": 209,
+		"arrest_count": 213,
 		"reports": {
 			"summary": {
 				"command": "081 DET SQUAD",
@@ -37770,7 +37790,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 4,
-				"felony": 56,
+				"felony": 60,
 				"misdemeanor": 138,
 				"violation": 11
 			},
