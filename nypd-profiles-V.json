@@ -5125,7 +5125,7 @@
 		"shield_no": "5697",
 		"appt_date": "7/1/2004",
 		"recognition_count": 2,
-		"arrest_count": 464,
+		"arrest_count": 476,
 		"reports": {
 			"summary": {
 				"command": "AC ZONE II BRONX/ MANHATTAN",
@@ -13140,7 +13140,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 298,
+				"felony": 299,
 				"misdemeanor": 425,
 				"other": 1,
 				"violation": 7
@@ -23391,7 +23391,24 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/26/2023 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-26347",
+							"description": "01.Wrongfully stopped a vehicle."
+						},
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-26348",
+							"description": "01.Failed to make required entries in Department Logs."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 48,
 				"misdemeanor": 133,
@@ -24619,7 +24636,7 @@
 		"shield_no": "28637",
 		"appt_date": "7/11/2005",
 		"recognition_count": 3,
-		"arrest_count": 219,
+		"arrest_count": 220,
 		"reports": {
 			"summary": {
 				"command": "075 PRECINCT",
@@ -24640,7 +24657,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 17,
+				"felony": 18,
 				"misdemeanor": 113,
 				"violation": 88
 			},
@@ -31575,8 +31592,8 @@
 		"rank": "LIEUTENANT",
 		"shield_no": "",
 		"appt_date": "7/11/2005",
-		"recognition_count": 2,
-		"arrest_count": 89,
+		"recognition_count": 4,
+		"arrest_count": 178,
 		"reports": {
 			"summary": {
 				"command": "113 PRECINCT",
@@ -38255,8 +38272,8 @@
 		"arrest_count": 229,
 		"reports": {
 			"summary": {
-				"command": "GRAND LARCENY DIVISION",
-				"assignment_date": "10/1/2020",
+				"command": "CRIMES AGAINST PERSONS UNIT",
+				"assignment_date": "5/13/2024",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "SERGEANT",
 				"shield_no": "1989",
@@ -38293,7 +38310,7 @@
 				}
 			]
 		},
-		"command": "GRAND LARCENY DIVISION"
+		"command": "CRIMES AGAINST PERSONS UNIT"
 	},
 	{
 		"taxid": 943928,
@@ -39005,7 +39022,7 @@
 		"shield_no": "24738",
 		"appt_date": "7/1/2004",
 		"recognition_count": 4,
-		"arrest_count": 224,
+		"arrest_count": 226,
 		"reports": {
 			"summary": {
 				"command": "110 PRECINCT",
@@ -40685,6 +40702,18 @@
 							"case_no": "2016-15045",
 							"description": "WHILE OFF-DUTY, FAILED AND NEGLECTED TO PROPERLY SAFEGUARD HIS OFF-DUTY FIREARM.",
 							"penalty": "VACATION DAYS (15 day(s) )"
+						}
+					]
+				},
+				{
+					"entry": "5/3/2024 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2023-29178",
+							"description": "01.Wrongfully searched a vehicle.",
+							"penalty": "TRAINING"
 						}
 					]
 				}
@@ -48483,7 +48512,7 @@
 		"shield_no": "771",
 		"appt_date": "7/11/2005",
 		"recognition_count": 24,
-		"arrest_count": 281,
+		"arrest_count": 282,
 		"reports": {
 			"summary": {
 				"command": "WARRANT SECTION",
@@ -48511,7 +48540,7 @@
 				"infraction": 1,
 				"felony": 148,
 				"misdemeanor": 102,
-				"other": 17,
+				"other": 18,
 				"violation": 13
 			},
 			"awards": [
