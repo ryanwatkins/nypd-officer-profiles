@@ -655,7 +655,7 @@
 		"shield_no": "1342",
 		"appt_date": "1/7/2008",
 		"recognition_count": 6,
-		"arrest_count": 311,
+		"arrest_count": 312,
 		"reports": {
 			"summary": {
 				"command": "MTN DET SQUAD",
@@ -3114,7 +3114,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/13/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-24860",
+							"description": "01.Failed to activate their body worn camera."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 8,
 				"misdemeanor": 45,
@@ -10542,7 +10554,7 @@
 		"shield_no": "23133",
 		"appt_date": "7/8/2008",
 		"recognition_count": 5,
-		"arrest_count": 301,
+		"arrest_count": 302,
 		"reports": {
 			"summary": {
 				"command": "STRATEGIC RESP GRP 2 BRONX",
@@ -10576,7 +10588,7 @@
 			],
 			"arrests": {
 				"felony": 56,
-				"misdemeanor": 245
+				"misdemeanor": 246
 			},
 			"awards": [
 				{
@@ -10935,7 +10947,7 @@
 		"shield_no": "4738",
 		"appt_date": "7/8/2008",
 		"recognition_count": 42,
-		"arrest_count": 341,
+		"arrest_count": 342,
 		"reports": {
 			"summary": {
 				"command": "075 DET SQUAD",
@@ -10962,7 +10974,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 155,
-				"misdemeanor": 170,
+				"misdemeanor": 171,
 				"violation": 14
 			},
 			"awards": [
@@ -16227,7 +16239,29 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "2/2/2023 12:00:00 AM",
+					"allegations_count": 3,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-26018",
+							"description": "01.Wrongfully discourteous to an individual known to the Department."
+						},
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-26020",
+							"description": "01.Failed to make required entries in Department Logs."
+						},
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-26020",
+							"description": "02.Failed to timely activate body worn camera."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 47,
 				"misdemeanor": 344,
@@ -17482,7 +17516,26 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/8/2024 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2024-29910",
+							"description": "01.Made computer inquiries unrelated to official Department business.",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2024-29910",
+							"description": "02.Misused Department electronics.",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 82,
 				"misdemeanor": 245,
@@ -18374,8 +18427,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "31257",
 		"appt_date": "1/17/2008",
-		"recognition_count": 2,
-		"arrest_count": 407,
+		"recognition_count": 4,
+		"arrest_count": 814,
 		"reports": {
 			"summary": {
 				"command": "046 PRECINCT",
@@ -30176,8 +30229,8 @@
 		"rank": "LIEUTENANT",
 		"shield_no": "",
 		"appt_date": "1/7/2008",
-		"recognition_count": 16,
-		"arrest_count": 178,
+		"recognition_count": 8,
+		"arrest_count": 89,
 		"reports": {
 			"summary": {
 				"command": "112 PRECINCT",
@@ -33778,7 +33831,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 215,
-				"misdemeanor": 256,
+				"misdemeanor": 257,
 				"violation": 48
 			},
 			"awards": [
@@ -39432,7 +39485,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 19,
+				"felony": 20,
 				"misdemeanor": 44,
 				"violation": 1
 			},
@@ -39636,7 +39689,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 13,
-				"misdemeanor": 91,
+				"misdemeanor": 92,
 				"violation": 11
 			},
 			"awards": [
@@ -42228,7 +42281,7 @@
 		"shield_no": "27921",
 		"appt_date": "1/7/2008",
 		"recognition_count": 10,
-		"arrest_count": 240,
+		"arrest_count": 241,
 		"reports": {
 			"summary": {
 				"command": "STRATEGIC RESP GRP 1 MANHATTAN",
@@ -49373,8 +49426,8 @@
 		"arrest_count": 524,
 		"reports": {
 			"summary": {
-				"command": "UNIFORMED PROMOTIONS TRN UNIT",
-				"assignment_date": "4/4/2024",
+				"command": "083 PRECINCT",
+				"assignment_date": "5/6/2024",
 				"ethnicity": "WHITE",
 				"rank_desc": "SERGEANT",
 				"shield_no": "2744",
@@ -49412,7 +49465,7 @@
 				}
 			]
 		},
-		"command": "UNIFORMED PROMOTIONS TRN UNIT"
+		"command": "083 PRECINCT"
 	},
 	{
 		"taxid": 958637,
@@ -49538,7 +49591,7 @@
 		"shield_no": "4145",
 		"appt_date": "7/8/2008",
 		"recognition_count": 6,
-		"arrest_count": 294,
+		"arrest_count": 296,
 		"reports": {
 			"summary": {
 				"command": "062 PRECINCT",
@@ -49597,7 +49650,7 @@
 			],
 			"arrests": {
 				"felony": 93,
-				"misdemeanor": 179,
+				"misdemeanor": 181,
 				"violation": 22
 			},
 			"awards": [
@@ -51210,7 +51263,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 45,
-				"misdemeanor": 63,
+				"misdemeanor": 64,
 				"violation": 2
 			},
 			"awards": [
@@ -51626,11 +51679,23 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/3/2024 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2023-29208",
+							"description": "01.Wrongfully threatened to arrest an individual known to the Department"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 67,
-				"misdemeanor": 282,
+				"misdemeanor": 285,
 				"violation": 16
 			},
 			"awards": [
@@ -55414,8 +55479,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 29,
-				"misdemeanor": 111,
+				"felony": 33,
+				"misdemeanor": 112,
 				"violation": 15
 			},
 			"awards": [
@@ -55500,7 +55565,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 146,
+				"felony": 150,
 				"misdemeanor": 149,
 				"other": 1,
 				"violation": 7
@@ -66559,10 +66624,22 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "12/29/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2022-27646",
+							"description": "01.Wrongfully discourteous to an individual known to the Department."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 25,
+				"felony": 27,
 				"misdemeanor": 113,
 				"violation": 1
 			},
@@ -75417,7 +75494,7 @@
 		"shield_no": "22521",
 		"appt_date": "7/8/2008",
 		"recognition_count": 1,
-		"arrest_count": 160,
+		"arrest_count": 161,
 		"reports": {
 			"summary": {
 				"command": "023 PRECINCT",
@@ -75437,7 +75514,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 49,
+				"felony": 50,
 				"misdemeanor": 110,
 				"violation": 1
 			},
@@ -76460,8 +76537,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 33,
-				"misdemeanor": 86,
+				"felony": 34,
+				"misdemeanor": 87,
 				"violation": 16
 			},
 			"awards": []
@@ -79659,7 +79736,7 @@
 		"shield_no": "2514",
 		"appt_date": "1/13/2005",
 		"recognition_count": 13,
-		"arrest_count": 449,
+		"arrest_count": 450,
 		"reports": {
 			"summary": {
 				"command": "113TH DET SQUAD",
@@ -82641,7 +82718,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 23,
-				"misdemeanor": 83,
+				"misdemeanor": 84,
 				"violation": 12
 			},
 			"awards": [
@@ -87911,7 +87988,7 @@
 		"shield_no": "4079",
 		"appt_date": "1/7/2008",
 		"recognition_count": 2,
-		"arrest_count": 693,
+		"arrest_count": 698,
 		"reports": {
 			"summary": {
 				"command": "063 DET SQUAD",
@@ -95795,7 +95872,7 @@
 			"arrests": {
 				"felony": 48,
 				"misdemeanor": 124,
-				"other": 61,
+				"other": 71,
 				"violation": 5
 			},
 			"awards": [
@@ -96097,7 +96174,7 @@
 			"arrests": {
 				"infraction": 3,
 				"felony": 63,
-				"misdemeanor": 195,
+				"misdemeanor": 196,
 				"violation": 15
 			},
 			"awards": [
@@ -106150,7 +106227,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 10,
-				"misdemeanor": 76,
+				"misdemeanor": 77,
 				"other": 1,
 				"violation": 2
 			},
