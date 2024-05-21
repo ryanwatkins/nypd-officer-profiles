@@ -4019,7 +4019,7 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "29310",
 		"appt_date": "7/6/2011",
-		"recognition_count": 5,
+		"recognition_count": 10,
 		"arrest_count": 125,
 		"reports": {
 			"summary": {
@@ -5009,7 +5009,7 @@
 		"shield_no": "6884",
 		"appt_date": "7/11/2012",
 		"recognition_count": 20,
-		"arrest_count": 148,
+		"arrest_count": 150,
 		"reports": {
 			"summary": {
 				"command": "019 DET SQUAD",
@@ -11875,7 +11875,7 @@
 		"shield_no": "24281",
 		"appt_date": "7/6/2011",
 		"recognition_count": 1,
-		"arrest_count": 127,
+		"arrest_count": 130,
 		"reports": {
 			"summary": {
 				"command": "105 PRECINCT",
@@ -13162,7 +13162,24 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/17/2023 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2023-28205",
+							"description": "01.Wrongful entry of a premises."
+						},
+						{
+							"recommendation": "A-CD",
+							"case_no": "2023-28205",
+							"description": "02.Wrongful search of a premises."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 31,
 				"misdemeanor": 92,
@@ -14805,8 +14822,8 @@
 		"arrest_count": 75,
 		"reports": {
 			"summary": {
-				"command": "071 PRECINCT",
-				"assignment_date": "11/4/2013",
+				"command": "060 PCT CONEY ISLAND DETAIL",
+				"assignment_date": "5/13/2024",
 				"ethnicity": "ASIAN",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "22228",
@@ -14834,7 +14851,7 @@
 				}
 			]
 		},
-		"command": "071 PRECINCT"
+		"command": "060 PCT CONEY ISLAND DETAIL"
 	},
 	{
 		"taxid": 950380,
@@ -17679,7 +17696,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 163,
+				"felony": 166,
 				"misdemeanor": 251,
 				"violation": 2
 			},
@@ -19402,8 +19419,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 160,
-				"misdemeanor": 113,
+				"felony": 162,
+				"misdemeanor": 116,
 				"violation": 7
 			},
 			"awards": [
@@ -24827,9 +24844,9 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"infraction": 2,
-				"felony": 54,
-				"misdemeanor": 140
+				"infraction": 1,
+				"felony": 27,
+				"misdemeanor": 70
 			},
 			"awards": [
 				{
@@ -24837,14 +24854,6 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "3/1/2021",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "3/12/2019",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
 					"date": "3/12/2019",
 					"name": "MERITORIOUS POLICE DUTY"
 				},
@@ -24853,20 +24862,8 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "3/5/2018",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "12/9/2017",
 					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "12/9/2017",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "8/8/2014",
-					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
 					"date": "8/8/2014",
@@ -25731,7 +25728,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 16,
-				"misdemeanor": 60,
+				"misdemeanor": 61,
 				"violation": 10
 			},
 			"awards": []
@@ -26369,7 +26366,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 130,
+				"felony": 133,
 				"misdemeanor": 114,
 				"violation": 7
 			},
@@ -30422,7 +30419,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 163,
+				"felony": 165,
 				"misdemeanor": 165,
 				"other": 2,
 				"violation": 5
