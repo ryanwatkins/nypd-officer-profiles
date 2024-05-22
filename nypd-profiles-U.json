@@ -368,7 +368,7 @@
 		"shield_no": "22370",
 		"appt_date": "1/7/2015",
 		"recognition_count": 1,
-		"arrest_count": 56,
+		"arrest_count": 57,
 		"reports": {
 			"summary": {
 				"command": "090 PRECINCT",
@@ -389,7 +389,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 10,
+				"felony": 11,
 				"misdemeanor": 37,
 				"violation": 7
 			},
@@ -1887,7 +1887,7 @@
 		"shield_no": "4539",
 		"appt_date": "7/9/2013",
 		"recognition_count": 0,
-		"arrest_count": 59,
+		"arrest_count": 118,
 		"reports": {
 			"summary": {
 				"command": "110 PRECINCT",
@@ -1980,8 +1980,8 @@
 		"arrest_count": 65,
 		"reports": {
 			"summary": {
-				"command": "026 PRECINCT",
-				"assignment_date": "2/29/2016",
+				"command": "INTEL CIS FIO PROGRAM",
+				"assignment_date": "5/20/2024",
 				"ethnicity": "BLACK",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "15827",
@@ -2007,7 +2007,7 @@
 				}
 			]
 		},
-		"command": "026 PRECINCT"
+		"command": "INTEL CIS FIO PROGRAM"
 	},
 	{
 		"taxid": 964324,
@@ -2188,7 +2188,24 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "6/13/2022 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-25978",
+							"description": "01.Failed to activate their body worn camera."
+						},
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-25978",
+							"description": "02.Failed to make required entries in Department Logs."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 97,
 				"misdemeanor": 225,
@@ -3669,7 +3686,7 @@
 		"rank": "SERGEANT",
 		"shield_no": "3678",
 		"appt_date": "7/11/2012",
-		"recognition_count": 1,
+		"recognition_count": 5,
 		"arrest_count": 152,
 		"reports": {
 			"summary": {
@@ -5091,8 +5108,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 217,
-				"misdemeanor": 310
+				"felony": 219,
+				"misdemeanor": 317
 			},
 			"awards": [
 				{
@@ -6532,8 +6549,8 @@
 		"arrest_count": 106,
 		"reports": {
 			"summary": {
-				"command": "STRATEGIC RESP GRP 3 BROOKLYN",
-				"assignment_date": "11/15/2018",
+				"command": "HARBOR UNIT SUMMER DETAIL",
+				"assignment_date": "5/21/2024",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "13541",
@@ -6576,7 +6593,7 @@
 				}
 			]
 		},
-		"command": "STRATEGIC RESP GRP 3 BROOKLYN"
+		"command": "HARBOR UNIT SUMMER DETAIL"
 	},
 	{
 		"taxid": 935892,
