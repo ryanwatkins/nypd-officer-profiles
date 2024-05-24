@@ -9,7 +9,7 @@
 		"shield_no": "6750",
 		"appt_date": "12/29/2020",
 		"recognition_count": 0,
-		"arrest_count": 10,
+		"arrest_count": 11,
 		"reports": {
 			"summary": {
 				"command": "094 PRECINCT",
@@ -430,7 +430,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/15/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2021-24166",
+							"description": "01.Wrongfully discourteous to an individual known to the Department."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 3,
 				"misdemeanor": 24
@@ -1194,8 +1206,8 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "12897",
 		"appt_date": "12/29/2020",
-		"recognition_count": 0,
-		"arrest_count": 29,
+		"recognition_count": 1,
+		"arrest_count": 31,
 		"reports": {
 			"summary": {
 				"command": "069 PRECINCT",
@@ -2254,7 +2266,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 15
+				"misdemeanor": 16
 			},
 			"awards": []
 		},
@@ -2291,7 +2303,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 49,
-				"misdemeanor": 101,
+				"misdemeanor": 103,
 				"violation": 1
 			},
 			"awards": [
@@ -3854,8 +3866,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 43,
-				"misdemeanor": 86,
+				"felony": 44,
+				"misdemeanor": 87,
 				"violation": 1
 			},
 			"awards": []
@@ -6309,7 +6321,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 45,
-				"misdemeanor": 116
+				"misdemeanor": 119
 			},
 			"awards": []
 		},
@@ -6946,8 +6958,8 @@
 		"arrest_count": 68,
 		"reports": {
 			"summary": {
-				"command": "PATROL BORO BKLYN SOUTH",
-				"assignment_date": "2/16/2024",
+				"command": "067 PRECINCT",
+				"assignment_date": "5/16/2024",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "15866",
@@ -6968,7 +6980,7 @@
 			},
 			"awards": []
 		},
-		"command": "PATROL BORO BKLYN SOUTH"
+		"command": "067 PRECINCT"
 	},
 	{
 		"taxid": 952368,
@@ -7638,7 +7650,7 @@
 		"shield_no": "617",
 		"appt_date": "4/6/2016",
 		"recognition_count": 0,
-		"arrest_count": 76,
+		"arrest_count": 77,
 		"reports": {
 			"summary": {
 				"command": "052 PRECINCT",
@@ -7659,7 +7671,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 22,
-				"misdemeanor": 54
+				"misdemeanor": 55
 			},
 			"awards": []
 		},
@@ -10788,7 +10800,7 @@
 		"shield_no": "30025",
 		"appt_date": "7/8/2015",
 		"recognition_count": 1,
-		"arrest_count": 30,
+		"arrest_count": 32,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 3",
@@ -11728,7 +11740,7 @@
 		"shield_no": "17978",
 		"appt_date": "1/6/2016",
 		"recognition_count": 0,
-		"arrest_count": 130,
+		"arrest_count": 131,
 		"reports": {
 			"summary": {
 				"command": "PBMN COMMUNITY RESPONSE TEAM",
@@ -11748,7 +11760,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 53,
+				"felony": 54,
 				"misdemeanor": 71,
 				"violation": 6
 			},
@@ -12065,7 +12077,7 @@
 		"shield_no": "8388",
 		"appt_date": "12/29/2020",
 		"recognition_count": 0,
-		"arrest_count": 15,
+		"arrest_count": 16,
 		"reports": {
 			"summary": {
 				"command": "073 PRECINCT",
@@ -16642,6 +16654,14 @@
 			},
 			"awards": [
 				{
+					"date": "4/5/2023",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "1/15/2023",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
 					"date": "12/13/2022",
 					"name": "MERITORIOUS POLICE DUTY"
 				}
@@ -16684,8 +16704,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 21,
-				"misdemeanor": 46
+				"felony": 22,
+				"misdemeanor": 47
 			},
 			"awards": []
 		},
@@ -17457,7 +17477,7 @@
 		"shield_no": "203",
 		"appt_date": "12/29/2020",
 		"recognition_count": 0,
-		"arrest_count": 40,
+		"arrest_count": 41,
 		"reports": {
 			"summary": {
 				"command": "061 PRECINCT",
@@ -17671,7 +17691,7 @@
 		"rank": "SERGEANT",
 		"shield_no": "2695",
 		"appt_date": "1/6/2016",
-		"recognition_count": 0,
+		"recognition_count": 1,
 		"arrest_count": 44,
 		"reports": {
 			"summary": {
@@ -17700,7 +17720,12 @@
 				"felony": 14,
 				"misdemeanor": 30
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "4/18/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				}
+			]
 		},
 		"command": "070 PRECINCT"
 	},
@@ -18964,7 +18989,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 38,
+				"misdemeanor": 39,
 				"other": 2,
 				"violation": 6
 			},
