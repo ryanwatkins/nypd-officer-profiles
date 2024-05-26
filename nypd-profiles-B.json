@@ -6543,7 +6543,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 47,
-				"misdemeanor": 26
+				"misdemeanor": 28
 			},
 			"awards": [
 				{
@@ -9732,7 +9732,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 11,
-				"misdemeanor": 19
+				"misdemeanor": 20
 			},
 			"awards": []
 		},
@@ -14376,7 +14376,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 33,
+				"felony": 34,
 				"misdemeanor": 19,
 				"violation": 1
 			},
@@ -27120,7 +27120,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 17,
-				"misdemeanor": 28
+				"misdemeanor": 30
 			},
 			"awards": [
 				{
@@ -27907,8 +27907,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 6,
-				"misdemeanor": 20
+				"felony": 3,
+				"misdemeanor": 10
 			},
 			"awards": [
 				{
@@ -30547,7 +30547,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 11,
-				"misdemeanor": 11
+				"misdemeanor": 12
 			},
 			"awards": []
 		},
@@ -30706,7 +30706,24 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/16/2023 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2023-28389",
+							"description": "01.Wrongful entry of a premises."
+						},
+						{
+							"recommendation": "A-CD",
+							"case_no": "2023-28389",
+							"description": "02.Wrongful search of a premises."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 22,
 				"misdemeanor": 26
@@ -42396,8 +42413,8 @@
 		"arrest_count": 110,
 		"reports": {
 			"summary": {
-				"command": "060 PRECINCT",
-				"assignment_date": "9/11/2023",
+				"command": "060 PCT CONEY ISLAND DETAIL",
+				"assignment_date": "5/13/2024",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "17590",
@@ -42455,7 +42472,7 @@
 				}
 			]
 		},
-		"command": "060 PRECINCT"
+		"command": "060 PCT CONEY ISLAND DETAIL"
 	},
 	{
 		"taxid": 946728,
@@ -54445,8 +54462,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 13,
-				"misdemeanor": 24
+				"felony": 14,
+				"misdemeanor": 25
 			},
 			"awards": []
 		},
@@ -54483,7 +54500,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 15,
-				"misdemeanor": 15
+				"misdemeanor": 19
 			},
 			"awards": []
 		},
@@ -72779,7 +72796,32 @@
 				"felony": 17,
 				"misdemeanor": 39
 			},
-			"awards": []
+			"awards": [
+				{
+					"date": "6/27/2023",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "6/24/2023",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "4/23/2023",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "4/14/2023",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "9/4/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "8/26/2022",
+					"name": "MERITORIOUS POLICE DUTY"
+				}
+			]
 		},
 		"command": "121 PRECINCT"
 	},
@@ -73192,8 +73234,8 @@
 		"arrest_count": 92,
 		"reports": {
 			"summary": {
-				"command": "100 PRECINCT",
-				"assignment_date": "5/8/2019",
+				"command": "INTEL CIS FIO PROGRAM",
+				"assignment_date": "5/20/2024",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "14871",
@@ -73253,7 +73295,7 @@
 				}
 			]
 		},
-		"command": "100 PRECINCT"
+		"command": "INTEL CIS FIO PROGRAM"
 	},
 	{
 		"taxid": 926586,
@@ -79043,7 +79085,7 @@
 		"shield_no": "8372",
 		"appt_date": "10/7/2019",
 		"recognition_count": 5,
-		"arrest_count": 28,
+		"arrest_count": 29,
 		"reports": {
 			"summary": {
 				"command": "066 PRECINCT",
@@ -79719,7 +79761,7 @@
 		"shield_no": "11407",
 		"appt_date": "7/2/2018",
 		"recognition_count": 0,
-		"arrest_count": 70,
+		"arrest_count": 71,
 		"reports": {
 			"summary": {
 				"command": "120 DETECTIVE SQUAD",
@@ -80672,7 +80714,7 @@
 		"shield_no": "29147",
 		"appt_date": "1/10/2018",
 		"recognition_count": 2,
-		"arrest_count": 56,
+		"arrest_count": 57,
 		"reports": {
 			"summary": {
 				"command": "108 PRECINCT",
@@ -84826,7 +84868,7 @@
 		"shield_no": "26634",
 		"appt_date": "1/3/2019",
 		"recognition_count": 1,
-		"arrest_count": 116,
+		"arrest_count": 118,
 		"reports": {
 			"summary": {
 				"command": "028 DET SQUAD",
@@ -84925,7 +84967,7 @@
 		"shield_no": "26344",
 		"appt_date": "1/3/2019",
 		"recognition_count": 18,
-		"arrest_count": 85,
+		"arrest_count": 87,
 		"reports": {
 			"summary": {
 				"command": "034 PRECINCT",
@@ -90036,8 +90078,8 @@
 		"arrest_count": 55,
 		"reports": {
 			"summary": {
-				"command": "075 PRECINCT",
-				"assignment_date": "11/25/2019",
+				"command": "GUN VIOL SUPP DIV Z1 (BK,Q,SI)",
+				"assignment_date": "5/20/2024",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "16505",
@@ -90076,7 +90118,7 @@
 				}
 			]
 		},
-		"command": "075 PRECINCT"
+		"command": "GUN VIOL SUPP DIV Z1 (BK,Q,SI)"
 	},
 	{
 		"taxid": 946803,
@@ -93724,7 +93766,7 @@
 		"shield_no": "14477",
 		"appt_date": "10/24/2018",
 		"recognition_count": 0,
-		"arrest_count": 48,
+		"arrest_count": 49,
 		"reports": {
 			"summary": {
 				"command": "047 PRECINCT",
@@ -94505,7 +94547,7 @@
 		"shield_no": "21510",
 		"appt_date": "4/15/2019",
 		"recognition_count": 0,
-		"arrest_count": 31,
+		"arrest_count": 32,
 		"reports": {
 			"summary": {
 				"command": "001 PRECINCT",
@@ -105109,7 +105151,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 12,
-				"misdemeanor": 79,
+				"misdemeanor": 84,
 				"violation": 2
 			},
 			"awards": []
@@ -109653,7 +109695,7 @@
 		"shield_no": "9737",
 		"appt_date": "1/10/2018",
 		"recognition_count": 9,
-		"arrest_count": 111,
+		"arrest_count": 113,
 		"reports": {
 			"summary": {
 				"command": "NARC BORO BRONX",
@@ -110315,7 +110357,7 @@
 		"shield_no": "25275",
 		"appt_date": "10/7/2019",
 		"recognition_count": 2,
-		"arrest_count": 58,
+		"arrest_count": 64,
 		"reports": {
 			"summary": {
 				"command": "103 PRECINCT",
@@ -114471,8 +114513,8 @@
 		"arrest_count": 37,
 		"reports": {
 			"summary": {
-				"command": "100 PRECINCT",
-				"assignment_date": "9/12/2022",
+				"command": "100 PCT ROCKAWAY BEACH DETAIL",
+				"assignment_date": "5/17/2024",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "14582",
@@ -114502,7 +114544,7 @@
 				}
 			]
 		},
-		"command": "100 PRECINCT"
+		"command": "100 PCT ROCKAWAY BEACH DETAIL"
 	},
 	{
 		"taxid": 964950,
@@ -120073,7 +120115,7 @@
 		"shield_no": "25282",
 		"appt_date": "10/7/2019",
 		"recognition_count": 1,
-		"arrest_count": 66,
+		"arrest_count": 69,
 		"reports": {
 			"summary": {
 				"command": "105 PRECINCT",
@@ -120093,8 +120135,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 21,
-				"misdemeanor": 45
+				"felony": 22,
+				"misdemeanor": 47
 			},
 			"awards": [
 				{
@@ -122349,7 +122391,7 @@
 		"shield_no": "25223",
 		"appt_date": "1/3/2019",
 		"recognition_count": 0,
-		"arrest_count": 52,
+		"arrest_count": 53,
 		"reports": {
 			"summary": {
 				"command": "061 PRECINCT",

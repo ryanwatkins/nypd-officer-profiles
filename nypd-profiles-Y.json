@@ -1230,7 +1230,7 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "17132",
 		"appt_date": "4/15/2019",
-		"recognition_count": 2,
+		"recognition_count": 6,
 		"arrest_count": 100,
 		"reports": {
 			"summary": {
@@ -4102,7 +4102,7 @@
 		"shield_no": "15880",
 		"appt_date": "7/2/2018",
 		"recognition_count": 7,
-		"arrest_count": 86,
+		"arrest_count": 91,
 		"reports": {
 			"summary": {
 				"command": "062 PRECINCT",
@@ -6577,10 +6577,22 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/16/2024 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2024-30591",
+							"description": "01.Violated patrol rules."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 38,
-				"misdemeanor": 47,
+				"misdemeanor": 48,
 				"violation": 1
 			},
 			"awards": []
