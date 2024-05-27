@@ -3473,7 +3473,7 @@
 		"shield_no": "1840",
 		"appt_date": "10/24/2018",
 		"recognition_count": 0,
-		"arrest_count": 33,
+		"arrest_count": 37,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 1",
@@ -3491,10 +3491,22 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "9/27/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2023-28820",
+							"description": "01.Failed to prepare required reports."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 6,
-				"misdemeanor": 26,
+				"misdemeanor": 30,
 				"violation": 1
 			},
 			"awards": []
@@ -4890,7 +4902,7 @@
 		"shield_no": "24710",
 		"appt_date": "10/7/2019",
 		"recognition_count": 0,
-		"arrest_count": 45,
+		"arrest_count": 47,
 		"reports": {
 			"summary": {
 				"command": "066 PRECINCT",
@@ -4922,7 +4934,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 14,
+				"felony": 16,
 				"misdemeanor": 31
 			},
 			"awards": []

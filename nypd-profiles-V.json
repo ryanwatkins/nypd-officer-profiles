@@ -295,7 +295,7 @@
 		"shield_no": "11210",
 		"appt_date": "10/7/2019",
 		"recognition_count": 2,
-		"arrest_count": 116,
+		"arrest_count": 117,
 		"reports": {
 			"summary": {
 				"command": "045 PRECINCT",
@@ -3487,7 +3487,7 @@
 		"shield_no": "15935",
 		"appt_date": "4/15/2019",
 		"recognition_count": 1,
-		"arrest_count": 110,
+		"arrest_count": 111,
 		"reports": {
 			"summary": {
 				"command": "063 PRECINCT",
@@ -4569,7 +4569,7 @@
 		"shield_no": "5824",
 		"appt_date": "10/18/2017",
 		"recognition_count": 1,
-		"arrest_count": 73,
+		"arrest_count": 74,
 		"reports": {
 			"summary": {
 				"command": "047 PRECINCT",
@@ -4837,7 +4837,7 @@
 		"shield_no": "21973",
 		"appt_date": "1/10/2018",
 		"recognition_count": 0,
-		"arrest_count": 21,
+		"arrest_count": 22,
 		"reports": {
 			"summary": {
 				"command": "102 PRECINCT",
@@ -9572,7 +9572,7 @@
 		"shield_no": "11290",
 		"appt_date": "10/7/2019",
 		"recognition_count": 11,
-		"arrest_count": 54,
+		"arrest_count": 56,
 		"reports": {
 			"summary": {
 				"command": "075 PRECINCT",
@@ -9592,8 +9592,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 22,
-				"misdemeanor": 32
+				"felony": 23,
+				"misdemeanor": 33
 			},
 			"awards": [
 				{
@@ -10265,8 +10265,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 474,
-				"misdemeanor": 900,
+				"felony": 475,
+				"misdemeanor": 904,
 				"violation": 4
 			},
 			"awards": [
@@ -16663,10 +16663,10 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
-				"misdemeanor": 16,
-				"other": 2,
-				"violation": 8
+				"felony": 2,
+				"misdemeanor": 8,
+				"other": 1,
+				"violation": 4
 			},
 			"awards": [
 				{
@@ -17066,8 +17066,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 25,
-				"misdemeanor": 47,
+				"felony": 27,
+				"misdemeanor": 49,
 				"violation": 1
 			},
 			"awards": [
@@ -22150,7 +22150,7 @@
 		"shield_no": "11850",
 		"appt_date": "10/7/2019",
 		"recognition_count": 4,
-		"arrest_count": 81,
+		"arrest_count": 82,
 		"reports": {
 			"summary": {
 				"command": "041 PRECINCT",
@@ -22168,7 +22168,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/11/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-25533",
+							"description": "01.Failed to prepare required reports."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 43,
 				"misdemeanor": 39
@@ -33527,7 +33539,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "11/1/2023 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "NO DISCIPLINARY ACTION",
+							"case_no": "2023-29270",
+							"description": "01.Wrongful threat of force."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 51,
 				"misdemeanor": 14
@@ -33540,74 +33564,6 @@
 			]
 		},
 		"command": "090 PRECINCT"
-	},
-	{
-		"taxid": 968871,
-		"full_name": "VETRANO, NUNZIO",
-		"first_name": "NUNZIO",
-		"last_name": "VETRANO",
-		"middle_initial": "",
-		"rank": "POLICE OFFICER",
-		"shield_no": "8158",
-		"appt_date": "10/7/2019",
-		"recognition_count": 4,
-		"arrest_count": 103,
-		"reports": {
-			"summary": {
-				"command": "024 PRECINCT",
-				"assignment_date": "3/10/2021",
-				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "8158",
-				"appt_date": "10/7/2019"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "10/7/2019",
-					"shield_no": "8158"
-				}
-			],
-			"documents": [],
-			"discipline": [
-				{
-					"entry": "9/7/2023 12:00:00 AM",
-					"allegations_count": 1,
-					"allegations": [
-						{
-							"recommendation": "A-CD",
-							"case_no": "2023-28317",
-							"description": "01.Wrongfully discourteous to an individual known to the Department.",
-							"penalty": "A - COMMAND DISCIPLINE"
-						}
-					]
-				}
-			],
-			"arrests": {
-				"felony": 38,
-				"misdemeanor": 64,
-				"violation": 1
-			},
-			"awards": [
-				{
-					"date": "12/6/2021",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "11/7/2021",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "7/16/2021",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "6/30/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
-		},
-		"command": "024 PRECINCT"
 	},
 	{
 		"taxid": 971262,
@@ -45799,11 +45755,11 @@
 		"shield_no": "24204",
 		"appt_date": "10/7/2019",
 		"recognition_count": 0,
-		"arrest_count": 32,
+		"arrest_count": 37,
 		"reports": {
 			"summary": {
-				"command": "060 PRECINCT",
-				"assignment_date": "9/11/2023",
+				"command": "060 PCT CONEY ISLAND DETAIL",
+				"assignment_date": "5/13/2024",
 				"ethnicity": "WHITE",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "24204",
@@ -45819,13 +45775,13 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 7,
-				"misdemeanor": 17,
+				"felony": 10,
+				"misdemeanor": 19,
 				"violation": 8
 			},
 			"awards": []
 		},
-		"command": "060 PRECINCT"
+		"command": "060 PCT CONEY ISLAND DETAIL"
 	},
 	{
 		"taxid": 962862,
@@ -46485,7 +46441,7 @@
 		"shield_no": "12106",
 		"appt_date": "4/25/2018",
 		"recognition_count": 0,
-		"arrest_count": 51,
+		"arrest_count": 53,
 		"reports": {
 			"summary": {
 				"command": "017 PRECINCT",
@@ -47423,7 +47379,7 @@
 		"shield_no": "29901",
 		"appt_date": "1/6/2020",
 		"recognition_count": 0,
-		"arrest_count": 47,
+		"arrest_count": 49,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 1",
@@ -47444,8 +47400,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 10,
-				"misdemeanor": 36
+				"felony": 11,
+				"misdemeanor": 37
 			},
 			"awards": []
 		},
@@ -49347,7 +49303,7 @@
 		"shield_no": "31941",
 		"appt_date": "10/7/2019",
 		"recognition_count": 1,
-		"arrest_count": 71,
+		"arrest_count": 73,
 		"reports": {
 			"summary": {
 				"command": "102 PRECINCT",
