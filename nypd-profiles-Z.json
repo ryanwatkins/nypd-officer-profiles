@@ -2381,7 +2381,7 @@
 		"shield_no": "30861",
 		"appt_date": "10/7/2019",
 		"recognition_count": 0,
-		"arrest_count": 44,
+		"arrest_count": 45,
 		"reports": {
 			"summary": {
 				"command": "090 PRECINCT",
@@ -2584,7 +2584,7 @@
 		"shield_no": "7311",
 		"appt_date": "10/7/2019",
 		"recognition_count": 0,
-		"arrest_count": 24,
+		"arrest_count": 25,
 		"reports": {
 			"summary": {
 				"command": "077 PRECINCT",
@@ -4788,7 +4788,7 @@
 		"shield_no": "25132",
 		"appt_date": "1/6/2020",
 		"recognition_count": 0,
-		"arrest_count": 60,
+		"arrest_count": 61,
 		"reports": {
 			"summary": {
 				"command": "013 PRECINCT",
@@ -5683,7 +5683,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 191,
+				"felony": 193,
 				"misdemeanor": 296,
 				"other": 66,
 				"violation": 14
@@ -6783,7 +6783,7 @@
 		"shield_no": "10475",
 		"appt_date": "1/6/2020",
 		"recognition_count": 0,
-		"arrest_count": 122,
+		"arrest_count": 125,
 		"reports": {
 			"summary": {
 				"command": "034 PRECINCT",
@@ -8269,7 +8269,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "4/23/2024 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "TRAINING",
+							"case_no": "2022-24720",
+							"description": "01.Failed to prepare required reports."
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 6,
 				"misdemeanor": 30,
@@ -10243,8 +10255,8 @@
 				}
 			],
 			"arrests": {
-				"felony": 35,
-				"misdemeanor": 34
+				"felony": 36,
+				"misdemeanor": 36
 			},
 			"awards": [
 				{
@@ -15460,7 +15472,7 @@
 			],
 			"arrests": {
 				"felony": 179,
-				"misdemeanor": 315,
+				"misdemeanor": 317,
 				"other": 1,
 				"violation": 5
 			},
