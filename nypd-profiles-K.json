@@ -212,7 +212,7 @@
 		"shield_no": "19466",
 		"appt_date": "10/7/2015",
 		"recognition_count": 1,
-		"arrest_count": 26,
+		"arrest_count": 27,
 		"reports": {
 			"summary": {
 				"command": "077 PRECINCT",
@@ -3151,7 +3151,7 @@
 		"shield_no": "22920",
 		"appt_date": "10/11/2016",
 		"recognition_count": 21,
-		"arrest_count": 126,
+		"arrest_count": 127,
 		"reports": {
 			"summary": {
 				"command": "073 PRECINCT",
@@ -5429,7 +5429,7 @@
 		"shield_no": "17955",
 		"appt_date": "7/13/2016",
 		"recognition_count": 7,
-		"arrest_count": 77,
+		"arrest_count": 81,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 30",
@@ -5450,7 +5450,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 7,
-				"misdemeanor": 66,
+				"misdemeanor": 70,
 				"violation": 4
 			},
 			"awards": [
@@ -9084,8 +9084,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 23,
-				"misdemeanor": 18
+				"felony": 24,
+				"misdemeanor": 19
 			},
 			"awards": []
 		},
@@ -13321,9 +13321,50 @@
 				"shield_no": "26409",
 				"appt_date": "1/3/2019"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/3/2019",
+					"shield_no": "26409"
+				}
+			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/15/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"case_no": "2021-24499",
+							"description": "01.Failed to make required entries in Department Logs."
+						}
+					]
+				},
+				{
+					"entry": "10/10/2022 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"case_no": "2022-26961",
+							"description": "01.Failed to timely activate body worn camera."
+						}
+					]
+				},
+				{
+					"entry": "3/22/2024 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2023-29455",
+							"description": "01.Violated patrol rules - failed to provide a business card",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 23,
 				"misdemeanor": 54
@@ -16623,7 +16664,18 @@
 				"shield_no": "5743",
 				"appt_date": "1/9/2006"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "1/9/2006",
+					"shield_no": "9676"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "11/25/2014",
+					"shield_no": "5743"
+				}
+			],
 			"documents": [
 				{
 					"date": "5/27/2016",
@@ -16631,7 +16683,21 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "2/16/2015 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "114-114 PRECINCT",
+							"case_no": "2014-12406",
+							"description": "FAILED TO PROVIDE HIS SHIELD NUMBER WHEN REQUESTED TO DO SO BY A PERSON KNOWN TO THE DEPARTMENT.",
+							"penalty": "VACATION DAYS (1 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 168,
@@ -18494,8 +18560,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 60,
-				"misdemeanor": 112
+				"felony": 31,
+				"misdemeanor": 56
 			},
 			"awards": [
 				{
@@ -18503,14 +18569,6 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "12/19/2021",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "12/18/2021",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "12/18/2021",
 					"name": "EXCELLENT POLICE DUTY"
 				},
@@ -18519,19 +18577,7 @@
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
-					"date": "12/12/2021",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
 					"date": "10/31/2021",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "10/31/2021",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "3/3/2021",
 					"name": "EXCELLENT POLICE DUTY"
 				},
 				{
@@ -19338,7 +19384,7 @@
 		"shield_no": "290",
 		"appt_date": "7/9/2014",
 		"recognition_count": 3,
-		"arrest_count": 124,
+		"arrest_count": 126,
 		"reports": {
 			"summary": {
 				"command": "101 PRECINCT",
@@ -19673,7 +19719,7 @@
 				"infraction": 1,
 				"felony": 204,
 				"misdemeanor": 513,
-				"other": 3,
+				"other": 4,
 				"violation": 33
 			},
 			"awards": []
@@ -23887,7 +23933,7 @@
 		"shield_no": "26744",
 		"appt_date": "7/9/2014",
 		"recognition_count": 5,
-		"arrest_count": 197,
+		"arrest_count": 198,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 30",
@@ -26965,7 +27011,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
-				"misdemeanor": 16,
+				"misdemeanor": 21,
 				"other": 1,
 				"violation": 2
 			},
@@ -27577,8 +27623,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 11,
-				"misdemeanor": 17
+				"felony": 13,
+				"misdemeanor": 19
 			},
 			"awards": []
 		},
@@ -28554,7 +28600,7 @@
 			],
 			"arrests": {
 				"felony": 46,
-				"misdemeanor": 59,
+				"misdemeanor": 62,
 				"violation": 2
 			},
 			"awards": [
@@ -30352,7 +30398,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 3,
-				"felony": 233,
+				"felony": 235,
 				"misdemeanor": 321,
 				"other": 1,
 				"violation": 57
@@ -32035,8 +32081,8 @@
 		"arrest_count": 112,
 		"reports": {
 			"summary": {
-				"command": "UNIFORMED PROMOTIONS TRN UNIT",
-				"assignment_date": "4/26/2024",
+				"command": "115 PRECINCT",
+				"assignment_date": "5/27/2024",
 				"ethnicity": "ASIAN",
 				"rank_desc": "SERGEANT",
 				"shield_no": "3933",
@@ -32108,7 +32154,7 @@
 				}
 			]
 		},
-		"command": "UNIFORMED PROMOTIONS TRN UNIT"
+		"command": "115 PRECINCT"
 	},
 	{
 		"taxid": 966136,
@@ -32754,7 +32800,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 14,
-				"misdemeanor": 31
+				"misdemeanor": 32
 			},
 			"awards": [
 				{
@@ -33475,7 +33521,7 @@
 		"rank": "LIEUTENANT",
 		"shield_no": "",
 		"appt_date": "7/11/2005",
-		"recognition_count": 1,
+		"recognition_count": 2,
 		"arrest_count": 110,
 		"reports": {
 			"summary": {
@@ -38597,7 +38643,7 @@
 		"shield_no": "3871",
 		"appt_date": "7/9/2014",
 		"recognition_count": 18,
-		"arrest_count": 64,
+		"arrest_count": 65,
 		"reports": {
 			"summary": {
 				"command": "INTEL CIS FIO PROGRAM",
@@ -46625,7 +46671,7 @@
 		"shield_no": "11566",
 		"appt_date": "11/2/2020",
 		"recognition_count": 2,
-		"arrest_count": 122,
+		"arrest_count": 126,
 		"reports": {
 			"summary": {
 				"command": "109 PRECINCT",
@@ -55600,7 +55646,7 @@
 		"shield_no": "7189",
 		"appt_date": "7/8/2008",
 		"recognition_count": 9,
-		"arrest_count": 861,
+		"arrest_count": 869,
 		"reports": {
 			"summary": {
 				"command": "MTS DET SQUAD",
@@ -60270,7 +60316,7 @@
 				"infraction": 1,
 				"felony": 202,
 				"misdemeanor": 135,
-				"other": 17,
+				"other": 19,
 				"violation": 3
 			},
 			"awards": [
@@ -62130,7 +62176,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 253,
-				"misdemeanor": 297,
+				"misdemeanor": 298,
 				"other": 1,
 				"violation": 9
 			},

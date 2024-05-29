@@ -1662,7 +1662,7 @@
 		"shield_no": "9167",
 		"appt_date": "4/12/2017",
 		"recognition_count": 7,
-		"arrest_count": 133,
+		"arrest_count": 135,
 		"reports": {
 			"summary": {
 				"command": "013 PRECINCT",
@@ -1687,8 +1687,8 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 64,
-				"misdemeanor": 69
+				"felony": 65,
+				"misdemeanor": 70
 			},
 			"awards": [
 				{
@@ -2570,21 +2570,19 @@
 							"disposition": "GUILTY",
 							"command": "106-106 PRECINCT",
 							"case_no": "2016-15801",
-							"description": "WHILE OFF-DUTY, WAS INVOLVED IN A MOTOR VEHICLE ACCIDENT WITHIN THE CONFINES OF SUFFOLK COUNTY AND FAILED TO NOTIFY COMMAND OPERATIONS AS REQUIRED.",
-							"penalty": "VACATION DAYS (30 day(s) )"
+							"description": "WHILE OFF-DUTY, WAS INVOLVED IN A MOTOR VEHICLE ACCIDENT WITHIN THE CONFINES OF SUFFOLK COUNTY AND FAILED TO NOTIFY COMMAND OPERATIONS AS REQUIRED."
 						},
 						{
 							"disposition": "GUILTY",
 							"command": "106-106 PRECINCT",
 							"case_no": "2016-15801",
-							"description": "WHILE OFF-DUTY, WAS INVOLVED IN A MOTOR VEHICLE ACCIDENT WHICH RESULTED IN PROPERTY DAMAGE AND LEFT THE SCENE WITHOUT REPORTING SAID ACCIDENT.",
-							"penalty": "VACATION DAYS (30 day(s) )"
+							"description": "WHILE OFF-DUTY, WAS INVOLVED IN A MOTOR VEHICLE ACCIDENT WHICH RESULTED IN PROPERTY DAMAGE AND LEFT THE SCENE WITHOUT REPORTING SAID ACCIDENT."
 						}
 					]
 				}
 			],
 			"arrests": {
-				"felony": 86,
+				"felony": 87,
 				"misdemeanor": 90,
 				"other": 1
 			},
@@ -3606,11 +3604,29 @@
 							"penalty": "A - COMMAND DISCIPLINE"
 						}
 					]
+				},
+				{
+					"entry": "5/14/2024 12:00:00 AM",
+					"allegations_count": 2,
+					"allegations": [
+						{
+							"recommendation": "NO DISCIPLINARY ACTION",
+							"case_no": "2024-29981",
+							"description": "01.Wrongfully discourteous to an individual known to the Department.",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (1 day(s) )"
+						},
+						{
+							"recommendation": "NO DISCIPLINARY ACTION",
+							"case_no": "2024-29981",
+							"description": "01.Wrongfully used offensive language.",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (1 day(s) )"
+						}
+					]
 				}
 			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 43,
+				"felony": 45,
 				"misdemeanor": 117,
 				"violation": 8
 			},
@@ -3855,7 +3871,7 @@
 			"arrests": {
 				"infraction": 11,
 				"felony": 62,
-				"misdemeanor": 541,
+				"misdemeanor": 544,
 				"violation": 4
 			},
 			"awards": [
@@ -4021,7 +4037,7 @@
 		"shield_no": "15322",
 		"appt_date": "7/9/2014",
 		"recognition_count": 4,
-		"arrest_count": 151,
+		"arrest_count": 153,
 		"reports": {
 			"summary": {
 				"command": "073 PRECINCT",
@@ -4969,7 +4985,7 @@
 		"shield_no": "390",
 		"appt_date": "1/10/2018",
 		"recognition_count": 2,
-		"arrest_count": 124,
+		"arrest_count": 126,
 		"reports": {
 			"summary": {
 				"command": "013 PRECINCT",
@@ -7689,8 +7705,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 3,
-				"felony": 38,
-				"misdemeanor": 146,
+				"felony": 39,
+				"misdemeanor": 147,
 				"other": 2,
 				"violation": 6
 			},
@@ -13480,6 +13496,63 @@
 		"command": "JOINT TERRORIST TASK FORCE"
 	},
 	{
+		"taxid": 962623,
+		"full_name": "HARDOMAN, AMY J",
+		"first_name": "AMY",
+		"last_name": "HARDOMAN",
+		"middle_initial": "J",
+		"rank": "SERGEANT",
+		"shield_no": "3856",
+		"appt_date": "10/11/2016",
+		"recognition_count": 0,
+		"arrest_count": 76,
+		"reports": {
+			"summary": {
+				"command": "CERT COND & NON CRIM FGRPRT UN",
+				"assignment_date": "2/5/2024",
+				"ethnicity": "HISPANIC",
+				"rank_desc": "SERGEANT",
+				"shield_no": "3856",
+				"appt_date": "10/11/2016"
+			},
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "10/11/2016",
+					"shield_no": "22954"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "8/25/2023",
+					"shield_no": "3856"
+				}
+			],
+			"documents": [],
+			"discipline": [
+				{
+					"entry": "6/27/2022 12:00:00 AM",
+					"charges_count": 1,
+					"charges": [
+						{
+							"disposition": "GUILTY",
+							"command": "110-110 PRECINCT",
+							"case_no": "2022-24684",
+							"description": "Computer Misuse.",
+							"penalty": "VACATION DAYS (20 day(s) )"
+						}
+					]
+				}
+			],
+			"arrests": {
+				"felony": 23,
+				"misdemeanor": 52,
+				"violation": 1
+			},
+			"awards": []
+		},
+		"command": "CERT COND & NON CRIM FGRPRT UN"
+	},
+	{
 		"taxid": 949085,
 		"full_name": "HARDOMAN, TYRELL J",
 		"first_name": "TYRELL",
@@ -15382,7 +15455,7 @@
 		"shield_no": "1908",
 		"appt_date": "7/1/2002",
 		"recognition_count": 9,
-		"arrest_count": 816,
+		"arrest_count": 817,
 		"reports": {
 			"summary": {
 				"command": "102ND DET SQUAD",
@@ -20452,7 +20525,7 @@
 		"shield_no": "5238",
 		"appt_date": "10/18/2017",
 		"recognition_count": 3,
-		"arrest_count": 138,
+		"arrest_count": 142,
 		"reports": {
 			"summary": {
 				"command": "121 PRECINCT",
@@ -21398,7 +21471,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 55,
+				"felony": 56,
 				"misdemeanor": 27,
 				"violation": 2
 			},
@@ -21414,6 +21487,10 @@
 				{
 					"date": "12/30/2022",
 					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "6/21/2022",
+					"name": "MERITORIOUS POLICE DUTY"
 				},
 				{
 					"date": "10/16/2020",
@@ -21550,6 +21627,58 @@
 				"violation": 1
 			},
 			"awards": [
+				{
+					"date": "10/28/2023",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "8/24/2023",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "4/12/2023",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "4/7/2023",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "4/1/2023",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "1/4/2023",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "12/21/2022",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "11/16/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "11/4/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				},
+				{
+					"date": "10/29/2022",
+					"name": "COMMENDATION"
+				},
+				{
+					"date": "10/25/2022",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
+					"date": "9/2/2022",
+					"name": "COMMENDATION"
+				},
+				{
+					"date": "8/27/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "7/16/2022",
 					"name": "MERITORIOUS POLICE DUTY"
@@ -24005,7 +24134,7 @@
 		"shield_no": "5604",
 		"appt_date": "1/14/2009",
 		"recognition_count": 9,
-		"arrest_count": 790,
+		"arrest_count": 791,
 		"reports": {
 			"summary": {
 				"command": "CENTRAL ROBBERY DIVISION",
@@ -31719,6 +31848,10 @@
 			},
 			"awards": [
 				{
+					"date": "6/21/2022",
+					"name": "MERITORIOUS POLICE DUTY"
+				},
+				{
 					"date": "4/10/2022",
 					"name": "EXCELLENT POLICE DUTY"
 				},
@@ -32769,7 +32902,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 198,
-				"misdemeanor": 473,
+				"misdemeanor": 474,
 				"violation": 1
 			},
 			"awards": [
@@ -33768,7 +33901,7 @@
 		"shield_no": "6754",
 		"appt_date": "7/2/2018",
 		"recognition_count": 0,
-		"arrest_count": 37,
+		"arrest_count": 38,
 		"reports": {
 			"summary": {
 				"command": "073 PRECINCT",
@@ -36108,7 +36241,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 11,
-				"misdemeanor": 22
+				"misdemeanor": 25
 			},
 			"awards": []
 		},
@@ -36530,7 +36663,7 @@
 		"shield_no": "12767",
 		"appt_date": "10/7/2015",
 		"recognition_count": 0,
-		"arrest_count": 45,
+		"arrest_count": 46,
 		"reports": {
 			"summary": {
 				"command": "050 PRECINCT",
@@ -39938,7 +40071,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 22,
-				"misdemeanor": 83,
+				"misdemeanor": 84,
 				"violation": 8
 			},
 			"awards": [
@@ -40645,8 +40778,8 @@
 		"arrest_count": 27,
 		"reports": {
 			"summary": {
-				"command": "MS EVIDENCE COLLECTION TEAM",
-				"assignment_date": "12/30/2022",
+				"command": "MILITARY & EXTENDED LEAVE DESK",
+				"assignment_date": "3/31/2024",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "LIEUTENANT",
 				"shield_no": "",
@@ -40702,7 +40835,7 @@
 			},
 			"awards": []
 		},
-		"command": "MS EVIDENCE COLLECTION TEAM"
+		"command": "MILITARY & EXTENDED LEAVE DESK"
 	},
 	{
 		"taxid": 969119,
@@ -42295,7 +42428,7 @@
 		"shield_no": "23034",
 		"appt_date": "1/6/2020",
 		"recognition_count": 0,
-		"arrest_count": 58,
+		"arrest_count": 59,
 		"reports": {
 			"summary": {
 				"command": "049 PRECINCT",
@@ -46621,7 +46754,7 @@
 		"shield_no": "12378",
 		"appt_date": "10/7/2019",
 		"recognition_count": 0,
-		"arrest_count": 24,
+		"arrest_count": 25,
 		"reports": {
 			"summary": {
 				"command": "083 PRECINCT",
@@ -47337,7 +47470,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 23,
+				"felony": 24,
 				"misdemeanor": 32
 			},
 			"awards": []
@@ -48747,7 +48880,7 @@
 		"shield_no": "25844",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 81,
+		"arrest_count": 82,
 		"reports": {
 			"summary": {
 				"command": "071 PRECINCT",
@@ -50569,7 +50702,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 351,
+				"felony": 352,
 				"misdemeanor": 269,
 				"violation": 3
 			},
@@ -53718,7 +53851,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 264,
+				"felony": 266,
 				"misdemeanor": 179,
 				"violation": 14
 			},
@@ -65431,7 +65564,7 @@
 		"shield_no": "31961",
 		"appt_date": "7/13/2016",
 		"recognition_count": 2,
-		"arrest_count": 196,
+		"arrest_count": 198,
 		"reports": {
 			"summary": {
 				"command": "PBMN COMMUNITY RESPONSE TEAM",
@@ -67698,6 +67831,10 @@
 				"misdemeanor": 83
 			},
 			"awards": [
+				{
+					"date": "6/22/2022",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "3/1/2022",
 					"name": "EXCELLENT POLICE DUTY"
@@ -72093,8 +72230,8 @@
 		"rank": "SERGEANT",
 		"shield_no": "2162",
 		"appt_date": "7/1/2002",
-		"recognition_count": 10,
-		"arrest_count": 524,
+		"recognition_count": 5,
+		"arrest_count": 262,
 		"reports": {
 			"summary": {
 				"command": "090 PRECINCT",
