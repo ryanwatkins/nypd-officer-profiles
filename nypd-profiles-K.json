@@ -5628,7 +5628,7 @@
 		"shield_no": "29428",
 		"appt_date": "1/6/2020",
 		"recognition_count": 0,
-		"arrest_count": 55,
+		"arrest_count": 61,
 		"reports": {
 			"summary": {
 				"command": "106 PRECINCT",
@@ -6619,7 +6619,7 @@
 		"shield_no": "18131",
 		"appt_date": "1/6/2016",
 		"recognition_count": 2,
-		"arrest_count": 65,
+		"arrest_count": 67,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 3",
@@ -7723,7 +7723,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 227,
-				"misdemeanor": 171,
+				"misdemeanor": 172,
 				"violation": 1
 			},
 			"awards": [
@@ -9473,7 +9473,7 @@
 				"infraction": 2,
 				"felony": 162,
 				"misdemeanor": 147,
-				"other": 20,
+				"other": 24,
 				"violation": 10
 			},
 			"awards": [
@@ -13110,7 +13110,7 @@
 		"shield_no": "26409",
 		"appt_date": "1/3/2019",
 		"recognition_count": 2,
-		"arrest_count": 77,
+		"arrest_count": 78,
 		"reports": {
 			"summary": {
 				"command": "060 PRECINCT",
@@ -17089,7 +17089,7 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "9770",
 		"appt_date": "4/12/2017",
-		"recognition_count": 7,
+		"recognition_count": 9,
 		"arrest_count": 170,
 		"reports": {
 			"summary": {
@@ -18320,7 +18320,7 @@
 		"shield_no": "15698",
 		"appt_date": "7/1/2019",
 		"recognition_count": 5,
-		"arrest_count": 87,
+		"arrest_count": 88,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 20",
@@ -19350,7 +19350,7 @@
 		"shield_no": "4082",
 		"appt_date": "1/20/2004",
 		"recognition_count": 19,
-		"arrest_count": 556,
+		"arrest_count": 557,
 		"reports": {
 			"summary": {
 				"command": "101ST DET SQUAD",
@@ -21784,7 +21784,7 @@
 		"shield_no": "14939",
 		"appt_date": "4/28/2021",
 		"recognition_count": 0,
-		"arrest_count": 10,
+		"arrest_count": 11,
 		"reports": {
 			"summary": {
 				"command": "010 PRECINCT",
@@ -26732,7 +26732,7 @@
 		"shield_no": "16463",
 		"appt_date": "7/1/2019",
 		"recognition_count": 0,
-		"arrest_count": 28,
+		"arrest_count": 32,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 1",
@@ -28317,7 +28317,7 @@
 		"shield_no": "7240",
 		"appt_date": "10/18/2017",
 		"recognition_count": 1,
-		"arrest_count": 110,
+		"arrest_count": 111,
 		"reports": {
 			"summary": {
 				"command": "073 PRECINCT",
@@ -30123,7 +30123,7 @@
 		"shield_no": "2280",
 		"appt_date": "1/20/2004",
 		"recognition_count": 2,
-		"arrest_count": 617,
+		"arrest_count": 619,
 		"reports": {
 			"summary": {
 				"command": "MTS DET SQUAD",
@@ -32534,7 +32534,7 @@
 		"shield_no": "19797",
 		"appt_date": "10/7/2019",
 		"recognition_count": 1,
-		"arrest_count": 46,
+		"arrest_count": 50,
 		"reports": {
 			"summary": {
 				"command": "109 PRECINCT",
@@ -39606,7 +39606,7 @@
 			"documents": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 180,
+				"felony": 186,
 				"misdemeanor": 132,
 				"other": 1,
 				"violation": 15
@@ -46786,7 +46786,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 79,
-				"misdemeanor": 378,
+				"misdemeanor": 381,
 				"violation": 12
 			},
 			"awards": [
@@ -46993,9 +46993,40 @@
 				"shield_no": "15093",
 				"appt_date": "7/5/2017"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/5/2017",
+					"shield_no": "15093"
+				}
+			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "1/23/2023 12:00:00 AM",
+					"allegations_count": 3,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-27484",
+							"description": "01.Failed to make proper notifications (Patrol Supervisor, IAB, Desk Sergeant, Sick Desk Supervisor, ACS, Commanding Officer if PPO, Operations Unit, CCRB, etc.).",
+							"penalty": "A - COMMAND DISCIPLINE"
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-27484",
+							"description": "01.Failed to make required entries in Department Logs (Command Log, Roll Call, Activity Log, Vehicle Movement/Utilization, Radio Log, Vehicle Assignment, DV Activity Log).",
+							"penalty": "A - COMMAND DISCIPLINE"
+						},
+						{
+							"recommendation": "B-CD",
+							"case_no": "2022-27484",
+							"description": "02.Wrongful removal to a hospital",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 22,
 				"misdemeanor": 50,
@@ -52963,48 +52994,11 @@
 				"shield_no": "24728",
 				"appt_date": "1/4/2017"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "1/4/2017",
-					"shield_no": "24728"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"discipline": [],
-			"arrests": {
-				"infraction": 1,
-				"felony": 57,
-				"misdemeanor": 115,
-				"other": 1,
-				"violation": 2
-			},
-			"awards": [
-				{
-					"date": "5/28/2021",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "2/21/2021",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "12/23/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "8/16/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/7/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "4/10/2019",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
+			"arrests": {},
+			"awards": []
 		},
 		"command": "AUTO CRIME UNIT"
 	},
