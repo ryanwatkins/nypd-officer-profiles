@@ -1400,7 +1400,7 @@
 			"arrests": {
 				"infraction": 6,
 				"felony": 130,
-				"misdemeanor": 111,
+				"misdemeanor": 113,
 				"violation": 34
 			},
 			"awards": []
@@ -3699,7 +3699,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 152,
-				"misdemeanor": 137,
+				"misdemeanor": 138,
 				"violation": 6
 			},
 			"awards": [
@@ -8186,7 +8186,7 @@
 		"shield_no": "8113",
 		"appt_date": "10/12/2021",
 		"recognition_count": 0,
-		"arrest_count": 49,
+		"arrest_count": 50,
 		"reports": {
 			"summary": {
 				"command": "113 PRECINCT",
@@ -9758,7 +9758,7 @@
 		"shield_no": "6203",
 		"appt_date": "1/7/2008",
 		"recognition_count": 6,
-		"arrest_count": 446,
+		"arrest_count": 447,
 		"reports": {
 			"summary": {
 				"command": "001 DET SQUAD",
@@ -13967,7 +13967,20 @@
 				}
 			],
 			"documents": [],
-			"discipline": [],
+			"discipline": [
+				{
+					"entry": "5/28/2024 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "C-CD",
+							"case_no": "2024-30046",
+							"description": "01.Out of residence while on sick leave.",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (8 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 17,
 				"misdemeanor": 10
@@ -14071,17 +14084,20 @@
 						{
 							"recommendation": "TRAINING",
 							"case_no": "2023-29127",
-							"description": "01.Violated patrol rules."
+							"description": "01.Violated patrol rules.",
+							"penalty": "TRAINING"
 						},
 						{
 							"recommendation": "TRAINING",
 							"case_no": "2023-29127",
-							"description": "02.Wrongfully frisked an individual known to the Department."
+							"description": "02.Wrongfully frisked an individual known to the Department.",
+							"penalty": "TRAINING"
 						},
 						{
 							"recommendation": "TRAINING",
 							"case_no": "2023-29127",
-							"description": "03.Wrongfully searched an individual known to the Department."
+							"description": "03.Wrongfully searched an individual known to the Department.",
+							"penalty": "TRAINING"
 						}
 					]
 				}
@@ -14775,7 +14791,7 @@
 		"shield_no": "26339",
 		"appt_date": "1/7/2008",
 		"recognition_count": 0,
-		"arrest_count": 233,
+		"arrest_count": 235,
 		"reports": {
 			"summary": {
 				"command": "045 PRECINCT",
@@ -17859,7 +17875,7 @@
 		"shield_no": "17396",
 		"appt_date": "7/7/2021",
 		"recognition_count": 0,
-		"arrest_count": 66,
+		"arrest_count": 68,
 		"reports": {
 			"summary": {
 				"command": "062 PRECINCT",
@@ -19182,7 +19198,7 @@
 		"shield_no": "4068",
 		"appt_date": "7/11/2005",
 		"recognition_count": 17,
-		"arrest_count": 436,
+		"arrest_count": 437,
 		"reports": {
 			"summary": {
 				"command": "INTERNAL AFFAIRS BUREAU",
@@ -19718,7 +19734,7 @@
 		"shield_no": "538",
 		"appt_date": "10/12/2021",
 		"recognition_count": 1,
-		"arrest_count": 49,
+		"arrest_count": 50,
 		"reports": {
 			"summary": {
 				"command": "018 PCT-MIDTOWN NO. PCT",
@@ -20609,7 +20625,7 @@
 		"shield_no": "28451",
 		"appt_date": "7/7/2021",
 		"recognition_count": 0,
-		"arrest_count": 22,
+		"arrest_count": 23,
 		"reports": {
 			"summary": {
 				"command": "062 PRECINCT",
@@ -22581,7 +22597,7 @@
 		"shield_no": "544",
 		"appt_date": "10/12/2021",
 		"recognition_count": 0,
-		"arrest_count": 24,
+		"arrest_count": 26,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 6",
@@ -26760,7 +26776,7 @@
 		"shield_no": "15176",
 		"appt_date": "7/8/2008",
 		"recognition_count": 5,
-		"arrest_count": 138,
+		"arrest_count": 139,
 		"reports": {
 			"summary": {
 				"command": "070 PRECINCT",
@@ -26781,7 +26797,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 32,
-				"misdemeanor": 105,
+				"misdemeanor": 106,
 				"violation": 1
 			},
 			"awards": [
@@ -26962,7 +26978,7 @@
 		"shield_no": "3435",
 		"appt_date": "1/7/2008",
 		"recognition_count": 1,
-		"arrest_count": 587,
+		"arrest_count": 591,
 		"reports": {
 			"summary": {
 				"command": "001 DET SQUAD",
@@ -28568,7 +28584,7 @@
 		"shield_no": "27551",
 		"appt_date": "12/29/2021",
 		"recognition_count": 0,
-		"arrest_count": 24,
+		"arrest_count": 26,
 		"reports": {
 			"summary": {
 				"command": "070 PRECINCT",
@@ -29794,6 +29810,18 @@
 							"recommendation": "B-CD",
 							"case_no": "2024-29968",
 							"description": "03.Wrongfully searched an individual known to the Department."
+						}
+					]
+				},
+				{
+					"entry": "5/13/2024 12:00:00 AM",
+					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"case_no": "2024-30560",
+							"description": "01.Failed to activate their body worn camera.",
+							"penalty": "A - COMMAND DISCIPLINE"
 						}
 					]
 				}
@@ -32655,7 +32683,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 47,
-				"misdemeanor": 109,
+				"misdemeanor": 110,
 				"violation": 47
 			},
 			"awards": [

@@ -729,7 +729,7 @@
 		"shield_no": "27316",
 		"appt_date": "7/7/2021",
 		"recognition_count": 0,
-		"arrest_count": 61,
+		"arrest_count": 62,
 		"reports": {
 			"summary": {
 				"command": "044 PRECINCT",
@@ -3352,7 +3352,7 @@
 		"shield_no": "6720",
 		"appt_date": "10/12/2021",
 		"recognition_count": 0,
-		"arrest_count": 53,
+		"arrest_count": 55,
 		"reports": {
 			"summary": {
 				"command": "023 PRECINCT",
@@ -5696,7 +5696,8 @@
 						{
 							"recommendation": "A-CD",
 							"case_no": "2022-25162",
-							"description": "01.Violated patrol rules - failed to provide a business card."
+							"description": "01.Violated patrol rules - failed to provide a business card.",
+							"penalty": "A - COMMAND DISCIPLINE"
 						}
 					]
 				}
@@ -10284,7 +10285,8 @@
 						{
 							"recommendation": "A-CD",
 							"case_no": "2022-26551",
-							"description": "01.Failed to make proper notifications"
+							"description": "01.Failed to make proper notifications",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (2 day(s) )"
 						}
 					]
 				}
@@ -50656,7 +50658,8 @@
 						{
 							"recommendation": "INSTRUCTIONS",
 							"case_no": "2019-21532",
-							"description": "01.Was discourteous to another."
+							"description": "01.Was discourteous to another.",
+							"penalty": "INSTRUCTIONS"
 						}
 					]
 				}
@@ -52914,7 +52917,7 @@
 		"shield_no": "28117",
 		"appt_date": "7/7/2021",
 		"recognition_count": 0,
-		"arrest_count": 60,
+		"arrest_count": 62,
 		"reports": {
 			"summary": {
 				"command": "040 PRECINCT",
@@ -53142,7 +53145,7 @@
 		"shield_no": "30144",
 		"appt_date": "12/29/2021",
 		"recognition_count": 0,
-		"arrest_count": 13,
+		"arrest_count": 16,
 		"reports": {
 			"summary": {
 				"command": "066 PRECINCT",
@@ -60728,10 +60731,7 @@
 			],
 			"documents": [],
 			"discipline": [],
-			"arrests": {
-				"felony": 20,
-				"misdemeanor": 17
-			},
+			"arrests": {},
 			"awards": []
 		},
 		"command": "083 PRECINCT"
@@ -93367,15 +93367,7 @@
 				{
 					"entry": "3/21/2017 12:00:00 AM",
 					"charges_count": 1,
-					"charges": [
-						{
-							"disposition": "GUILTY",
-							"command": "544-NARCOTIC BORO MAN NORTH",
-							"case_no": "2016-16474",
-							"description": "WRONGFULLY ALLOWED ANOTHER MEMBER OF SERVICE TO SIGN A LEGAL DOCUMENT (SUPPORTING DEPOSITION) NEEDED FOR CRIMINAL PROSECUTION ON HIS BEHALF.",
-							"penalty": "VACATION DAYS (30 day(s) )"
-						}
-					]
+					"charges": []
 				}
 			],
 			"arrests": {
@@ -96090,7 +96082,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 151,
+				"felony": 152,
 				"misdemeanor": 102
 			},
 			"awards": [
