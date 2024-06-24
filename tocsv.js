@@ -53,10 +53,8 @@ function getDiscipline({ profiles }) {
         entry.charges.forEach(charge => {
           discipline.push({
             taxid: profile.taxid,
-            date: entry.entry.split(' ')[0],
+            group_id: charge.group_id,
             disposition: charge.disposition,
-            command: charge.command,
-            case_no: charge.case_no,
             description: charge.description,
             penalty: charge.penalty,
             type: 'charge'
@@ -67,8 +65,7 @@ function getDiscipline({ profiles }) {
         entry.allegations.forEach(allegation => {
           discipline.push({
             taxid: profile.taxid,
-            date: entry.entry.split(' ')[0],
-            case_no: allegation.case_no,
+            group_id: allegation.group_id,
             description: allegation.description,
             recommendation: allegation.recommendation,
             penalty: allegation.penalty,

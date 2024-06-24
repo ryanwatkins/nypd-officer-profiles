@@ -2,27 +2,25 @@
 // https://nypdonline.org/link/2
 
 import { promises as fs } from 'fs'
-import fetch from 'node-fetch'
 import { Scheduler } from 'async-scheduler'
 
 const scheduler = new Scheduler(20)
 
 const reportList = {
-  summary:        'https://oip.nypdonline.org/api/reports/1/datasource/list',
-  ranks:          'https://oip.nypdonline.org/api/reports/7/datasource/list',
-  documents:      'https://oip.nypdonline.org/api/reports/2041/datasource/list',
-  discipline:     'https://oip.nypdonline.org/api/reports/1031/datasource/list',
-  charges:        'https://oip.nypdonline.org/api/reports/1030/datasource/list',
-  allegations:    'https://oip.nypdonline.org/api/reports/2043/datasource/list',
-  arrests:        'https://oip.nypdonline.org/api/reports/2042/datasource/list',
-  awards:         'https://oip.nypdonline.org/api/reports/13/datasource/list',
-  training:       'https://oip.nypdonline.org/api/reports/1027/datasource/list',
-  trialDecisions: 'https://oip.nypdonline.org/api/reports/2038/datasource/list',
+  summary:        'https://nypdonline.org/api/reports/c211f8e0-625b-478a-9b68-ceef86098a67/data',
+  ranks:          'https://nypdonline.org/api/reports/46bdf450-8956-492f-9a13-ea0c02280806/data',
+  documents:      'https://nypdonline.org/api/reports/c13c7baf-77e0-456a-a9f3-945e72a0d26d/data',
+  discipline:     'https://nypdonline.org/api/reports/e59337f8-014e-46a0-af99-7b6a3ef4dfa3/data',
+  charges:        'https://nypdonline.org/api/reports/d860ce1f-7c6f-48dc-bce6-d7754c56e5cf/data',
+  allegations:    'https://nypdonline.org/api/reports/d860ce1f-7c6f-48dc-bce6-d7754c56e5cf/data',
+  arrests:        'https://nypdonline.org/api/reports/b9f649fc-b33f-47b2-9d7e-a7760090ae39/data',
+  awards:         'https://nypdonline.org/api/reports/916ef68f-3d47-46be-8e8a-79567a3e61f9/data',
+  training:       'https://nypdonline.org/api/reports/fb985b1d-96e7-43fe-896a-d9f926ae05b6/data',
+  trialDecisions: 'https://nypdonline.org/api/reports/ed551b4a-cd5c-4d8e-bcb9-a0478b4c5dea/data',
 }
 
 let lettersRetry = new Map()
 let officersRetry = new Map()
-const TOKEN_RETRIES = 5
 
 let headers = {
   'Accept': 'application/json, text/plain, */*',
@@ -33,15 +31,11 @@ let headers = {
   'Sec-Fetch-Dest': 'empty',
   'Sec-Fetch-Mode': 'cors',
   'Sec-Fetch-Site': 'same-origin',
-  'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
-  'sec-ch-ua': '"Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"',
+  'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  'sec-ch-ua': 'Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"',
   'sec-ch-ua-mobile': '?0',
   'sec-ch-ua-platform': '"macOS"',
   'Pragma': 'no-cache'
-}
-
-function delay(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms))
 }
 
 function shuffle(arr) {
@@ -50,39 +44,16 @@ function shuffle(arr) {
     .map(({ value }) => value)
 }
 
-async function getCookie() {
-  let error
-  for (let i = 1; i <= TOKEN_RETRIES ; i++) {
-    try {
-      const response = await fetch('https://oip.nypdonline.org/oauth2/token', {
-        body: 'grant_type=client_credentials&scope=clientId%3D435e66dd-eca9-47fc-be6b-091858a1ca7d',
-        method: 'POST',
-        headers
-      })
-      const result = await response.json()
-      return `user=${result.access_token}`
-    } catch(e) {
-      console.info('retrying cookie fetch ...')
-      await delay(30 * 1000 * i)
-      error = e
-    }
-  }
-  console.error('error fetching cookie')
-  throw error
-}
-
 async function getList({ letters }) {
   let officerList = []
 
   for await (let letter of letters) {
-    let page = 1
-    let letterTotal
-    let promises = []
-
-    // fetch the first page to determine the number of pages to fetch
     const response = await fetch(
-      getListQuery({ letter, page: 1 }),
-      { method: 'GET', headers }
+      'https://nypdonline.org/api/reports/b805fa11-d5d2-43f7-8c23-1649f5d387f1/data', {
+        method: 'POST',
+        body: `[{"key":"@SearchName","values":[""]},{"key":"@LastNameFirstLetter","values":["${letter}"]}]`,
+        headers
+      }
     )
     const result = await response.json()
     let list = parseList(result)
@@ -91,31 +62,7 @@ async function getList({ letters }) {
       return
     }
 
-    letterTotal = list.total
     officerList.push(...list.officers)
-
-    while (!letterTotal || ((page * 100) < letterTotal)) {
-      page++
-      promises.push(scheduleFetch({
-        url: getListQuery({ letter, page }),
-        options: { method: 'GET', headers }
-      }))
-    }
-
-    try {
-      const allResults = await Promise.all(promises)
-      allResults.forEach(result => {
-        let list = parseList(result)
-        if (!list) {
-          lettersRetry.set(letter, true)
-          return
-        }
-        officerList.push(...list.officers)
-      })
-    } catch(e) {
-      console.error('error fetching list')
-      lettersRetry.set(letter, true)
-    }
   }
 
   return officerList
@@ -123,40 +70,23 @@ async function getList({ letters }) {
 
 function parseList(data) {
 
-  if (!data || !data.Data) {
+  if (!data || !Array.isArray(data)) {
     console.error('error parsing list', data)
     return
   }
 
-  const total = data.Total
+  const officers = data.map(entry => {
+    const columns = entry.columns
+    const taxid = parseInt(entry.filterRowValue.trim(), 10)
 
-  const officers = data.Data.map(entry => {
-    const columns = entry.Columns
-    const taxid = parseInt(entry.RowValue.trim(), 10)
-    let officer = {}
-
-    const map = [
-      { field: 'full_name',         id: '85ed4926-7d4c-4771-a921-f5fe84ac2acc' },
-      { field: 'command',           id: '634ce95e-3d6d-48f6-a4d2-08feb790da5c' },
-      { field: 'rank',              id: '68ffdffb-f776-46cf-aac1-2b44d81d8ba4' },
-      { field: 'shield_no',         id: '0c100529-fe3b-4bf0-8525-559b1a64f9b0' },
-      { field: 'appt_date',         id: '8248c3a6-cefe-456d-be0a-92db9dc2e2d4' },
-      { field: 'recognition_count', id: 'dedfe766-8ca6-4d0d-adc8-1aef44e6dbd8' },
-      { field: 'arrest_count',      id: 'c10b2ff4-08a6-45f6-ab18-c6d06e6f43b2' }
-    ]
-    map.forEach(entry => {
-      let value = columns.find(cell => cell.Id === entry.id)?.Value
-      if (value) {
-        value = value.trim()
-        if (entry.field.endsWith('_count')) {
-          value = parseInt(value, 10)
-        }
-        if (entry.field.endsWith('_date')) {
-          value = value.split(' ')[0].trim()
-        }
-        officer[entry.field] = value
-      }
-    })
+    let officer = {
+      full_name: columns[0].value.trim(),
+      rank: columns[1].value.trim(),
+      shield_no: columns[2].value.trim(),
+      appt_date: columns[3].value.split(' ')[0].trim(),
+      recognition_count: parseInt(columns[5].value.trim(), 10),
+      arrest_count: parseInt(columns[4].value.trim(), 10),
+    }
 
     const last_name = officer.full_name.split(',')[0].trim()
     const first_part = officer.full_name.split(',')[1].trim()
@@ -179,7 +109,7 @@ function parseList(data) {
 
   return {
     officers,
-    total
+    total: officers.length
   }
 }
 
@@ -189,7 +119,7 @@ async function getOfficer({ officer }) {
   const options = {
     method: 'POST',
     headers,
-    body: `{"filters":[{"key":"@TAXID","label":"TAXID","values":["${officer.taxid}"]}]}`
+    body: `[{"key":"@TAXID","values":["${officer.taxid}"]}]`
   }
 
   let allReports = []
@@ -230,12 +160,18 @@ async function getOfficer({ officer }) {
 
     officer.reports.documents = parseDocuments(allReports[2])
 
+    officer.reports.disciplineHistory = parseDiscipline(allReports[3]),
     officer.reports.discipline = await getDiscipline({
       options,
       taxid: officer.taxid,
-      discipline: parseDiscipline(allReports[3]),
+      discipline: officer.reports.disciplineHistory,
       officer
     })
+
+    if (officer.reports.disciplineHistory?.length !== officer.reports.discipline?.length) {
+      console.error(`${officer.full_name} ${officer.taxid} inconsistent discipline counts`, officer.reports.disciplineHistory?.length, officer.reports.discipline?.length)
+      officersRetry.set(officer.taxid, officer)
+    }
 
     officer.reports.arrests = parseArrests(allReports[4])
 
@@ -243,70 +179,66 @@ async function getOfficer({ officer }) {
 
     // should not be empty and officer often has previous data in a previous run
     // retry doesnt seem to fix it
-    //
     if (!officer.reports.training || officer.reports.training.length == 0) {
-      console.error(`empty training ${officer.full_name} ${officer.taxid}`)
+      // console.error(`empty training ${officer.full_name} ${officer.taxid}`)
       officersRetry.set(officer.taxid, officer)
     }
 
     officer.reports.awards = parseAwards(allReports[6])
   } catch(e) {
     officersRetry.set(officer.taxid, officer)
-    console.error(`parsing reports failed ${officer.full_name} ${officer.taxid}`)
+    console.error(`parsing reports failed ${officer.full_name} ${officer.taxid}`, e)
   }
 
-  // console.info(`${officer.full_name} ${officer.taxid}`)
   return officer
 }
 
 async function getDiscipline({ options, taxid, discipline, officer }) {
+  let disciplineEntries = []
+
   if (!discipline) {
     console.error(`no discipline for charges ${officer.full_name} ${officer.taxid}`)
-    return []
+    return disciplineEntries
   }
-  let disciplineEntries = []
-  for await (let entry of discipline) {
-    const body = `{"filters":[{"key":"@TAXID","label":"TAXID","values":["${taxid}"]},{"key":"@DATE","values":["${entry.entry}"]}]}}`
-    let result
 
-    try {
-      if (entry.charges_count) {
-        result = await scheduleFetch({ url: reportList.charges, options: { ...options, body } })
-        entry.charges = parseDisciplineCharges(result, entry)
-      }
-      if (entry.allegations_count) {
-        result = await scheduleFetch({ url: reportList.allegations, options: { ...options, body } })
-        entry.allegations = parseDisciplineAllegations(result, entry)
-      }
+  // 'filterValue' for all discipline history for an officer is the
+  // same id and returns the charges/allegations for *all* cases not one,
+  // so we only need to call this once, but have no way to include the
+  // date/count with the cases charges/allegations
 
-      if (entry.charges_count !== entry.charges?.length) {
-        console.info(`mismatch charges count ${officer.full_name} ${officer.taxid}`, entry)
-        officersRetry.set(taxid, officer)
-      }
-      if (entry.allegations_count !== entry.allegations?.length) {
-        console.info(`mismatch allegations count ${officer.full_name} ${officer.taxid}`, entry)
-        officersRetry.set(taxid, officer)
-      }
-
-      disciplineEntries.push(entry)
-    } catch(e) {
-      console.error(`invalid discipline charges/allegations for ${officer.full_name} ${officer.taxid}`, e)
-      officersRetry.set(taxid, officer)
+  let entry = {}
+  try {
+    if (discipline.find(e => e.charges_count)) {
+      const result = await scheduleFetch({ url: reportList.charges, options: { ...options, body: `[{"key":"@TAXID","values":["${taxid}"]}]` } })
+      const cases = parseDisciplineCharges(result)
+      disciplineEntries = [...disciplineEntries, ...cases]
     }
+    if (discipline.find(e => e.allegations_count)) {
+      const result = await scheduleFetch({ url: reportList.allegations, options: { ...options, body: `[{"key":"@TAXID","values":["ALLEG${taxid}"]}]` } })
+      const cases = parseDisciplineAllegations(result)
+      disciplineEntries = [...disciplineEntries, ...cases]
+    }
+    if (entry.charges || entry.allegations) {
+      disciplineEntries.push(entry)
+    }
+  } catch(e) {
+    console.error(`invalid discipline charges/allegations for ${officer.full_name} ${officer.taxid}`, e)
+    officersRetry.set(taxid, officer)
   }
+
   return disciplineEntries
 }
 
 function parseSummary(data) {
   return findValues({
-    items: data?.[0]?.Items,
+    items: data?.[0]?.items,
     map: {
-      command: '1692f3bf-ed70-4b4a-96a1-9131427e4de9',
-      assignment_date: '8a2bcb6f-e064-44f4-8a58-8f38aa6ebae9',
-      ethnicity: '0ec90f94-b636-474c-bec7-ab04e73540ed',
-      rank_desc: 'a2fded09-5439-4b17-9da8-81a5643ec3e8',
-      shield_no: '42f74dfc-ee54-4b25-822f-415615d22aa9',
-      appt_date: '20e891ce-1dcf-4d46-9185-075336788d65'
+      command: 'Command:',
+      assignment_date: 'Assignment Date:',
+      ethnicity: 'Ethnicity:',
+      rank_desc: 'Rank:',
+      shield_no: 'Shield No:',
+      appt_date: 'Appointment Date:'
     }
   })
 }
@@ -314,14 +246,12 @@ function parseSummary(data) {
 function parseRanks(data) {
   if (!validData(data)) return
   let ranks = data.map(entry => {
-    return findValues({
-      items: entry.Columns,
-      map: {
-        rank:      '31d512d9-6bac-45d4-8ab2-cbd951e3f216',
-        date:      '74cead80-e1af-4aa3-9fa0-1dbf30bdf55b',
-        shield_no: 'a5a69be2-3fe2-41d6-b174-b6c623cbe702',
-      }
-    })
+    const items = entry.columns
+    return {
+      rank: items[1].value.trim(),
+      date: items[0].value.split(' ')?.[0].trim(),
+      shield_no: items[2].value.trim(),
+    }
   })
   ranks.sort(sortRanks)
   return ranks
@@ -338,17 +268,12 @@ function correctDocUrl(url) {
 function parseDocuments(data) {
   if (!validData(data)) return
   let documents = data.map(document => {
-    let entry = findValues({
-      items: document.Columns,
-      map: {
-        date: '0ecf6c5c-f9a1-4c90-9203-d6518e62937f',
-        url:  'd6458572-9ecb-438c-8f8e-c56e070c91ba',
-        type: '0ad88646-ece6-405a-bb43-ae0c4b7ba666',
-        // year:  '7106df93-db85-4614-a35f-2a9c11be0432',
-        // month: 'e64cb85b-c3eb-4087-b170-4ac1b30cde30',
-        // day:   '81b47568-2508-4b0a-b106-72c1ffe521b1',
-      }
-    })
+    const items = document.columns
+    let entry = {
+      date: items[2].value.split(' ')?.[0].trim(),
+      url: items[3].value.trim(),
+      type: items[4].value.trim(),
+    }
     entry.url = correctDocUrl(entry.url.split('"')[1])
     return entry
   })
@@ -359,68 +284,70 @@ function parseDocuments(data) {
 function parseDiscipline(data) {
   if (!validData(data)) return
   return data.map(entry => {
-    let e = findValues({
-      items: entry.Columns,
-      map: {
-        entry:         '56baedfe-465d-4812-8dae-9bf94c240bbe', // is date, but also key
-        charges_count: 'e495a851-c40e-4d96-9eb6-96352ce069df',
-        allegations_count: '61dd971c-e4ba-42a6-8067-a1445bfee1e7'
-      }
-    })
+    const items = entry.columns
+    let e = {
+      entry: items[0].value.trim(),
+      charges_count: parseInt(items[1].value.trim(), 10),
+      allegations_count: parseInt(items[2].value.trim(), 10),
+    }
     if (e.charges_count == 0) delete e.charges_count
     if (e.allegations_count == 0) delete e.allegations_count
     return e
   })
 }
 
-function parseDisciplineCharges(data) {
+function parseDisciplineCharges(data, groupId) {
   if (!validData(data)) return
 
-  let charges = data.map(charge => {
-    if (!charge.GroupName.match('Penalty:')) {
-      console.error('no penalty in penalty')
-    }
-    const group = charge.GroupName.split('Penalty:')
-    let penalty = cleanPenalty(group?.[1])
+  let charges = []
+  const groupIds = Array.from(new Set(data.map(e => e.groupId)))
 
-    let entry = findValues({
-      items: charge.Columns,
-      map: {
-        disposition: '89d621a3-195c-4d07-b553-34d82a782012',
-        command:     'a11835db-a8f3-4c40-8db5-71685a85f500',
-        case_no:     '358a34a8-0e10-479b-b04f-a0838220cba8',
-        description: 'ce5bb063-0f02-46ab-888a-b96c598e3c71'
+  groupIds.forEach(groupId => {
+    let disciplineCase = data.filter(e => e.groupId === groupId).map(charge => {
+      if (!charge.groupName.match('Penalty:')) {
+        console.error('no penalty in penalty')
       }
+      const group = charge.groupName.split('Penalty:')
+      const penalty = cleanPenalty(group?.[1])
+      const items = charge.columns
+
+      let entry = {
+        disposition: items[1].value.trim(),
+        description: items[0].value.trim(),
+        group_id: groupId,
+      }
+      if (penalty) { entry.penalty = penalty }
+      return entry
     })
-    if (penalty) {
-      entry.penalty = penalty
-    }
-    return entry
+    charges.push({ charges: disciplineCase })
   })
 
   return charges
 }
 
-function parseDisciplineAllegations(data) {
+function parseDisciplineAllegations(data, groupId) {
   if (!validData(data)) return
 
-  let allegations = data.map(allegation => {
-    const group = allegation.GroupName.split('Penalty:')
-    let penalty = cleanPenalty(group?.[1])
+  let allegations = []
+  const groupIds = Array.from(new Set(data.map(e => e.groupId)))
 
-    let entry = findValues({
-      items: allegation.Columns,
-      map: {
-        recommendation: '56d6e87d-d665-4c20-aa2c-0238a11b1816',
-        case_no:        '7946f55e-8d1d-4384-8c75-eca46968cccf',
-        description:    'eace1634-fdc7-4fa1-ba60-58dc23643872'
+  groupIds.forEach(groupId => {
+    let disciplineCase = data.filter(e => e.groupId === groupId).map(allegation => {
+      const group = allegation.groupName.split('Penalty:')
+      const penalty = cleanPenalty(group?.[1])
+      const items = allegation.columns
+
+      let entry = {
+        recommendation: items[1].value.trim(),
+        description: items[0].value.trim(),
+        group_id: groupId,
       }
+      if (entry.recommendation) { entry.recommendation = entry.recommendation.replace(/,$/, '') }
+      if (penalty) { entry.penalty = penalty }
+
+      return entry
     })
-    if (entry.recommendation) { entry.recommendation = entry.recommendation.replace(/,$/, '') }
-    if (penalty) {
-      entry.penalty = penalty
-    }
-    return entry
+    allegations.push({ allegations: disciplineCase })
   })
 
   return allegations
@@ -430,13 +357,11 @@ function parseArrests(data) {
   if (!validData(data)) return
   let arrests = {}
   data.forEach(arrest => {
-    let entry = findValues({
-      items: arrest.Columns,
-      map: {
-        classification: '984f6c06-6898-4c5d-8cc2-c7cf0dc7394e',
-        arrest_count:   '26eb8cd3-e8cf-4494-a9f7-9a78de429d34'
-      }
-    })
+    const items = arrest.columns
+    let entry = {
+      classification: items[0].value.trim(),
+      arrest_count: items[1].value.trim(),
+    }
     arrests[entry.classification.toLowerCase()] = parseInt(entry.arrest_count, 10)
   })
   return arrests
@@ -445,13 +370,11 @@ function parseArrests(data) {
 function parseTraining(data) {
   if (!validData(data)) return
   let trainings = data.map(entry => {
-    return findValues({
-      items: entry.Columns,
-      map: {
-        date: '51a518fa-b16b-421c-8c72-c713ecfc5583',
-        name: '86c44195-8f19-4aac-bfb0-2bedc5a8047f'
-      }
-    })
+    const items = entry.columns
+    return {
+      date: items[0].value?.split(' ')?.[0].trim(),
+      name: items[1].value.trim(),
+    }
   })
   trainings.sort(sortByDateName)
   return trainings
@@ -460,13 +383,11 @@ function parseTraining(data) {
 function parseAwards(data) {
   if (!validData(data)) return
   let awards = data.map(entry => {
-    return findValues({
-      items: entry.Columns,
-      map: {
-        date: 'ef49fd43-d1a3-4782-ab69-438c0ed05752',
-        name: '6021827e-ebd8-473e-934e-867ebcbc8ce6'
-      }
-    })
+    const items = entry.columns
+    return {
+      date: items[0].value?.split(' ')[0].trim(),
+      name: items[1].value.trim(),
+    }
   })
   awards.sort(sortByDateName)
   return awards
@@ -498,14 +419,14 @@ function findValues({ items, map }) {
 
   let values = {}
   Object.keys(map).forEach(key => {
-    let value = items.find(item => item.Id === map[key]).Value
+    let value = items.find(item => item.label === map[key]).value
     if (value) {
       value = value.trim()
       if (key.endsWith('_count')) {
         value = parseInt(value, 10)
       }
       // remove time portion of dates
-      if (key.endsWith('date')) {
+      if (key.endsWith('_date')) {
         value = value.split(' ')[0]?.trim()
       }
     }
@@ -580,10 +501,6 @@ function scheduleFetch({ url, options }) {
   }))
 }
 
-function getListQuery({ letter, page }) {
-  return `https://oip.nypdonline.org/api/reports/2/datasource/serverList?aggregate=&filter=&group=&page=${page}&pageSize=100&platformFilters=%7B%22filters%22:%5B%7B%22key%22:%22@SearchName%22,%22label%22:%22Search+Name%22,%22values%22:%5B%22SEARCH_FILTER_VALUE%22%5D%7D,%7B%22key%22:%22@LastNameFirstLetter%22,%22label%22:%22Last+Name+First+Letter%22,%22values%22:%5B%22${letter}%22%5D%7D%5D%7D&sort=`
-}
-
 async function saveProfiles({ letter, officers }) {
   officers.sort(sortByOfficerName)
 
@@ -611,16 +528,14 @@ async function saveProfiles({ letter, officers }) {
   }
 }
 
-// Scrape trial decision docs from https://oip.nypdonline.org/view/1006///%7B%22hideMobileMenu%22:true%7D/true/true
+// Scrape trial decision docs from https://nypdonline.org/link/1016
 // Most of these should already be included in the profile data, but in the case a trial decision gets posted
 // when an officer no longer works for the department (e.g. they got fired) it'll show up here but not in the
 // profile data (because their profile goes away when they leave).
 async function scrapeTrialDecisions() {
-  headers.Cookie = await getCookie()
-
   const result = await scheduleFetch({
     url: reportList.trialDecisions,
-    options: { method: 'GET', headers },
+    options: { method: 'POST', body: '[]', headers },
   })
 
   if (!result?.length) {
@@ -630,20 +545,17 @@ async function scrapeTrialDecisions() {
 
   let data = []
   for (const row of result) {
-    let doc = findValues({
-      items: row.Columns,
-      map: {
-        names: 'aa970ef7-62f1-4d89-bcb8-5078017ee41a',
-        date: '8a6d6957-716f-4f3c-998f-e4aebbdbe912',
-        url: '0be5eacf-3870-4351-aa42-439067baadbe',
-      },
-    })
+    const items = row.columns
+    let doc = {
+      names: items[3].value.trim(),
+      date: items[2].value.split(' ')[0].trim(),
+      url: items[4].value
+    }
     doc.url = correctDocUrl(doc.url.match(/<a href="([^"]+)"/)[1])
 
-    const nameCol = row.Columns.find(item => item.Id === 'aa970ef7-62f1-4d89-bcb8-5078017ee41a')
     let taxids = []
-    if (nameCol.ColumnValue) {
-      taxids = nameCol.ColumnValue.split(',')
+    if (items[3].filterValue) {
+      taxids = items[3].filterValue.split(',')
     }
     let taxidIndex = 0
     doc.officers = doc.names.split('; ').map(name => {
@@ -687,7 +599,6 @@ async function start() {
   async function handleLetters(letters) {
     for await (let letter of letters) {
       officersRetry = new Map()
-      headers.Cookie = await getCookie()
 
       let officers = await getList({ letters: [letter] })
       officers = shuffle(officers)
