@@ -2,7 +2,6 @@
 // https://nypdonline.org/link/2
 
 import { promises as fs } from 'fs'
-import fetch from 'node-fetch'
 import { Scheduler } from 'async-scheduler'
 
 const scheduler = new Scheduler(20)
@@ -22,7 +21,6 @@ const reportList = {
 
 let lettersRetry = new Map()
 let officersRetry = new Map()
-const TOKEN_RETRIES = 5
 
 let headers = {
   'Accept': 'application/json, text/plain, */*',
@@ -33,15 +31,11 @@ let headers = {
   'Sec-Fetch-Dest': 'empty',
   'Sec-Fetch-Mode': 'cors',
   'Sec-Fetch-Site': 'same-origin',
-  'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
-  'sec-ch-ua': '"Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"',
+  'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  'sec-ch-ua': 'Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"',
   'sec-ch-ua-mobile': '?0',
   'sec-ch-ua-platform': '"macOS"',
   'Pragma': 'no-cache'
-}
-
-function delay(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms))
 }
 
 function shuffle(arr) {
@@ -166,12 +160,18 @@ async function getOfficer({ officer }) {
 
     officer.reports.documents = parseDocuments(allReports[2])
 
+    officer.reports.disciplineHistory = parseDiscipline(allReports[3]),
     officer.reports.discipline = await getDiscipline({
       options,
       taxid: officer.taxid,
-      discipline: parseDiscipline(allReports[3]),
+      discipline: officer.reports.disciplineHistory,
       officer
     })
+
+    if (officer.reports.disciplineHistory?.length !== officer.reports.discipline?.length) {
+      console.error(`${officer.full_name} ${officer.taxid} inconsistent discipline counts`, officer.reports.disciplineHistory?.length, officer.reports.discipline?.length)
+      officersRetry.set(officer.taxid, officer)
+    }
 
     officer.reports.arrests = parseArrests(allReports[4])
 
@@ -179,9 +179,8 @@ async function getOfficer({ officer }) {
 
     // should not be empty and officer often has previous data in a previous run
     // retry doesnt seem to fix it
-    //
     if (!officer.reports.training || officer.reports.training.length == 0) {
-      console.error(`empty training ${officer.full_name} ${officer.taxid}`)
+      // console.error(`empty training ${officer.full_name} ${officer.taxid}`)
       officersRetry.set(officer.taxid, officer)
     }
 
@@ -191,46 +190,42 @@ async function getOfficer({ officer }) {
     console.error(`parsing reports failed ${officer.full_name} ${officer.taxid}`, e)
   }
 
-  // console.info(`${officer.full_name} ${officer.taxid}`)
   return officer
 }
 
 async function getDiscipline({ options, taxid, discipline, officer }) {
+  let disciplineEntries = []
+
   if (!discipline) {
     console.error(`no discipline for charges ${officer.full_name} ${officer.taxid}`)
-    return []
+    return disciplineEntries
   }
-  let disciplineEntries = []
-  let chargesGroupId = 1
-  let allegationsGroupId = 1
-  for await (let entry of discipline) {
-    let result
 
-    try {
-      if (entry.charges_count) {
-        result = await scheduleFetch({ url: reportList.charges, options })
-        entry.charges = parseDisciplineCharges(result, chargesGroupId++)
-      }
-      if (entry.allegations_count) {
-        result = await scheduleFetch({ url: reportList.allegations, options: { ...options, body: `[{"key":"@TAXID","values":["ALLEG${taxid}"]}]` } })
-        entry.allegations = parseDisciplineAllegations(result, allegationsGroupId++)
-      }
+  // 'filterValue' for all discipline history for an officer is the
+  // same id and returns the charges/allegations for *all* cases not one,
+  // so we only need to call this once, but have no way to include the
+  // date/count with the cases charges/allegations
 
-      if (entry.charges_count !== entry.charges?.length) {
-        console.info(`mismatch charges count ${officer.full_name} ${officer.taxid}`, entry)
-        officersRetry.set(taxid, officer)
-      }
-      if (entry.allegations_count !== entry.allegations?.length) {
-        console.info(`mismatch allegations count ${officer.full_name} ${officer.taxid}`, entry)
-        officersRetry.set(taxid, officer)
-      }
-
-      disciplineEntries.push(entry)
-    } catch(e) {
-      console.error(`invalid discipline charges/allegations for ${officer.full_name} ${officer.taxid}`, e)
-      officersRetry.set(taxid, officer)
+  let entry = {}
+  try {
+    if (discipline.find(e => e.charges_count)) {
+      const result = await scheduleFetch({ url: reportList.charges, options: { ...options, body: `[{"key":"@TAXID","values":["${taxid}"]}]` } })
+      const cases = parseDisciplineCharges(result)
+      disciplineEntries = [...disciplineEntries, ...cases]
     }
+    if (discipline.find(e => e.allegations_count)) {
+      const result = await scheduleFetch({ url: reportList.allegations, options: { ...options, body: `[{"key":"@TAXID","values":["ALLEG${taxid}"]}]` } })
+      const cases = parseDisciplineAllegations(result)
+      disciplineEntries = [...disciplineEntries, ...cases]
+    }
+    if (entry.charges || entry.allegations) {
+      disciplineEntries.push(entry)
+    }
+  } catch(e) {
+    console.error(`invalid discipline charges/allegations for ${officer.full_name} ${officer.taxid}`, e)
+    officersRetry.set(taxid, officer)
   }
+
   return disciplineEntries
 }
 
@@ -304,22 +299,27 @@ function parseDiscipline(data) {
 function parseDisciplineCharges(data, groupId) {
   if (!validData(data)) return
 
-  let charges = data.filter(charge => charge.groupId === '' + groupId).map(charge => {
-    if (!charge.groupName.match('Penalty:')) {
-      console.error('no penalty in penalty')
-    }
-    const group = charge.groupName.split('Penalty:')
-    let penalty = cleanPenalty(group?.[1])
+  let charges = []
+  const groupIds = Array.from(new Set(data.map(e => e.groupId)))
 
-    const items = charge.columns
-    let entry = {
-      disposition: items[1].value.trim(),
-      description: items[0].value.trim(),
-    }
-    if (penalty) {
-      entry.penalty = penalty
-    }
-    return entry
+  groupIds.forEach(groupId => {
+    let disciplineCase = data.filter(e => e.groupId === groupId).map(charge => {
+      if (!charge.groupName.match('Penalty:')) {
+        console.error('no penalty in penalty')
+      }
+      const group = charge.groupName.split('Penalty:')
+      const penalty = cleanPenalty(group?.[1])
+      const items = charge.columns
+
+      let entry = {
+        disposition: items[1].value.trim(),
+        description: items[0].value.trim(),
+        group_id: groupId,
+      }
+      if (penalty) { entry.penalty = penalty }
+      return entry
+    })
+    charges.push({ charges: disciplineCase })
   })
 
   return charges
@@ -328,20 +328,26 @@ function parseDisciplineCharges(data, groupId) {
 function parseDisciplineAllegations(data, groupId) {
   if (!validData(data)) return
 
-  let allegations = data.filter(allegation => allegation.groupId === '' + groupId).map(allegation => {
-    const group = allegation.groupName.split('Penalty:')
-    let penalty = cleanPenalty(group?.[1])
+  let allegations = []
+  const groupIds = Array.from(new Set(data.map(e => e.groupId)))
 
-    const items = allegation.columns
-    let entry = {
-      recommendation: items[1].value.trim(),
-      description: items[0].value.trim(),
-    }
-    if (entry.recommendation) { entry.recommendation = entry.recommendation.replace(/,$/, '') }
-    if (penalty) {
-      entry.penalty = penalty
-    }
-    return entry
+  groupIds.forEach(groupId => {
+    let disciplineCase = data.filter(e => e.groupId === groupId).map(allegation => {
+      const group = allegation.groupName.split('Penalty:')
+      const penalty = cleanPenalty(group?.[1])
+      const items = allegation.columns
+
+      let entry = {
+        recommendation: items[1].value.trim(),
+        description: items[0].value.trim(),
+        group_id: groupId,
+      }
+      if (entry.recommendation) { entry.recommendation = entry.recommendation.replace(/,$/, '') }
+      if (penalty) { entry.penalty = penalty }
+
+      return entry
+    })
+    allegations.push({ allegations: disciplineCase })
   })
 
   return allegations
