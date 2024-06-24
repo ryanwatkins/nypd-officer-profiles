@@ -7455,8 +7455,8 @@
 		"arrest_count": 73,
 		"reports": {
 			"summary": {
-				"command": "084 PRECINCT",
-				"assignment_date": "11/6/2019",
+				"command": "PSAC I SECURITY",
+				"assignment_date": "6/20/2024",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "11049",
@@ -7484,7 +7484,7 @@
 				}
 			]
 		},
-		"command": "084 PRECINCT"
+		"command": "PSAC I SECURITY"
 	},
 	{
 		"taxid": 965833,
@@ -7697,10 +7697,32 @@
 				"shield_no": "27959",
 				"appt_date": "7/7/2021"
 			},
-			"ranks": [],
+			"ranks": [
+				{
+					"rank": "POLICE OFFICER",
+					"date": "7/7/2021",
+					"shield_no": "27959"
+				}
+			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "5/8/2024 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"description": "01.Failed to activate their body worn camera.",
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 5,
 				"misdemeanor": 9
