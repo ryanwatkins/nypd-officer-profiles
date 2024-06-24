@@ -27,6 +27,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 30,
@@ -66,6 +67,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
@@ -117,6 +119,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 7,
@@ -160,6 +163,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
@@ -199,6 +203,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
@@ -236,6 +241,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"infraction": 3,
@@ -288,6 +294,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
@@ -339,6 +346,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 11,
@@ -381,6 +389,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 12,
@@ -428,15 +437,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
+			"disciplineHistory": [
 				{
 					"entry": "10/12/2023 12:00:00 AM",
-					"allegations_count": 1,
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
 					"allegations": [
 						{
 							"recommendation": "A-CD",
-							"case_no": "2023-28979",
 							"description": "01.Wrongfully discourteous to an individual known to the Department.",
+							"group_id": "1",
 							"penalty": "A - COMMAND DISCIPLINE"
 						}
 					]
@@ -484,6 +497,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"infraction": 3,
@@ -528,15 +542,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
+			"disciplineHistory": [
 				{
 					"entry": "3/3/2024 12:00:00 AM",
-					"allegations_count": 1,
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
 					"allegations": [
 						{
 							"recommendation": "B-CD",
-							"case_no": "2023-29113",
 							"description": "01.Wrongfully threatened to remove an individual to the hospital.",
+							"group_id": "1",
 							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
 						}
 					]
@@ -584,6 +602,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 7,
@@ -621,6 +640,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 19,
@@ -659,6 +679,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 52,
@@ -697,6 +718,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 21,
@@ -739,6 +761,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 34,
@@ -800,6 +823,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 6,
@@ -849,6 +873,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
@@ -889,6 +914,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"infraction": 3,
@@ -954,15 +980,19 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [
+			"disciplineHistory": [
 				{
 					"entry": "12/30/2022 12:00:00 AM",
-					"allegations_count": 1,
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
 					"allegations": [
 						{
 							"recommendation": "NO DISCIPLINARY ACTION",
-							"case_no": "2022-26981",
-							"description": "01.Failed to prepare required reports."
+							"description": "01.Failed to prepare required reports.",
+							"group_id": "1"
 						}
 					]
 				}

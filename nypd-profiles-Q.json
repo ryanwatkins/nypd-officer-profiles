@@ -27,6 +27,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"misdemeanor": 2
@@ -63,6 +64,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 15,
@@ -100,6 +102,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
@@ -147,6 +150,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"misdemeanor": 23,
@@ -193,6 +197,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 11,
@@ -212,7 +217,7 @@
 		"shield_no": "9334",
 		"appt_date": "10/15/2021",
 		"recognition_count": 0,
-		"arrest_count": 8,
+		"arrest_count": 10,
 		"reports": {
 			"summary": {
 				"command": "TB TRAIN PATROL FORCE",
@@ -230,9 +235,10 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"misdemeanor": 7,
+				"misdemeanor": 9,
 				"violation": 1
 			},
 			"awards": []
@@ -277,6 +283,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 10,
@@ -323,6 +330,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 7,
@@ -375,6 +383,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 10,
@@ -431,6 +440,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 10,
@@ -469,6 +479,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 3,
@@ -525,6 +536,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {},
 			"awards": []
@@ -559,6 +571,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"infraction": 11,
@@ -613,33 +626,39 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
+			"disciplineHistory": [
 				{
 					"entry": "3/21/2023 12:00:00 AM",
-					"allegations_count": 2,
+					"allegations_count": 2
+				},
+				{
+					"entry": "3/29/2023 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
 					"allegations": [
 						{
 							"recommendation": "OTHER",
-							"case_no": "2022-26934",
 							"description": "01.Failed to make required entries in Department Logs.",
+							"group_id": "1",
 							"penalty": "TRAINING"
 						},
 						{
 							"recommendation": "TRAINING",
-							"case_no": "2022-26934",
 							"description": "02.Violated patrol rules.",
+							"group_id": "1",
 							"penalty": "TRAINING"
 						}
 					]
 				},
 				{
-					"entry": "3/29/2023 12:00:00 AM",
-					"allegations_count": 1,
 					"allegations": [
 						{
 							"recommendation": "TRAINING",
-							"case_no": "2022-27473",
 							"description": "01.Wrongfully searched a vehicle.",
+							"group_id": "2",
 							"penalty": "A - COMMAND DISCIPLINE, TRAINING"
 						}
 					]
@@ -711,6 +730,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 36,
@@ -732,7 +752,7 @@
 		"shield_no": "25566",
 		"appt_date": "7/7/2021",
 		"recognition_count": 0,
-		"arrest_count": 33,
+		"arrest_count": 34,
 		"reports": {
 			"summary": {
 				"command": "103 PRECINCT",
@@ -750,10 +770,11 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 12,
-				"misdemeanor": 21
+				"misdemeanor": 22
 			},
 			"awards": []
 		},
@@ -792,6 +813,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
@@ -861,6 +883,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
@@ -953,6 +976,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 6,
@@ -1012,30 +1036,31 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
+			"disciplineHistory": [
 				{
 					"entry": "12/14/2018 12:00:00 AM",
-					"charges_count": 3,
+					"charges_count": 3
+				}
+			],
+			"discipline": [
+				{
 					"charges": [
 						{
 							"disposition": "GUILTY",
-							"command": "094-094 PRECINCT",
-							"case_no": "2018-19756",
 							"description": "Violated confidential informant procedures.",
+							"group_id": "1",
 							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (60 day(s) )"
 						},
 						{
 							"disposition": "GUILTY",
-							"command": "094-094 PRECINCT",
-							"case_no": "2018-19756",
 							"description": "Wrongfully accessed confidential Department information.",
+							"group_id": "1",
 							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (60 day(s) )"
 						},
 						{
 							"disposition": "GUILTY",
-							"command": "094-094 PRECINCT",
-							"case_no": "2018-19756",
 							"description": "Gambling.",
+							"group_id": "1",
 							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (60 day(s) )"
 						}
 					]
@@ -1087,6 +1112,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 9,
@@ -1129,6 +1155,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
@@ -1214,6 +1241,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
@@ -1256,6 +1284,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"infraction": 4,
@@ -1310,33 +1339,39 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
+			"disciplineHistory": [
 				{
 					"entry": "7/4/2023 12:00:00 AM",
-					"allegations_count": 2,
+					"allegations_count": 2
+				},
+				{
+					"entry": "12/13/2023 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
 					"allegations": [
 						{
 							"recommendation": "OTHER",
-							"case_no": "2022-26564",
 							"description": "01.Failed to make required entries in Department Logs.",
+							"group_id": "1",
 							"penalty": "TRAINING"
 						},
 						{
 							"recommendation": "TRAINING",
-							"case_no": "2022-26564",
 							"description": "02.Violated patrol rules - failed to provide a business card",
+							"group_id": "1",
 							"penalty": "TRAINING"
 						}
 					]
 				},
 				{
-					"entry": "12/13/2023 12:00:00 AM",
-					"allegations_count": 1,
 					"allegations": [
 						{
 							"recommendation": "CHARGES AND SPECIFICATIONS",
-							"case_no": "2023-28655",
 							"description": "01.Violated Department social media guidelines.",
+							"group_id": "2",
 							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (2 day(s) )"
 						}
 					]
@@ -1402,6 +1437,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 38,
@@ -1505,6 +1541,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 8,
@@ -1552,6 +1589,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 8,
@@ -1594,6 +1632,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 111,
@@ -1641,6 +1680,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"infraction": 4,
@@ -1679,6 +1719,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 9,
@@ -1716,6 +1757,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
@@ -1785,6 +1827,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"misdemeanor": 6,
@@ -1822,6 +1865,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 30,
@@ -1876,6 +1920,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 31,
@@ -1924,6 +1969,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 70,
@@ -2011,6 +2057,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 20,
@@ -2055,6 +2102,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 24,
@@ -2097,6 +2145,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 16,
@@ -2134,6 +2183,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 7,
@@ -2171,6 +2221,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 23,
@@ -2233,6 +2284,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 17,
@@ -2292,6 +2344,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
@@ -2346,23 +2399,25 @@
 					"type": "Trial Decision"
 				}
 			],
-			"discipline": [
+			"disciplineHistory": [
 				{
 					"entry": "11/1/2017 12:00:00 AM",
-					"charges_count": 2,
+					"charges_count": 2
+				}
+			],
+			"discipline": [
+				{
 					"charges": [
 						{
 							"disposition": "GUILTY",
-							"command": "318-INTELL-CRIM. SECT. (DORMANT)",
-							"case_no": "2017-18149",
 							"description": "FAILED TO SUPERVISE MEMBERS OF THE SERVICE BY LEAVING MEMBERS ALONE DURING THE EXECUTION OF A SEARCH WARRANT.",
+							"group_id": "1",
 							"penalty": "VACATION DAYS (20 day(s) )"
 						},
 						{
 							"disposition": "GUILTY",
-							"command": "318-INTELL-CRIM. SECT. (DORMANT)",
-							"case_no": "2017-18149",
 							"description": "CONDUCTED AN IMPROPER SEARCH INSIDE A BEDROOM BY OPENING A BLACK BOX CONTAINING A PISTOL WITHUT LEGAL AUTHORITY.",
+							"group_id": "1",
 							"penalty": "VACATION DAYS (20 day(s) )"
 						}
 					]
@@ -2606,6 +2661,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 18,
@@ -2643,6 +2699,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 1,
@@ -2691,6 +2748,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 9,
@@ -2729,27 +2787,35 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
+			"disciplineHistory": [
 				{
 					"entry": "5/3/2024 12:00:00 AM",
-					"allegations_count": 3,
+					"allegations_count": 3
+				}
+			],
+			"discipline": [
+				{
 					"allegations": [
 						{
 							"recommendation": "NO DISCIPLINARY ACTION",
-							"case_no": "2023-28581",
 							"description": "01.Wrongfully stopped an individual known to the Department.",
+							"group_id": "1",
 							"penalty": "TRAINING"
-						},
+						}
+					]
+				},
+				{
+					"allegations": [
 						{
 							"recommendation": "TRAINING",
-							"case_no": "2023-29021",
 							"description": "01.Violated patrol rules.",
+							"group_id": "2",
 							"penalty": "TRAINING"
 						},
 						{
 							"recommendation": "TRAINING",
-							"case_no": "2023-29021",
 							"description": "01.Wrongfully stopped an individual known to the Department.",
+							"group_id": "2",
 							"penalty": "TRAINING"
 						}
 					]
@@ -2827,6 +2893,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 15,
@@ -2891,6 +2958,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
@@ -2930,40 +2998,48 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
+			"disciplineHistory": [
 				{
 					"entry": "4/6/2023 12:00:00 AM",
-					"allegations_count": 1,
-					"allegations": [
-						{
-							"recommendation": "A-CD",
-							"case_no": "2023-27947",
-							"description": "01.Wrongfully discourteous to an individual known to the Department.",
-							"penalty": "A - COMMAND DISCIPLINE"
-						}
-					]
+					"allegations_count": 1
 				},
 				{
 					"entry": "12/2/2023 12:00:00 AM",
-					"allegations_count": 1,
+					"allegations_count": 1
+				},
+				{
+					"entry": "4/29/2024 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
 					"allegations": [
 						{
 							"recommendation": "A-CD",
-							"case_no": "2023-28999",
-							"description": "01.Failed to take police action/render police services.",
+							"description": "01.Wrongfully discourteous to an individual known to the Department.",
+							"group_id": "1",
 							"penalty": "A - COMMAND DISCIPLINE"
 						}
 					]
 				},
 				{
-					"entry": "4/29/2024 12:00:00 AM",
-					"allegations_count": 1,
 					"allegations": [
 						{
 							"recommendation": "TRAINING",
-							"case_no": "2023-28675",
 							"description": "01.Violated patrol rules - failed to provide a business card",
+							"group_id": "2",
 							"penalty": "TRAINING"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"description": "01.Failed to take police action/render police services.",
+							"group_id": "3",
+							"penalty": "A - COMMAND DISCIPLINE"
 						}
 					]
 				}
@@ -3010,6 +3086,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 18,
@@ -3085,58 +3162,55 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
+			"disciplineHistory": [
 				{
 					"entry": "3/29/2023 12:00:00 AM",
-					"charges_count": 7,
+					"charges_count": 7
+				}
+			],
+			"discipline": [
+				{
 					"charges": [
 						{
 							"disposition": "PLEADED GUILTY",
-							"command": "073-073 PRECINCT",
-							"case_no": "2021-24372",
 							"description": "Operated a motor vehicle while intoxicated.",
+							"group_id": "1",
 							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (40 day(s) )"
 						},
 						{
 							"disposition": "PLEADED GUILTY",
-							"command": "073-073 PRECINCT",
-							"case_no": "2021-24372",
 							"description": "Operated a motor vehicle while impaired by alcohol.",
+							"group_id": "1",
 							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (40 day(s) )"
 						},
 						{
 							"disposition": "PLEADED GUILTY",
-							"command": "073-073 PRECINCT",
-							"case_no": "2021-24372",
 							"description": "Criminal mischief.",
+							"group_id": "1",
 							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (40 day(s) )"
 						},
 						{
 							"disposition": "PLEADED GUILTY",
-							"command": "073-073 PRECINCT",
-							"case_no": "2021-24372",
 							"description": "Refused to submit to a breathalyzer test.",
+							"group_id": "1",
 							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (40 day(s) )"
 						},
 						{
 							"disposition": "PLEADED GUILTY",
-							"command": "073-073 PRECINCT",
-							"case_no": "2021-24372",
 							"description": "Unfit for duty.",
+							"group_id": "1",
 							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (40 day(s) )"
 						},
 						{
 							"disposition": "PLEADED GUILTY",
-							"command": "073-073 PRECINCT",
-							"case_no": "2021-24372",
 							"description": "Unfit for duty while armed.",
+							"group_id": "1",
 							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (40 day(s) )"
 						},
 						{
 							"disposition": "PLEADED GUILTY",
-							"command": "073-073 PRECINCT",
-							"case_no": "2021-24372",
 							"description": "Failed to safeguard a firearm.",
+							"group_id": "1",
 							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), VACATION DAYS (40 day(s) )"
 						}
 					]
@@ -3188,6 +3262,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 138,
@@ -3444,6 +3519,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
@@ -3496,15 +3572,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
+			"disciplineHistory": [
 				{
 					"entry": "9/27/2023 12:00:00 AM",
-					"allegations_count": 1,
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
 					"allegations": [
 						{
 							"recommendation": "B-CD",
-							"case_no": "2023-28820",
-							"description": "01.Failed to prepare required reports."
+							"description": "01.Failed to prepare required reports.",
+							"group_id": "1"
 						}
 					]
 				}
@@ -3551,6 +3631,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
@@ -3601,6 +3682,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 14,
@@ -3644,6 +3726,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 26,
@@ -3693,6 +3776,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
@@ -3805,6 +3889,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 91,
@@ -4013,6 +4098,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 58,
@@ -4201,6 +4287,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 159,
@@ -4250,6 +4337,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"infraction": 3,
@@ -4333,6 +4421,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 25,
@@ -4381,6 +4470,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 6,
@@ -4424,6 +4514,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 4,
@@ -4462,6 +4553,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"misdemeanor": 27,
@@ -4504,6 +4596,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 2
@@ -4545,6 +4638,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 62,
@@ -4594,6 +4688,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 44,
@@ -4645,6 +4740,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 19,
@@ -4683,6 +4779,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 9,
@@ -4726,6 +4823,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
@@ -4775,6 +4873,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
@@ -4817,6 +4916,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
@@ -4911,7 +5011,7 @@
 		"shield_no": "24710",
 		"appt_date": "10/7/2019",
 		"recognition_count": 0,
-		"arrest_count": 48,
+		"arrest_count": 50,
 		"reports": {
 			"summary": {
 				"command": "066 PRECINCT",
@@ -4929,15 +5029,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
+			"disciplineHistory": [
 				{
 					"entry": "11/24/2021 12:00:00 AM",
-					"allegations_count": 1,
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
 					"allegations": [
 						{
 							"recommendation": "B-CD",
-							"case_no": "2021-23677",
-							"description": "01.Disparaging Remark"
+							"description": "01.Disparaging Remark",
+							"group_id": "1"
 						}
 					]
 				}
@@ -4978,6 +5082,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 11,
@@ -5015,6 +5120,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 12,
@@ -5057,6 +5163,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 150,
@@ -5095,6 +5202,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 39,
@@ -5133,49 +5241,57 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
+			"disciplineHistory": [
 				{
 					"entry": "10/14/2022 12:00:00 AM",
-					"allegations_count": 1,
+					"allegations_count": 1
+				},
+				{
+					"entry": "12/23/2022 12:00:00 AM",
+					"allegations_count": 3
+				},
+				{
+					"entry": "4/13/2023 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
 					"allegations": [
 						{
 							"recommendation": "A-CD",
-							"case_no": "2022-26989",
 							"description": "01.Wrongfully searched an individual known to the Department.",
+							"group_id": "1",
 							"penalty": "A - COMMAND DISCIPLINE"
 						}
 					]
 				},
 				{
-					"entry": "12/23/2022 12:00:00 AM",
-					"allegations_count": 3,
 					"allegations": [
 						{
 							"recommendation": "CHARGES AND SPECIFICATIONS",
-							"case_no": "2022-27519",
-							"description": "01.Wrongfully discourteous to an individual known to the Department."
-						},
-						{
-							"recommendation": "CHARGES AND SPECIFICATIONS",
-							"case_no": "2022-27519",
-							"description": "01.Wrongfully searched an individual known to the Department."
-						},
-						{
-							"recommendation": "CHARGES AND SPECIFICATIONS",
-							"case_no": "2022-27519",
-							"description": "01.Wrongfully threatened to arrest an individual known to the Department."
+							"description": "01.Failed to safeguard a firearm resulting in loss/theft.",
+							"group_id": "2",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (18 day(s) )"
 						}
 					]
 				},
 				{
-					"entry": "4/13/2023 12:00:00 AM",
-					"allegations_count": 1,
 					"allegations": [
 						{
 							"recommendation": "CHARGES AND SPECIFICATIONS",
-							"case_no": "2022-27492",
-							"description": "01.Failed to safeguard a firearm resulting in loss/theft.",
-							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (18 day(s) )"
+							"description": "01.Wrongfully discourteous to an individual known to the Department.",
+							"group_id": "3"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "01.Wrongfully searched an individual known to the Department.",
+							"group_id": "3"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "01.Wrongfully threatened to arrest an individual known to the Department.",
+							"group_id": "3"
 						}
 					]
 				}
@@ -5216,7 +5332,7 @@
 		"shield_no": "14652",
 		"appt_date": "1/10/2007",
 		"recognition_count": 3,
-		"arrest_count": 106,
+		"arrest_count": 107,
 		"reports": {
 			"summary": {
 				"command": "025 PRECINCT",
@@ -5234,10 +5350,11 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 28,
-				"misdemeanor": 76,
+				"misdemeanor": 77,
 				"violation": 2
 			},
 			"awards": [
@@ -5290,6 +5407,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 13,
@@ -5327,6 +5445,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 20,
@@ -5364,6 +5483,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 12,
@@ -5407,6 +5527,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 14,
@@ -5445,6 +5566,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
@@ -5488,6 +5610,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 13,
@@ -5534,6 +5657,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 19,
@@ -5571,6 +5695,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
@@ -5623,21 +5748,25 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
+			"disciplineHistory": [
 				{
 					"entry": "6/14/2023 12:00:00 AM",
-					"allegations_count": 2,
+					"allegations_count": 2
+				}
+			],
+			"discipline": [
+				{
 					"allegations": [
 						{
 							"recommendation": "A-CD",
-							"case_no": "2022-27614",
 							"description": "01.Wrongful entry of a premises.",
+							"group_id": "1",
 							"penalty": "A - COMMAND DISCIPLINE"
 						},
 						{
 							"recommendation": "A-CD",
-							"case_no": "2022-27614",
 							"description": "02.Wrongfully damaged property.",
+							"group_id": "1",
 							"penalty": "A - COMMAND DISCIPLINE"
 						}
 					]
@@ -5709,6 +5838,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 25,
@@ -5752,15 +5882,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
+			"disciplineHistory": [
 				{
 					"entry": "1/10/2024 12:00:00 AM",
-					"allegations_count": 1,
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
 					"allegations": [
 						{
 							"recommendation": "A-CD",
-							"case_no": "2023-29007",
 							"description": "01.Violated patrol rules - failed to provide a business card",
+							"group_id": "1",
 							"penalty": "A - COMMAND DISCIPLINE"
 						}
 					]
@@ -5842,6 +5976,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 23,
@@ -5893,21 +6028,25 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
+			"disciplineHistory": [
 				{
 					"entry": "6/14/2023 12:00:00 AM",
-					"allegations_count": 2,
+					"allegations_count": 2
+				}
+			],
+			"discipline": [
+				{
 					"allegations": [
 						{
 							"recommendation": "NO DISCIPLINARY ACTION",
-							"case_no": "2023-28408",
 							"description": "01.Criminal association.",
+							"group_id": "1",
 							"penalty": "A - COMMAND DISCIPLINE"
 						},
 						{
 							"recommendation": "A-CD",
-							"case_no": "2023-28408",
 							"description": "02.Made computer inquiries unrelated to official Department business.",
+							"group_id": "1",
 							"penalty": "A - COMMAND DISCIPLINE"
 						}
 					]
@@ -5949,6 +6088,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
@@ -5991,6 +6131,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 159,
@@ -6064,15 +6205,19 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
+			"disciplineHistory": [
 				{
 					"entry": "4/18/2022 12:00:00 AM",
-					"allegations_count": 1,
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
 					"allegations": [
 						{
 							"recommendation": "INSTRUCTIONS",
-							"case_no": "2022-24814",
 							"description": "01.Failed to supervise",
+							"group_id": "1",
 							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (10 day(s) )"
 						}
 					]
@@ -6144,6 +6289,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
@@ -6182,6 +6328,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 18,
@@ -6219,6 +6366,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
@@ -6287,6 +6435,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 3,
@@ -6329,27 +6478,31 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
+			"disciplineHistory": [
 				{
 					"entry": "4/22/2024 12:00:00 AM",
-					"allegations_count": 3,
+					"allegations_count": 3
+				}
+			],
+			"discipline": [
+				{
 					"allegations": [
 						{
 							"recommendation": "CHARGES AND SPECIFICATIONS",
-							"case_no": "2021-23401",
 							"description": "01.Failure to provide a department business card",
+							"group_id": "1",
 							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
 						},
 						{
 							"recommendation": "CHARGES AND SPECIFICATIONS",
-							"case_no": "2021-23401",
 							"description": "02.Improper entry of an apartment",
+							"group_id": "1",
 							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
 						},
 						{
 							"recommendation": "CHARGES AND SPECIFICATIONS",
-							"case_no": "2021-23401",
 							"description": "03.Improper search of an apartment bedroom",
+							"group_id": "1",
 							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
 						}
 					]
@@ -6409,6 +6562,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 116,
@@ -6461,6 +6615,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
@@ -6532,21 +6687,25 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
+			"disciplineHistory": [
 				{
 					"entry": "6/20/2023 12:00:00 AM",
-					"allegations_count": 2,
+					"allegations_count": 2
+				}
+			],
+			"discipline": [
+				{
 					"allegations": [
 						{
 							"recommendation": "CHARGES AND SPECIFICATIONS",
-							"case_no": "2022-25782",
 							"description": "01.Wrongfully frisked an individual known to the Department.",
+							"group_id": "1",
 							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (3 day(s) )"
 						},
 						{
 							"recommendation": "CHARGES AND SPECIFICATIONS",
-							"case_no": "2022-25782",
 							"description": "02.Wrongfully questioned an individual known to the Department.",
+							"group_id": "1",
 							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (3 day(s) )"
 						}
 					]
@@ -6642,6 +6801,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 7,
@@ -6679,6 +6839,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
@@ -6793,6 +6954,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"infraction": 6,
@@ -6814,7 +6976,7 @@
 		"shield_no": "9875",
 		"appt_date": "10/18/2017",
 		"recognition_count": 37,
-		"arrest_count": 102,
+		"arrest_count": 103,
 		"reports": {
 			"summary": {
 				"command": "NARC BORO MANHATTAN NORTH",
@@ -6832,6 +6994,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 54,
@@ -7039,105 +7202,131 @@
 				}
 			],
 			"documents": [],
-			"discipline": [
+			"disciplineHistory": [
 				{
 					"entry": "4/27/2022 12:00:00 AM",
-					"allegations_count": 1,
-					"allegations": [
-						{
-							"recommendation": "A-CD",
-							"case_no": "2022-24698",
-							"description": "01.Wrongfully discourteous to an individual known to the Department."
-						}
-					]
+					"allegations_count": 1
 				},
 				{
 					"entry": "6/20/2022 12:00:00 AM",
-					"allegations_count": 3,
-					"allegations": [
-						{
-							"recommendation": "A-CD",
-							"case_no": "2022-26145",
-							"description": "01.Violated patrol rules."
-						},
-						{
-							"recommendation": "OTHER",
-							"case_no": "2022-26146",
-							"description": "01.Failed to make required entries in Department Logs."
-						},
-						{
-							"recommendation": "OTHER",
-							"case_no": "2022-26146",
-							"description": "02.Failed to prepare required reports."
-						}
-					]
+					"allegations_count": 3
 				},
 				{
 					"entry": "7/23/2022 12:00:00 AM",
-					"allegations_count": 3,
-					"allegations": [
-						{
-							"recommendation": "B-CD",
-							"case_no": "2022-25895",
-							"description": "01.Wrongful entry of a premises."
-						},
-						{
-							"recommendation": "B-CD",
-							"case_no": "2022-25895",
-							"description": "02.Wrongful search of a premises."
-						},
-						{
-							"recommendation": "OTHER",
-							"case_no": "2022-25896",
-							"description": "01.Violated patrol rules."
-						}
-					]
+					"allegations_count": 3
 				},
 				{
 					"entry": "1/13/2023 12:00:00 AM",
-					"allegations_count": 2,
-					"allegations": [
-						{
-							"recommendation": "A-CD",
-							"case_no": "2022-26929",
-							"description": "01.Wrongful entry of a premises."
-						},
-						{
-							"recommendation": "A-CD",
-							"case_no": "2022-26929",
-							"description": "02.Wrongful search of a premises."
-						}
-					]
+					"allegations_count": 2
 				},
 				{
 					"entry": "2/27/2023 12:00:00 AM",
-					"allegations_count": 3,
+					"allegations_count": 3
+				},
+				{
+					"entry": "5/2/2024 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
 					"allegations": [
 						{
-							"recommendation": "B-CD",
-							"case_no": "2022-26383",
-							"description": "01.Violated patrol rules."
-						},
-						{
-							"recommendation": "OTHER",
-							"case_no": "2022-26384",
-							"description": "01.Failed to make required entries in Department Logs."
-						},
-						{
-							"recommendation": "OTHER",
-							"case_no": "2022-26384",
-							"description": "02.Failed to prepare required reports."
+							"recommendation": "A-CD",
+							"description": "01.Wrongfully discourteous to an individual known to the Department.",
+							"group_id": "1"
 						}
 					]
 				},
 				{
-					"entry": "5/2/2024 12:00:00 AM",
-					"allegations_count": 1,
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"description": "01.Wrongful entry of a premises.",
+							"group_id": "2"
+						},
+						{
+							"recommendation": "B-CD",
+							"description": "02.Wrongful search of a premises.",
+							"group_id": "2"
+						}
+					]
+				},
+				{
 					"allegations": [
 						{
 							"recommendation": "OTHER",
-							"case_no": "2022-26930",
+							"description": "01.Violated patrol rules.",
+							"group_id": "3"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"description": "01.Violated patrol rules.",
+							"group_id": "4"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "OTHER",
 							"description": "01.Failed to make required entries in Department Logs.",
+							"group_id": "5"
+						},
+						{
+							"recommendation": "OTHER",
+							"description": "02.Failed to prepare required reports.",
+							"group_id": "5"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "B-CD",
+							"description": "01.Violated patrol rules.",
+							"group_id": "6"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"description": "01.Failed to make required entries in Department Logs.",
+							"group_id": "7"
+						},
+						{
+							"recommendation": "OTHER",
+							"description": "02.Failed to prepare required reports.",
+							"group_id": "7"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"description": "01.Wrongful entry of a premises.",
+							"group_id": "8"
+						},
+						{
+							"recommendation": "A-CD",
+							"description": "02.Wrongful search of a premises.",
+							"group_id": "8"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"description": "01.Failed to make required entries in Department Logs.",
+							"group_id": "9",
 							"penalty": "TRAINING"
 						}
 					]
@@ -7281,6 +7470,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 9,
@@ -7306,7 +7496,7 @@
 		"shield_no": "5496",
 		"appt_date": "4/25/2018",
 		"recognition_count": 3,
-		"arrest_count": 58,
+		"arrest_count": 59,
 		"reports": {
 			"summary": {
 				"command": "077 PRECINCT",
@@ -7324,6 +7514,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 35,
@@ -7374,6 +7565,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 17,
@@ -7399,7 +7591,7 @@
 		"shield_no": "26418",
 		"appt_date": "10/7/2019",
 		"recognition_count": 0,
-		"arrest_count": 36,
+		"arrest_count": 37,
 		"reports": {
 			"summary": {
 				"command": "109 PRECINCT",
@@ -7417,6 +7609,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 7,
@@ -7459,6 +7652,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
@@ -7503,28 +7697,10 @@
 				"shield_no": "27959",
 				"appt_date": "7/7/2021"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/7/2021",
-					"shield_no": "27959"
-				}
-			],
+			"ranks": [],
 			"documents": [],
-			"discipline": [
-				{
-					"entry": "5/8/2024 12:00:00 AM",
-					"allegations_count": 1,
-					"allegations": [
-						{
-							"recommendation": "A-CD",
-							"case_no": "2024-29877",
-							"description": "01.Failed to activate their body worn camera.",
-							"penalty": "A - COMMAND DISCIPLINE"
-						}
-					]
-				}
-			],
+			"disciplineHistory": [],
+			"discipline": [],
 			"arrests": {
 				"felony": 5,
 				"misdemeanor": 9
@@ -7561,6 +7737,7 @@
 				}
 			],
 			"documents": [],
+			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 8,
