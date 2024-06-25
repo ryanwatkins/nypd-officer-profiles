@@ -19287,7 +19287,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 6,
-				"felony": 124,
+				"felony": 125,
 				"misdemeanor": 150,
 				"violation": 5
 			},
@@ -86323,9 +86323,31 @@
 				{
 					"allegations": [
 						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "01.Violated patrol rules - failed to provide a business card",
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (3 day(s) )"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "01.Wrongfully frisked an individual known to the Department.",
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (3 day(s) )"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "02.Wrongfully searched a vehicle.",
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (3 day(s) )"
+						}
+					]
+				},
+				{
+					"allegations": [
+						{
 							"recommendation": "NO DISCIPLINARY ACTION",
 							"description": "01.Violated patrol rules.",
-							"group_id": "1"
+							"group_id": "2"
 						}
 					]
 				}
@@ -93532,7 +93554,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 144,
+				"felony": 145,
 				"misdemeanor": 149,
 				"other": 8,
 				"violation": 1
