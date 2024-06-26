@@ -8407,7 +8407,7 @@
 			"arrests": {
 				"infraction": 3,
 				"felony": 61,
-				"misdemeanor": 175,
+				"misdemeanor": 176,
 				"other": 1,
 				"violation": 1
 			},
@@ -9944,8 +9944,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 143,
-				"misdemeanor": 133,
+				"felony": 144,
+				"misdemeanor": 135,
 				"violation": 2
 			},
 			"awards": [
@@ -10061,7 +10061,7 @@
 			],
 			"arrests": {
 				"felony": 54,
-				"misdemeanor": 188,
+				"misdemeanor": 189,
 				"violation": 2
 			},
 			"awards": [
@@ -11431,7 +11431,7 @@
 			"arrests": {
 				"infraction": 6,
 				"felony": 9,
-				"misdemeanor": 63
+				"misdemeanor": 64
 			},
 			"awards": [
 				{
@@ -15597,7 +15597,7 @@
 		"shield_no": "31691",
 		"appt_date": "7/11/2012",
 		"recognition_count": 49,
-		"arrest_count": 720,
+		"arrest_count": 721,
 		"reports": {
 			"summary": {
 				"command": "BX AUTO LARCENY UNIT",
@@ -15628,7 +15628,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 331,
+				"felony": 332,
 				"misdemeanor": 323,
 				"violation": 66
 			},
@@ -17763,7 +17763,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 55,
+				"felony": 56,
 				"misdemeanor": 51
 			},
 			"awards": [
@@ -18967,7 +18967,7 @@
 		"shield_no": "1823",
 		"appt_date": "7/11/2012",
 		"recognition_count": 1,
-		"arrest_count": 437,
+		"arrest_count": 438,
 		"reports": {
 			"summary": {
 				"command": "073 DET SQUAD",
@@ -18994,7 +18994,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 130,
+				"felony": 131,
 				"misdemeanor": 286,
 				"other": 1,
 				"violation": 18
@@ -23656,7 +23656,7 @@
 		"shield_no": "11631",
 		"appt_date": "7/6/2011",
 		"recognition_count": 0,
-		"arrest_count": 200,
+		"arrest_count": 202,
 		"reports": {
 			"summary": {
 				"command": "044 PRECINCT",
@@ -24015,7 +24015,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 135,
+				"felony": 138,
 				"misdemeanor": 180,
 				"violation": 7
 			},
@@ -24350,7 +24350,7 @@
 			"arrests": {
 				"infraction": 3,
 				"felony": 261,
-				"misdemeanor": 194,
+				"misdemeanor": 196,
 				"violation": 12
 			},
 			"awards": [
@@ -25423,7 +25423,7 @@
 		"shield_no": "2060",
 		"appt_date": "7/6/2010",
 		"recognition_count": 17,
-		"arrest_count": 369,
+		"arrest_count": 370,
 		"reports": {
 			"summary": {
 				"command": "108TH DET SQUAD",
@@ -34017,7 +34017,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 200,
-				"misdemeanor": 56,
+				"misdemeanor": 57,
 				"violation": 3
 			},
 			"awards": [
@@ -35177,7 +35177,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 52,
+				"felony": 56,
 				"misdemeanor": 162,
 				"other": 1,
 				"violation": 1
@@ -36534,7 +36534,7 @@
 		"shield_no": "1194",
 		"appt_date": "7/6/2011",
 		"recognition_count": 7,
-		"arrest_count": 467,
+		"arrest_count": 468,
 		"reports": {
 			"summary": {
 				"command": "110TH DET SQUAD",
@@ -51199,7 +51199,7 @@
 		"shield_no": "3363",
 		"appt_date": "7/11/2012",
 		"recognition_count": 1,
-		"arrest_count": 149,
+		"arrest_count": 150,
 		"reports": {
 			"summary": {
 				"command": "120 PRECINCT",
@@ -51220,7 +51220,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 45,
+				"felony": 46,
 				"misdemeanor": 102,
 				"violation": 2
 			},
@@ -51987,7 +51987,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 98,
+				"felony": 99,
 				"misdemeanor": 74
 			},
 			"awards": []
@@ -55698,7 +55698,7 @@
 			"arrests": {
 				"infraction": 4,
 				"felony": 42,
-				"misdemeanor": 86,
+				"misdemeanor": 89,
 				"violation": 4
 			},
 			"awards": [
@@ -57191,17 +57191,20 @@
 						{
 							"recommendation": "CHARGES AND SPECIFICATIONS",
 							"description": "01.Failed to activate their body-worn camera.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "INSTRUCTIONS"
 						},
 						{
 							"recommendation": "CHARGES AND SPECIFICATIONS",
 							"description": "02.Failed to properly safeguard a deceased body.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "INSTRUCTIONS"
 						},
 						{
 							"recommendation": "CHARGES AND SPECIFICATIONS",
 							"description": "03.Made inaccurate statements during an official Department interview.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "INSTRUCTIONS"
 						}
 					]
 				}
@@ -57317,7 +57320,7 @@
 		"shield_no": "5434",
 		"appt_date": "1/9/2012",
 		"recognition_count": 6,
-		"arrest_count": 383,
+		"arrest_count": 384,
 		"reports": {
 			"summary": {
 				"command": "106TH DET SQUAD",
@@ -57344,7 +57347,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 215,
+				"felony": 216,
 				"misdemeanor": 140,
 				"violation": 26
 			},
@@ -60934,7 +60937,7 @@
 		"shield_no": "7152",
 		"appt_date": "7/6/2010",
 		"recognition_count": 3,
-		"arrest_count": 232,
+		"arrest_count": 233,
 		"reports": {
 			"summary": {
 				"command": "SEX OFFENDER MONITORING UNIT",
@@ -63856,7 +63859,7 @@
 		"shield_no": "6255",
 		"appt_date": "7/6/2011",
 		"recognition_count": 0,
-		"arrest_count": 271,
+		"arrest_count": 272,
 		"reports": {
 			"summary": {
 				"command": "044 PRECINCT",
@@ -65093,7 +65096,7 @@
 			],
 			"arrests": {
 				"infraction": 2,
-				"felony": 146,
+				"felony": 147,
 				"misdemeanor": 68,
 				"violation": 8
 			},
@@ -66902,7 +66905,7 @@
 			],
 			"arrests": {
 				"infraction": 7,
-				"felony": 197,
+				"felony": 198,
 				"misdemeanor": 89,
 				"violation": 12
 			},
@@ -68443,7 +68446,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 91,
+				"felony": 93,
 				"misdemeanor": 104,
 				"violation": 6
 			},
@@ -71021,7 +71024,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 60,
+				"felony": 61,
 				"misdemeanor": 76,
 				"violation": 8
 			},
@@ -77147,7 +77150,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 15,
-				"misdemeanor": 40,
+				"misdemeanor": 42,
 				"violation": 9
 			},
 			"awards": []
@@ -79074,13 +79077,7 @@
 				"shield_no": "1680",
 				"appt_date": "7/9/2014"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/9/2014",
-					"shield_no": "1680"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -81514,8 +81511,8 @@
 		"arrest_count": 90,
 		"reports": {
 			"summary": {
-				"command": "UNIFORMED PROMOTIONS TRN UNIT",
-				"assignment_date": "5/31/2024",
+				"command": "024 PRECINCT",
+				"assignment_date": "6/17/2024",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "LIEUTENANT",
 				"shield_no": "",
@@ -81553,7 +81550,7 @@
 				}
 			]
 		},
-		"command": "UNIFORMED PROMOTIONS TRN UNIT"
+		"command": "024 PRECINCT"
 	},
 	{
 		"taxid": 953331,
@@ -83239,13 +83236,7 @@
 				"shield_no": "14033",
 				"appt_date": "7/9/2014"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/9/2014",
-					"shield_no": "14033"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
@@ -87733,7 +87724,7 @@
 		"shield_no": "2835",
 		"appt_date": "7/6/2010",
 		"recognition_count": 1,
-		"arrest_count": 198,
+		"arrest_count": 199,
 		"reports": {
 			"summary": {
 				"command": "063 DET SQUAD",
@@ -88120,7 +88111,7 @@
 		"shield_no": "3823",
 		"appt_date": "1/9/2012",
 		"recognition_count": 4,
-		"arrest_count": 367,
+		"arrest_count": 368,
 		"reports": {
 			"summary": {
 				"command": "032 DET SQUAD",
@@ -88146,7 +88137,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 48,
+				"felony": 49,
 				"misdemeanor": 305,
 				"violation": 14
 			},
@@ -88676,7 +88667,7 @@
 		"shield_no": "2127",
 		"appt_date": "7/6/2011",
 		"recognition_count": 1,
-		"arrest_count": 385,
+		"arrest_count": 387,
 		"reports": {
 			"summary": {
 				"command": "046 DET SQUAD",
@@ -93719,7 +93710,7 @@
 			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 269,
+				"felony": 271,
 				"misdemeanor": 297,
 				"other": 4,
 				"violation": 3
@@ -97332,7 +97323,7 @@
 		"shield_no": "716",
 		"appt_date": "1/9/2012",
 		"recognition_count": 1,
-		"arrest_count": 208,
+		"arrest_count": 210,
 		"reports": {
 			"summary": {
 				"command": "083 PRECINCT",
@@ -97355,7 +97346,7 @@
 			"arrests": {
 				"infraction": 6,
 				"felony": 16,
-				"misdemeanor": 173,
+				"misdemeanor": 175,
 				"violation": 13
 			},
 			"awards": [
@@ -97399,7 +97390,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 272,
+				"misdemeanor": 273,
 				"violation": 44
 			},
 			"awards": [
@@ -101519,7 +101510,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 27,
-				"misdemeanor": 163,
+				"misdemeanor": 164,
 				"other": 1
 			},
 			"awards": [
@@ -104169,8 +104160,28 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "6/19/2024 12:00:00 AM",
+					"allegations_count": 2
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "NO DISCIPLINARY ACTION",
+							"description": "01.",
+							"group_id": "1"
+						},
+						{
+							"recommendation": "NO DISCIPLINARY ACTION",
+							"description": "02.Failed to timely activate their body worn camera.",
+							"group_id": "1"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 16,
 				"misdemeanor": 29,
@@ -104599,7 +104610,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 52,
-				"misdemeanor": 133,
+				"misdemeanor": 135,
 				"violation": 3
 			},
 			"awards": []
@@ -114302,7 +114313,7 @@
 			"arrests": {
 				"infraction": 6,
 				"felony": 94,
-				"misdemeanor": 182,
+				"misdemeanor": 183,
 				"other": 1,
 				"violation": 11
 			},
@@ -115133,7 +115144,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 15,
-				"misdemeanor": 28,
+				"misdemeanor": 30,
 				"violation": 2
 			},
 			"awards": []
@@ -116444,7 +116455,7 @@
 		"shield_no": "1525",
 		"appt_date": "7/11/2012",
 		"recognition_count": 5,
-		"arrest_count": 221,
+		"arrest_count": 222,
 		"reports": {
 			"summary": {
 				"command": "BRONX SPECIAL VICTIMS SQUAD",
@@ -116476,7 +116487,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 101,
+				"felony": 102,
 				"misdemeanor": 109,
 				"other": 1,
 				"violation": 9
@@ -121868,7 +121879,7 @@
 		"shield_no": "14171",
 		"appt_date": "4/12/2017",
 		"recognition_count": 13,
-		"arrest_count": 204,
+		"arrest_count": 206,
 		"reports": {
 			"summary": {
 				"command": "062 PRECINCT",
@@ -124319,20 +124330,8 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {
-				"felony": 10,
-				"misdemeanor": 42
-			},
-			"awards": [
-				{
-					"date": "11/12/2021",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "7/29/2020",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
+			"arrests": {},
+			"awards": []
 		},
 		"command": "122 PRECINCT"
 	},
@@ -127291,7 +127290,7 @@
 		"shield_no": "15287",
 		"appt_date": "7/6/2011",
 		"recognition_count": 2,
-		"arrest_count": 340,
+		"arrest_count": 344,
 		"reports": {
 			"summary": {
 				"command": "121 PRECINCT",

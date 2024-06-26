@@ -721,7 +721,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 127,
+				"felony": 129,
 				"misdemeanor": 118,
 				"other": 1,
 				"violation": 5
@@ -1430,7 +1430,7 @@
 		"shield_no": "14815",
 		"appt_date": "7/11/2012",
 		"recognition_count": 0,
-		"arrest_count": 99,
+		"arrest_count": 101,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 20",
@@ -1451,6 +1451,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
+				"felony": 2,
 				"misdemeanor": 84,
 				"violation": 15
 			},
@@ -3712,7 +3713,7 @@
 		"shield_no": "4548",
 		"appt_date": "1/9/2012",
 		"recognition_count": 1,
-		"arrest_count": 145,
+		"arrest_count": 147,
 		"reports": {
 			"summary": {
 				"command": "102ND DET SQUAD",
@@ -4402,8 +4403,8 @@
 		"arrest_count": 63,
 		"reports": {
 			"summary": {
-				"command": "HOUSING PSA 3",
-				"assignment_date": "12/22/2022",
+				"command": "STRATEGIC RESP GRP 3 BROOKLYN",
+				"assignment_date": "6/17/2024",
 				"ethnicity": "ASIAN",
 				"rank_desc": "SERGEANT",
 				"shield_no": "649",
@@ -4453,7 +4454,7 @@
 				}
 			]
 		},
-		"command": "HOUSING PSA 3"
+		"command": "STRATEGIC RESP GRP 3 BROOKLYN"
 	},
 	{
 		"taxid": 937707,
@@ -5611,7 +5612,7 @@
 		"shield_no": "3684",
 		"appt_date": "1/9/2013",
 		"recognition_count": 0,
-		"arrest_count": 116,
+		"arrest_count": 117,
 		"reports": {
 			"summary": {
 				"command": "QUEENS CHILD ABUSE SQUAD",
@@ -5638,7 +5639,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 49,
+				"felony": 50,
 				"misdemeanor": 63,
 				"violation": 3
 			},
@@ -7376,7 +7377,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 208,
+				"felony": 209,
 				"misdemeanor": 119,
 				"violation": 7
 			},
@@ -13564,8 +13565,24 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "3/20/2024 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"description": "01.Wrongfully searched a vehicle.",
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 3,
 				"felony": 62,
@@ -17242,7 +17259,7 @@
 		"shield_no": "18507",
 		"appt_date": "1/9/2012",
 		"recognition_count": 0,
-		"arrest_count": 84,
+		"arrest_count": 85,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 6",
@@ -17264,7 +17281,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 15,
-				"misdemeanor": 65,
+				"misdemeanor": 66,
 				"violation": 4
 			},
 			"awards": []
@@ -17522,7 +17539,7 @@
 		"shield_no": "3881",
 		"appt_date": "7/6/2010",
 		"recognition_count": 17,
-		"arrest_count": 517,
+		"arrest_count": 519,
 		"reports": {
 			"summary": {
 				"command": "103RD DETECTIVE SQUAD",
@@ -20258,7 +20275,7 @@
 		"shield_no": "7810",
 		"appt_date": "7/6/2010",
 		"recognition_count": 5,
-		"arrest_count": 183,
+		"arrest_count": 184,
 		"reports": {
 			"summary": {
 				"command": "120 PRECINCT",
@@ -24647,8 +24664,42 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "6/6/2024 12:00:00 AM",
+					"allegations_count": 4
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "01.Interfere with a recording device.",
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (1 day(s) )"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "01.Wrongfully discourteous to an individual known to the Department.",
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (1 day(s) )"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "02.Violated patrol rules.",
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (1 day(s) )"
+						},
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "03.Wrongfully damaged property.",
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (1 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 4,
 				"felony": 42,
@@ -35520,7 +35571,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 90,
+				"felony": 91,
 				"misdemeanor": 105,
 				"violation": 11
 			},
@@ -39130,7 +39181,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 58,
-				"misdemeanor": 58,
+				"misdemeanor": 59,
 				"violation": 8
 			},
 			"awards": [
@@ -39172,7 +39223,7 @@
 		"shield_no": "14402",
 		"appt_date": "1/9/2012",
 		"recognition_count": 7,
-		"arrest_count": 146,
+		"arrest_count": 147,
 		"reports": {
 			"summary": {
 				"command": "103 PRECINCT",
@@ -39996,7 +40047,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 6,
-				"felony": 98,
+				"felony": 99,
 				"misdemeanor": 59,
 				"violation": 25
 			},
@@ -43345,7 +43396,7 @@
 		"shield_no": "3707",
 		"appt_date": "1/9/2012",
 		"recognition_count": 3,
-		"arrest_count": 350,
+		"arrest_count": 352,
 		"reports": {
 			"summary": {
 				"command": "105TH DET SQUAD",
@@ -43373,7 +43424,7 @@
 			"arrests": {
 				"infraction": 3,
 				"felony": 148,
-				"misdemeanor": 182,
+				"misdemeanor": 184,
 				"violation": 17
 			},
 			"awards": [
@@ -44875,8 +44926,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 8,
-				"felony": 102,
-				"misdemeanor": 63,
+				"felony": 106,
+				"misdemeanor": 64,
 				"violation": 4
 			},
 			"awards": [
@@ -55387,19 +55438,13 @@
 				"shield_no": "12823",
 				"appt_date": "10/15/2021"
 			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "10/15/2021",
-					"shield_no": "12823"
-				}
-			],
+			"ranks": [],
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
 				"felony": 27,
-				"misdemeanor": 40
+				"misdemeanor": 41
 			},
 			"awards": []
 		},

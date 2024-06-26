@@ -1127,7 +1127,7 @@
 		"shield_no": "16120",
 		"appt_date": "7/11/2012",
 		"recognition_count": 54,
-		"arrest_count": 250,
+		"arrest_count": 253,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT BUREAU RESPONSE TEAM",
@@ -1149,8 +1149,8 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 49,
-				"misdemeanor": 194,
+				"felony": 50,
+				"misdemeanor": 196,
 				"violation": 6
 			},
 			"awards": [
@@ -10071,7 +10071,7 @@
 		"shield_no": "2044",
 		"appt_date": "7/6/2010",
 		"recognition_count": 5,
-		"arrest_count": 383,
+		"arrest_count": 391,
 		"reports": {
 			"summary": {
 				"command": "PBMN COMMUNITY RESPONSE TEAM",
@@ -12497,8 +12497,30 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "6/14/2024 12:00:00 AM",
+					"allegations_count": 2
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "C-CD",
+							"description": "01.Failed to make proper notifications (Desk Sergeant).",
+							"group_id": "1",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
+						},
+						{
+							"recommendation": "C-CD",
+							"description": "02.Failed to safeguard prisoner property.",
+							"group_id": "1",
+							"penalty": "C - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 39,
 				"misdemeanor": 142
@@ -16102,7 +16124,7 @@
 		"shield_no": "31346",
 		"appt_date": "7/11/2012",
 		"recognition_count": 9,
-		"arrest_count": 338,
+		"arrest_count": 339,
 		"reports": {
 			"summary": {
 				"command": "SVD TRANSIT SPECIAL VICTIMS SQUAD",
@@ -16124,7 +16146,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 61,
-				"misdemeanor": 214,
+				"misdemeanor": 215,
 				"violation": 63
 			},
 			"awards": [
@@ -17994,20 +18016,17 @@
 						{
 							"disposition": "GUILTY",
 							"description": "FAILED TO RETAIN AN INDIVIDUAL ON SCENE WHILE CONDUCTING AN INVESTIGATION, OR ACQUIRING THE INDIVIDUAL's PEDIGREE INFORMATION.",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (10 day(s) )"
+							"group_id": "1"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "WRONGFULLY MAKE FALSE ENTRIES IN DEPARTMENT RECORDS.",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (10 day(s) )"
+							"group_id": "1"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "WRONGFULLY MAKE FALSE ENTRIES IN DEPARTMENT RECORDS.",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (10 day(s) )"
+							"group_id": "1"
 						}
 					]
 				}
@@ -21643,7 +21662,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 107,
+				"felony": 109,
 				"misdemeanor": 111,
 				"violation": 3
 			},
@@ -22146,7 +22165,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 26,
-				"misdemeanor": 78,
+				"misdemeanor": 79,
 				"violation": 12
 			},
 			"awards": [
@@ -23257,7 +23276,7 @@
 		"shield_no": "6541",
 		"appt_date": "1/9/2012",
 		"recognition_count": 9,
-		"arrest_count": 380,
+		"arrest_count": 381,
 		"reports": {
 			"summary": {
 				"command": "032 DET SQUAD",
@@ -29822,8 +29841,8 @@
 		"arrest_count": 148,
 		"reports": {
 			"summary": {
-				"command": "049 PRECINCT",
-				"assignment_date": "12/11/2023",
+				"command": "STRATEGIC RESP GRP 4 QUEENS",
+				"assignment_date": "6/17/2024",
 				"ethnicity": "ASIAN",
 				"rank_desc": "SERGEANT",
 				"shield_no": "2596",
@@ -29856,7 +29875,7 @@
 				}
 			]
 		},
-		"command": "049 PRECINCT"
+		"command": "STRATEGIC RESP GRP 4 QUEENS"
 	},
 	{
 		"taxid": 937628,
@@ -29998,7 +30017,7 @@
 		"shield_no": "987",
 		"appt_date": "7/6/2011",
 		"recognition_count": 7,
-		"arrest_count": 92,
+		"arrest_count": 93,
 		"reports": {
 			"summary": {
 				"command": "067 PRECINCT",
@@ -30026,7 +30045,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 21,
-				"misdemeanor": 69,
+				"misdemeanor": 70,
 				"violation": 1
 			},
 			"awards": [
@@ -36063,7 +36082,7 @@
 		"shield_no": "31349",
 		"appt_date": "7/11/2012",
 		"recognition_count": 1,
-		"arrest_count": 133,
+		"arrest_count": 134,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 3",
@@ -36085,7 +36104,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 45,
+				"felony": 46,
 				"misdemeanor": 70,
 				"violation": 17
 			},
@@ -38942,7 +38961,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 27,
-				"misdemeanor": 87,
+				"misdemeanor": 88,
 				"violation": 12
 			},
 			"awards": []
@@ -45305,8 +45324,8 @@
 		"arrest_count": 127,
 		"reports": {
 			"summary": {
-				"command": "MANHATTAN COURT SECTION",
-				"assignment_date": "1/22/2024",
+				"command": "HOUSING PSA 4",
+				"assignment_date": "6/24/2024",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "POLICE OFFICER",
 				"shield_no": "16160",
@@ -45336,7 +45355,7 @@
 				}
 			]
 		},
-		"command": "MANHATTAN COURT SECTION"
+		"command": "HOUSING PSA 4"
 	},
 	{
 		"taxid": 961387,
@@ -49516,7 +49535,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 62,
-				"misdemeanor": 192,
+				"misdemeanor": 193,
 				"violation": 2
 			},
 			"awards": [
@@ -53256,7 +53275,7 @@
 		"shield_no": "6459",
 		"appt_date": "1/9/2012",
 		"recognition_count": 0,
-		"arrest_count": 170,
+		"arrest_count": 171,
 		"reports": {
 			"summary": {
 				"command": "052 PRECINCT",
@@ -53277,7 +53296,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 47,
+				"felony": 48,
 				"misdemeanor": 122,
 				"violation": 1
 			},
@@ -53487,7 +53506,7 @@
 		"shield_no": "31798",
 		"appt_date": "7/11/2012",
 		"recognition_count": 13,
-		"arrest_count": 404,
+		"arrest_count": 406,
 		"reports": {
 			"summary": {
 				"command": "063 PRECINCT",
@@ -53509,7 +53528,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 4,
-				"felony": 141,
+				"felony": 143,
 				"misdemeanor": 243,
 				"violation": 16
 			},
@@ -54734,7 +54753,7 @@
 		"shield_no": "23428",
 		"appt_date": "7/11/2012",
 		"recognition_count": 0,
-		"arrest_count": 369,
+		"arrest_count": 370,
 		"reports": {
 			"summary": {
 				"command": "045 PRECINCT",
@@ -54757,7 +54776,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 41,
-				"misdemeanor": 327
+				"misdemeanor": 328
 			},
 			"awards": []
 		},
@@ -59545,7 +59564,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 4,
+				"felony": 5,
 				"misdemeanor": 52,
 				"violation": 16
 			},
