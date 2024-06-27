@@ -258,11 +258,7 @@ function parseRanks(data) {
 }
 
 function correctDocUrl(url) {
-  if (url.startsWith('https://oip-admin.nypdonline.local/')) {
-    return url.replace('https://oip-admin.nypdonline.local/', 'https://oip.nypdonline.org/')
-  } else {
-    return 'https://oip.nypdonline.org' + url
-  }
+  return 'https://nypdonline.org' + url
 }
 
 function parseDocuments(data) {
