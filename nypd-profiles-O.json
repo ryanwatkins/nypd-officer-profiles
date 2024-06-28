@@ -13185,7 +13185,7 @@
 		"shield_no": "20737",
 		"appt_date": "7/8/2015",
 		"recognition_count": 6,
-		"arrest_count": 123,
+		"arrest_count": 127,
 		"reports": {
 			"summary": {
 				"command": "050 PRECINCT",
@@ -14051,7 +14051,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 44,
-				"misdemeanor": 113,
+				"misdemeanor": 114,
 				"violation": 1
 			},
 			"awards": [
@@ -15928,7 +15928,7 @@
 		"shield_no": "20933",
 		"appt_date": "7/8/2015",
 		"recognition_count": 10,
-		"arrest_count": 256,
+		"arrest_count": 258,
 		"reports": {
 			"summary": {
 				"command": "STRATEGIC RESP GRP 1 MANHATTAN",
@@ -17405,7 +17405,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 23
+				"misdemeanor": 24
 			},
 			"awards": []
 		},
@@ -17584,7 +17584,7 @@
 		"shield_no": "24659",
 		"appt_date": "1/4/2017",
 		"recognition_count": 0,
-		"arrest_count": 101,
+		"arrest_count": 102,
 		"reports": {
 			"summary": {
 				"command": "105 PRECINCT",
@@ -17893,7 +17893,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 57,
-				"misdemeanor": 43
+				"misdemeanor": 44
 			},
 			"awards": [
 				{
@@ -19376,7 +19376,7 @@
 		"shield_no": "8936",
 		"appt_date": "12/29/2020",
 		"recognition_count": 0,
-		"arrest_count": 42,
+		"arrest_count": 43,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 5",
@@ -21410,7 +21410,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 17,
-				"misdemeanor": 24
+				"misdemeanor": 25
 			},
 			"awards": []
 		},
@@ -25082,7 +25082,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 70,
+				"felony": 79,
 				"misdemeanor": 33
 			},
 			"awards": [
@@ -29146,7 +29146,7 @@
 		"shield_no": "4201",
 		"appt_date": "7/13/2016",
 		"recognition_count": 0,
-		"arrest_count": 97,
+		"arrest_count": 98,
 		"reports": {
 			"summary": {
 				"command": "041 PRECINCT",
@@ -29795,8 +29795,24 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "6/13/2024 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "A-CD",
+							"description": "01.Body-worn camera violation.",
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (5 day(s) )"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"infraction": 1,
 				"felony": 21,
@@ -34610,7 +34626,7 @@
 		"shield_no": "1846",
 		"appt_date": "10/11/2016",
 		"recognition_count": 1,
-		"arrest_count": 210,
+		"arrest_count": 216,
 		"reports": {
 			"summary": {
 				"command": "010 DET SQUAD",
@@ -34636,8 +34652,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 133,
-				"misdemeanor": 76,
+				"felony": 138,
+				"misdemeanor": 77,
 				"other": 1
 			},
 			"awards": [
