@@ -49,7 +49,7 @@
 		"shield_no": "13306",
 		"appt_date": "10/7/2019",
 		"recognition_count": 1,
-		"arrest_count": 88,
+		"arrest_count": 89,
 		"reports": {
 			"summary": {
 				"command": "062 PRECINCT",
@@ -301,54 +301,11 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [
-				{
-					"entry": "11/8/2023 12:00:00 AM",
-					"allegations_count": 2
-				},
-				{
-					"entry": "5/28/2024 12:00:00 AM",
-					"allegations_count": 3
-				}
-			],
-			"discipline": [
-				{
-					"allegations": [
-						{
-							"recommendation": "CHARGES AND SPECIFICATIONS",
-							"description": "01.Wrongfully discourteous to an individual known to the Department.",
-							"group_id": "1"
-						},
-						{
-							"recommendation": "CHARGES AND SPECIFICATIONS",
-							"description": "02.Wrongfully frisked an individual known to the Department.",
-							"group_id": "1"
-						},
-						{
-							"recommendation": "CHARGES AND SPECIFICATIONS",
-							"description": "03.Wrongfully stopped an individual known to the Department.",
-							"group_id": "1"
-						}
-					]
-				},
-				{
-					"allegations": [
-						{
-							"recommendation": "TRAINING",
-							"description": "01.Failed to make required entries in Department Logs.",
-							"group_id": "2"
-						},
-						{
-							"recommendation": "TRAINING",
-							"description": "02.Failed to prepare required reports.",
-							"group_id": "2"
-						}
-					]
-				}
-			],
+			"disciplineHistory": [],
+			"discipline": [],
 			"arrests": {
-				"felony": 152,
-				"misdemeanor": 96
+				"felony": 153,
+				"misdemeanor": 97
 			},
 			"awards": [
 				{
@@ -2864,7 +2821,7 @@
 			],
 			"arrests": {
 				"felony": 39,
-				"misdemeanor": 47
+				"misdemeanor": 48
 			},
 			"awards": [
 				{
@@ -8820,7 +8777,8 @@
 						{
 							"recommendation": "TRAINING",
 							"description": "01.Improper stop.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "TRAINING"
 						}
 					]
 				}
@@ -9420,7 +9378,7 @@
 		"shield_no": "11753",
 		"appt_date": "1/6/2020",
 		"recognition_count": 0,
-		"arrest_count": 34,
+		"arrest_count": 35,
 		"reports": {
 			"summary": {
 				"command": "088 PRECINCT",
@@ -13306,32 +13264,27 @@
 						{
 							"disposition": "GUILTY",
 							"description": "FAILED TO RESIDE WITHIN THE CITY OF NEW YORK OR COUNTIES OF WESTCHESTER, ROCKLAND, ORANGE, PUTNAM, NASSAU OR SUFFOLK AS REQUIRED.",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (30 day(s) )"
+							"group_id": "1"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "FAILED TO SUBMIT CHANGE OF NAME, RESIDENCE OR SOCIAL CONDITION FORM TO DEPARTMENT.",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (30 day(s) )"
+							"group_id": "1"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "HAVING CHANGED SAID MEMBER'S RESIDENCE, FAILED TO MAINTAIN CORRECT DEPARTMENT OF MOTOR VEHICLE RECORDS .",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (30 day(s) )"
+							"group_id": "1"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "WHILE ON SICK REPORT WRONGFULLY LEFT CONFINES OF THE CITY OR RESIDENCE COUNTIES WITHOUT APPROVAL FROM CHIEF OF PERSONNEL.",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (30 day(s) )"
+							"group_id": "1"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "WRONGFULLY REPORTED A NEW YORK ADDRESS TO THE DEPARTMENT WHEN IN FACT SAID MEMBER RESIDED IN NEW JERSEY.",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (30 day(s) )"
+							"group_id": "1"
 						}
 					]
 				}
@@ -17746,6 +17699,11 @@
 					"rank": "DETECTIVE",
 					"date": "2/9/2022",
 					"shield_no": "1303"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "6/28/2024",
+					"shield_no": "4632"
 				}
 			],
 			"documents": [],
@@ -22659,7 +22617,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 8,
+				"felony": 9,
 				"misdemeanor": 45
 			},
 			"awards": [
@@ -24410,7 +24368,7 @@
 		"shield_no": "21268",
 		"appt_date": "10/7/2019",
 		"recognition_count": 0,
-		"arrest_count": 34,
+		"arrest_count": 36,
 		"reports": {
 			"summary": {
 				"command": "HIGHWAY UNIT 2",
