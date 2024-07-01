@@ -9,7 +9,7 @@
 		"shield_no": "6266",
 		"appt_date": "1/6/2016",
 		"recognition_count": 0,
-		"arrest_count": 60,
+		"arrest_count": 0,
 		"reports": {
 			"summary": {
 				"command": "048 PRECINCT",
@@ -54,7 +54,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 15,
-				"misdemeanor": 44
+				"misdemeanor": 45
 			},
 			"awards": []
 		},
@@ -11430,7 +11430,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 7,
-				"misdemeanor": 9
+				"misdemeanor": 10
 			},
 			"awards": []
 		},
@@ -17763,7 +17763,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 23,
-				"misdemeanor": 45,
+				"misdemeanor": 46,
 				"other": 1
 			},
 			"awards": [
@@ -18447,7 +18447,7 @@
 		"shield_no": "9178",
 		"appt_date": "10/12/2021",
 		"recognition_count": 0,
-		"arrest_count": 72,
+		"arrest_count": 73,
 		"reports": {
 			"summary": {
 				"command": "090 PRECINCT",
@@ -21084,8 +21084,8 @@
 				}
 			],
 			"arrests": {
-				"felony": 72,
-				"misdemeanor": 64
+				"felony": 75,
+				"misdemeanor": 65
 			},
 			"awards": [
 				{
@@ -27121,7 +27121,8 @@
 						{
 							"recommendation": "B-CD,                                                                                                                                                                                                                                 C-CD",
 							"description": "01.Improper communication with a relative of a prisoner.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (1 day(s) )"
 						}
 					]
 				}
@@ -30311,8 +30312,7 @@
 						{
 							"recommendation": "A-CD",
 							"description": "01.Wrongfully discourteous.",
-							"group_id": "1",
-							"penalty": "A - COMMAND DISCIPLINE"
+							"group_id": "1"
 						}
 					]
 				}
@@ -33893,20 +33893,17 @@
 						{
 							"disposition": "GUILTY",
 							"description": "WHILE ON-DUTY, WAS ABSENT FROM HIS ASSIGNED POST WITHOUT PERMISSION OR POLICE NECESSITY.",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (13 day(s) )"
+							"group_id": "1"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "WHILE ON-DUTY, FAILED TO SUPERVISE.",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (13 day(s) )"
+							"group_id": "1"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "WHILE ON-DUTY, DID FAIL AND NEGLECT TO MAKE REQUIRED ENTRIES IN HIS ACTIVITY LOG.",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (13 day(s) )"
+							"group_id": "1"
 						}
 					]
 				},
@@ -33915,20 +33912,17 @@
 						{
 							"disposition": "GUILTY",
 							"description": "WHILE IN THE RANK OF POLICE OFFICER WRONGFULLY SUBMITTED A LETTER OR HAD A LETTER SUBMITTED ON HIS BEHALF REQUESTING AN ACCOMMODATION FOR THE SERGEANT'S PROMOTION EXAM TO THE NEW YORK CITY DEPARTMENT OF CITY WIDE ADMINISTRATIVE SERVICES (DCAS), WHICH POLICE OFFICER OTHMAN KNEW CONTAINED A FALSE STATEMENT OR FALSE INFORMATION, AND KNOWING THAT IT WILL BE FILED WITH, REGISTERED OR RECORDED IN OR  OTHERWISE  BECOME A PART OF THE RECORDS OF DCAS.",
-							"group_id": "2",
-							"penalty": "DISMISSAL PROBATION (12 month(s) ), SUSPENDED W/O PAY (30 day(s) ), VACATION DAYS (30 day(s) )"
+							"group_id": "2"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "WHILE IN THE RANK OF SERGEANT WRONGFULLY SUBMITTED A LETTER OR HAD A LETTER SUBMITTED ON HIS BEHALF REQUESTING AN ACCOMMODATION FOR THE  LIEUTENANT'S PROMOTION EXAM TO THE NEW YORK CITY DEPARTMENT OF CITY WIDE ADMINISTRATIVE SERVICES (DCAS), WHICH SERGEANT OTHMAN KNEW CONTAINED A FALSE STATEMENT OR FALSE INFORMATION, AND KNOWING THAT IT WILL BE FILED WITH, REGISTERED OR RECORDED IN OR OTHERWISE BECOME A PART OF THE RECORDS OF DCAS.",
-							"group_id": "2",
-							"penalty": "DISMISSAL PROBATION (12 month(s) ), SUSPENDED W/O PAY (30 day(s) ), VACATION DAYS (30 day(s) )"
+							"group_id": "2"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "WHILE IN THE RANK OF LIEUTENANT WRONGFULLY SUBMITTED A LETTER OR HAD A LETTER SUBMITTED ON HIS BEHALF REQUESTING AN ACCOMMODATION FOR THE CAPTAIN'S PROMOTION EXAM TO THE NEW YORK CITY DEPARTMENT OF CITY WIDE ADMINISTRATIVE SERVICES (DCAS), WHICH LIEUTENANT OTHMAN KNEW CONTAINED A FALSE STATEMENT OR FALSE INFORMATION, AND KNOWING THAT IT WILL BE FILED WITH, REGISTERED OR RECORDED IN OR OTHERWISE BECOME A PART OF THE RECORDS OF DCAS.",
-							"group_id": "2",
-							"penalty": "DISMISSAL PROBATION (12 month(s) ), SUSPENDED W/O PAY (30 day(s) ), VACATION DAYS (30 day(s) )"
+							"group_id": "2"
 						}
 					]
 				}

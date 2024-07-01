@@ -4016,7 +4016,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 3,
-				"felony": 222,
+				"felony": 223,
 				"misdemeanor": 270,
 				"violation": 11
 			},
@@ -4528,7 +4528,7 @@
 		"shield_no": "5056",
 		"appt_date": "7/9/2014",
 		"recognition_count": 21,
-		"arrest_count": 288,
+		"arrest_count": 292,
 		"reports": {
 			"summary": {
 				"command": "NARC BORO BROOKLYN NORTH",
@@ -6774,17 +6774,17 @@
 		"first_name": "YAEL",
 		"last_name": "MAGORI",
 		"middle_initial": "J",
-		"rank": "LIEUTENANT",
+		"rank": "CAPTAIN",
 		"shield_no": "",
 		"appt_date": "7/10/2006",
 		"recognition_count": 8,
 		"arrest_count": 236,
 		"reports": {
 			"summary": {
-				"command": "078 PRECINCT",
-				"assignment_date": "12/1/2023",
+				"command": "UNIFORMED PROMOTIONS TRN UNIT",
+				"assignment_date": "6/28/2024",
 				"ethnicity": "WHITE",
-				"rank_desc": "LIEUTENANT",
+				"rank_desc": "CAPTAIN",
 				"shield_no": "",
 				"appt_date": "7/10/2006"
 			},
@@ -6802,6 +6802,11 @@
 				{
 					"rank": "LIEUTENANT",
 					"date": "8/1/2016",
+					"shield_no": ""
+				},
+				{
+					"rank": "CAPTAIN",
+					"date": "6/28/2024",
 					"shield_no": ""
 				}
 			],
@@ -6824,12 +6829,14 @@
 						{
 							"recommendation": "CHARGES AND SPECIFICATIONS",
 							"description": "01.Failed to make required entries in Department Logs.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (10 day(s) )"
 						},
 						{
 							"recommendation": "CHARGES AND SPECIFICATIONS",
 							"description": "02.Failed to take police action",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "B - COMMAND DISCIPLINE, VACATION DAYS (10 day(s) )"
 						}
 					]
 				}
@@ -6875,7 +6882,7 @@
 				}
 			]
 		},
-		"command": "078 PRECINCT"
+		"command": "UNIFORMED PROMOTIONS TRN UNIT"
 	},
 	{
 		"taxid": 963131,
@@ -10619,7 +10626,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 30,
+				"felony": 32,
 				"misdemeanor": 18,
 				"violation": 2
 			},
@@ -16167,7 +16174,7 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "6687",
 		"appt_date": "7/11/2005",
-		"recognition_count": 30,
+		"recognition_count": 31,
 		"arrest_count": 942,
 		"reports": {
 			"summary": {
@@ -16221,6 +16228,10 @@
 				"violation": 6
 			},
 			"awards": [
+				{
+					"date": "7/14/2023",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "11/8/2022",
 					"name": "EXCELLENT POLICE DUTY"
@@ -17531,7 +17542,7 @@
 		"shield_no": "23102",
 		"appt_date": "10/11/2016",
 		"recognition_count": 1,
-		"arrest_count": 277,
+		"arrest_count": 278,
 		"reports": {
 			"summary": {
 				"command": "043 DET SQUAD",
@@ -21384,7 +21395,7 @@
 		"shield_no": "26266",
 		"appt_date": "1/9/2013",
 		"recognition_count": 4,
-		"arrest_count": 111,
+		"arrest_count": 113,
 		"reports": {
 			"summary": {
 				"command": "105 PRECINCT",
@@ -21508,7 +21519,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 61,
-				"misdemeanor": 39,
+				"misdemeanor": 40,
 				"violation": 3
 			},
 			"awards": [
@@ -21706,7 +21717,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 61,
+				"felony": 62,
 				"misdemeanor": 32,
 				"violation": 3
 			},
@@ -31577,6 +31588,11 @@
 					"rank": "POLICE OFFICER",
 					"date": "1/9/2013",
 					"shield_no": "2034"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "6/28/2024",
+					"shield_no": "4799"
 				}
 			],
 			"documents": [],
@@ -32209,27 +32225,32 @@
 						{
 							"disposition": "PLEADED GUILTY",
 							"description": "Failed to make Required Entries in Department Logs.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "VACATION DAYS (15 day(s) )"
 						},
 						{
 							"disposition": "PLEADED GUILTY",
 							"description": "Failed to Prepare a Property Clerk's Invoice Worksheet, as required.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "VACATION DAYS (15 day(s) )"
 						},
 						{
 							"disposition": "PLEADED GUILTY",
 							"description": "Failed to submit reports.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "VACATION DAYS (15 day(s) )"
 						},
 						{
 							"disposition": "PLEADED GUILTY",
 							"description": "Failed to make proper notifications.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "VACATION DAYS (15 day(s) )"
 						},
 						{
 							"disposition": "PLEADED GUILTY",
 							"description": "Failed to make proper notifications.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "VACATION DAYS (15 day(s) )"
 						}
 					]
 				}
@@ -39254,24 +39275,8 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [
-				{
-					"entry": "3/13/2024 12:00:00 AM",
-					"allegations_count": 1
-				}
-			],
-			"discipline": [
-				{
-					"allegations": [
-						{
-							"recommendation": "A-CD",
-							"description": "01.Failed to activate their body worn camera.",
-							"group_id": "1",
-							"penalty": "A - COMMAND DISCIPLINE"
-						}
-					]
-				}
-			],
+			"disciplineHistory": [],
+			"discipline": [],
 			"arrests": {
 				"felony": 31,
 				"misdemeanor": 89,
@@ -39575,6 +39580,11 @@
 					"rank": "POLICE OFFICER",
 					"date": "4/25/2018",
 					"shield_no": "3242"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "6/28/2024",
+					"shield_no": "1104"
 				}
 			],
 			"documents": [],
@@ -44741,109 +44751,6 @@
 		"command": "CRIME SCENE UNIT"
 	},
 	{
-		"taxid": 927614,
-		"full_name": "MARTIN, SCOTT C",
-		"first_name": "SCOTT",
-		"last_name": "MARTIN",
-		"middle_initial": "C",
-		"rank": "DETECTIVE 3RD GRADE",
-		"shield_no": "6182",
-		"appt_date": "10/10/2000",
-		"recognition_count": 14,
-		"arrest_count": 825,
-		"reports": {
-			"summary": {
-				"command": "CEIS BORDER ENFORCEMENT SEC TASK FORCE",
-				"assignment_date": "9/15/2021",
-				"ethnicity": "WHITE",
-				"rank_desc": "DETECTIVE 3RD GRADE",
-				"shield_no": "6182",
-				"appt_date": "10/10/2000"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "9/29/2000",
-					"shield_no": "28047"
-				},
-				{
-					"rank": "DETECTIVE",
-					"date": "4/28/2006",
-					"shield_no": "6182"
-				}
-			],
-			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
-			"arrests": {
-				"infraction": 1,
-				"felony": 318,
-				"misdemeanor": 465,
-				"other": 37,
-				"violation": 4
-			},
-			"awards": [
-				{
-					"date": "7/4/2017",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "1/25/2004",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "10/17/2003",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "10/9/2003",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "9/16/2003",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "7/3/2003",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "4/15/2003",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "4/12/2003",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "2/14/2003",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "1/19/2003",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "12/8/2002",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "11/23/2002",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "4/15/2002",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "9/23/2001",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
-		},
-		"command": "CEIS BORDER ENFORCEMENT SEC TASK FORCE"
-	},
-	{
 		"taxid": 947216,
 		"full_name": "MARTIN, WHITNEY B",
 		"first_name": "WHITNEY",
@@ -45029,7 +44936,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 8,
+				"felony": 9,
 				"misdemeanor": 24
 			},
 			"awards": []
@@ -45576,7 +45483,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 12,
-				"misdemeanor": 25
+				"misdemeanor": 26
 			},
 			"awards": []
 		},
@@ -46050,7 +45957,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 65,
+				"felony": 69,
 				"misdemeanor": 67,
 				"violation": 1
 			},
@@ -58988,7 +58895,7 @@
 		"shield_no": "967",
 		"appt_date": "7/9/2014",
 		"recognition_count": 1,
-		"arrest_count": 314,
+		"arrest_count": 316,
 		"reports": {
 			"summary": {
 				"command": "043 PRECINCT",
@@ -63470,7 +63377,7 @@
 		"first_name": "SCOTT",
 		"last_name": "MATEYASCHUK",
 		"middle_initial": "W",
-		"rank": "DETECTIVE 2ND GRADE",
+		"rank": "DETECTIVE 1ST GRADE",
 		"shield_no": "2589",
 		"appt_date": "3/1/2000",
 		"recognition_count": 36,
@@ -63480,7 +63387,7 @@
 				"command": "ESU CANINE TEAM",
 				"assignment_date": "9/1/2011",
 				"ethnicity": "WHITE",
-				"rank_desc": "DETECTIVE 2ND GRADE",
+				"rank_desc": "DETECTIVE 1ST GRADE",
 				"shield_no": "2589",
 				"appt_date": "3/1/2000"
 			},
@@ -72601,8 +72508,7 @@
 						{
 							"disposition": "GUILTY",
 							"description": "WHILE OFF-DUTY, WAS WRONGFULLY UNFIT FOR DUTY DUE TO THE CONSUMPTION OF ALCOHOL.",
-							"group_id": "1",
-							"penalty": "COUNSELING, VACATION DAYS (15 day(s) )"
+							"group_id": "1"
 						}
 					]
 				}
@@ -75722,8 +75628,8 @@
 		"arrest_count": 233,
 		"reports": {
 			"summary": {
-				"command": "067 PRECINCT",
-				"assignment_date": "6/27/2022",
+				"command": "INTEL CIS FIO PROGRAM",
+				"assignment_date": "6/24/2024",
 				"ethnicity": "WHITE",
 				"rank_desc": "SERGEANT",
 				"shield_no": "3564",
@@ -75879,7 +75785,7 @@
 				}
 			]
 		},
-		"command": "067 PRECINCT"
+		"command": "INTEL CIS FIO PROGRAM"
 	},
 	{
 		"taxid": 959800,
@@ -78878,7 +78784,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 25,
-				"misdemeanor": 51
+				"misdemeanor": 53
 			},
 			"awards": []
 		},
@@ -86782,27 +86688,32 @@
 						{
 							"disposition": "GUILTY",
 							"description": "WHILE OFF-DUTY, WRONGFULLY OPERATED A MOTOR VEHICLE WHILE UNDER THE INFLUENCE OF AN INTOXICANT.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), SUSPENDED W/O PAY (15 day(s) ), VACATION DAYS (35 day(s) )"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "WHILE OFF-DUTY, WRONGFULLY OPERATED A VEHICLE WHILE HER ABILITY WAS IMPAIRED BY AN INTOXICANT.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), SUSPENDED W/O PAY (15 day(s) ), VACATION DAYS (35 day(s) )"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "WHILE OFF-DUTY, REFUSED TO SUBMIT TO A CHEMICAL BREATH TEST.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), SUSPENDED W/O PAY (15 day(s) ), VACATION DAYS (35 day(s) )"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "WHILE OFF-DUTY, CONSUMED AN INTOXICANT TO THE EXTENT THAT SHE WAS UNFIT FOR DUTY.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), SUSPENDED W/O PAY (15 day(s) ), VACATION DAYS (35 day(s) )"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "WRONGFULLY MADE FALSE AND MISLEADING STATEMENTS TO A MEMBER OF THE PORT AUTHORITY POLICE DEPARTMENT.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), SUSPENDED W/O PAY (15 day(s) ), VACATION DAYS (35 day(s) )"
 						}
 					]
 				}
@@ -103780,7 +103691,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 94,
+				"felony": 97,
 				"misdemeanor": 97,
 				"other": 1,
 				"violation": 13
@@ -115427,7 +115338,8 @@
 						{
 							"recommendation": "TRAINING",
 							"description": "01.Failed to make required entries in Department Logs.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "INSTRUCTIONS"
 						}
 					]
 				}
@@ -116551,7 +116463,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 198,
+				"felony": 199,
 				"misdemeanor": 502
 			},
 			"awards": []
@@ -117301,7 +117213,7 @@
 		"shield_no": "3924",
 		"appt_date": "7/9/2014",
 		"recognition_count": 19,
-		"arrest_count": 239,
+		"arrest_count": 241,
 		"reports": {
 			"summary": {
 				"command": "078 DET SQUAD",
@@ -124336,7 +124248,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 79,
+				"felony": 80,
 				"misdemeanor": 74
 			},
 			"awards": [
@@ -126136,7 +126048,7 @@
 		"shield_no": "2780",
 		"appt_date": "10/24/2018",
 		"recognition_count": 19,
-		"arrest_count": 152,
+		"arrest_count": 154,
 		"reports": {
 			"summary": {
 				"command": "103RD DETECTIVE SQUAD",
@@ -135829,7 +135741,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 2,
-				"felony": 465,
+				"felony": 467,
 				"misdemeanor": 553,
 				"violation": 15
 			},
@@ -138225,7 +138137,7 @@
 		"shield_no": "21050",
 		"appt_date": "7/8/2015",
 		"recognition_count": 13,
-		"arrest_count": 298,
+		"arrest_count": 299,
 		"reports": {
 			"summary": {
 				"command": "MANHATTAN CHILD ABUSE SQUAD",
@@ -144456,7 +144368,7 @@
 		"shield_no": "13159",
 		"appt_date": "7/1/2019",
 		"recognition_count": 4,
-		"arrest_count": 149,
+		"arrest_count": 153,
 		"reports": {
 			"summary": {
 				"command": "081 PRECINCT",
@@ -149382,7 +149294,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 6,
-				"misdemeanor": 42,
+				"misdemeanor": 43,
 				"other": 1,
 				"violation": 2
 			},
@@ -152059,8 +151971,7 @@
 						{
 							"recommendation": "INSTRUCTIONS",
 							"description": "01.Failed to document a consent to search as required",
-							"group_id": "1",
-							"penalty": "INSTRUCTIONS"
+							"group_id": "1"
 						}
 					]
 				}
@@ -158353,7 +158264,7 @@
 			"documents": [],
 			"disciplineHistory": [
 				{
-					"entry": "3/11/2019 12:00:00 AM",
+					"entry": "9/13/2019 12:00:00 AM",
 					"charges_count": 4
 				}
 			],
@@ -168479,7 +168390,7 @@
 		"shield_no": "6730",
 		"appt_date": "9/29/2000",
 		"recognition_count": 14,
-		"arrest_count": 571,
+		"arrest_count": 577,
 		"reports": {
 			"summary": {
 				"command": "JOINT BANK ROB T/F",
@@ -191323,17 +191234,20 @@
 						{
 							"disposition": "GUILTY",
 							"description": "WHILE ON-DUTY, WRONGFULLY SEARCHED A PERSON KNOWN TO THE DEPARTMENT's VEHICLE WITHOUT SUFFICIENT LEGAL AUTHORITY.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "VACATION DAYS (7 day(s) )"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "WHILE ON-DUTY, ABUSED HIS AUTHORITY AS A MEMBER OF THE NEW YORK CITY POLICE DEPARTMENT IN THAT HE FRISKED A PERSON KNOWN TO THE DEPARTMENT WITHOUT SUFFICIENT LEGAL AUTHORITY.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "VACATION DAYS (7 day(s) )"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "WHILE ON-DUTY, WRONGFULLY SEARCHED A PERSON KNOWN TO THE DEPARTMENT's VEHICLE WITHOUT SUFFICIENT LEGAL AUTHORITY.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "VACATION DAYS (7 day(s) )"
 						}
 					]
 				}
@@ -192568,7 +192482,7 @@
 		"shield_no": "6430",
 		"appt_date": "1/20/2004",
 		"recognition_count": 75,
-		"arrest_count": 578,
+		"arrest_count": 579,
 		"reports": {
 			"summary": {
 				"command": "DRUG ENFORCEMENT TASK FORCE",

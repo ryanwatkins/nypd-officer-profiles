@@ -2919,7 +2919,7 @@
 		"shield_no": "19316",
 		"appt_date": "1/10/2005",
 		"recognition_count": 3,
-		"arrest_count": 257,
+		"arrest_count": 258,
 		"reports": {
 			"summary": {
 				"command": "019 PRECINCT",
@@ -3931,7 +3931,7 @@
 			"arrests": {
 				"infraction": 11,
 				"felony": 62,
-				"misdemeanor": 552,
+				"misdemeanor": 557,
 				"violation": 4
 			},
 			"awards": [
@@ -7941,7 +7941,7 @@
 			"arrests": {
 				"infraction": 3,
 				"felony": 39,
-				"misdemeanor": 150,
+				"misdemeanor": 152,
 				"other": 2,
 				"violation": 6
 			},
@@ -15341,7 +15341,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 16,
+				"felony": 17,
 				"misdemeanor": 82,
 				"violation": 5
 			},
@@ -15953,7 +15953,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 15,
+				"felony": 19,
 				"misdemeanor": 23,
 				"violation": 1
 			},
@@ -33605,7 +33605,7 @@
 		"shield_no": "8780",
 		"appt_date": "7/11/2005",
 		"recognition_count": 2,
-		"arrest_count": 274,
+		"arrest_count": 275,
 		"reports": {
 			"summary": {
 				"command": "075 PRECINCT",
@@ -34552,7 +34552,7 @@
 		"shield_no": "6754",
 		"appt_date": "7/2/2018",
 		"recognition_count": 0,
-		"arrest_count": 38,
+		"arrest_count": 39,
 		"reports": {
 			"summary": {
 				"command": "073 PRECINCT",
@@ -39043,7 +39043,7 @@
 		"rank": "DETECTIVE 3RD GRADE",
 		"shield_no": "1711",
 		"appt_date": "10/11/2016",
-		"recognition_count": 31,
+		"recognition_count": 33,
 		"arrest_count": 232,
 		"reports": {
 			"summary": {
@@ -43302,17 +43302,20 @@
 						{
 							"recommendation": "OTHER",
 							"description": "01.Failed to make proper notifications.",
-							"group_id": "2"
+							"group_id": "2",
+							"penalty": "INSTRUCTIONS"
 						},
 						{
 							"recommendation": "NO DISCIPLINARY ACTION",
 							"description": "02.Made false or misleading statements to the New York City Police Department.",
-							"group_id": "2"
+							"group_id": "2",
+							"penalty": "INSTRUCTIONS"
 						},
 						{
 							"recommendation": "OTHER",
 							"description": "03.Made misleading or inaccurate statements during an official Department interview.",
-							"group_id": "2"
+							"group_id": "2",
+							"penalty": "INSTRUCTIONS"
 						}
 					]
 				}
@@ -43404,7 +43407,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 161,
+				"felony": 162,
 				"misdemeanor": 414,
 				"violation": 2
 			},
@@ -48395,7 +48398,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 24,
-				"misdemeanor": 33
+				"misdemeanor": 35
 			},
 			"awards": []
 		},
@@ -49846,7 +49849,7 @@
 		"shield_no": "25844",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 82,
+		"arrest_count": 83,
 		"reports": {
 			"summary": {
 				"command": "071 PRECINCT",
@@ -51710,7 +51713,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 356,
-				"misdemeanor": 269,
+				"misdemeanor": 270,
 				"violation": 3
 			},
 			"awards": [
@@ -61125,7 +61128,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 157,
-				"misdemeanor": 679,
+				"misdemeanor": 680,
 				"violation": 7
 			},
 			"awards": [
@@ -66738,7 +66741,7 @@
 		"shield_no": "31961",
 		"appt_date": "7/13/2016",
 		"recognition_count": 2,
-		"arrest_count": 199,
+		"arrest_count": 203,
 		"reports": {
 			"summary": {
 				"command": "PBMN COMMUNITY RESPONSE TEAM",
@@ -69062,7 +69065,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 64,
+				"felony": 69,
 				"misdemeanor": 93
 			},
 			"awards": [
@@ -75026,8 +75029,7 @@
 						{
 							"disposition": "PLEADED GUILTY",
 							"description": "Refused to submit to a breathalyzer test.",
-							"group_id": "1",
-							"penalty": "PRE-TRIAL SUSPENSION DAYS (30 day(s) )"
+							"group_id": "1"
 						}
 					]
 				}
@@ -77941,14 +77943,12 @@
 						{
 							"recommendation": "TRAINING",
 							"description": "01.Improper removal to hospital",
-							"group_id": "1",
-							"penalty": "TRAINING"
+							"group_id": "1"
 						},
 						{
 							"recommendation": "OTHER",
 							"description": "02.Improper use of body worn camera",
-							"group_id": "1",
-							"penalty": "TRAINING"
+							"group_id": "1"
 						}
 					]
 				}

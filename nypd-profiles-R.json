@@ -1563,8 +1563,24 @@
 				}
 			],
 			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
+			"disciplineHistory": [
+				{
+					"entry": "5/2/2024 12:00:00 AM",
+					"allegations_count": 1
+				}
+			],
+			"discipline": [
+				{
+					"allegations": [
+						{
+							"recommendation": "OTHER",
+							"description": "01.Failed to timely activate body worn camera.",
+							"group_id": "1",
+							"penalty": "TRAINING"
+						}
+					]
+				}
+			],
 			"arrests": {
 				"felony": 105,
 				"misdemeanor": 27
@@ -1858,7 +1874,7 @@
 		"shield_no": "7757",
 		"appt_date": "7/8/2015",
 		"recognition_count": 17,
-		"arrest_count": 229,
+		"arrest_count": 232,
 		"reports": {
 			"summary": {
 				"command": "NARC BORO BRONX MAJOR CASE UNIT",
@@ -3352,7 +3368,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 119,
+				"felony": 120,
 				"misdemeanor": 68
 			},
 			"awards": [
@@ -8489,7 +8505,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 36,
-				"misdemeanor": 77,
+				"misdemeanor": 79,
 				"violation": 2
 			},
 			"awards": [
@@ -8912,7 +8928,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 41,
-				"misdemeanor": 130,
+				"misdemeanor": 131,
 				"violation": 29
 			},
 			"awards": [
@@ -9896,6 +9912,10 @@
 				"misdemeanor": 66
 			},
 			"awards": [
+				{
+					"date": "7/14/2023",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "10/23/2018",
 					"name": "EXCELLENT POLICE DUTY"
@@ -15577,7 +15597,7 @@
 			],
 			"arrests": {
 				"felony": 8,
-				"misdemeanor": 82,
+				"misdemeanor": 83,
 				"violation": 15
 			},
 			"awards": []
@@ -21927,7 +21947,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 13,
-				"misdemeanor": 40
+				"misdemeanor": 42
 			},
 			"awards": []
 		},
@@ -29631,26 +29651,22 @@
 						{
 							"recommendation": "NO DISCIPLINARY ACTION",
 							"description": "01.Associated with a known criminal.",
-							"group_id": "1",
-							"penalty": "C - COMMAND DISCIPLINE, INSTRUCTIONS, VACATION DAYS (20 day(s) )"
+							"group_id": "1"
 						},
 						{
 							"recommendation": "C-CD",
 							"description": "02.Misuse of dept property for unrelated official business.",
-							"group_id": "1",
-							"penalty": "C - COMMAND DISCIPLINE, INSTRUCTIONS, VACATION DAYS (20 day(s) )"
+							"group_id": "1"
 						},
 						{
 							"recommendation": "NO DISCIPLINARY ACTION",
 							"description": "03.failed to notify",
-							"group_id": "1",
-							"penalty": "C - COMMAND DISCIPLINE, INSTRUCTIONS, VACATION DAYS (20 day(s) )"
+							"group_id": "1"
 						},
 						{
 							"recommendation": "NO DISCIPLINARY ACTION",
 							"description": "04.misleading statements",
-							"group_id": "1",
-							"penalty": "C - COMMAND DISCIPLINE, INSTRUCTIONS, VACATION DAYS (20 day(s) )"
+							"group_id": "1"
 						}
 					]
 				}
@@ -34533,7 +34549,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 220,
+				"felony": 221,
 				"misdemeanor": 177,
 				"other": 1,
 				"violation": 6
@@ -34583,7 +34599,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 286,
+				"felony": 287,
 				"misdemeanor": 251,
 				"other": 5,
 				"violation": 1
@@ -35673,32 +35689,38 @@
 						{
 							"disposition": "GUILTY",
 							"description": "ABUSED HIS AUTHORITY AS A MEMBER OF THE NEW YORK CITY POLICE DEPARTMENT, IN THAT HE STOPPED A PERSON UNKNOWN TO THE DEPARTMENT WITHOUT SUFFICIENT LEGAL AUTHORITY.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "VACATION DAYS (10 day(s) )"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "ARRESTED A PERSON UNKNOWN TO THE DEPARTMENT WITHOUT SUFFICIENT LEGAL AUTHORITY.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "VACATION DAYS (10 day(s) )"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "ABUSED AUTHORITY IN THAT SAID POLICE OFFICER FRISKED A PERSON UNKNOWN TO THE DEPARTMENT WITHOUT SUFFICIENT LEGAL AUTHORITY.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "VACATION DAYS (10 day(s) )"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "SEARCHED A PERSON UNKNOWN TO THE DEPARTMENT WITHYOUT SUFFICIENT LEGAL AUTHORITY.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "VACATION DAYS (10 day(s) )"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "ABSUED HIS AUTHORITY AS A MEMBER OF SERVICE, IN THAT SAID POLICE OFFICER SEIZED A PERSON'S CELLPHONE UNKNOWN TO THE DEPARTMENT WITHOUT SUFFICIENT LEGAL AUTHORITY.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "VACATION DAYS (10 day(s) )"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "ON DUTY, ABUSED HIS AUTHORITY IN THAT HE SEARCHED A PERSON KNOWN TO THE DEPARTMENT'S CELL PHONE WITHOUT SUFFICIENT LEGAL AUTHORITY.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "VACATION DAYS (10 day(s) )"
 						}
 					]
 				}
@@ -36856,8 +36878,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 68,
-				"misdemeanor": 95
+				"felony": 69,
+				"misdemeanor": 96
 			},
 			"awards": []
 		},
@@ -40422,7 +40444,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 43,
+				"felony": 44,
 				"misdemeanor": 72,
 				"other": 2
 			},
@@ -40517,7 +40539,7 @@
 			"arrests": {
 				"infraction": 10,
 				"felony": 92,
-				"misdemeanor": 87,
+				"misdemeanor": 88,
 				"other": 1,
 				"violation": 19
 			},
@@ -47285,7 +47307,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 151,
-				"misdemeanor": 174,
+				"misdemeanor": 175,
 				"violation": 19
 			},
 			"awards": [
@@ -49574,7 +49596,7 @@
 		"shield_no": "10159",
 		"appt_date": "7/6/2011",
 		"recognition_count": 10,
-		"arrest_count": 256,
+		"arrest_count": 257,
 		"reports": {
 			"summary": {
 				"command": "STRATEGIC RESP GRP 2 BRONX",
@@ -54617,7 +54639,7 @@
 		"shield_no": "2973",
 		"appt_date": "3/1/2000",
 		"recognition_count": 10,
-		"arrest_count": 1015,
+		"arrest_count": 1016,
 		"reports": {
 			"summary": {
 				"command": "033 DET SQUAD",
@@ -57440,7 +57462,7 @@
 		"rank": "POLICE OFFICER",
 		"shield_no": "3041",
 		"appt_date": "10/24/2018",
-		"recognition_count": 9,
+		"recognition_count": 11,
 		"arrest_count": 96,
 		"reports": {
 			"summary": {
@@ -60194,7 +60216,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 236,
-				"misdemeanor": 499
+				"misdemeanor": 502
 			},
 			"awards": []
 		},
@@ -60765,7 +60787,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 440,
+				"felony": 444,
 				"misdemeanor": 722,
 				"other": 3,
 				"violation": 3
@@ -70386,7 +70408,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 2,
-				"misdemeanor": 3
+				"misdemeanor": 4
 			},
 			"awards": []
 		},
@@ -72563,7 +72585,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 113,
+				"felony": 114,
 				"misdemeanor": 172,
 				"violation": 1
 			},
@@ -82257,7 +82279,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 84,
+				"felony": 85,
 				"misdemeanor": 145
 			},
 			"awards": [
@@ -86649,7 +86671,7 @@
 		"shield_no": "9145",
 		"appt_date": "10/7/2019",
 		"recognition_count": 0,
-		"arrest_count": 50,
+		"arrest_count": 51,
 		"reports": {
 			"summary": {
 				"command": "009 PRECINCT",
@@ -87773,7 +87795,7 @@
 		"shield_no": "6953",
 		"appt_date": "3/1/2000",
 		"recognition_count": 19,
-		"arrest_count": 685,
+		"arrest_count": 687,
 		"reports": {
 			"summary": {
 				"command": "HATE CRIME TASK FORCE",
@@ -95109,26 +95131,22 @@
 						{
 							"disposition": "GUILTY",
 							"description": "UTILIZED DEPARTMENT COMPUTER SYSTEMS TO INQUIRE ABOUT AN INDIVIDUAL KNOWN TO THE DEPARTMENT, FOR PERSONAL REASONS.",
-							"group_id": "1",
-							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+							"group_id": "1"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "DIRECTED ANOTHER MEMBER OF THE SERVICE TO UTILIZE DEPARTMENT COMPUTER SYSTEMS TO INQUIRE ABOUT AN INDIVIDUAL KNOWN TO THE DEPARTMENT FOR PERSONAL REASONS.",
-							"group_id": "1",
-							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+							"group_id": "1"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "KNOWNINGLY ASSOCIATED WITH AN INDIVIDUAL KNOWN TO THE DEPARTMENT REASONABLY BELIEVED TO HAVE ENGAGED IN CRIMINAL ACTIVITIES.",
-							"group_id": "1",
-							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+							"group_id": "1"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "DISCLOSED THE RESULTS OBTAINED FROM IMPROPER SEARCHES OF DEPARTMENT COMPUTERS TO CIVILIAN THIRD PARTIES.",
-							"group_id": "1",
-							"penalty": "DISMISSAL PROBATION (12 month(s) ), VACATION DAYS (30 day(s) )"
+							"group_id": "1"
 						}
 					]
 				}
@@ -97649,12 +97667,14 @@
 						{
 							"disposition": "GUILTY",
 							"description": "Threatened another mos.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "COUNSELING, VACATION DAYS (30 day(s) )"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "Involved in a physical altercation.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "COUNSELING, VACATION DAYS (30 day(s) )"
 						}
 					]
 				},
@@ -101681,6 +101701,11 @@
 					"rank": "DETECTIVE",
 					"date": "5/31/2024",
 					"shield_no": "4485"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "6/28/2024",
+					"shield_no": "5064"
 				}
 			],
 			"documents": [
@@ -109560,68 +109585,6 @@
 		"command": "048 PRECINCT"
 	},
 	{
-		"taxid": 928711,
-		"full_name": "ROSARIO, MICHELLY",
-		"first_name": "MICHELLY",
-		"last_name": "ROSARIO",
-		"middle_initial": "",
-		"rank": "LIEUTENANT",
-		"shield_no": "",
-		"appt_date": "7/2/2001",
-		"recognition_count": 3,
-		"arrest_count": 105,
-		"reports": {
-			"summary": {
-				"command": "041 PRECINCT",
-				"assignment_date": "4/2/2021",
-				"ethnicity": "HISPANIC",
-				"rank_desc": "LIEUTENANT",
-				"shield_no": "",
-				"appt_date": "7/2/2001"
-			},
-			"ranks": [
-				{
-					"rank": "POLICE OFFICER",
-					"date": "7/2/2001",
-					"shield_no": "28909"
-				},
-				{
-					"rank": "SERGEANT",
-					"date": "5/30/2008",
-					"shield_no": "1778"
-				},
-				{
-					"rank": "LIEUTENANT",
-					"date": "3/18/2021",
-					"shield_no": ""
-				}
-			],
-			"documents": [],
-			"disciplineHistory": [],
-			"discipline": [],
-			"arrests": {
-				"felony": 31,
-				"misdemeanor": 73,
-				"violation": 1
-			},
-			"awards": [
-				{
-					"date": "5/16/2006",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/13/2005",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "11/24/2003",
-					"name": "EXCELLENT POLICE DUTY"
-				}
-			]
-		},
-		"command": "041 PRECINCT"
-	},
-	{
 		"taxid": 923467,
 		"full_name": "ROSARIO, NESQUELMA",
 		"first_name": "NESQUELMA",
@@ -113447,6 +113410,10 @@
 				{
 					"entry": "2/6/2023 12:00:00 AM",
 					"charges_count": 2
+				},
+				{
+					"entry": "6/29/2024 12:00:00 AM",
+					"allegations_count": 1
 				}
 			],
 			"discipline": [
@@ -113465,11 +113432,20 @@
 							"penalty": "VACATION DAYS (20 day(s) )"
 						}
 					]
+				},
+				{
+					"allegations": [
+						{
+							"recommendation": "CHARGES AND SPECIFICATIONS",
+							"description": "01.Wrongfully discourteous.",
+							"group_id": "1"
+						}
+					]
 				}
 			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 94,
+				"felony": 95,
 				"misdemeanor": 28
 			},
 			"awards": [
@@ -116698,12 +116674,14 @@
 						{
 							"recommendation": "B-CD",
 							"description": "01.Violated off duty employment rules.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "INSTRUCTIONS"
 						},
 						{
 							"recommendation": "B-CD",
 							"description": "02.Violated social media guidelines.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "INSTRUCTIONS"
 						}
 					]
 				}
@@ -120825,7 +120803,7 @@
 		"shield_no": "5324",
 		"appt_date": "4/15/2019",
 		"recognition_count": 34,
-		"arrest_count": 49,
+		"arrest_count": 50,
 		"reports": {
 			"summary": {
 				"command": "026 DET SQUAD",

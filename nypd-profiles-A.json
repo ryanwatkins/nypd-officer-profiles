@@ -7381,7 +7381,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 12,
-				"misdemeanor": 25,
+				"misdemeanor": 26,
 				"violation": 1
 			},
 			"awards": [
@@ -10058,7 +10058,7 @@
 			"arrests": {
 				"infraction": 1,
 				"felony": 28,
-				"misdemeanor": 35,
+				"misdemeanor": 36,
 				"violation": 1
 			},
 			"awards": []
@@ -12771,14 +12771,12 @@
 						{
 							"disposition": "GUILTY",
 							"description": "SENT THREATENING TEXT MESSAGES TO A PERSON KNOWN TO THE DEPARTMENT.",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (10 day(s) )"
+							"group_id": "1"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "CAUSED UNAUTHORIZED DEPARTMENT COMPUTER INQUIRIES TO BE MADE THAT WERE NOT RELATED TO OFFICIAL DEPARTMENT BUSINESS.",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (10 day(s) )"
+							"group_id": "1"
 						}
 					]
 				}
@@ -20485,7 +20483,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 8,
+				"felony": 9,
 				"misdemeanor": 20
 			},
 			"awards": [
@@ -22347,7 +22345,7 @@
 		"shield_no": "24983",
 		"appt_date": "11/2/2020",
 		"recognition_count": 0,
-		"arrest_count": 65,
+		"arrest_count": 66,
 		"reports": {
 			"summary": {
 				"command": "114 PRECINCT",
@@ -24791,7 +24789,7 @@
 			],
 			"arrests": {
 				"felony": 37,
-				"misdemeanor": 35
+				"misdemeanor": 36
 			},
 			"awards": [
 				{
@@ -26013,7 +26011,7 @@
 		"shield_no": "5804",
 		"appt_date": "7/8/2008",
 		"recognition_count": 2,
-		"arrest_count": 467,
+		"arrest_count": 468,
 		"reports": {
 			"summary": {
 				"command": "070 DET SQUAD",
@@ -28668,7 +28666,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 42,
-				"misdemeanor": 45
+				"misdemeanor": 46
 			},
 			"awards": [
 				{
@@ -29202,7 +29200,7 @@
 		"shield_no": "18809",
 		"appt_date": "7/6/2011",
 		"recognition_count": 15,
-		"arrest_count": 269,
+		"arrest_count": 270,
 		"reports": {
 			"summary": {
 				"command": "TB CITYWIDE VANDALS TASK FORCE",
@@ -37456,7 +37454,7 @@
 		"shield_no": "1032",
 		"appt_date": "7/11/2012",
 		"recognition_count": 3,
-		"arrest_count": 375,
+		"arrest_count": 376,
 		"reports": {
 			"summary": {
 				"command": "NARC BORO MANHATTAN SOUTH",
@@ -39436,7 +39434,7 @@
 		"shield_no": "1874",
 		"appt_date": "7/10/2006",
 		"recognition_count": 3,
-		"arrest_count": 460,
+		"arrest_count": 461,
 		"reports": {
 			"summary": {
 				"command": "MANHATTAN NORTH GRAND LARCENY SQD",
@@ -43258,6 +43256,11 @@
 					"rank": "POLICE OFFICER",
 					"date": "10/7/2019",
 					"shield_no": "24091"
+				},
+				{
+					"rank": "DETECTIVE",
+					"date": "6/28/2024",
+					"shield_no": "7296"
 				}
 			],
 			"documents": [],
@@ -47535,25 +47538,10 @@
 					"type": "Trial Decision"
 				}
 			],
-			"disciplineHistory": [
-				{
-					"entry": "3/19/2024 12:00:00 AM",
-					"allegations_count": 1
-				}
-			],
-			"discipline": [
-				{
-					"allegations": [
-						{
-							"recommendation": "CHARGES AND SPECIFICATIONS",
-							"description": "01.Wrongfully used a chokehold.",
-							"group_id": "1"
-						}
-					]
-				}
-			],
+			"disciplineHistory": [],
+			"discipline": [],
 			"arrests": {
-				"felony": 63,
+				"felony": 64,
 				"misdemeanor": 95
 			},
 			"awards": [
@@ -49522,7 +49510,7 @@
 		"shield_no": "14932",
 		"appt_date": "7/1/2019",
 		"recognition_count": 0,
-		"arrest_count": 60,
+		"arrest_count": 61,
 		"reports": {
 			"summary": {
 				"command": "115TH DET SQUAD",
@@ -50067,7 +50055,7 @@
 		"shield_no": "27443",
 		"appt_date": "4/12/2017",
 		"recognition_count": 6,
-		"arrest_count": 122,
+		"arrest_count": 124,
 		"reports": {
 			"summary": {
 				"command": "109 PRECINCT",
@@ -50105,7 +50093,7 @@
 			],
 			"arrests": {
 				"felony": 29,
-				"misdemeanor": 91,
+				"misdemeanor": 93,
 				"violation": 2
 			},
 			"awards": [
@@ -52966,7 +52954,7 @@
 		"shield_no": "76",
 		"appt_date": "7/10/2006",
 		"recognition_count": 0,
-		"arrest_count": 109,
+		"arrest_count": 110,
 		"reports": {
 			"summary": {
 				"command": "104 PRECINCT",
@@ -54332,8 +54320,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 158,
-				"misdemeanor": 342,
+				"felony": 162,
+				"misdemeanor": 343,
 				"violation": 5
 			},
 			"awards": [
@@ -54746,12 +54734,14 @@
 						{
 							"disposition": "PLEADED GUILTY",
 							"description": "FAILED TO FOLLOW PROPER PROCEDURES FOR HANDLING AND CLEANING OF FIREARM, RESULTING IN DISCHARGE.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "VACATION DAYS (17 day(s) )"
 						},
 						{
 							"disposition": "PLEADED GUILTY",
 							"description": "FAILED AND NEGLECTED TO UTILIZE AVAILABLE FIREARMS SAFETY STATION.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "VACATION DAYS (17 day(s) )"
 						}
 					]
 				}
@@ -71116,7 +71106,7 @@
 		"shield_no": "22053",
 		"appt_date": "1/7/2008",
 		"recognition_count": 5,
-		"arrest_count": 129,
+		"arrest_count": 130,
 		"reports": {
 			"summary": {
 				"command": "076 PRECINCT",
@@ -71161,7 +71151,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 26,
-				"misdemeanor": 99,
+				"misdemeanor": 100,
 				"violation": 2
 			},
 			"awards": [
@@ -71567,7 +71557,7 @@
 		"shield_no": "10421",
 		"appt_date": "1/6/2016",
 		"recognition_count": 0,
-		"arrest_count": 19,
+		"arrest_count": 20,
 		"reports": {
 			"summary": {
 				"command": "066 PRECINCT",
@@ -77897,7 +77887,7 @@
 			"arrests": {
 				"infraction": 4,
 				"felony": 97,
-				"misdemeanor": 277,
+				"misdemeanor": 278,
 				"other": 2,
 				"violation": 2
 			},
@@ -78180,8 +78170,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 35,
-				"misdemeanor": 27
+				"felony": 36,
+				"misdemeanor": 29
 			},
 			"awards": []
 		},
@@ -82472,7 +82462,7 @@
 		"shield_no": "6983",
 		"appt_date": "3/1/2000",
 		"recognition_count": 8,
-		"arrest_count": 1074,
+		"arrest_count": 1075,
 		"reports": {
 			"summary": {
 				"command": "105TH DET SQUAD",
@@ -84766,70 +84756,8 @@
 			"documents": [],
 			"disciplineHistory": [],
 			"discipline": [],
-			"arrests": {
-				"felony": 78,
-				"misdemeanor": 205,
-				"other": 2,
-				"violation": 14
-			},
-			"awards": [
-				{
-					"date": "8/10/2021",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "1/11/2021",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "12/29/2017",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "12/21/2016",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "6/10/2016",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/20/2016",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "5/20/2016",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "9/16/2014",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "1/2/2008",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "12/12/2007",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "10/6/2007",
-					"name": "EXCELLENT POLICE DUTY"
-				},
-				{
-					"date": "6/23/2007",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "11/2/2006",
-					"name": "MERITORIOUS POLICE DUTY"
-				},
-				{
-					"date": "10/25/2006",
-					"name": "MERITORIOUS POLICE DUTY"
-				}
-			]
+			"arrests": {},
+			"awards": []
 		},
 		"command": "INTEL CIS FIO PROGRAM"
 	},
@@ -87520,92 +87448,6 @@
 			]
 		},
 		"command": "105 PRECINCT"
-	},
-	{
-		"taxid": 933548,
-		"full_name": "ASADI, HABIBULLAH",
-		"first_name": "HABIBULLAH",
-		"last_name": "ASADI",
-		"middle_initial": "",
-		"rank": "DETECTIVE 2ND GRADE",
-		"shield_no": "1950",
-		"appt_date": "1/28/2004",
-		"recognition_count": 1,
-		"arrest_count": 0,
-		"reports": {
-			"summary": {
-				"command": "OPERATIONS & ANALYSIS SECTION",
-				"assignment_date": "2/6/2020",
-				"ethnicity": "ASIAN",
-				"rank_desc": "DETECTIVE 2ND GRADE",
-				"shield_no": "1950",
-				"appt_date": "1/28/2004"
-			},
-			"ranks": [
-				{
-					"rank": "DETECTIVE",
-					"date": "2/5/2020",
-					"shield_no": "1950"
-				}
-			],
-			"documents": [],
-			"disciplineHistory": [
-				{
-					"entry": "2/4/2020 12:00:00 AM",
-					"charges_count": 6
-				}
-			],
-			"discipline": [
-				{
-					"charges": [
-						{
-							"disposition": "GUILTY",
-							"description": "OPERATED A MOTOR VEHICLE WHILE UNDER THE INFLUENCE OF AN INTOXICANT.\r\nOPERATED A DEPARTMENT VEHICLE WHILE IMPAIRED.",
-							"group_id": "1",
-							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), SUSPENDED W/O PAY (25 day(s) ), VACATION DAYS (15 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"description": "OPERATED A MOTOR VEHICLE WHILE UNDER THE INFLUENCE OF AN INTOXICANT.\r\nOPERATED A DEPARTMENT VEHICLE WHILE IMPAIRED.",
-							"group_id": "1",
-							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), SUSPENDED W/O PAY (25 day(s) ), VACATION DAYS (15 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"description": "OPERATED A MOTOR VEHICLE WHILE UNDER THE INFLUENCE OF AN INTOXICANT.\r\nOPERATED A DEPARTMENT VEHICLE WHILE IMPAIRED.",
-							"group_id": "1",
-							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), SUSPENDED W/O PAY (25 day(s) ), VACATION DAYS (15 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"description": "UNFIT FOR DUTY.",
-							"group_id": "1",
-							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), SUSPENDED W/O PAY (25 day(s) ), VACATION DAYS (15 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"description": "OPERATED A MOTOR VEHICLE RECKLESSLY.",
-							"group_id": "1",
-							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), SUSPENDED W/O PAY (25 day(s) ), VACATION DAYS (15 day(s) )"
-						},
-						{
-							"disposition": "GUILTY",
-							"description": "LEFT THE SCENE OF AN ACCIDENT.",
-							"group_id": "1",
-							"penalty": "COUNSELING, DISMISSAL PROBATION (12 month(s) ), ORDERED BREATH TESTING, PRE-TRIAL SUSPENSION DAYS (30 day(s) ), SUSPENDED W/O PAY (25 day(s) ), VACATION DAYS (15 day(s) )"
-						}
-					]
-				}
-			],
-			"arrests": {},
-			"awards": [
-				{
-					"date": "7/25/2007",
-					"name": "COMMENDATION"
-				}
-			]
-		},
-		"command": "OPERATIONS & ANALYSIS SECTION"
 	},
 	{
 		"taxid": 887101,
@@ -92673,7 +92515,7 @@
 			"arrests": {
 				"infraction": 2,
 				"felony": 338,
-				"misdemeanor": 786,
+				"misdemeanor": 787,
 				"other": 1,
 				"violation": 34
 			},
@@ -93273,18 +93115,18 @@
 		"first_name": "CHRISTOPHER",
 		"last_name": "AUGER",
 		"middle_initial": "S",
-		"rank": "POLICE OFFICER",
-		"shield_no": "17823",
+		"rank": "SERGEANT",
+		"shield_no": "4543",
 		"appt_date": "10/24/2018",
 		"recognition_count": 1,
 		"arrest_count": 67,
 		"reports": {
 			"summary": {
-				"command": "TRANSIT DISTRICT 34",
-				"assignment_date": "6/26/2020",
+				"command": "UNIFORMED PROMOTIONS TRN UNIT",
+				"assignment_date": "6/28/2024",
 				"ethnicity": "WHITE",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "17823",
+				"rank_desc": "SERGEANT",
+				"shield_no": "4543",
 				"appt_date": "10/24/2018"
 			},
 			"ranks": [
@@ -93292,6 +93134,11 @@
 					"rank": "POLICE OFFICER",
 					"date": "10/24/2018",
 					"shield_no": "17823"
+				},
+				{
+					"rank": "SERGEANT",
+					"date": "6/28/2024",
+					"shield_no": "4543"
 				}
 			],
 			"documents": [],
@@ -93325,7 +93172,7 @@
 				}
 			]
 		},
-		"command": "TRANSIT DISTRICT 34"
+		"command": "UNIFORMED PROMOTIONS TRN UNIT"
 	},
 	{
 		"taxid": 961629,

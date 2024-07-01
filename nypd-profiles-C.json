@@ -317,7 +317,7 @@
 		"shield_no": "21951",
 		"appt_date": "10/11/2016",
 		"recognition_count": 14,
-		"arrest_count": 257,
+		"arrest_count": 258,
 		"reports": {
 			"summary": {
 				"command": "070 DET SQUAD",
@@ -398,7 +398,7 @@
 			],
 			"arrests": {
 				"infraction": 1,
-				"felony": 166,
+				"felony": 167,
 				"misdemeanor": 83,
 				"violation": 7
 			},
@@ -2142,7 +2142,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 13,
+				"felony": 14,
 				"misdemeanor": 40,
 				"violation": 1
 			},
@@ -8110,7 +8110,7 @@
 		"shield_no": "21964",
 		"appt_date": "7/16/2021",
 		"recognition_count": 0,
-		"arrest_count": 32,
+		"arrest_count": 34,
 		"reports": {
 			"summary": {
 				"command": "ORCHARD BEACH DETAIL",
@@ -12080,7 +12080,7 @@
 		"shield_no": "3153",
 		"appt_date": "1/10/2018",
 		"recognition_count": 9,
-		"arrest_count": 99,
+		"arrest_count": 100,
 		"reports": {
 			"summary": {
 				"command": "075 PRECINCT",
@@ -14753,12 +14753,14 @@
 						{
 							"disposition": "GUILTY",
 							"description": "WHILE ON-DUTY, UTILIZED A DEPARTMENT COMPUTER SYSTEM TO CONDUCT AN INQUIRY UNRELATED TO OFFICIAL BUSINESS OF THE DEPARTMENT",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "VACATION DAYS (10 day(s) )"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "ASSOCIATED WITH AN INDIVIDUAL THAT ENGAGED IN CRIMINAL ACTIVITY.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "VACATION DAYS (10 day(s) )"
 						}
 					]
 				}
@@ -22629,7 +22631,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 70,
+				"felony": 72,
 				"misdemeanor": 111
 			},
 			"awards": [
@@ -32818,7 +32820,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 5,
-				"misdemeanor": 61,
+				"misdemeanor": 63,
 				"violation": 14
 			},
 			"awards": []
@@ -34833,17 +34835,20 @@
 						{
 							"disposition": "GUILTY",
 							"description": "RAISED HER VOICE AT MEMBERS OF SERVICE IN AN OFF-DUTY INCIDENT.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "VACATION DAYS (20 day(s) )"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "PUSHED MEMBER OF THE SERVICE DURING AN  OFF-DUTY INCIDENT.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "VACATION DAYS (20 day(s) )"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "FAILED TO IDENTIFY HERSELF TO RESPONDING MEMBERS OF THE SERVICE.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "VACATION DAYS (20 day(s) )"
 						}
 					]
 				}
@@ -35501,7 +35506,7 @@
 		"shield_no": "10974",
 		"appt_date": "1/8/2014",
 		"recognition_count": 0,
-		"arrest_count": 169,
+		"arrest_count": 171,
 		"reports": {
 			"summary": {
 				"command": "TRANSIT DISTRICT 4",
@@ -35535,8 +35540,7 @@
 						{
 							"disposition": "GUILTY",
 							"description": "WAS DISCOURTEOUS TO NEW YORK CITY POLICE LIEUTENANT",
-							"group_id": "1",
-							"penalty": "PRE-TRIAL SUSPENSION DAYS (31 day(s) )"
+							"group_id": "1"
 						}
 					]
 				},
@@ -35552,7 +35556,7 @@
 			],
 			"arrests": {
 				"felony": 11,
-				"misdemeanor": 111,
+				"misdemeanor": 113,
 				"violation": 47
 			},
 			"awards": []
@@ -37213,7 +37217,7 @@
 		"shield_no": "11381",
 		"appt_date": "7/13/2016",
 		"recognition_count": 12,
-		"arrest_count": 294,
+		"arrest_count": 297,
 		"reports": {
 			"summary": {
 				"command": "070 PRECINCT",
@@ -37299,8 +37303,8 @@
 				}
 			],
 			"arrests": {
-				"felony": 196,
-				"misdemeanor": 96,
+				"felony": 197,
+				"misdemeanor": 98,
 				"violation": 2
 			},
 			"awards": [
@@ -38439,8 +38443,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 1070,
-				"misdemeanor": 544,
+				"felony": 1072,
+				"misdemeanor": 546,
 				"other": 1,
 				"violation": 1
 			},
@@ -40950,7 +40954,7 @@
 		"shield_no": "12581",
 		"appt_date": "7/2/2018",
 		"recognition_count": 0,
-		"arrest_count": 79,
+		"arrest_count": 81,
 		"reports": {
 			"summary": {
 				"command": "105 PRECINCT",
@@ -42692,8 +42696,8 @@
 				}
 			],
 			"arrests": {
-				"felony": 21,
-				"misdemeanor": 52,
+				"felony": 22,
+				"misdemeanor": 53,
 				"violation": 2
 			},
 			"awards": []
@@ -50168,14 +50172,12 @@
 						{
 							"disposition": "PLEADED GUILTY",
 							"description": "Fail to conduct proper investigation.",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (30 day(s) )"
+							"group_id": "1"
 						},
 						{
 							"disposition": "PLEADED GUILTY",
 							"description": "Wrongfully de-activate BWC.",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (30 day(s) )"
+							"group_id": "1"
 						}
 					]
 				}
@@ -60072,7 +60074,7 @@
 		"shield_no": "1148",
 		"appt_date": "7/1/2002",
 		"recognition_count": 97,
-		"arrest_count": 362,
+		"arrest_count": 363,
 		"reports": {
 			"summary": {
 				"command": "017 DET SQUAD",
@@ -65703,7 +65705,7 @@
 		"first_name": "JONATHAN",
 		"last_name": "CERMELI",
 		"middle_initial": "K",
-		"rank": "DEPUTY INSPECTOR",
+		"rank": "INSPECTOR",
 		"shield_no": "",
 		"appt_date": "7/1/2002",
 		"recognition_count": 9,
@@ -65713,7 +65715,7 @@
 				"command": "LEADERSHIP TRAINING SECTION",
 				"assignment_date": "11/2/2022",
 				"ethnicity": "WHITE",
-				"rank_desc": "DEPUTY INSPECTOR",
+				"rank_desc": "INSPECTOR",
 				"shield_no": "",
 				"appt_date": "7/1/2002"
 			},
@@ -65741,6 +65743,11 @@
 				{
 					"rank": "DEPUTY INSPECTOR",
 					"date": "7/30/2021",
+					"shield_no": ""
+				},
+				{
+					"rank": "INSPECTOR",
+					"date": "6/28/2024",
 					"shield_no": ""
 				}
 			],
@@ -78007,7 +78014,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 15,
-				"misdemeanor": 33
+				"misdemeanor": 34
 			},
 			"awards": []
 		},
@@ -80358,7 +80365,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 26,
+				"felony": 27,
 				"misdemeanor": 65,
 				"violation": 1
 			},
@@ -83107,7 +83114,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 166,
+				"felony": 168,
 				"misdemeanor": 78,
 				"other": 14,
 				"violation": 8
@@ -83819,18 +83826,18 @@
 		"first_name": "MANKO",
 		"last_name": "CHEUNG",
 		"middle_initial": "",
-		"rank": "POLICE OFFICER",
-		"shield_no": "20825",
+		"rank": "SERGEANT",
+		"shield_no": "4596",
 		"appt_date": "7/6/2011",
 		"recognition_count": 1,
 		"arrest_count": 82,
 		"reports": {
 			"summary": {
-				"command": "005 PRECINCT",
-				"assignment_date": "11/19/2012",
+				"command": "UNIFORMED PROMOTIONS TRN UNIT",
+				"assignment_date": "6/28/2024",
 				"ethnicity": "ASIAN",
-				"rank_desc": "POLICE OFFICER",
-				"shield_no": "20825",
+				"rank_desc": "SERGEANT",
+				"shield_no": "4596",
 				"appt_date": "7/6/2011"
 			},
 			"ranks": [
@@ -83894,7 +83901,7 @@
 				}
 			]
 		},
-		"command": "005 PRECINCT"
+		"command": "UNIFORMED PROMOTIONS TRN UNIT"
 	},
 	{
 		"taxid": 958401,
@@ -85261,20 +85268,17 @@
 						{
 							"disposition": "GUILTY",
 							"description": "WHILE ON-DUTY, WRONGFULLY USED FORCE AGAINST A PERSON KNOWN TO THE DEPARTMENT",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (20 day(s) )"
+							"group_id": "1"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "WHILE ON-DUTY, DAMAGED A PERSON KNOWN TO THE DEPARTMENT's PROPERTY",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (20 day(s) )"
+							"group_id": "1"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "WHILE ON DUTY, ARRESTED A PERSON KNOWN TO THE DEPARTMENT WITHOUT SUFFICIENT LEGAL AUTHORITY",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (20 day(s) )"
+							"group_id": "1"
 						}
 					]
 				}
@@ -92179,7 +92183,7 @@
 			"discipline": [],
 			"arrests": {
 				"infraction": 1,
-				"felony": 2,
+				"felony": 3,
 				"misdemeanor": 18
 			},
 			"awards": [
@@ -103084,7 +103088,7 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 33,
+				"felony": 34,
 				"misdemeanor": 33,
 				"violation": 1
 			},
@@ -103841,7 +103845,7 @@
 			],
 			"arrests": {
 				"felony": 51,
-				"misdemeanor": 53
+				"misdemeanor": 57
 			},
 			"awards": [
 				{
@@ -104837,7 +104841,7 @@
 		"rank": "SGT DET SQUAD",
 		"shield_no": "398",
 		"appt_date": "7/1/1998",
-		"recognition_count": 162,
+		"recognition_count": 163,
 		"arrest_count": 221,
 		"reports": {
 			"summary": {
@@ -108107,7 +108111,7 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 35,
-				"misdemeanor": 39
+				"misdemeanor": 41
 			},
 			"awards": [
 				{
@@ -112431,8 +112435,8 @@
 		"arrest_count": 69,
 		"reports": {
 			"summary": {
-				"command": "073 PRECINCT",
-				"assignment_date": "9/26/2022",
+				"command": "PA SITE & SECURITY UNIT",
+				"assignment_date": "6/27/2024",
 				"ethnicity": "HISPANIC",
 				"rank_desc": "SERGEANT",
 				"shield_no": "208",
@@ -112476,7 +112480,7 @@
 			},
 			"awards": []
 		},
-		"command": "073 PRECINCT"
+		"command": "PA SITE & SECURITY UNIT"
 	},
 	{
 		"taxid": 958418,
@@ -117571,7 +117575,7 @@
 				}
 			],
 			"arrests": {
-				"felony": 8,
+				"felony": 9,
 				"misdemeanor": 20
 			},
 			"awards": [
@@ -123349,26 +123353,22 @@
 						{
 							"disposition": "GUILTY",
 							"description": "FAILED TO CONDUCT A PROPER INVESTIGATION AND FAILED TO NOTIFY THE SPECIAL VICTIMS UNIT.",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (30 day(s) )"
+							"group_id": "1"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "FAILED TO IMMEDIATELY NOTIFY THE PATROL SUPERVISOR OF AN UNUSUAL CRIME AND / OR OCCURRENCE .",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (30 day(s) )"
+							"group_id": "1"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "FAILED TO MAKE PROPER MEMO BOOK ENTRIES.",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (30 day(s) )"
+							"group_id": "1"
 						},
 						{
 							"disposition": "GUILTY",
 							"description": "FAILED TO PREPARE A UF 61 AFTER RESPONDING TO THE SCENE OF A POTENTIAL SEX CRIME.",
-							"group_id": "1",
-							"penalty": "VACATION DAYS (30 day(s) )"
+							"group_id": "1"
 						}
 					]
 				}
@@ -123406,7 +123406,7 @@
 		"shield_no": "26696",
 		"appt_date": "10/7/2019",
 		"recognition_count": 3,
-		"arrest_count": 67,
+		"arrest_count": 69,
 		"reports": {
 			"summary": {
 				"command": "106 PRECINCT",
@@ -124314,9 +124314,13 @@
 			"discipline": [],
 			"arrests": {
 				"felony": 20,
-				"misdemeanor": 32
+				"misdemeanor": 33
 			},
 			"awards": [
+				{
+					"date": "4/6/2023",
+					"name": "EXCELLENT POLICE DUTY"
+				},
 				{
 					"date": "2/29/2020",
 					"name": "EXCELLENT POLICE DUTY"
@@ -133307,7 +133311,7 @@
 		"shield_no": "13567",
 		"appt_date": "1/7/2015",
 		"recognition_count": 16,
-		"arrest_count": 147,
+		"arrest_count": 149,
 		"reports": {
 			"summary": {
 				"command": "HOUSING PSA 8",
@@ -133341,7 +133345,8 @@
 						{
 							"recommendation": "A-CD",
 							"description": "01.Violated patrol rules.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "A - COMMAND DISCIPLINE, VACATION DAYS (3 day(s) )"
 						}
 					]
 				},
@@ -133356,8 +133361,9 @@
 				}
 			],
 			"arrests": {
-				"felony": 31,
+				"felony": 32,
 				"misdemeanor": 114,
+				"other": 1,
 				"violation": 2
 			},
 			"awards": [
@@ -134648,7 +134654,7 @@
 		"shield_no": "2796",
 		"appt_date": "3/1/2000",
 		"recognition_count": 3,
-		"arrest_count": 1619,
+		"arrest_count": 1620,
 		"reports": {
 			"summary": {
 				"command": "040 DET SQUAD",
@@ -134704,7 +134710,7 @@
 			"arrests": {
 				"infraction": 3,
 				"felony": 483,
-				"misdemeanor": 1123,
+				"misdemeanor": 1124,
 				"other": 3,
 				"violation": 7
 			},
@@ -149630,17 +149636,17 @@
 		"first_name": "JAMEL",
 		"last_name": "CRAWFORD",
 		"middle_initial": "C",
-		"rank": "DETECTIVE 3RD GRADE",
+		"rank": "DETECTIVE 2ND GRADE",
 		"shield_no": "7706",
 		"appt_date": "10/10/2000",
 		"recognition_count": 0,
-		"arrest_count": 408,
+		"arrest_count": 409,
 		"reports": {
 			"summary": {
 				"command": "007 DET SQUAD",
 				"assignment_date": "5/24/2014",
 				"ethnicity": "BLACK",
-				"rank_desc": "DETECTIVE 3RD GRADE",
+				"rank_desc": "DETECTIVE 2ND GRADE",
 				"shield_no": "7706",
 				"appt_date": "10/10/2000"
 			},
@@ -151087,12 +151093,14 @@
 						{
 							"disposition": "PLEADED GUILTY",
 							"description": "Criminal mischief.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "VACATION DAYS (40 day(s) )"
 						},
 						{
 							"disposition": "PLEADED GUILTY",
 							"description": "Caused inaccurate entries to be made in Department records.",
-							"group_id": "1"
+							"group_id": "1",
+							"penalty": "VACATION DAYS (40 day(s) )"
 						}
 					]
 				}
@@ -152017,7 +152025,7 @@
 		"shield_no": "4076",
 		"appt_date": "3/1/2000",
 		"recognition_count": 9,
-		"arrest_count": 665,
+		"arrest_count": 666,
 		"reports": {
 			"summary": {
 				"command": "MTN DET SQUAD",
@@ -152855,7 +152863,7 @@
 		"shield_no": "1544",
 		"appt_date": "1/9/2012",
 		"recognition_count": 30,
-		"arrest_count": 376,
+		"arrest_count": 378,
 		"reports": {
 			"summary": {
 				"command": "049 DET SQUAD",
@@ -152938,7 +152946,7 @@
 			],
 			"arrests": {
 				"felony": 157,
-				"misdemeanor": 218,
+				"misdemeanor": 220,
 				"violation": 1
 			},
 			"awards": [
@@ -157317,7 +157325,7 @@
 			"arrests": {
 				"felony": 158,
 				"misdemeanor": 440,
-				"other": 5,
+				"other": 8,
 				"violation": 14
 			},
 			"awards": [
@@ -161762,7 +161770,7 @@
 		"shield_no": "1198",
 		"appt_date": "4/25/2018",
 		"recognition_count": 0,
-		"arrest_count": 237,
+		"arrest_count": 241,
 		"reports": {
 			"summary": {
 				"command": "028 PRECINCT",
@@ -162900,7 +162908,7 @@
 		"shield_no": "22651",
 		"appt_date": "1/7/2015",
 		"recognition_count": 5,
-		"arrest_count": 182,
+		"arrest_count": 183,
 		"reports": {
 			"summary": {
 				"command": "044 PRECINCT",
@@ -170015,8 +170023,8 @@
 			"disciplineHistory": [],
 			"discipline": [],
 			"arrests": {
-				"felony": 48,
-				"misdemeanor": 99
+				"felony": 49,
+				"misdemeanor": 100
 			},
 			"awards": [
 				{
